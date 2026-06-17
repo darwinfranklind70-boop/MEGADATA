@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MEGADATA · US100 Swing Desk</title>
+<style>
+  :root{
+    --bg:#0a0e17; --panel:#121826; --panel2:#0e1420; --line:#1e293b;
+    --txt:#e6edf3; --mut:#8b98ac; --acc:#3b82f6;
+    --bull:#22c55e; --bull2:#16a34a; --bear:#ef4444; --bear2:#dc2626;
+    --neu:#94a3b8; --warn:#f59e0b;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:'Segoe UI',system-ui,-apple-system,sans-serif;
+       background:var(--bg);color:var(--txt);font-size:14px;line-height:1.4}
+  a{color:var(--acc)}
+  header{display:flex;align-items:center;justify-content:space-between;
+         padding:14px 22px;border-bottom:1px solid var(--line);
+         background:linear-gradient(90deg,#0d1220,#141b2c);position:sticky;top:0;z-index:10}
+  header h1{margin:0;font-size:18px;letter-spacing:.5px}
+  header h1 span{color:var(--acc)}
+  .meta{font-size:12px;color:var(--mut);text-align:right}
+  .meta b{color:var(--txt)}
+  .wrap{display:grid;grid-template-columns:repeat(12,1fr);gap:14px;padding:18px;max-width:1500px;margin:0 auto}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px;overflow:hidden}
+  .card h2{margin:0 0 12px;font-size:13px;text-transform:uppercase;letter-spacing:1px;color:var(--mut);font-weight:600}
+  .col-3{grid-column:span 3}.col-4{grid-column:span 4}.col-5{grid-column:span 5}
+  .col-6{grid-column:span 6}.col-7{grid-column:span 7}.col-8{grid-column:span 8}
+  .col-9{grid-column:span 9}.col-12{grid-column:span 12}
+  @media(max-width:1050px){.wrap>*{grid-column:span 12 !important}}
+
+  /* gauge */
+  .gauge-wrap{display:flex;flex-direction:column;align-items:center}
+  .gauge-val{font-size:46px;font-weight:700;margin-top:-6px}
+  .gauge-label{font-size:16px;font-weight:700;letter-spacing:1px;padding:4px 14px;border-radius:20px;margin-top:4px}
+  .strong-bull{background:rgba(34,197,94,.18);color:var(--bull)}
+  .bull{background:rgba(34,197,94,.12);color:var(--bull)}
+  .neutral{background:rgba(148,163,184,.15);color:var(--neu)}
+  .bear{background:rgba(239,68,68,.12);color:var(--bear)}
+  .strong-bear{background:rgba(239,68,68,.18);color:var(--bear)}
+  .conf{margin-top:12px;width:100%}
+  .conf .bar{height:8px;background:#1c2433;border-radius:6px;overflow:hidden}
+  .conf .bar i{display:block;height:100%;background:linear-gradient(90deg,#3b82f6,#22c55e)}
+  .small{font-size:12px;color:var(--mut)}
+
+  /* macro tiles */
+  .tiles{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+  .tile{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:12px}
+  .tile .k{font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:.5px}
+  .tile .v{font-size:22px;font-weight:700;margin-top:4px}
+  .tile .c{font-size:12px;margin-top:2px;font-weight:600}
+  .up{color:var(--bull)}.down{color:var(--bear)}.flat{color:var(--neu)}
+
+  /* factor bars */
+  .factor{margin-bottom:11px}
+  .factor .top{display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px}
+  .factor .top .d{color:var(--mut);font-size:11px}
+  .track{position:relative;height:14px;background:#0c1220;border-radius:7px;border:1px solid var(--line)}
+  .track .mid{position:absolute;left:50%;top:0;bottom:0;width:1px;background:#33405a}
+  .track .fill{position:absolute;top:1px;bottom:1px;border-radius:6px}
+
+  /* heatmap */
+  .heat{display:flex;flex-wrap:wrap;gap:6px}
+  .cell{border-radius:6px;padding:7px 8px;min-width:70px;flex:1 1 auto;text-align:center}
+  .cell .s{font-weight:700;font-size:12px}
+  .cell .p{font-size:11px;opacity:.9}
+  .sectors .srow{display:flex;align-items:center;gap:10px;margin-bottom:7px}
+  .sectors .srow .nm{width:150px;font-size:12px}
+  .sectors .srow .b{flex:1;height:16px;background:#0c1220;border-radius:5px;position:relative;border:1px solid var(--line)}
+  .sectors .srow .b i{position:absolute;top:0;bottom:0;border-radius:4px}
+  .sectors .srow .pc{width:60px;text-align:right;font-size:12px;font-weight:600}
+
+  /* lists */
+  ul.clean{list-style:none;margin:0;padding:0}
+  ul.clean li{padding:8px 0;border-bottom:1px solid var(--line);font-size:13px}
+  ul.clean li:last-child{border-bottom:none}
+  .adverse li{color:#fca5a5}
+  .adverse li::before{content:"\26A0";margin-right:8px;color:var(--warn)}
+  .conclusion{font-size:14px;line-height:1.6}
+
+  table{width:100%;border-collapse:collapse;font-size:12px}
+  th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line)}
+  th{color:var(--mut);font-weight:600;text-transform:uppercase;font-size:10px;letter-spacing:.5px}
+  .badge{padding:2px 7px;border-radius:5px;font-size:10px;font-weight:700}
+  .imp-high{background:rgba(239,68,68,.2);color:#fca5a5}
+
+  /* portfolio */
+  .pf-form{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;margin-bottom:12px}
+  .pf-form select,.pf-form input{background:var(--panel2);border:1px solid var(--line);color:var(--txt);
+       padding:8px;border-radius:7px;font-size:12px;width:100%}
+  .pf-form button{grid-column:span 6;background:var(--acc);border:none;color:#fff;padding:9px;
+       border-radius:7px;font-weight:600;cursor:pointer}
+  .pf-sum{display:flex;gap:18px;flex-wrap:wrap;margin-bottom:10px;font-size:13px}
+  .pf-sum b{font-size:16px}
+  .x{cursor:pointer;color:var(--bear);font-weight:700}
+  .pill{font-size:10px;padding:2px 6px;border-radius:5px;font-weight:700}
+  .pill.long{background:rgba(34,197,94,.18);color:var(--bull)}
+  .pill.short{background:rgba(239,68,68,.18);color:var(--bear)}
+  .err{background:rgba(245,158,11,.12);border:1px solid var(--warn);color:#fcd34d;
+       padding:8px 12px;border-radius:8px;font-size:12px;margin:0 18px}
+  .src{font-size:11px;color:var(--mut);margin-top:10px}
+</style>
+</head>
+<body>
+<header>
+  <h1>MEGA<span>DATA</span> · US100 Swing Desk</h1>
+  <div class="meta">
+    <div>Actualizado: <b id="updated">—</b></div>
+    <div>Auto-refresh en <b id="countdown">—</b>s · <a href="#" id="refresh">refrescar</a></div>
+  </div>
+</header>
+
+<div id="errbox"></div>
+
+<div class="wrap">
+
+  <!-- GAUGE -->
+  <div class="card col-4">
+    <h2>Medidor de sesgo US100</h2>
+    <div class="gauge-wrap">
+      <svg id="gauge" viewBox="0 0 300 175" width="100%" style="max-width:300px"></svg>
+      <div class="gauge-val" id="gv">—</div>
+      <div class="gauge-label neutral" id="glabel">—</div>
+      <div class="conf">
+        <div class="small" style="display:flex;justify-content:space-between">
+          <span>Conviccion / confianza</span><span id="confv">—</span></div>
+        <div class="bar"><i id="confbar" style="width:0%"></i></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MACRO -->
+  <div class="card col-4">
+    <h2>Macro en vivo</h2>
+    <div class="tiles" id="tiles"></div>
+    <div class="src">Fuentes: Yahoo Finance (^NDX, ^VIX, DXY, ^TNX)</div>
+  </div>
+
+  <!-- FACTORS -->
+  <div class="card col-4">
+    <h2>Desglose de factores</h2>
+    <div id="factors"></div>
+  </div>
+
+  <!-- CONCLUSION -->
+  <div class="card col-8">
+    <h2>Conclusion razonada (el porque)</h2>
+    <div class="conclusion" id="conclusion">—</div>
+  </div>
+
+  <!-- ADVERSE -->
+  <div class="card col-4">
+    <h2>Escenarios adversos / riesgos</h2>
+    <ul class="clean adverse" id="adverse"></ul>
+  </div>
+
+  <!-- SECTORS -->
+  <div class="card col-6">
+    <h2>Mapa sectorial NDX (ponderado)</h2>
+    <div class="sectors" id="sectors"></div>
+    <div class="src">Construido desde constituyentes reales del Nasdaq-100 (sustituto fiable de finviz map?t=sec_ndx)</div>
+  </div>
+
+  <!-- NEWS -->
+  <div class="card col-6">
+    <h2>Calendario alto impacto (ForexFactory)</h2>
+    <table id="news"><thead><tr><th>Cuando</th><th>Pais</th><th>Evento</th><th>Prev</th><th>Fcst</th></tr></thead>
+    <tbody></tbody></table>
+    <div class="src">Fuente: ForexFactory · feed semanal. Filtrado USD + alto impacto.</div>
+  </div>
+
+  <!-- CONSTITUENTS HEATMAP -->
+  <div class="card col-12">
+    <h2>Heatmap de constituyentes (movimiento intradia)</h2>
+    <div class="heat" id="heat"></div>
+  </div>
+
+  <!-- PORTFOLIO -->
+  <div class="card col-12">
+    <h2>Portafolio US100 (posiciones swing)</h2>
+    <div class="pf-form">
+      <select id="pf-dir"><option value="long">LONG</option><option value="short">SHORT</option></select>
+      <input id="pf-entry" type="number" step="0.01" placeholder="Precio entrada">
+      <input id="pf-size" type="number" step="0.01" placeholder="Tamano (unid/contratos)">
+      <input id="pf-stop" type="number" step="0.01" placeholder="Stop">
+      <input id="pf-target" type="number" step="0.01" placeholder="Objetivo">
+      <input id="pf-note" type="text" placeholder="Nota">
+      <button id="pf-add">+ Anadir posicion</button>
+    </div>
+    <div class="pf-sum" id="pf-sum"></div>
+    <table id="pf-table"><thead><tr>
+      <th>Dir</th><th>Entrada</th><th>Tam.</th><th>Stop</th><th>Obj.</th>
+      <th>Precio actual</th><th>P&L</th><th>R:R</th><th>Nota</th><th></th></tr></thead>
+    <tbody></tbody></table>
+    <div class="src">Las posiciones se guardan localmente en tu navegador (localStorage). El P&L usa el precio en vivo del ^NDX.</div>
+  </div>
+
+</div>
+
+<script>
+const fmt = (n,d=2)=> (n==null||isNaN(n)) ? "—" : Number(n).toLocaleString('en-US',{minimumFractionDigits:d,maximumFractionDigits:d});
+const sign = n => n>0?"+":"";
+const cls = n => n>0?"up":n<0?"down":"flat";
+let LAST = null, currentNDX = null, timer=null, secs=60;
+
+// ---------- GAUGE (SVG semicircular -100..+100) ----------
+function polar(cx,cy,r,ang){const a=(ang-180)*Math.PI/180;return [cx+r*Math.cos(a),cy+r*Math.sin(a)];}
+function arc(cx,cy,r,a0,a1){const[x0,y0]=polar(cx,cy,r,a0),[x1,y1]=polar(cx,cy,r,a1);
+  const large=(a1-a0)<=180?0:1;return `M ${x0} ${y0} A ${r} ${r} 0 ${large} 1 ${x1} ${y1}`;}
+function drawGauge(score){
+  const cx=150,cy=150,r=120;
+  const segs=[[0,36,'#dc2626'],[36,72,'#f59e0b'],[72,108,'#64748b'],[108,144,'#16a34a'],[144,180,'#22c55e']];
+  let s=`<g fill="none" stroke-width="20" stroke-linecap="butt">`;
+  segs.forEach(([a,b,c])=> s+=`<path d="${arc(cx,cy,r,a,b)}" stroke="${c}"/>`);
+  s+=`</g>`;
+  // ticks
+  for(let v=-100;v<=100;v+=25){const ang=(v+100)/200*180;const[x0,y0]=polar(cx,cy,r-13,ang);
+    const[x1,y1]=polar(cx,cy,r+2,ang);s+=`<line x1="${x0}" y1="${y0}" x2="${x1}" y2="${y1}" stroke="#0a0e17" stroke-width="2"/>`;}
+  // needle
+  const ang=(Math.max(-100,Math.min(100,score))+100)/200*180;
+  const[nx,ny]=polar(cx,cy,r-22,ang);
+  s+=`<line x1="${cx}" y1="${cy}" x2="${nx}" y2="${ny}" stroke="#e6edf3" stroke-width="4" stroke-linecap="round"/>`;
+  s+=`<circle cx="${cx}" cy="${cy}" r="9" fill="#e6edf3"/>`;
+  s+=`<text x="32" y="168" fill="#8b98ac" font-size="11">BAJISTA</text>`;
+  s+=`<text x="232" y="168" fill="#8b98ac" font-size="11">ALCISTA</text>`;
+  document.getElementById('gauge').innerHTML=s;
+}
+
+function render(d){
+  LAST=d;
+  const a=d.analysis, m=d.macro;
+  currentNDX = m.ndx.price;
+  document.getElementById('updated').textContent = new Date(d.generated_at).toLocaleString('es');
+
+  // gauge
+  drawGauge(a.composite);
+  document.getElementById('gv').textContent = sign(a.composite)+a.composite;
+  const gl=document.getElementById('glabel'); gl.textContent=a.label; gl.className='gauge-label '+a.label_css;
+  document.getElementById('confv').textContent=a.confidence+'%';
+  document.getElementById('confbar').style.width=a.confidence+'%';
+
+  // macro tiles
+  const t=[
+    ['US100 (NDX)', fmt(m.ndx.price,0), m.ndx.change_pct],
+    ['VIX', fmt(m.vix.price,2), m.vix.change_pct],
+    ['DXY', fmt(m.dxy.price,2), m.dxy.change_pct],
+    ['10Y Yield', (m.tnx.yield!=null?fmt(m.tnx.yield,2)+'%':'—'), m.tnx.change_pct],
+  ];
+  document.getElementById('tiles').innerHTML = t.map(([k,v,c])=>`
+    <div class="tile"><div class="k">${k}</div><div class="v">${v}</div>
+    <div class="c ${cls(c)}">${c==null?'':sign(c)+fmt(c,2)+'%'}</div></div>`).join('');
+
+  // factors
+  document.getElementById('factors').innerHTML = a.contributions.map(c=>{
+    const sc=c.score, w=Math.min(50,Math.abs(sc)/2), col=sc>0?'var(--bull)':sc<0?'var(--bear)':'var(--neu)';
+    const left=sc>=0?'50%':(50-w)+'%';
+    return `<div class="factor"><div class="top"><span>${c.label} <span class="d">${c.detail}</span></span>
+      <b style="color:${col}">${sign(sc)}${sc}</b></div>
+      <div class="track"><div class="mid"></div>
+      <div class="fill" style="left:${left};width:${w}%;background:${col}"></div></div></div>`;
+  }).join('');
+
+  // conclusion
+  document.getElementById('conclusion').textContent = a.conclusion;
+
+  // adverse
+  document.getElementById('adverse').innerHTML = a.adverse.map(x=>`<li>${x}</li>`).join('');
+
+  // sectors
+  const secs=a.factors.sectors.sectors||[];
+  const maxabs=Math.max(1,...secs.map(s=>Math.abs(s.change_pct)));
+  document.getElementById('sectors').innerHTML = secs.map(s=>{
+    const w=Math.abs(s.change_pct)/maxabs*50, col=s.change_pct>=0?'var(--bull)':'var(--bear)';
+    const left=s.change_pct>=0?'50%':(50-w)+'%';
+    return `<div class="srow"><span class="nm">${s.sector} <span class="small">(${s.weight}%)</span></span>
+      <div class="b"><i style="left:${left};width:${w}%;background:${col}"></i></div>
+      <span class="pc ${cls(s.change_pct)}">${sign(s.change_pct)}${fmt(s.change_pct,2)}%</span></div>`;
+  }).join('');
+
+  // news
+  const nb=document.querySelector('#news tbody');
+  if(!d.calendar_high.length){nb.innerHTML=`<tr><td colspan="5" class="small">Sin eventos de alto impacto proximos.</td></tr>`;}
+  else nb.innerHTML=d.calendar_high.map(e=>{
+    const when=new Date(e.date).toLocaleString('es',{weekday:'short',hour:'2-digit',minute:'2-digit'});
+    return `<tr><td>${when} <span class="small">(${e.hours_away}h)</span></td><td>${e.country}</td>
+      <td>${e.title} <span class="badge imp-high">HIGH</span></td>
+      <td>${e.previous||'—'}</td><td>${e.forecast||'—'}</td></tr>`;}).join('');
+
+  // constituents heatmap
+  document.getElementById('heat').innerHTML = d.constituents.map(c=>{
+    const p=c.change_pct, mag=Math.min(1,Math.abs(p)/3);
+    const bg=p>=0?`rgba(34,197,94,${0.15+mag*0.55})`:`rgba(239,68,68,${0.15+mag*0.55})`;
+    return `<div class="cell" style="background:${bg}"><div class="s">${c.symbol}</div>
+      <div class="p">${sign(p)}${fmt(p,2)}%</div></div>`;}).join('');
+
+  // errors
+  const eb=document.getElementById('errbox');
+  eb.innerHTML = (d.errors&&d.errors.length)?`<div class="err">Avisos de datos: ${d.errors.join(' · ')}</div>`:'';
+
+  renderPortfolio();
+}
+
+// ---------- PORTFOLIO ----------
+const PFKEY='megadata_us100_pf';
+const loadPF=()=>{try{return JSON.parse(localStorage.getItem(PFKEY))||[]}catch(e){return[]}};
+const savePF=p=>localStorage.setItem(PFKEY,JSON.stringify(p));
+
+function renderPortfolio(){
+  const pf=loadPF(), px=currentNDX;
+  let totPL=0, totRisk=0;
+  const rows=pf.map((p,i)=>{
+    let pl=null, rr=null;
+    if(px!=null){pl=(p.dir==='long'?(px-p.entry):(p.entry-px))*p.size;totPL+=pl;}
+    if(p.stop&&p.target){const risk=Math.abs(p.entry-p.stop),rew=Math.abs(p.target-p.entry);
+      if(risk>0){rr=(rew/risk);}}
+    if(p.stop){totRisk+=Math.abs(p.entry-p.stop)*p.size;}
+    return `<tr>
+      <td><span class="pill ${p.dir}">${p.dir.toUpperCase()}</span></td>
+      <td>${fmt(p.entry,2)}</td><td>${fmt(p.size,2)}</td>
+      <td>${p.stop?fmt(p.stop,2):'—'}</td><td>${p.target?fmt(p.target,2):'—'}</td>
+      <td>${px!=null?fmt(px,0):'—'}</td>
+      <td class="${cls(pl)}">${pl!=null?sign(pl)+fmt(pl,0):'—'}</td>
+      <td>${rr!=null?'1:'+fmt(rr,2):'—'}</td>
+      <td class="small">${p.note||''}</td>
+      <td class="x" data-i="${i}">&times;</td></tr>`;
+  }).join('');
+  document.querySelector('#pf-table tbody').innerHTML = rows ||
+    `<tr><td colspan="10" class="small">Sin posiciones. Anade una arriba.</td></tr>`;
+  document.getElementById('pf-sum').innerHTML=`
+    <div>Posiciones: <b>${pf.length}</b></div>
+    <div>P&L abierto: <b class="${cls(totPL)}">${sign(totPL)}${fmt(totPL,0)}</b></div>
+    <div>Riesgo total (a stop): <b>${fmt(totRisk,0)}</b></div>`;
+  document.querySelectorAll('.x').forEach(b=>b.onclick=()=>{
+    const pf=loadPF();pf.splice(+b.dataset.i,1);savePF(pf);renderPortfolio();});
+}
+document.getElementById('pf-add').onclick=()=>{
+  const g=id=>document.getElementById(id).value;
+  const entry=parseFloat(g('pf-entry')), size=parseFloat(g('pf-size'));
+  if(isNaN(entry)||isNaN(size)){alert('Entrada y tamano son obligatorios');return;}
+  const pf=loadPF();
+  pf.push({dir:g('pf-dir'),entry,size,stop:parseFloat(g('pf-stop'))||null,
+    target:parseFloat(g('pf-target'))||null,note:g('pf-note')});
+  savePF(pf);
+  ['pf-entry','pf-size','pf-stop','pf-target','pf-note'].forEach(id=>document.getElementById(id).value='');
+  renderPortfolio();
+};
+
+// ---------- FETCH LOOP ----------
+async function load(){
+  try{const r=await fetch('/api/data');const d=await r.json();render(d);}
+  catch(e){document.getElementById('errbox').innerHTML=`<div class="err">Error al cargar datos: ${e}</div>`;}
+}
+function tick(){secs--;if(secs<=0){secs=60;load();}document.getElementById('countdown').textContent=secs;}
+document.getElementById('refresh').onclick=(e)=>{e.preventDefault();secs=60;load();};
+load();
+timer=setInterval(tick,1000);
+</script>
+</body>
+</html>
