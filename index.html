@@ -87,6 +87,25 @@
        padding:8px 12px;border-radius:8px;font-size:12px;margin:0 18px}
   .src{font-size:11px;color:var(--mut);margin-top:10px}
   .loadbar{height:3px;background:var(--acc);width:0;transition:width .3s}
+  .lv-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  @media(max-width:800px){.lv-grid{grid-template-columns:1fr}}
+  .lv-exp{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:14px}
+  .lv-exp .box{flex:1;min-width:200px;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:12px}
+  .lv-exp .box .k{font-size:11px;color:var(--mut);text-transform:uppercase}
+  .lv-exp .box .r{font-size:18px;font-weight:700;margin-top:4px}
+  .lv-exp .box .r .dn{color:var(--bear)}.lv-exp .box .r .up{color:var(--bull)}
+  .lv-col h3{font-size:12px;margin:0 0 8px;text-transform:uppercase;letter-spacing:.5px}
+  .lv-col.res h3{color:var(--bear)}.lv-col.sup h3{color:var(--bull)}
+  .lv-row{display:flex;align-items:center;gap:10px;padding:8px;border:1px solid var(--line);
+          border-radius:8px;margin-bottom:7px;background:var(--panel2)}
+  .lv-row .px{font-weight:700;font-size:15px;width:90px}
+  .lv-row .meta2{flex:1;font-size:11px;color:var(--mut)}
+  .lv-row .meta2 b{color:var(--txt);font-weight:600}
+  .lv-row .strength{display:flex;gap:2px}
+  .lv-row .strength i{width:6px;height:14px;border-radius:2px;background:#2a3650;display:block}
+  .lv-row.res .strength i.on{background:var(--bear)}
+  .lv-row.sup .strength i.on{background:var(--bull)}
+  .lv-row .dist{width:60px;text-align:right;font-size:12px;font-weight:600}
 </style>
 </head>
 <body>
@@ -130,6 +149,10 @@
   <div class="card col-4">
     <h2>Escenarios adversos / riesgos</h2>
     <ul class="clean adverse" id="adverse"></ul>
+  </div>
+  <div class="card col-12">
+    <h2>Niveles clave y objetivos (hasta donde y por que)</h2>
+    <div id="levels"><div class="small">calculando niveles…</div></div>
   </div>
   <div class="card col-6">
     <h2>Mapa sectorial NDX (ponderado)</h2>
@@ -243,6 +266,21 @@ async function fetchSpark(symbols, range){
 async function fetchCalendar(){
   return await proxyFetch("https://nfs.faireconomy.media/ff_calendar_thisweek.json");
 }
+async function fetchChart(symbol, range, interval){
+  const url=`https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?range=${range}&interval=${interval}`;
+  const d=await proxyFetch(url);
+  const r=d.chart.result[0], meta=r.meta, ts=r.timestamp||[], q=r.indicators.quote[0];
+  const bars=[];
+  for(let i=0;i<ts.length;i++){
+    if(q.close[i]==null) continue;
+    bars.push({t:ts[i]*1000,o:q.open[i],h:q.high[i],l:q.low[i],c:q.close[i],v:(q.volume||[])[i]});
+  }
+  const closes=bars.map(b=>b.c);
+  const price=meta.regularMarketPrice ?? closes[closes.length-1];
+  const prev=closes.length>=2?closes[closes.length-2]:price;
+  return {bars,closes,price,prev,change_pct:prev?(price-prev)/prev*100:null,
+    high52:meta.fiftyTwoWeekHigh,low52:meta.fiftyTwoWeekLow};
+}
 
 /* ====================== INDICADORES ====================== */
 const clamp=(x,lo=-100,hi=100)=>Math.max(lo,Math.min(hi,x));
@@ -253,6 +291,159 @@ function rsi(v,p=14){
   const ag=g/p, al=l/p; if(al===0) return 100; const rs=ag/al; return 100-100/(1+rs);
 }
 function roc(v,p=20){ if(v.length<p+1) return null; const past=v[v.length-1-p]; if(!past) return null; return (v[v.length-1]-past)/past*100; }
+function atr(bars,p=14){
+  if(bars.length<p+1) return null; let sum=0;
+  for(let i=bars.length-p;i<bars.length;i++){
+    const tr=Math.max(bars[i].h-bars[i].l, Math.abs(bars[i].h-bars[i-1].c), Math.abs(bars[i].l-bars[i-1].c));
+    sum+=tr;
+  }
+  return sum/p;
+}
+/* Agrupa barras diarias en semanas (ISO) o meses; devuelve OHLC por periodo */
+function resample(bars, mode){
+  const groups={}, order=[];
+  bars.forEach(b=>{
+    const d=new Date(b.t); let key;
+    if(mode==="week"){ const dt=new Date(d); const day=(dt.getUTCDay()+6)%7; dt.setUTCDate(dt.getUTCDate()-day); key=dt.toISOString().slice(0,10); }
+    else { key=d.getUTCFullYear()+"-"+(d.getUTCMonth()+1); }
+    if(!groups[key]){ groups[key]={o:b.o,h:b.h,l:b.l,c:b.c,t:b.t}; order.push(key); }
+    else { const g=groups[key]; g.h=Math.max(g.h,b.h); g.l=Math.min(g.l,b.l); g.c=b.c; }
+  });
+  return order.map(k=>groups[k]);
+}
+/* ====================== MOTOR DE NIVELES Y OBJETIVOS ====================== */
+function pivots(h,l,c){
+  const P=(h+l+c)/3, R=h-l;
+  return {
+    classic:{P,R1:2*P-l,S1:2*P-h,R2:P+R,S2:P-R,R3:h+2*(P-l),S3:l-2*(h-P)},
+    fib:{P,R1:P+0.382*R,R2:P+0.618*R,R3:P+R,S1:P-0.382*R,S2:P-0.618*R,S3:P-R},
+    camarilla:{R1:c+R*1.1/12,R2:c+R*1.1/6,R3:c+R*1.1/4,R4:c+R*1.1/2,
+               S1:c-R*1.1/12,S2:c-R*1.1/6,S3:c-R*1.1/4,S4:c-R*1.1/2}
+  };
+}
+/* Detecta el ultimo swing high y swing low significativos (ventana fractal) */
+function detectSwings(bars, win=3, look=60){
+  const seg=bars.slice(-look); let hi=null, lo=null;
+  for(let i=win;i<seg.length-win;i++){
+    let isH=true,isL=true;
+    for(let j=i-win;j<=i+win;j++){ if(seg[j].h>seg[i].h)isH=false; if(seg[j].l<seg[i].l)isL=false; }
+    if(isH) hi={price:seg[i].h,idx:i,t:seg[i].t};
+    if(isL) lo={price:seg[i].l,idx:i,t:seg[i].t};
+  }
+  // respaldo: maximo/minimo absoluto del segmento
+  if(!hi){ const m=seg.reduce((a,b)=>b.h>a.h?b:a); hi={price:m.h,t:m.t}; }
+  if(!lo){ const m=seg.reduce((a,b)=>b.l<a.l?b:a); lo={price:m.l,t:m.t}; }
+  return {hi,lo};
+}
+function fibLevels(hi,lo){
+  const up = hi.t>=lo.t; // direccion del ultimo impulso
+  const H=hi.price, L=lo.price, R=H-L; const out=[];
+  // retrocesos
+  [0.236,0.382,0.5,0.618,0.786].forEach(f=>{
+    const price= up ? H-R*f : L+R*f;
+    out.push({price, label:`Fib ${(f*100).toFixed(1)}% retroceso`, kind:"fib", w:2});
+  });
+  // extensiones (objetivos)
+  [1.272,1.618,2.0].forEach(f=>{
+    const price= up ? L+R*f : H-R*f;
+    out.push({price, label:`Fib ext ${f.toFixed(3)} (objetivo)`, kind:"fibext", w:2.5});
+  });
+  return out;
+}
+function roundLevels(price){
+  const out=[]; const step= price>5000?500:price>1000?100:50;
+  const base=Math.round(price/step)*step;
+  for(let k=-4;k<=4;k++){ const p=base+k*step; if(p>0) out.push({price:p,label:`Numero redondo ${p.toLocaleString('en-US')}`,kind:"round",w:1}); }
+  return out;
+}
+/* Agrupa niveles cercanos en zonas de confluencia */
+function clusterLevels(levels, price, tolPct=0.28){
+  const tol=price*tolPct/100;
+  const sorted=levels.filter(l=>isFinite(l.price)).sort((a,b)=>a.price-b.price);
+  const clusters=[];
+  sorted.forEach(l=>{
+    const last=clusters[clusters.length-1];
+    if(last && Math.abs(l.price-last.center)<=tol){
+      last.members.push(l); last.sum+=l.price; last.wsum+=l.w;
+      last.center=last.sum/last.members.length;
+    } else clusters.push({center:l.price,members:[l],sum:l.price,wsum:l.w});
+  });
+  return clusters.map(c=>{
+    const kinds=[...new Set(c.members.map(m=>m.kind))];
+    const labels=c.members.map(m=>m.label);
+    const strength=+(c.wsum + (kinds.length-1)*1.5).toFixed(1); // bonus por diversidad de metodos
+    return {price:+c.center.toFixed(0), strength, count:c.members.length, kinds, labels,
+            dist_pct:+((c.center-price)/price*100).toFixed(2)};
+  });
+}
+function computeLevels(ndx){
+  const bars=ndx.bars||[]; const price=ndx.price;
+  if(bars.length<30||price==null) return null;
+  // barra del dia en curso vs ultima completada
+  const lastBar=bars[bars.length-1];
+  const prevDay=bars[bars.length-2];
+  const weeks=resample(bars,"week"), months=resample(bars,"month");
+  const pw=weeks[weeks.length-2]||weeks[weeks.length-1];
+  const pm=months[months.length-2]||months[months.length-1];
+
+  const atrD=atr(bars,14);
+  const weeklyBars=weeks.map((w,i)=>({h:w.h,l:w.l,c:w.c,o:w.o}));
+  const atrW = weeklyBars.length>15 ? (function(){let s=0;for(let i=weeklyBars.length-14;i<weeklyBars.length;i++){const tr=Math.max(weeklyBars[i].h-weeklyBars[i].l,Math.abs(weeklyBars[i].h-weeklyBars[i-1].c),Math.abs(weeklyBars[i].l-weeklyBars[i-1].c));s+=tr;}return s/14;})() : null;
+
+  const dp=pivots(prevDay.h,prevDay.l,prevDay.c);
+  const wp=pivots(pw.h,pw.l,pw.c);
+  const {hi,lo}=detectSwings(bars);
+  const s20=sma(ndx.closes,20),s50=sma(ndx.closes,50),s200=sma(ndx.closes,200);
+
+  // reunir todos los niveles candidatos
+  let L=[];
+  const add=(p,label,kind,w)=>{ if(isFinite(p)) L.push({price:p,label,kind,w}); };
+  add(prevDay.h,"Maximo dia previo","prior",2.5); add(prevDay.l,"Minimo dia previo","prior",2.5);
+  add(prevDay.c,"Cierre dia previo","prior",1.5);
+  add(pw.h,"Maximo semana previa","prior",3); add(pw.l,"Minimo semana previa","prior",3);
+  add(pm.h,"Maximo mes previo","prior",3); add(pm.l,"Minimo mes previo","prior",3);
+  add(dp.classic.P,"Pivote diario (P)","pivot",2);
+  ["R1","R2","R3","S1","S2","S3"].forEach(k=>add(dp.classic[k],"Pivote diario "+k,"pivot",1.5));
+  add(wp.classic.P,"Pivote semanal (P)","pivot",2.5);
+  ["R1","R2","S1","S2"].forEach(k=>add(wp.classic[k],"Pivote semanal "+k,"pivot",2));
+  fibLevels(hi,lo).forEach(f=>add(f.price,f.label,f.kind,f.w));
+  roundLevels(price).forEach(r=>add(r.price,r.label,r.kind,r.w));
+  if(s20)add(s20,"Media 20 (dinamica)","ma",1.5);
+  if(s50)add(s50,"Media 50 (dinamica)","ma",2);
+  if(s200)add(s200,"Media 200 (dinamica)","ma",2.5);
+  if(ndx.high52)add(ndx.high52,"Maximo 52 semanas","prior",3);
+  if(ndx.low52)add(ndx.low52,"Minimo 52 semanas","prior",3);
+
+  const clusters=clusterLevels(L,price);
+  const upside=clusters.filter(c=>c.price>price).sort((a,b)=>a.price-b.price);
+  const downside=clusters.filter(c=>c.price<price).sort((a,b)=>b.price-a.price);
+
+  return {
+    price,
+    expected:{
+      atrD:atrD?+atrD.toFixed(0):null, atrW:atrW?+atrW.toFixed(0):null,
+      dUp:atrD?+(price+atrD).toFixed(0):null, dDn:atrD?+(price-atrD).toFixed(0):null,
+      wUp:atrW?+(price+atrW).toFixed(0):null, wDn:atrW?+(price-atrW).toFixed(0):null,
+      atrPct:atrD?+(atrD/price*100).toFixed(2):null
+    },
+    upside, downside,
+    swing:{hi:+hi.price.toFixed(0),lo:+lo.price.toFixed(0),dir:hi.t>=lo.t?"alcista":"bajista"}
+  };
+}
+function levelsNarrative(lv, comp){
+  if(!lv) return "";
+  const e=lv.expected, P=[];
+  if(e.dUp!=null) P.push(`Rango esperado HOY (ATR ${e.atrD} pts ≈ ${e.atrPct}%): entre ${e.dDn.toLocaleString('en-US')} y ${e.dUp.toLocaleString('en-US')}.`);
+  if(e.wUp!=null) P.push(`Rango esperado de la SEMANA (ATR ${e.atrW} pts): ${e.wDn.toLocaleString('en-US')} – ${e.wUp.toLocaleString('en-US')}.`);
+  const upT=lv.upside.slice().sort((a,b)=>b.strength-a.strength)[0];
+  const dnT=lv.downside.slice().sort((a,b)=>b.strength-a.strength)[0];
+  const bias = comp>=22?"alcista":comp<=-22?"bajista":"neutral";
+  if(bias==="alcista" && upT) P.push(`Con sesgo alcista, el objetivo de mayor confluencia al alza es ~${upT.price.toLocaleString('en-US')} (+${upT.dist_pct}%), por ${upT.labels.slice(0,3).join(" + ")}.`);
+  else if(bias==="bajista" && dnT) P.push(`Con sesgo bajista, el objetivo de mayor confluencia a la baja es ~${dnT.price.toLocaleString('en-US')} (${dnT.dist_pct}%), por ${dnT.labels.slice(0,3).join(" + ")}.`);
+  else { if(upT)P.push(`Resistencia clave arriba: ~${upT.price.toLocaleString('en-US')} (${upT.labels.slice(0,2).join(" + ")}).`); if(dnT)P.push(`Soporte clave abajo: ~${dnT.price.toLocaleString('en-US')} (${dnT.labels.slice(0,2).join(" + ")}).`); }
+  P.push("Regla: cuantos mas metodos coinciden en una zona, mas fuerte es el nivel. La probabilidad real depende del contexto (tendencia + volatilidad + noticias).");
+  return P.join(" ");
+}
 
 /* ====================== FACTORES ====================== */
 function fTrend(ndx){
@@ -428,6 +619,7 @@ function render(R){
       <div class="fill" style="left:${left};width:${w}%;background:${col}"></div></div></div>`;}).join('');
   document.getElementById('conclusion').textContent=a.conclusion;
   document.getElementById('adverse').innerHTML=a.adverse.map(x=>`<li>${x}</li>`).join('');
+  renderLevels(R.levels);
   const secsArr=a.factors.sectors.sectors||[]; const mx=Math.max(1,...secsArr.map(s=>Math.abs(s.change_pct)));
   document.getElementById('sectors').innerHTML=secsArr.map(s=>{
     const w=Math.abs(s.change_pct)/mx*50,col=s.change_pct>=0?'var(--bull)':'var(--bear)',left=s.change_pct>=0?'50%':(50-w)+'%';
@@ -443,6 +635,37 @@ function render(R){
     const p=c.change_pct,mag=Math.min(1,Math.abs(p)/3),bg=p>=0?`rgba(34,197,94,${.15+mag*.55})`:`rgba(239,68,68,${.15+mag*.55})`;
     return `<div class="cell" style="background:${bg}"><div class="s">${c.symbol}</div><div class="p">${sgn(p)}${fmt(p,2)}%</div></div>`;}).join('');
   renderPortfolio();
+}
+
+/* ====================== NIVELES (render) ====================== */
+function strBars(n,max=6){let s='';for(let i=0;i<max;i++)s+=`<i class="${i<n?'on':''}"></i>`;return s;}
+function renderLevels(lv){
+  const el=document.getElementById('levels');
+  if(!lv){ el.innerHTML='<div class="small">No hay suficiente histórico para calcular niveles.</div>'; return; }
+  const e=lv.expected, nf=n=>Number(n).toLocaleString('en-US');
+  let exp=`<div class="lv-exp">
+    <div class="box"><div class="k">Rango esperado HOY (ATR diario ${e.atrD??'—'} pts · ${e.atrPct??'—'}%)</div>
+      <div class="r"><span class="dn">${e.dDn!=null?nf(e.dDn):'—'}</span> &nbsp;↔&nbsp; <span class="up">${e.dUp!=null?nf(e.dUp):'—'}</span></div></div>
+    <div class="box"><div class="k">Rango esperado SEMANA (ATR semanal ${e.atrW??'—'} pts)</div>
+      <div class="r"><span class="dn">${e.wDn!=null?nf(e.wDn):'—'}</span> &nbsp;↔&nbsp; <span class="up">${e.wUp!=null?nf(e.wUp):'—'}</span></div></div>
+    <div class="box"><div class="k">Ultimo impulso (swing)</div>
+      <div class="r">${nf(lv.swing.lo)} → ${nf(lv.swing.hi)} <span class="small">(${lv.swing.dir})</span></div></div>
+  </div>`;
+  const maxStr=Math.max(...[...lv.upside,...lv.downside].map(c=>c.strength),1);
+  const row=(c,cssn)=>{
+    const n=Math.round(c.strength/maxStr*6);
+    return `<div class="lv-row ${cssn}"><div class="px">${nf(c.price)}</div>
+      <div class="meta2"><b>${c.labels[0]}</b>${c.labels.length>1?` +${c.labels.length-1} mas (${[...new Set(c.kinds)].length} metodos)`:''}<br>
+        <span title="${c.labels.join(' · ')}">${c.labels.slice(0,3).join(' · ')}</span></div>
+      <div class="strength" title="Fuerza ${c.strength}">${strBars(n)}</div>
+      <div class="dist ${c.dist_pct>=0?'up':'down'}">${c.dist_pct>=0?'+':''}${c.dist_pct}%</div></div>`;
+  };
+  const up=lv.upside.slice(0,6).map(c=>row(c,'res')).join('')||'<div class="small">—</div>';
+  const dn=lv.downside.slice(0,6).map(c=>row(c,'sup')).join('')||'<div class="small">—</div>';
+  el.innerHTML=exp+`<div class="lv-grid">
+    <div class="lv-col res"><h3>▲ Resistencias / objetivos al alza</h3>${up}</div>
+    <div class="lv-col sup"><h3>▼ Soportes / objetivos a la baja</h3>${dn}</div></div>
+    <div class="src">${lv._why||''}</div>`;
 }
 
 /* ====================== PORTFOLIO ====================== */
@@ -484,9 +707,9 @@ async function load(){
   if(loading) return; loading=true; setBar(8); showErr('');
   const errors=[];
   const market={ndx:{closes:[]},vix:{},dxy:{},tnx:{},cons:[]};
-  // 1) NDX con 1 año de historia (tecnicos)
-  try{ const d=await fetchSpark(["^NDX"],"1y"); if(d["^NDX"]) market.ndx=d["^NDX"]; }
-  catch(e){ errors.push("NDX historico: "+e.message); }
+  // 1) NDX con 1 año de historia + OHLC (tecnicos y niveles)
+  try{ market.ndx=await fetchChart("^NDX","1y","1d"); }
+  catch(e){ errors.push("NDX historico: "+e.message); market.ndx={closes:[],bars:[]}; }
   setBar(25);
   // 2) indices macro
   try{ const d=await fetchSpark(["^VIX","DX-Y.NYB","^TNX"],"1mo");
@@ -510,12 +733,15 @@ async function load(){
   try{ events=await fetchCalendar(); }catch(e){ errors.push("ForexFactory: "+e.message); }
   const news=analyzeNews(events);
   const analysis=compose({ndx:market.ndx,vix:market.vix,dxy:market.dxy,tnx:market.tnx,cons:market.cons,news});
+  const levels=computeLevels(market.ndx);
+  if(levels){ levels._why=levelsNarrative(levels,analysis.composite);
+    analysis.conclusion += " " + levels._why; }
   const R={
     macro:{ndx:{price:market.ndx.price,change_pct:market.ndx.change_pct},
       vix:{price:market.vix.price,change_pct:market.vix.change_pct},
       dxy:{price:market.dxy.price,change_pct:market.dxy.change_pct},
       tnx:{price:market.tnx.price,change_pct:market.tnx.change_pct}},
-    analysis, cons:market.cons, calendar:news.high_upcoming
+    analysis, cons:market.cons, calendar:news.high_upcoming, levels
   };
   render(R); setBar(100);
   if(errors.length) showErr("Avisos de datos (proxy CORS intermitente): "+errors.join(" · ")+". Pulsa 'refrescar ahora' si faltan paneles.");
