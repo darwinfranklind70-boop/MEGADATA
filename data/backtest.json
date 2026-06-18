@@ -1,0 +1,69 @@
+{
+  "ok": true,
+  "generated_at": "2026-06-18T22:24:37.769596+00:00",
+  "period": {
+    "from": "2017-04-07",
+    "to": "2026-06-18",
+    "trading_days": 2289,
+    "years": 9.1
+  },
+  "note": "Backtest del nucleo tecnico (5 de 7 factores; sin breadth/sectores). Pesos renormalizados.",
+  "buckets": [
+    {
+      "bucket": "Bajista fuerte (<=-55)",
+      "n": 55,
+      "avg_fwd_1d": -0.165,
+      "avg_fwd_5d": 1.032,
+      "avg_fwd_10d": 1.686,
+      "avg_fwd_20d": 3.631,
+      "hit_rate_5d": 38.2
+    },
+    {
+      "bucket": "Bajista (-55..-22)",
+      "n": 244,
+      "avg_fwd_1d": 0.254,
+      "avg_fwd_5d": 0.307,
+      "avg_fwd_10d": 0.678,
+      "avg_fwd_20d": 1.992,
+      "hit_rate_5d": 45.5
+    },
+    {
+      "bucket": "Neutral (-22..22)",
+      "n": 675,
+      "avg_fwd_1d": 0.062,
+      "avg_fwd_5d": 0.424,
+      "avg_fwd_10d": 0.939,
+      "avg_fwd_20d": 1.96,
+      "hit_rate_5d": null
+    },
+    {
+      "bucket": "Alcista (22..55)",
+      "n": 1222,
+      "avg_fwd_1d": 0.081,
+      "avg_fwd_5d": 0.432,
+      "avg_fwd_10d": 0.775,
+      "avg_fwd_20d": 1.36,
+      "hit_rate_5d": 62.9
+    },
+    {
+      "bucket": "Alcista fuerte (>=55)",
+      "n": 93,
+      "avg_fwd_1d": -0.01,
+      "avg_fwd_5d": 0.003,
+      "avg_fwd_10d": 0.663,
+      "avg_fwd_20d": 1.139,
+      "hit_rate_5d": 50.5
+    }
+  ],
+  "corr_bias_vs_fwd5d": -0.021,
+  "strategy": {
+    "total_return_pct": 21.5,
+    "buyhold_return_pct": 437.5,
+    "annualized_pct": 2.2,
+    "sharpe": 0.29,
+    "max_drawdown_pct": -15.2,
+    "buyhold_max_drawdown_pct": -35.6,
+    "win_rate_pct": 53.7
+  },
+  "verdict": "El medidor NO muestra ventaja clara en este periodo: tratalo como herramienta de contexto, no como senal automatica."
+}

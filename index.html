@@ -115,9 +115,32 @@
   .gex-regime{padding:3px 10px;border-radius:14px;font-weight:700;font-size:12px}
   .reg-pos{background:rgba(34,197,94,.15);color:var(--bull)}
   .reg-neg{background:rgba(239,68,68,.15);color:var(--bear)}
-  .gex-prof{display:flex;align-items:center;height:90px;gap:1px;margin-top:8px}
-  .gex-prof .gb{flex:1;display:flex;flex-direction:column-reverse;height:100%;position:relative}
-  .gex-prof .gb i{width:100%;border-radius:2px 2px 0 0}
+  .gex-ladder{margin-top:10px;max-height:340px;overflow-y:auto;padding-right:4px}
+  .gex-ladder .lr{display:grid;grid-template-columns:70px 1fr;align-items:center;gap:8px;height:18px}
+  .gex-ladder .lr.on{background:rgba(59,130,246,.07);border-radius:4px}
+  .gex-ladder .ks{font-size:10px;color:var(--mut);text-align:right;font-variant-numeric:tabular-nums}
+  .gex-ladder .bw{position:relative;height:13px;background:var(--panel2);border-radius:3px;border:1px solid #182234}
+  .gex-ladder .bw .ax{position:absolute;left:50%;top:0;bottom:0;width:1px;background:#33405a}
+  .gex-ladder .bw .ca{position:absolute;left:50%;top:1px;bottom:1px;background:linear-gradient(90deg,#16a34a,#22c55e);border-radius:0 2px 2px 0}
+  .gex-ladder .bw .pu{position:absolute;right:50%;top:1px;bottom:1px;background:linear-gradient(270deg,#dc2626,#ef4444);border-radius:2px 0 0 2px}
+  .gex-ladder .lvtag{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-size:8px;font-weight:700;padding:1px 6px;border-radius:8px;white-space:nowrap;z-index:3}
+  .gex-ladder .lvtag.spot{background:#e6edf3;color:#0a0e17}
+  .gex-ladder .lvtag.call{background:rgba(34,197,94,.3);color:#bbf7d0;border:1px solid var(--bull)}
+  .gex-ladder .lvtag.put{background:rgba(239,68,68,.3);color:#fecaca;border:1px solid var(--bear)}
+  .gex-ladder .lvtag.flip{background:rgba(234,179,8,.25);color:#fde68a;border:1px solid #eab308}
+  /* backtest */
+  .bt-verdict{padding:12px 14px;border-radius:8px;font-size:13px;line-height:1.5;margin-bottom:14px;font-weight:600}
+  .bt-good{background:rgba(34,197,94,.12);border:1px solid var(--bull);color:#bbf7d0}
+  .bt-warn{background:rgba(245,158,11,.12);border:1px solid var(--warn);color:#fde68a}
+  .bt-bad{background:rgba(239,68,68,.12);border:1px solid var(--bear);color:#fecaca}
+  .bt-stats{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+  .bt-stats .s{flex:1;min-width:130px;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:11px}
+  .bt-stats .s .k{font-size:10px;color:var(--mut);text-transform:uppercase}
+  .bt-stats .s .v{font-size:19px;font-weight:700;margin-top:3px}
+  .bt-table{width:100%;border-collapse:collapse;font-size:12px}
+  .bt-table th,.bt-table td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:right}
+  .bt-table th:first-child,.bt-table td:first-child{text-align:left}
+  .bt-table th{color:var(--mut);font-size:10px;text-transform:uppercase}
   /* fear greed */
   .fg-bar{height:22px;border-radius:11px;background:linear-gradient(90deg,#dc2626,#f59e0b,#facc15,#84cc16,#22c55e);position:relative;margin:10px 0}
   .fg-bar .marker{position:absolute;top:-4px;width:4px;height:30px;background:#fff;border-radius:2px;transform:translateX(-2px)}
@@ -218,6 +241,10 @@
   <div class="card col-4">
     <h2>Estacionalidad</h2>
     <div id="season"><div class="small">—</div></div>
+  </div>
+  <div class="card col-12" id="bt-card">
+    <h2>Validacion del medidor · backtest historico</h2>
+    <div id="backtest"><div class="small">cargando backtest…</div></div>
   </div>
   <div class="card col-6">
     <h2>Mapa sectorial NDX (ponderado)</h2>
@@ -354,6 +381,21 @@ const NEWS_URLS = [
 ];
 async function fetchNews(){
   for(const base of NEWS_URLS){
+    try{
+      const r=await fetchTimeout(base+"?t="+Date.now(), 9000);
+      if(!r.ok) continue;
+      const j=await r.json();
+      if(j && j.ok) return j;
+    }catch(e){}
+  }
+  return null;
+}
+const BT_URLS = [
+  "https://raw.githubusercontent.com/darwinfranklind70-boop/MEGADATA/main/data/backtest.json",
+  "https://raw.githubusercontent.com/darwinfranklind70-boop/MEGADATA/feature/us100-swing-dashboard/data/backtest.json"
+];
+async function fetchBacktest(){
+  for(const base of BT_URLS){
     try{
       const r=await fetchTimeout(base+"?t="+Date.now(), 9000);
       if(!r.ok) continue;
@@ -729,6 +771,7 @@ function render(R){
   renderLevels(R.levels);
   renderGEX(R.gex, m.ndx.price);
   renderGeoNews(R.geonews);
+  renderBacktest(R.backtest);
   renderFearGreed(R.feargreed);
   renderCorrel(R.correl);
   renderSeason(R.season);
@@ -809,6 +852,35 @@ function renderGeoNews(news){
 }
 
 /* ====================== GEX / FEAR&GREED / CORRELACIONES / ESTACIONALIDAD ====================== */
+function renderBacktest(bt){
+  const el=document.getElementById('backtest');
+  if(!bt){ el.innerHTML='<div class="small">Backtest pendiente (se genera a diario via GitHub Actions).</div>'; return; }
+  const s=bt.strategy||{};
+  const beatBH = s.total_return_pct>s.buyhold_return_pct;
+  const lowerDD = Math.abs(s.max_drawdown_pct)<Math.abs(s.buyhold_max_drawdown_pct);
+  const cls = /MUESTRA ventaja/.test(bt.verdict)?'bt-good':/DEBIL|parcial/.test(bt.verdict)?'bt-warn':'bt-bad';
+  const stat=(k,v,extra='')=>`<div class="s"><div class="k">${k}</div><div class="v" ${extra}>${v}</div></div>`;
+  let rows=(bt.buckets||[]).map(b=>`<tr>
+    <td>${b.bucket}</td><td>${b.n}</td>
+    <td class="${b.avg_fwd_5d>=0?'up':'down'}">${b.avg_fwd_5d>=0?'+':''}${b.avg_fwd_5d}%</td>
+    <td class="${b.avg_fwd_20d>=0?'up':'down'}">${b.avg_fwd_20d>=0?'+':''}${b.avg_fwd_20d}%</td>
+    <td>${b.hit_rate_5d!=null?b.hit_rate_5d+'%':'—'}</td></tr>`).join('');
+  el.innerHTML=`<div class="bt-verdict ${cls}">📊 ${bt.verdict}</div>
+    <div class="bt-stats">
+      ${stat('Estrategia (sesgo) total', (s.total_return_pct>=0?'+':'')+s.total_return_pct+'%')}
+      ${stat('Buy & Hold total', (s.buyhold_return_pct>=0?'+':'')+s.buyhold_return_pct+'%')}
+      ${stat('Max drawdown sesgo', s.max_drawdown_pct+'%', lowerDD?'style="color:var(--bull)"':'')}
+      ${stat('Max drawdown B&H', s.buyhold_max_drawdown_pct+'%')}
+      ${stat('Sharpe', s.sharpe)}
+      ${stat('Win rate diario', s.win_rate_pct+'%')}
+      ${stat('Correlacion sesgo/fwd-5d', bt.corr_bias_vs_fwd5d)}
+    </div>
+    <table class="bt-table"><thead><tr><th>Bucket de sesgo</th><th>N</th><th>Ret. medio 5d</th><th>Ret. medio 20d</th><th>Acierto 5d</th></tr></thead>
+    <tbody>${rows}</tbody></table>
+    <div class="src">${bt.note} Periodo: ${bt.period.from} → ${bt.period.to} (${bt.period.years} años, ${bt.period.trading_days} dias). 
+    Lectura: si la estrategia no supera a B&H pero reduce el drawdown, el medidor aporta CONTROL DE RIESGO mas que prediccion. Generado: ${new Date(bt.generated_at).toLocaleString('es')}.</div>`;
+}
+
 function renderGEX(gex, ndxPrice){
   const el=document.getElementById('gex');
   if(!gex || !gex.ok){
@@ -829,18 +901,28 @@ function renderGEX(gex, ndxPrice){
     <div class="gex-box"><div class="k">Max pain (${gex.nearest_expiry||''})</div><div class="v">${nf(gex.max_pain)}</div></div>
     <div class="gex-box"><div class="k">Expected move (1σ)</div><div class="v">±${gex.expected_move_pct??'—'}%</div></div>
   </div>`;
-  // perfil de gamma por strike
-  const prof=gex.profile||[];
-  let bars='';
+  // escalera VERTICAL compacta (strikes en eje Y, calls verde / puts rojo)
+  const prof=(gex.profile||[]).slice().sort((a,b)=>b.strike-a.strike);
+  let ladder='';
   if(prof.length){
-    const mx=Math.max(...prof.map(p=>Math.abs(p.gex)),0.0001);
-    bars='<div class="gex-prof">'+prof.map(p=>{
-      const h=Math.abs(p.gex)/mx*100, col=p.gex>=0?'var(--bull)':'var(--bear)';
-      return `<div class="gb" title="${Math.round(p.strike*ratio).toLocaleString('en-US')}: GEX ${p.gex}bn"><i style="height:${h}%;background:${col}"></i></div>`;
+    const mx=Math.max(...prof.map(p=>Math.max(Math.abs(p.call||0),Math.abs(p.put||0),Math.abs(p.gex||0))),1e-6);
+    const hiK=prof[0].strike, loK=prof[prof.length-1].strike;
+    const closest=v=>(v!=null&&v<=hiK&&v>=loK)?prof.reduce((a,b)=>Math.abs(b.strike-v)<Math.abs(a.strike-v)?b:a).strike:null;
+    const sSpot=closest(gex.spot), sCall=closest(gex.call_wall), sPut=closest(gex.put_wall), sFlip=closest(gex.gamma_flip);
+    ladder='<div class="gex-ladder">'+prof.map(p=>{
+      const cw=Math.abs(p.call||0)/mx*50, pw=Math.abs(p.put||0)/mx*50;
+      let tag='';
+      if(p.strike===sSpot)tag='<span class="lvtag spot">PRECIO</span>';
+      else if(p.strike===sCall)tag='<span class="lvtag call">CALL WALL</span>';
+      else if(p.strike===sPut)tag='<span class="lvtag put">PUT WALL</span>';
+      else if(p.strike===sFlip)tag='<span class="lvtag flip">FLIP</span>';
+      return `<div class="lr ${tag?'on':''}"><span class="ks">${Math.round(p.strike*ratio).toLocaleString('en-US')}</span>
+        <span class="bw"><i class="ax"></i><i class="pu" style="width:${pw}%"></i><i class="ca" style="width:${cw}%"></i>${tag}</span></div>`;
     }).join('')+'</div>';
   }
-  el.innerHTML=top+bars+
+  el.innerHTML=top+ladder+
     `<div class="src">${regTxt} El precio tiende a ser atraido hacia call/put walls y a acelerar bajo el gamma flip. `+
+    `<b><a href="gamma.html" style="color:var(--acc)">▸ Abrir Gamma Desk (vista detallada + noticias)</a></b><br>`+
     `Fuente: ${gex.source}. Subyacente: ${gex.underlying}${ratio!==1?` (convertido a NDX x${ratio.toFixed(2)})`:''}. Actualizado: ${new Date(gex.generated_at).toLocaleString('es')}.</div>`;
 }
 
@@ -1027,6 +1109,7 @@ async function load(){
   const analysis=compose({ndx:market.ndx,vix:market.vix,dxy:market.dxy,tnx:market.tnx,cons:market.cons,news});
   let gex=null; try{ gex=await fetchGEX(); }catch(e){}
   let geonews=null; try{ geonews=await fetchNews(); }catch(e){}
+  let backtest=null; try{ backtest=await fetchBacktest(); }catch(e){}
   const levels=computeLevels(market.ndx, gex);
   if(levels){ levels._why=levelsNarrative(levels,analysis.composite);
     analysis.conclusion += " " + levels._why; }
@@ -1051,7 +1134,7 @@ async function load(){
       dxy:{price:market.dxy.price,change_pct:market.dxy.change_pct},
       tnx:{price:market.tnx.price,change_pct:market.tnx.change_pct}},
     analysis, cons:market.cons, calendar:news.high_upcoming, levels,
-    gex, geonews, feargreed, correl, season
+    gex, geonews, backtest, feargreed, correl, season
   };
   render(R); setBar(100);
   if(errors.length) showErr("Avisos de datos (proxy CORS intermitente): "+errors.join(" · ")+". Pulsa 'refrescar ahora' si faltan paneles.");

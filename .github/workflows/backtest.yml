@@ -1,0 +1,43 @@
+name: Backtest del medidor (diario)
+
+# Valida estadisticamente el medidor de sesgo del US100 una vez al dia.
+# Es un proceso mas pesado (historico de 10 años), por eso va separado y diario.
+
+on:
+  workflow_dispatch:        # ejecucion manual
+  schedule:
+    - cron: "30 22 * * 1-5"  # ~22:30 UTC tras el cierre de NY, Lun-Vie
+
+permissions:
+  contents: write
+
+concurrency:
+  group: backtest-update
+  cancel-in-progress: false
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Ejecutar backtest
+        run: python tools/backtest.py || true
+
+      - name: Commit si hay cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/backtest.json
+          if git diff --staged --quiet; then
+            echo "Sin cambios en data/backtest.json"
+          else
+            git commit -m "chore(backtest): actualizar validacion del medidor [skip ci]"
+            git push
+          fi

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MEGADATA · Gamma Desk US100</title>
+<style>
+  :root{
+    --bg:#070b12; --panel:#111826; --panel2:#0c1018; --line:#1e293b;
+    --txt:#e6edf3; --mut:#8b98ac; --acc:#3b82f6;
+    --bull:#22c55e; --bear:#ef4444; --neu:#94a3b8; --warn:#f59e0b; --gold:#eab308;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--txt);font-size:14px}
+  a{color:var(--acc);text-decoration:none}
+  header{display:flex;align-items:center;justify-content:space-between;padding:14px 22px;
+         border-bottom:1px solid var(--line);background:linear-gradient(90deg,#0a1020,#131c30);position:sticky;top:0;z-index:10}
+  header h1{margin:0;font-size:18px;letter-spacing:.5px}
+  header h1 span{color:var(--gold)}
+  .meta{font-size:12px;color:var(--mut);text-align:right}
+  .meta b{color:var(--txt)}
+  .grid{display:grid;grid-template-columns:1.15fr .85fr;gap:16px;padding:18px;max-width:1500px;margin:0 auto}
+  @media(max-width:980px){.grid{grid-template-columns:1fr}}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px}
+  .card h2{margin:0 0 14px;font-size:13px;text-transform:uppercase;letter-spacing:1px;color:var(--mut);font-weight:600}
+  .small{font-size:12px;color:var(--mut)}
+  .err{background:rgba(245,158,11,.12);border:1px solid var(--warn);color:#fcd34d;padding:8px 12px;border-radius:8px;font-size:12px;margin:0 18px}
+
+  /* escalera vertical */
+  .ladder{display:flex;flex-direction:column;gap:2px;position:relative}
+  .lrow{display:grid;grid-template-columns:74px 1fr 74px;align-items:center;gap:8px;height:21px;position:relative}
+  .lrow .kstrike{font-size:11px;color:var(--mut);text-align:right;font-variant-numeric:tabular-nums}
+  .lrow .kval{font-size:10px;color:var(--mut);text-align:left;font-variant-numeric:tabular-nums}
+  .barwrap{position:relative;height:16px;background:var(--panel2);border-radius:4px;border:1px solid #182234}
+  .barwrap .axis{position:absolute;left:50%;top:-2px;bottom:-2px;width:1px;background:#33405a}
+  .barwrap .call{position:absolute;left:50%;top:1px;bottom:1px;background:linear-gradient(90deg,#16a34a,#22c55e);border-radius:0 3px 3px 0}
+  .barwrap .put{position:absolute;right:50%;top:1px;bottom:1px;background:linear-gradient(270deg,#dc2626,#ef4444);border-radius:3px 0 0 3px}
+  .lrow.lvl{background:rgba(59,130,246,.06);border-radius:4px}
+  .lrow .badge{position:absolute;left:50%;transform:translateX(-50%);font-size:9px;font-weight:700;
+               padding:1px 7px;border-radius:9px;white-space:nowrap;z-index:3}
+  .b-spot{background:#e6edf3;color:#0a0e17}
+  .b-call{background:rgba(34,197,94,.25);color:#bbf7d0;border:1px solid var(--bull)}
+  .b-put{background:rgba(239,68,68,.25);color:#fecaca;border:1px solid var(--bear)}
+  .b-flip{background:rgba(234,179,8,.22);color:#fde68a;border:1px solid var(--gold)}
+  .b-pain{background:rgba(148,163,184,.22);color:#e2e8f0;border:1px solid var(--neu)}
+  .lgnd{display:flex;gap:16px;font-size:11px;margin-top:12px;flex-wrap:wrap}
+  .lgnd span i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+
+  /* metricas */
+  .mgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px}
+  .mbox{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:12px}
+  .mbox .k{font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:.4px}
+  .mbox .v{font-size:22px;font-weight:700;margin-top:4px;font-variant-numeric:tabular-nums}
+  .mbox.call .v{color:var(--bull)}.mbox.put .v{color:var(--bear)}.mbox.flip .v{color:var(--gold)}
+  .regime{display:inline-block;padding:4px 12px;border-radius:14px;font-weight:700;font-size:13px}
+  .reg-pos{background:rgba(34,197,94,.16);color:var(--bull)}
+  .reg-neg{background:rgba(239,68,68,.16);color:var(--bear)}
+  .explain{background:var(--panel2);border-left:3px solid var(--acc);padding:10px 12px;border-radius:6px;font-size:13px;line-height:1.55;margin-top:10px}
+
+  /* news */
+  .gn-head{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:12px}
+  .gn-pulse{font-size:32px;font-weight:700;font-variant-numeric:tabular-nums}
+  .gn-bar{height:10px;border-radius:6px;background:#1c2433;position:relative;overflow:hidden;min-width:200px;flex:1}
+  .gn-bar .mid{position:absolute;left:50%;top:0;bottom:0;width:1px;background:#33405a}
+  .gn-bar i{position:absolute;top:0;bottom:0;border-radius:6px}
+  .gn-driver{display:inline-block;font-size:11px;padding:3px 9px;border-radius:12px;margin:0 5px 5px 0}
+  .gn-driver.up{background:rgba(34,197,94,.14);color:var(--bull)}
+  .gn-driver.down{background:rgba(239,68,68,.14);color:var(--bear)}
+  .gn-item{display:flex;gap:10px;padding:9px;border:1px solid var(--line);border-radius:8px;background:var(--panel2);margin-bottom:7px}
+  .gn-item .tag{width:5px;border-radius:3px;flex:none}
+  .gn-item .tag.up{background:var(--bull)}.gn-item .tag.down{background:var(--bear)}
+  .gn-item .ti{font-weight:600;font-size:12px;line-height:1.35}
+  .gn-item .mt{color:var(--mut);font-size:11px;margin-top:3px}
+  .conclusion{font-size:13px;line-height:1.6;background:var(--panel2);border-radius:8px;padding:12px;margin-bottom:12px}
+  .loadbar{height:3px;background:var(--gold);width:0;transition:width .3s}
+</style>
+</head>
+<body>
+<header>
+  <h1>MEGA<span>GAMMA</span> · US100 Gamma Desk</h1>
+  <div class="meta">
+    <div><a href="index.html">← volver al dashboard</a></div>
+    <div>Actualizado: <b id="updated">—</b> · <a href="#" id="refresh">refrescar</a></div>
+  </div>
+</header>
+<div class="loadbar" id="loadbar"></div>
+<div id="errbox"></div>
+
+<div class="grid">
+  <!-- ESCALERA VERTICAL -->
+  <div class="card">
+    <h2>Escalera de gamma por strike (vertical) · <span id="undl">—</span></h2>
+    <div id="ladder" class="ladder"><div class="small">cargando opciones…</div></div>
+    <div class="lgnd">
+      <span><i style="background:#22c55e"></i>Gamma de CALLS (resistencia/iman arriba)</span>
+      <span><i style="background:#ef4444"></i>Gamma de PUTS (soporte/iman abajo)</span>
+      <span><i style="background:#eab308"></i>Gamma flip</span>
+      <span><i style="background:#e6edf3"></i>Precio actual</span>
+    </div>
+  </div>
+
+  <!-- METRICAS + NOTICIAS -->
+  <div>
+    <div class="card" style="margin-bottom:16px">
+      <h2>Posicionamiento institucional (GEX)</h2>
+      <div id="gexmeta"><div class="small">cargando…</div></div>
+    </div>
+    <div class="card">
+      <h2>Contexto geopolitico / noticias</h2>
+      <div id="news"><div class="small">cargando contexto…</div></div>
+    </div>
+  </div>
+</div>
+
+<script>
+const OWNER="darwinfranklind70-boop", REPO="MEGADATA";
+const BRANCHES=["main","feature/us100-swing-dashboard"];
+const raw=(branch,file)=>`https://raw.githubusercontent.com/${OWNER}/${REPO}/${branch}/data/${file}?t=${Date.now()}`;
+const REFRESH=120;
+let secs=REFRESH;
+
+async function fetchTimeout(url,ms=9000){const c=new AbortController();const id=setTimeout(()=>c.abort(),ms);
+  try{return await fetch(url,{cache:"no-store",signal:c.signal});}finally{clearTimeout(id);}}
+async function loadJson(file){
+  for(const b of BRANCHES){ try{const r=await fetchTimeout(raw(b,file)); if(r.ok){const j=await r.json(); if(j&&j.ok) return j;}}catch(e){} }
+  return null;
+}
+const nf=(n,d=0)=>n==null?'—':Number(n).toLocaleString('en-US',{minimumFractionDigits:d,maximumFractionDigits:d});
+const setBar=p=>document.getElementById('loadbar').style.width=p+'%';
+
+/* ---- ESCALERA VERTICAL ---- */
+function renderLadder(g){
+  const el=document.getElementById('ladder');
+  document.getElementById('undl').textContent=g?`${g.underlying} (spot ${nf(g.spot)})`:'—';
+  if(!g||!g.profile||!g.profile.length){el.innerHTML='<div class="small">Sin perfil de gamma todavia.</div>';return;}
+  const prof=g.profile.slice().sort((a,b)=>b.strike-a.strike); // alto arriba
+  const maxAbs=Math.max(...prof.map(p=>Math.max(Math.abs(p.call||0),Math.abs(p.put||0),Math.abs(p.gex||0))),1e-6);
+  const hiK=prof[0].strike, loK=prof[prof.length-1].strike;
+  const inRange=v=>v!=null && v<=hiK && v>=loK;
+  const closest=(v)=>prof.reduce((a,b)=>Math.abs(b.strike-v)<Math.abs(a.strike-v)?b:a).strike;
+  const sSpot=inRange(g.spot)?closest(g.spot):null, sCall=inRange(g.call_wall)?closest(g.call_wall):null,
+        sPut=inRange(g.put_wall)?closest(g.put_wall):null,
+        sFlip=inRange(g.gamma_flip)?closest(g.gamma_flip):null, sPain=inRange(g.max_pain)?closest(g.max_pain):null;
+  el.innerHTML=prof.map(p=>{
+    const callW=Math.abs(p.call||0)/maxAbs*50, putW=Math.abs(p.put||0)/maxAbs*50;
+    let badges='';
+    if(p.strike===sSpot) badges+=`<span class="badge b-spot" style="top:-9px">PRECIO ${nf(g.spot)}</span>`;
+    if(p.strike===sCall) badges+=`<span class="badge b-call" style="bottom:-9px">CALL WALL</span>`;
+    if(p.strike===sPut) badges+=`<span class="badge b-put" style="bottom:-9px">PUT WALL</span>`;
+    if(sFlip&&p.strike===sFlip) badges+=`<span class="badge b-flip" style="top:-9px">GAMMA FLIP</span>`;
+    if(sPain&&p.strike===sPain) badges+=`<span class="badge b-pain" style="bottom:-9px">MAX PAIN</span>`;
+    const isLvl=[sSpot,sCall,sPut,sFlip,sPain].includes(p.strike);
+    return `<div class="lrow ${isLvl?'lvl':''}">
+      <div class="kstrike">${nf(p.strike)}</div>
+      <div class="barwrap"><div class="axis"></div>
+        <div class="put" style="width:${putW}%"></div>
+        <div class="call" style="width:${callW}%"></div>${badges}</div>
+      <div class="kval">${p.gex>=0?'+':''}${(p.gex||0).toFixed(2)}</div>
+    </div>`;
+  }).join('');
+}
+
+/* ---- METRICAS GEX ---- */
+function renderGexMeta(g){
+  const el=document.getElementById('gexmeta');
+  if(!g){el.innerHTML='<div class="small">Niveles de gamma pendientes del primer calculo (GitHub Actions cada 15 min).</div>';return;}
+  const regCss=g.regime==="positiva"?"reg-pos":"reg-neg";
+  const regTxt=g.regime==="positiva"
+    ? "Gamma POSITIVA: los dealers compran caidas y venden subidas → mercado en rango, menos volatilidad. Las paredes actuan como iman."
+    : "Gamma NEGATIVA: los dealers venden caidas y compran subidas → amplifican el movimiento. Tendencia y mayor volatilidad; cuidado bajo el gamma flip.";
+  el.innerHTML=`
+    <div style="margin-bottom:10px">Regimen: <span class="regime ${regCss}">${g.regime.toUpperCase()}</span>
+      <span class="small">(GEX total ${g.total_gex_bn} bn $/1%)</span></div>
+    <div class="mgrid">
+      <div class="mbox call"><div class="k">Call wall (resistencia)</div><div class="v">${nf(g.call_wall)}</div></div>
+      <div class="mbox put"><div class="k">Put wall (soporte)</div><div class="v">${nf(g.put_wall)}</div></div>
+      <div class="mbox flip"><div class="k">Gamma flip</div><div class="v">${nf(g.gamma_flip)}</div></div>
+      <div class="mbox"><div class="k">Max pain (${g.nearest_expiry||''})</div><div class="v">${nf(g.max_pain)}</div></div>
+      <div class="mbox"><div class="k">Expected move 1σ</div><div class="v">±${g.expected_move_pct??'—'}%</div></div>
+      <div class="mbox"><div class="k">≈ puntos</div><div class="v">±${nf(g.expected_move_pts)}</div></div>
+    </div>
+    <div class="explain">${regTxt}</div>
+    <div class="small" style="margin-top:8px">Fuente: ${g.source} · subyacente ${g.underlying} · ${new Date(g.generated_at).toLocaleString('es')}</div>`;
+}
+
+/* ---- NOTICIAS ---- */
+function renderNews(n){
+  const el=document.getElementById('news');
+  if(!n){el.innerHTML='<div class="small">Contexto de noticias pendiente del primer calculo.</div>';return;}
+  const p=n.news_pulse, col=p>8?'var(--bull)':p<-8?'var(--bear)':'var(--neu)';
+  const w=Math.min(50,Math.abs(p)/2), left=p>=0?'50%':(50-w)+'%';
+  const drivers=(n.drivers||[]).map(d=>`<span class="gn-driver ${d.score>=0?'up':'down'}">${d.category} ${d.score>=0?'▲':'▼'} (${d.n})</span>`).join('');
+  const items=(n.headlines||[]).slice(0,8).map(h=>{
+    const dir=h.direction==='alcista'?'up':'down';
+    return `<div class="gn-item"><div class="tag ${dir}"></div><div><div class="ti">${h.title}</div>
+      <div class="mt">${h.category} · ${h.direction} · ${h.why}<br>${h.source||''} · hace ${h.hours_ago}h</div></div></div>`;
+  }).join('');
+  el.innerHTML=`<div class="gn-head">
+      <div><div class="gn-pulse" style="color:${col}">${p>=0?'+':''}${p}</div><div class="small">pulso noticias</div></div>
+      <div class="gn-bar"><div class="mid"></div><i style="left:${left};width:${w}%;background:${col}"></i></div>
+    </div>
+    <div style="margin-bottom:10px">${drivers}</div>
+    <div class="conclusion">${n.conclusion}</div>${items}
+    <div class="small" style="margin-top:8px">Fuente: ${n.source} · ${n.raw_count||0} titulares · ${new Date(n.generated_at).toLocaleString('es')}</div>`;
+}
+
+async function load(){
+  setBar(15); document.getElementById('errbox').innerHTML='';
+  const [g,n]=await Promise.all([loadJson('gex.json'),loadJson('news.json')]);
+  setBar(70);
+  renderLadder(g); renderGexMeta(g); renderNews(n);
+  document.getElementById('updated').textContent=new Date().toLocaleString('es');
+  if(!g&&!n) document.getElementById('errbox').innerHTML='<div class="err">No se pudieron cargar los datos. Si acabas de desplegar, el primer calculo de GitHub Actions aun no corrio.</div>';
+  setBar(100); setTimeout(()=>setBar(0),600); secs=REFRESH;
+}
+document.getElementById('refresh').onclick=e=>{e.preventDefault();load();};
+setInterval(()=>{secs--;if(secs<=0){load();}},1000);
+load();
+</script>
+</body>
+</html>

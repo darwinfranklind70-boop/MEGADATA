@@ -114,14 +114,18 @@ def build(sym, root):
     by_strike = {}
     call_gamma = {}
     put_gamma = {}
+    call_gex = {}
+    put_gex = {}
     for r in rows:
         notional = r["gamma"] * r["oi"] * CONTRACT * spot * spot * 0.01
         sign = 1.0 if r["cp"] == "C" else -1.0
         by_strike[r["strike"]] = by_strike.get(r["strike"], 0.0) + sign * notional
         if r["cp"] == "C":
             call_gamma[r["strike"]] = call_gamma.get(r["strike"], 0.0) + r["gamma"] * r["oi"]
+            call_gex[r["strike"]] = call_gex.get(r["strike"], 0.0) + notional
         else:
             put_gamma[r["strike"]] = put_gamma.get(r["strike"], 0.0) + r["gamma"] * r["oi"]
+            put_gex[r["strike"]] = put_gex.get(r["strike"], 0.0) + notional
 
     total_gex = sum(by_strike.values())
 
@@ -178,9 +182,18 @@ def build(sym, root):
     exp_move = straddle * 0.85  # aproximacion 1 sigma
     exp_move_pct = exp_move / spot * 100 if spot else None
 
-    # ---- perfil de gamma por strike alrededor del spot ----
-    near = sorted([k for k in by_strike if abs(k - spot) <= spot * 0.06])
-    profile = [{"strike": round(k, 1), "gex": round(by_strike[k] / 1e9, 3)} for k in near]
+    # ---- perfil de gamma por strike alrededor del spot (banda +/-8%) ----
+    near = sorted([k for k in by_strike if abs(k - spot) <= spot * 0.08])
+    # limitar a ~60 strikes mas relevantes por |gex| para no saturar
+    if len(near) > 60:
+        ranked = sorted(near, key=lambda k: abs(by_strike[k]), reverse=True)[:60]
+        near = sorted(ranked)
+    profile = [{
+        "strike": round(k, 1),
+        "gex": round(by_strike[k] / 1e9, 4),
+        "call": round(call_gex.get(k, 0.0) / 1e9, 4),
+        "put": round(-put_gex.get(k, 0.0) / 1e9, 4),
+    } for k in near]
 
     scale = 1e9  # mostrar en "miles de millones $ / 1%"
     return {
