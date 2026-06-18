@@ -106,6 +106,31 @@
   .lv-row.res .strength i.on{background:var(--bear)}
   .lv-row.sup .strength i.on{background:var(--bull)}
   .lv-row .dist{width:60px;text-align:right;font-size:12px;font-weight:600}
+  /* GEX */
+  .gex-top{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:14px}
+  .gex-box{flex:1;min-width:150px;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:12px;text-align:center}
+  .gex-box .k{font-size:11px;color:var(--mut);text-transform:uppercase}
+  .gex-box .v{font-size:20px;font-weight:700;margin-top:4px}
+  .gex-box.wall .v{color:var(--bear)}.gex-box.pwall .v{color:var(--bull)}
+  .gex-regime{padding:3px 10px;border-radius:14px;font-weight:700;font-size:12px}
+  .reg-pos{background:rgba(34,197,94,.15);color:var(--bull)}
+  .reg-neg{background:rgba(239,68,68,.15);color:var(--bear)}
+  .gex-prof{display:flex;align-items:center;height:90px;gap:1px;margin-top:8px}
+  .gex-prof .gb{flex:1;display:flex;flex-direction:column-reverse;height:100%;position:relative}
+  .gex-prof .gb i{width:100%;border-radius:2px 2px 0 0}
+  /* fear greed */
+  .fg-bar{height:22px;border-radius:11px;background:linear-gradient(90deg,#dc2626,#f59e0b,#facc15,#84cc16,#22c55e);position:relative;margin:10px 0}
+  .fg-bar .marker{position:absolute;top:-4px;width:4px;height:30px;background:#fff;border-radius:2px;transform:translateX(-2px)}
+  .fg-val{font-size:30px;font-weight:700;text-align:center}
+  .kv{display:flex;justify-content:space-between;font-size:12px;padding:5px 0;border-bottom:1px solid var(--line)}
+  .kv:last-child{border-bottom:none}
+  .kv .vv{font-weight:600}
+  .season-row{display:flex;align-items:center;gap:8px;margin-bottom:5px;font-size:12px}
+  .season-row .lbl{width:90px;color:var(--mut)}
+  .season-row .sb{flex:1;height:12px;background:#0c1220;border-radius:4px;position:relative;border:1px solid var(--line)}
+  .season-row .sb i{position:absolute;top:0;bottom:0;border-radius:3px}
+  .alert{background:rgba(245,158,11,.16);border:1px solid var(--warn);color:#fde68a;
+         padding:10px 14px;border-radius:8px;font-size:13px;margin:8px 18px 0;font-weight:600}
 </style>
 </head>
 <body>
@@ -113,10 +138,12 @@
   <h1>MEGA<span>DATA</span> · US100 Swing Desk</h1>
   <div class="meta">
     <div>Actualizado: <b id="updated">—</b></div>
-    <div>Auto-refresh en <b id="countdown">—</b>s · <a href="#" id="refresh">refrescar ahora</a></div>
+    <div>Auto-refresh en <b id="countdown">—</b>s · <a href="#" id="refresh">refrescar ahora</a>
+      · <label class="small" style="cursor:pointer"><input type="checkbox" id="snd"> alertas sonoras</label></div>
   </div>
 </header>
 <div class="loadbar" id="loadbar"></div>
+<div id="alertbox"></div>
 <div id="errbox"></div>
 
 <div class="wrap">
@@ -153,6 +180,22 @@
   <div class="card col-12">
     <h2>Niveles clave y objetivos (hasta donde y por que)</h2>
     <div id="levels"><div class="small">calculando niveles…</div></div>
+  </div>
+  <div class="card col-12" id="gex-card">
+    <h2>Gamma institucional · estilo SpotGamma (CBOE)</h2>
+    <div id="gex"><div class="small">cargando niveles de opciones…</div></div>
+  </div>
+  <div class="card col-4">
+    <h2>Termometro Fear &amp; Greed</h2>
+    <div id="feargreed"><div class="small">—</div></div>
+  </div>
+  <div class="card col-4">
+    <h2>Correlaciones y divergencias</h2>
+    <div id="correl"><div class="small">—</div></div>
+  </div>
+  <div class="card col-4">
+    <h2>Estacionalidad</h2>
+    <div id="season"><div class="small">—</div></div>
   </div>
   <div class="card col-6">
     <h2>Mapa sectorial NDX (ponderado)</h2>
@@ -266,6 +309,23 @@ async function fetchSpark(symbols, range){
 async function fetchCalendar(){
   return await proxyFetch("https://nfs.faireconomy.media/ff_calendar_thisweek.json");
 }
+/* GEX: lee el JSON precalculado por GitHub Actions (raw soporta CORS).
+   Prueba main y la rama de trabajo. NO usa proxy (raw ya permite CORS). */
+const GEX_URLS = [
+  "https://raw.githubusercontent.com/darwinfranklind70-boop/MEGADATA/main/data/gex.json",
+  "https://raw.githubusercontent.com/darwinfranklind70-boop/MEGADATA/feature/us100-swing-dashboard/data/gex.json"
+];
+async function fetchGEX(){
+  for(const base of GEX_URLS){
+    try{
+      const r=await fetchTimeout(base+"?t="+Date.now(), 9000);
+      if(!r.ok) continue;
+      const j=await r.json();
+      if(j && j.ok) return j;
+    }catch(e){}
+  }
+  return null;
+}
 async function fetchChart(symbol, range, interval){
   const url=`https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?range=${range}&interval=${interval}`;
   const d=await proxyFetch(url);
@@ -376,7 +436,7 @@ function clusterLevels(levels, price, tolPct=0.28){
             dist_pct:+((c.center-price)/price*100).toFixed(2)};
   });
 }
-function computeLevels(ndx){
+function computeLevels(ndx, gex){
   const bars=ndx.bars||[]; const price=ndx.price;
   if(bars.length<30||price==null) return null;
   // barra del dia en curso vs ultima completada
@@ -413,6 +473,16 @@ function computeLevels(ndx){
   if(s200)add(s200,"Media 200 (dinamica)","ma",2.5);
   if(ndx.high52)add(ndx.high52,"Maximo 52 semanas","prior",3);
   if(ndx.low52)add(ndx.low52,"Minimo 52 semanas","prior",3);
+
+  // niveles institucionales de gamma (alta ponderacion): convertir si vienen de QQQ
+  if(gex && gex.ok){
+    const ratio = (gex.underlying==="QQQ" && gex.spot) ? price/gex.spot : 1;
+    const cw=gex.call_wall*ratio, pw=gex.put_wall*ratio, fl=gex.gamma_flip?gex.gamma_flip*ratio:null, mp=gex.max_pain?gex.max_pain*ratio:null;
+    add(cw,"Call wall (gamma) — iman/resistencia","gex",4);
+    add(pw,"Put wall (gamma) — iman/soporte","gex",4);
+    if(fl)add(fl,"Gamma flip (cambio de regimen)","gex",3.5);
+    if(mp)add(mp,"Max pain (vencimiento)","gex",2.5);
+  }
 
   const clusters=clusterLevels(L,price);
   const upside=clusters.filter(c=>c.price>price).sort((a,b)=>a.price-b.price);
@@ -620,6 +690,11 @@ function render(R){
   document.getElementById('conclusion').textContent=a.conclusion;
   document.getElementById('adverse').innerHTML=a.adverse.map(x=>`<li>${x}</li>`).join('');
   renderLevels(R.levels);
+  renderGEX(R.gex, m.ndx.price);
+  renderFearGreed(R.feargreed);
+  renderCorrel(R.correl);
+  renderSeason(R.season);
+  checkAlerts(R);
   const secsArr=a.factors.sectors.sectors||[]; const mx=Math.max(1,...secsArr.map(s=>Math.abs(s.change_pct)));
   document.getElementById('sectors').innerHTML=secsArr.map(s=>{
     const w=Math.abs(s.change_pct)/mx*50,col=s.change_pct>=0?'var(--bull)':'var(--bear)',left=s.change_pct>=0?'50%':(50-w)+'%';
@@ -666,6 +741,158 @@ function renderLevels(lv){
     <div class="lv-col res"><h3>▲ Resistencias / objetivos al alza</h3>${up}</div>
     <div class="lv-col sup"><h3>▼ Soportes / objetivos a la baja</h3>${dn}</div></div>
     <div class="src">${lv._why||''}</div>`;
+}
+
+/* ====================== GEX / FEAR&GREED / CORRELACIONES / ESTACIONALIDAD ====================== */
+function renderGEX(gex, ndxPrice){
+  const el=document.getElementById('gex');
+  if(!gex || !gex.ok){
+    el.innerHTML='<div class="small">Niveles de gamma pendientes del primer calculo (GitHub Actions cada 30 min). Si acabas de desplegar, se rellenan en la proxima ejecucion.</div>';
+    return;
+  }
+  const ratio=(gex.underlying==="QQQ"&&gex.spot)?ndxPrice/gex.spot:1;
+  const nf=n=>n==null?'—':Math.round(n*ratio).toLocaleString('en-US');
+  const regCss=gex.regime==="positiva"?"reg-pos":"reg-neg";
+  const regTxt=gex.regime==="positiva"
+    ? "Gamma POSITIVA: dealers estabilizan (compran caidas/venden subidas) → rango, menor volatilidad."
+    : "Gamma NEGATIVA: dealers amplifican el movimiento → tendencia y mayor volatilidad. Cuidado.";
+  let top=`<div class="gex-top">
+    <div class="gex-box"><div class="k">Regimen (GEX ${gex.total_gex_bn} bn)</div><div class="v"><span class="gex-regime ${regCss}">${gex.regime.toUpperCase()}</span></div></div>
+    <div class="gex-box wall"><div class="k">Call wall (resistencia)</div><div class="v">${nf(gex.call_wall)}</div></div>
+    <div class="gex-box pwall"><div class="k">Put wall (soporte)</div><div class="v">${nf(gex.put_wall)}</div></div>
+    <div class="gex-box"><div class="k">Gamma flip</div><div class="v">${nf(gex.gamma_flip)}</div></div>
+    <div class="gex-box"><div class="k">Max pain (${gex.nearest_expiry||''})</div><div class="v">${nf(gex.max_pain)}</div></div>
+    <div class="gex-box"><div class="k">Expected move (1σ)</div><div class="v">±${gex.expected_move_pct??'—'}%</div></div>
+  </div>`;
+  // perfil de gamma por strike
+  const prof=gex.profile||[];
+  let bars='';
+  if(prof.length){
+    const mx=Math.max(...prof.map(p=>Math.abs(p.gex)),0.0001);
+    bars='<div class="gex-prof">'+prof.map(p=>{
+      const h=Math.abs(p.gex)/mx*100, col=p.gex>=0?'var(--bull)':'var(--bear)';
+      return `<div class="gb" title="${Math.round(p.strike*ratio).toLocaleString('en-US')}: GEX ${p.gex}bn"><i style="height:${h}%;background:${col}"></i></div>`;
+    }).join('')+'</div>';
+  }
+  el.innerHTML=top+bars+
+    `<div class="src">${regTxt} El precio tiende a ser atraido hacia call/put walls y a acelerar bajo el gamma flip. `+
+    `Fuente: ${gex.source}. Subyacente: ${gex.underlying}${ratio!==1?` (convertido a NDX x${ratio.toFixed(2)})`:''}. Actualizado: ${new Date(gex.generated_at).toLocaleString('es')}.</div>`;
+}
+
+function computeFearGreed(M){
+  const comps={}; let parts=[];
+  const vix=M.vix.price;
+  if(vix!=null){ const s=clamp((28-vix)*5,0,100); comps["Volatilidad (VIX "+vix.toFixed(1)+")"]=Math.round(s); parts.push(s); }
+  const r=rsi(M.ndx.closes,14);
+  if(r!=null){ comps["Momentum (RSI "+r.toFixed(0)+")"]=Math.round(clamp(r,0,100)); parts.push(clamp(r,0,100)); }
+  // breadth
+  let upW=0,totW=0; M.cons.forEach(c=>{totW+=c.weight; if(c.change_pct>0)upW+=c.weight;});
+  if(totW){ const b=upW/totW*100; comps["Amplitud ("+b.toFixed(0)+"% en verde)"]=Math.round(b); parts.push(b); }
+  // posicion vs media 200
+  const s200=sma(M.ndx.closes,200), px=M.ndx.price;
+  if(s200&&px){ const d=(px-s200)/s200*100; const s=clamp(50+d*6,0,100); comps["Precio vs Media200 ("+(d>=0?"+":"")+d.toFixed(1)+"%)"]=Math.round(s); parts.push(s); }
+  const score=parts.length?Math.round(parts.reduce((a,b)=>a+b,0)/parts.length):50;
+  const label=score>=75?"Codicia extrema":score>=58?"Codicia":score>=42?"Neutral":score>=25?"Miedo":"Miedo extremo";
+  return {score,label,comps};
+}
+function renderFearGreed(fg){
+  const el=document.getElementById('feargreed');
+  let kv=Object.entries(fg.comps).map(([k,v])=>`<div class="kv"><span>${k}</span><span class="vv">${v}</span></div>`).join('');
+  el.innerHTML=`<div class="fg-val">${fg.score}</div>
+    <div style="text-align:center;font-weight:600;color:var(--mut)">${fg.label}</div>
+    <div class="fg-bar"><div class="marker" style="left:${fg.score}%"></div></div>${kv}
+    <div class="src">0 = miedo extremo · 100 = codicia extrema. Combina VIX, momentum, amplitud y posicion vs media 200.</div>`;
+}
+
+function pearson(a,b){
+  const n=Math.min(a.length,b.length); if(n<5) return null;
+  const x=a.slice(-n), y=b.slice(-n);
+  const mx=x.reduce((s,v)=>s+v,0)/n, my=y.reduce((s,v)=>s+v,0)/n;
+  let sxy=0,sx=0,sy=0;
+  for(let i=0;i<n;i++){const dx=x[i]-mx,dy=y[i]-my;sxy+=dx*dy;sx+=dx*dx;sy+=dy*dy;}
+  if(sx===0||sy===0) return null;
+  return sxy/Math.sqrt(sx*sy);
+}
+function rets(closes){const o=[];for(let i=1;i<closes.length;i++){if(closes[i-1])o.push((closes[i]-closes[i-1])/closes[i-1]);}return o;}
+function computeCorrelations(M){
+  const ndxR=rets(M.ndx.closes);
+  const out=[];
+  const defs=[["DXY (dolar)",M.dxy.closes,"inversa"],["10Y (tasas)",M.tnx.closes,"inversa"],["VIX (volatilidad)",M.vix.closes,"inversa"]];
+  defs.forEach(([name,cl,exp])=>{
+    if(!cl||cl.length<10) return;
+    const c=pearson(ndxR,rets(cl));
+    if(c==null) return;
+    let note="";
+    const expectedNeg=exp==="inversa";
+    if(expectedNeg && c>0.2) note="⚠ divergencia: deberia ser inversa";
+    else if(expectedNeg && c<-0.3) note="relacion inversa normal";
+    else note="relacion debil/mixta";
+    out.push({name,corr:+c.toFixed(2),note});
+  });
+  return out;
+}
+function renderCorrel(cs){
+  const el=document.getElementById('correl');
+  if(!cs.length){el.innerHTML='<div class="small">Sin datos suficientes.</div>';return;}
+  el.innerHTML=cs.map(c=>{
+    const col=c.corr<0?'var(--bull)':c.corr>0.2?'var(--warn)':'var(--mut)';
+    return `<div class="kv"><span>NDX vs ${c.name}</span><span class="vv" style="color:${col}">${c.corr>=0?'+':''}${c.corr} <span class="small">${c.note}</span></span></div>`;
+  }).join('')+'<div class="src">Correlacion de rendimientos diarios (~1 mes). Normalmente NDX es inverso a dolar, tasas y VIX; una divergencia avisa de posibles giros.</div>';
+}
+
+function computeSeasonality(bars){
+  if(!bars||bars.length<40) return null;
+  const dow={}, phase={ini:[],med:[],fin:[]};
+  const names=["Dom","Lun","Mar","Mie","Jue","Vie","Sab"];
+  for(let i=1;i<bars.length;i++){
+    if(!bars[i-1].c) continue;
+    const ret=(bars[i].c-bars[i-1].c)/bars[i-1].c*100;
+    const d=new Date(bars[i].t); const wd=d.getUTCDay(), dom=d.getUTCDate();
+    (dow[wd]=dow[wd]||[]).push(ret);
+    if(dom<=10)phase.ini.push(ret); else if(dom<=20)phase.med.push(ret); else phase.fin.push(ret);
+  }
+  const avg=a=>a&&a.length?a.reduce((x,y)=>x+y,0)/a.length:0;
+  const dowArr=[1,2,3,4,5].map(w=>({name:names[w],avg:+avg(dow[w]).toFixed(3),n:(dow[w]||[]).length}));
+  return {dow:dowArr,
+    phase:[{name:"Dias 1-10",avg:+avg(phase.ini).toFixed(3)},{name:"Dias 11-20",avg:+avg(phase.med).toFixed(3)},{name:"Dias 21-31",avg:+avg(phase.fin).toFixed(3)}]};
+}
+function renderSeason(s){
+  const el=document.getElementById('season');
+  if(!s){el.innerHTML='<div class="small">Sin datos suficientes.</div>';return;}
+  const all=[...s.dow,...s.phase]; const mx=Math.max(...all.map(x=>Math.abs(x.avg)),0.01);
+  const today=["Dom","Lun","Mar","Mie","Jue","Vie","Sab"][new Date().getUTCDay()];
+  const row=x=>{const w=Math.abs(x.avg)/mx*50,col=x.avg>=0?'var(--bull)':'var(--bear)',left=x.avg>=0?'50%':(50-w)+'%';
+    const hl=x.name===today?'style="color:var(--acc);font-weight:700"':'';
+    return `<div class="season-row"><span class="lbl" ${hl}>${x.name}</span>
+      <div class="sb"><i style="left:${left};width:${w}%;background:${col}"></i></div>
+      <span class="dist ${x.avg>=0?'up':'down'}">${x.avg>=0?'+':''}${x.avg}%</span></div>`;};
+  el.innerHTML='<div class="small" style="margin-bottom:6px">Rendimiento medio por dia de semana (~1 año):</div>'+
+    s.dow.map(row).join('')+
+    '<div class="small" style="margin:8px 0 6px">Por fase del mes:</div>'+s.phase.map(row).join('')+
+    '<div class="src">Sesgo estadistico, no garantia. Hoy es '+today+'.</div>';
+}
+
+/* ====================== ALERTAS DE PROXIMIDAD ====================== */
+let lastAlertKey="";
+function beep(){
+  try{const ctx=new (window.AudioContext||window.webkitAudioContext)();
+    const o=ctx.createOscillator(),g=ctx.createGain();o.connect(g);g.connect(ctx.destination);
+    o.frequency.value=880;g.gain.value=0.05;o.start();
+    setTimeout(()=>{o.stop();ctx.close();},220);}catch(e){}
+}
+function checkAlerts(R){
+  const lv=R.levels, px=R.macro.ndx.price, box=document.getElementById('alertbox');
+  if(!lv||px==null){box.innerHTML='';return;}
+  const all=[...lv.upside,...lv.downside].filter(c=>c.strength>=4);
+  const near=all.filter(c=>Math.abs(c.dist_pct)<=0.30).sort((a,b)=>Math.abs(a.dist_pct)-Math.abs(b.dist_pct));
+  if(!near.length){box.innerHTML='';return;}
+  const msgs=near.slice(0,3).map(c=>{
+    const dir=c.dist_pct>=0?"arriba":"abajo";
+    return `Precio ${px.toLocaleString('en-US')} cerca de zona ${c.price.toLocaleString('en-US')} (${c.dist_pct>=0?'+':''}${c.dist_pct}%, ${dir}) — ${c.labels.slice(0,2).join(' + ')}`;
+  });
+  box.innerHTML=msgs.map(m=>`<div class="alert">🔔 ${m}</div>`).join('');
+  const key=near.map(c=>c.price).join(',');
+  if(key!==lastAlertKey){ lastAlertKey=key; if(document.getElementById('snd').checked) beep(); }
 }
 
 /* ====================== PORTFOLIO ====================== */
@@ -733,15 +960,20 @@ async function load(){
   try{ events=await fetchCalendar(); }catch(e){ errors.push("ForexFactory: "+e.message); }
   const news=analyzeNews(events);
   const analysis=compose({ndx:market.ndx,vix:market.vix,dxy:market.dxy,tnx:market.tnx,cons:market.cons,news});
-  const levels=computeLevels(market.ndx);
+  let gex=null; try{ gex=await fetchGEX(); }catch(e){}
+  const levels=computeLevels(market.ndx, gex);
   if(levels){ levels._why=levelsNarrative(levels,analysis.composite);
     analysis.conclusion += " " + levels._why; }
+  const feargreed=computeFearGreed(market);
+  const correl=computeCorrelations(market);
+  const season=computeSeasonality(market.ndx.bars);
   const R={
     macro:{ndx:{price:market.ndx.price,change_pct:market.ndx.change_pct},
       vix:{price:market.vix.price,change_pct:market.vix.change_pct},
       dxy:{price:market.dxy.price,change_pct:market.dxy.change_pct},
       tnx:{price:market.tnx.price,change_pct:market.tnx.change_pct}},
-    analysis, cons:market.cons, calendar:news.high_upcoming, levels
+    analysis, cons:market.cons, calendar:news.high_upcoming, levels,
+    gex, feargreed, correl, season
   };
   render(R); setBar(100);
   if(errors.length) showErr("Avisos de datos (proxy CORS intermitente): "+errors.join(" · ")+". Pulsa 'refrescar ahora' si faltan paneles.");
@@ -749,6 +981,9 @@ async function load(){
 }
 function tick(){secs--;if(secs<=0){secs=REFRESH_SECS;load();}document.getElementById('countdown').textContent=secs;}
 document.getElementById('refresh').onclick=e=>{e.preventDefault();secs=REFRESH_SECS;load();};
+(function(){const snd=document.getElementById('snd');
+  snd.checked=localStorage.getItem('megadata_snd')==='1';
+  snd.onchange=()=>localStorage.setItem('megadata_snd',snd.checked?'1':'0');})();
 renderPortfolio(); load(); setInterval(tick,1000);
 </script>
 </body>
