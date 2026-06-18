@@ -141,6 +141,20 @@
   .bt-table th,.bt-table td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:right}
   .bt-table th:first-child,.bt-table td:first-child{text-align:left}
   .bt-table th{color:var(--mut);font-size:10px;text-transform:uppercase}
+  /* setup de reversion */
+  .setup-banner{padding:14px 16px;border-radius:10px;margin-bottom:14px}
+  .setup-long{background:rgba(34,197,94,.12);border:1px solid var(--bull)}
+  .setup-watch{background:rgba(245,158,11,.12);border:1px solid var(--warn)}
+  .setup-none{background:var(--panel2);border:1px solid var(--line)}
+  .setup-title{font-size:16px;font-weight:700;margin-bottom:6px}
+  .setup-long .setup-title{color:var(--bull)}.setup-watch .setup-title{color:var(--warn)}
+  .setup-grid{display:flex;gap:12px;flex-wrap:wrap;margin:12px 0}
+  .setup-grid .sg{flex:1;min-width:120px;background:rgba(0,0,0,.2);border-radius:8px;padding:10px}
+  .setup-grid .sg .k{font-size:10px;color:var(--mut);text-transform:uppercase}
+  .setup-grid .sg .v{font-size:18px;font-weight:700;margin-top:3px;font-variant-numeric:tabular-nums}
+  .conviction{display:flex;gap:3px;align-items:center}
+  .conviction i{width:11px;height:11px;border-radius:50%;background:#2a3650;display:block}
+  .conviction i.on{background:var(--bull)}
   /* fear greed */
   .fg-bar{height:22px;border-radius:11px;background:linear-gradient(90deg,#dc2626,#f59e0b,#facc15,#84cc16,#22c55e);position:relative;margin:10px 0}
   .fg-bar .marker{position:absolute;top:-4px;width:4px;height:30px;background:#fff;border-radius:2px;transform:translateX(-2px)}
@@ -217,6 +231,10 @@
   <div class="card col-4">
     <h2>Escenarios adversos / riesgos</h2>
     <ul class="clean adverse" id="adverse"></ul>
+  </div>
+  <div class="card col-12" id="setup-card">
+    <h2>Setup de reversion en vivo (estrategia validada)</h2>
+    <div id="setup"><div class="small">analizando setup…</div></div>
   </div>
   <div class="card col-12">
     <h2>Niveles clave y objetivos (hasta donde y por que)</h2>
@@ -396,6 +414,21 @@ const BT_URLS = [
 ];
 async function fetchBacktest(){
   for(const base of BT_URLS){
+    try{
+      const r=await fetchTimeout(base+"?t="+Date.now(), 9000);
+      if(!r.ok) continue;
+      const j=await r.json();
+      if(j && j.ok) return j;
+    }catch(e){}
+  }
+  return null;
+}
+const MR_URLS = [
+  "https://raw.githubusercontent.com/darwinfranklind70-boop/MEGADATA/main/data/meanrev.json",
+  "https://raw.githubusercontent.com/darwinfranklind70-boop/MEGADATA/feature/us100-swing-dashboard/data/meanrev.json"
+];
+async function fetchMeanrev(){
+  for(const base of MR_URLS){
     try{
       const r=await fetchTimeout(base+"?t="+Date.now(), 9000);
       if(!r.ok) continue;
@@ -768,6 +801,7 @@ function render(R){
       <div class="fill" style="left:${left};width:${w}%;background:${col}"></div></div></div>`;}).join('');
   document.getElementById('conclusion').textContent=a.conclusion;
   document.getElementById('adverse').innerHTML=a.adverse.map(x=>`<li>${x}</li>`).join('');
+  renderSetup(R);
   renderLevels(R.levels);
   renderGEX(R.gex, m.ndx.price);
   renderGeoNews(R.geonews);
@@ -852,6 +886,64 @@ function renderGeoNews(news){
 }
 
 /* ====================== GEX / FEAR&GREED / CORRELACIONES / ESTACIONALIDAD ====================== */
+function renderSetup(R){
+  const el=document.getElementById('setup');
+  const a=R.analysis, px=R.macro.ndx.price, gex=R.gex, lv=R.levels, mr=R.meanrev;
+  if(px==null){ el.innerHTML='<div class="small">Sin precio.</div>'; return; }
+  const bias=a.composite, rsi=a.factors&&a.factors.momentum?a.factors.momentum.rsi:null;
+  let putWall=null, callWall=null, flip=null;
+  if(gex&&gex.ok){ const ratio=(gex.underlying==='QQQ'&&gex.spot)?px/gex.spot:1;
+    putWall=gex.put_wall*ratio; callWall=gex.call_wall*ratio; flip=gex.gamma_flip?gex.gamma_flip*ratio:null; }
+  const bl=mr&&mr.best_long?mr.best_long:{avg_trade_pct:4.9,hold_days:20,win_rate:63.6,profit_factor:2.84,n:11};
+  const nf=(n)=>n==null?'—':Math.round(n).toLocaleString('en-US');
+  const longOnly = !mr || mr.rating==='long_only';
+
+  const convDots=(n,max=3)=>{let s='<div class="conviction">';for(let i=0;i<max;i++)s+=`<i class="${i<n?'on':''}"></i>`;return s+`</div>`;};
+  const histLine=`Respaldo historico: comprar sesgo ≤ ${bl.threshold||-50} y mantener ~${bl.hold_days}d -> ${bl.avg_trade_pct>=0?'+':''}${bl.avg_trade_pct}%/trade, ${bl.win_rate}% aciertos, PF ${bl.profit_factor} (${bl.n} eventos, ${mr?mr.period.years:9}+ años). Muestra pequeña: gestiona el riesgo.`;
+
+  if(bias<=-50){
+    let conv=1; const reasons=['Sesgo extremo bajista (≤ -50): zona historica de rebote del US100'];
+    if(rsi!=null&&rsi<=32){conv++; reasons.push('RSI en sobreventa (<32)');}
+    if(putWall&&px<=putWall*1.025&&px>=putWall*0.975){conv++; reasons.push('Precio sobre el PUT WALL (soporte de dealers/gamma)');}
+    const entry=px;
+    const cand=[putWall, lv&&lv.swing?lv.swing.lo:null].filter(x=>x&&x<px);
+    let stopBase=cand.length?Math.min(...cand):px*0.97;
+    const stop=Math.min(stopBase*0.997, px*0.985);
+    const target=px*(1+bl.avg_trade_pct/100);
+    const t1=flip&&flip>px?flip:px*(1+bl.avg_trade_pct/200);
+    const risk=entry-stop, rew=target-entry, rr=risk>0?(rew/risk):null;
+    el.innerHTML=`<div class="setup-banner setup-long">
+      <div class="setup-title">▲ SETUP LONG de reversion ACTIVO ${convDots(conv)}</div>
+      <div class="small">Conviccion ${conv}/3 · ${reasons.join(' · ')}</div>
+      <div class="setup-grid">
+        <div class="sg"><div class="k">Entrada (zona)</div><div class="v">${nf(entry)}</div></div>
+        <div class="sg"><div class="k">Stop</div><div class="v" style="color:var(--bear)">${nf(stop)}</div></div>
+        <div class="sg"><div class="k">Objetivo 1 (flip/media)</div><div class="v">${nf(t1)}</div></div>
+        <div class="sg"><div class="k">Objetivo 2 (hist.)</div><div class="v" style="color:var(--bull)">${nf(target)}</div></div>
+        <div class="sg"><div class="k">R:R aprox</div><div class="v">${rr?('1:'+rr.toFixed(2)):'—'}</div></div>
+        <div class="sg"><div class="k">Horizonte</div><div class="v">~${bl.hold_days}d</div></div>
+      </div>
+      <div class="small">${histLine}</div></div>`;
+  } else if(bias>=60){
+    let conv=1; const reasons=['Sesgo extremo alcista (≥ 60): zona de agotamiento'];
+    if(rsi!=null&&rsi>=70){conv++; reasons.push('RSI en sobrecompra (>70)');}
+    if(callWall&&px>=callWall*0.975){conv++; reasons.push('Precio en/bajo el CALL WALL (resistencia de gamma)');}
+    el.innerHTML=`<div class="setup-banner setup-watch">
+      <div class="setup-title">⚠ ZONA DE AGOTAMIENTO ALCISTA ${convDots(conv)}</div>
+      <div class="small">${reasons.join(' · ')}</div>
+      <div class="explain" style="margin-top:10px">El backtest muestra que <b>vender en corto NO tiene ventaja</b> (el US100 sube estructuralmente). 
+      En vez de abrir cortos: protege ganancias de largos, sube el stop (trailing) o reduce tamano. 
+      ${callWall?'Resistencia de gamma (call wall) en ~'+nf(callWall)+'.':''}</div></div>`;
+  } else {
+    const dist=Math.round(bias+50);
+    el.innerHTML=`<div class="setup-banner setup-none">
+      <div class="setup-title" style="color:var(--mut)">Sin setup de reversion activo</div>
+      <div class="small">El sesgo (${bias>=0?'+':''}${bias}) no esta en zona extrema. El setup LONG validado se activa con sesgo ≤ -50 
+      (faltan ${dist} puntos). Mientras tanto, opera con el contexto general del dashboard.</div>
+      <div class="small" style="margin-top:8px">${histLine}</div></div>`;
+  }
+}
+
 function renderBacktest(bt){
   const el=document.getElementById('backtest');
   if(!bt){ el.innerHTML='<div class="small">Backtest pendiente (se genera a diario via GitHub Actions).</div>'; return; }
@@ -1110,6 +1202,7 @@ async function load(){
   let gex=null; try{ gex=await fetchGEX(); }catch(e){}
   let geonews=null; try{ geonews=await fetchNews(); }catch(e){}
   let backtest=null; try{ backtest=await fetchBacktest(); }catch(e){}
+  let meanrev=null; try{ meanrev=await fetchMeanrev(); }catch(e){}
   const levels=computeLevels(market.ndx, gex);
   if(levels){ levels._why=levelsNarrative(levels,analysis.composite);
     analysis.conclusion += " " + levels._why; }
@@ -1134,7 +1227,7 @@ async function load(){
       dxy:{price:market.dxy.price,change_pct:market.dxy.change_pct},
       tnx:{price:market.tnx.price,change_pct:market.tnx.change_pct}},
     analysis, cons:market.cons, calendar:news.high_upcoming, levels,
-    gex, geonews, backtest, feargreed, correl, season
+    gex, geonews, backtest, meanrev, feargreed, correl, season
   };
   render(R); setBar(100);
   if(errors.length) showErr("Avisos de datos (proxy CORS intermitente): "+errors.join(" · ")+". Pulsa 'refrescar ahora' si faltan paneles.");
