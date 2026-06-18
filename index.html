@@ -131,6 +131,24 @@
   .season-row .sb i{position:absolute;top:0;bottom:0;border-radius:3px}
   .alert{background:rgba(245,158,11,.16);border:1px solid var(--warn);color:#fde68a;
          padding:10px 14px;border-radius:8px;font-size:13px;margin:8px 18px 0;font-weight:600}
+  /* geonews */
+  .gn-head{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:12px}
+  .gn-pulse{font-size:30px;font-weight:700}
+  .gn-mini{flex:1;min-width:220px}
+  .gn-bar{height:10px;border-radius:6px;background:#1c2433;position:relative;overflow:hidden}
+  .gn-bar .mid{position:absolute;left:50%;top:0;bottom:0;width:1px;background:#33405a}
+  .gn-bar i{position:absolute;top:0;bottom:0;border-radius:6px}
+  .gn-list{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  @media(max-width:800px){.gn-list{grid-template-columns:1fr}}
+  .gn-item{display:flex;gap:10px;padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--panel2)}
+  .gn-item .tag{width:6px;border-radius:3px;flex:none}
+  .gn-item .tag.up{background:var(--bull)}.gn-item .tag.down{background:var(--bear)}
+  .gn-item .body{flex:1;font-size:12px}
+  .gn-item .body .ti{font-weight:600;line-height:1.3}
+  .gn-item .body .mt{color:var(--mut);font-size:11px;margin-top:3px}
+  .gn-driver{display:inline-block;font-size:11px;padding:3px 9px;border-radius:12px;margin:0 5px 5px 0}
+  .gn-driver.up{background:rgba(34,197,94,.14);color:var(--bull)}
+  .gn-driver.down{background:rgba(239,68,68,.14);color:var(--bear)}
 </style>
 </head>
 <body>
@@ -184,6 +202,10 @@
   <div class="card col-12" id="gex-card">
     <h2>Gamma institucional · estilo SpotGamma (CBOE)</h2>
     <div id="gex"><div class="small">cargando niveles de opciones…</div></div>
+  </div>
+  <div class="card col-12" id="news-card">
+    <h2>Contexto geopolitico / titulares en tiempo (casi) real</h2>
+    <div id="geonews"><div class="small">cargando contexto mundial…</div></div>
   </div>
   <div class="card col-4">
     <h2>Termometro Fear &amp; Greed</h2>
@@ -317,6 +339,21 @@ const GEX_URLS = [
 ];
 async function fetchGEX(){
   for(const base of GEX_URLS){
+    try{
+      const r=await fetchTimeout(base+"?t="+Date.now(), 9000);
+      if(!r.ok) continue;
+      const j=await r.json();
+      if(j && j.ok) return j;
+    }catch(e){}
+  }
+  return null;
+}
+const NEWS_URLS = [
+  "https://raw.githubusercontent.com/darwinfranklind70-boop/MEGADATA/main/data/news.json",
+  "https://raw.githubusercontent.com/darwinfranklind70-boop/MEGADATA/feature/us100-swing-dashboard/data/news.json"
+];
+async function fetchNews(){
+  for(const base of NEWS_URLS){
     try{
       const r=await fetchTimeout(base+"?t="+Date.now(), 9000);
       if(!r.ok) continue;
@@ -691,6 +728,7 @@ function render(R){
   document.getElementById('adverse').innerHTML=a.adverse.map(x=>`<li>${x}</li>`).join('');
   renderLevels(R.levels);
   renderGEX(R.gex, m.ndx.price);
+  renderGeoNews(R.geonews);
   renderFearGreed(R.feargreed);
   renderCorrel(R.correl);
   renderSeason(R.season);
@@ -741,6 +779,33 @@ function renderLevels(lv){
     <div class="lv-col res"><h3>▲ Resistencias / objetivos al alza</h3>${up}</div>
     <div class="lv-col sup"><h3>▼ Soportes / objetivos a la baja</h3>${dn}</div></div>
     <div class="src">${lv._why||''}</div>`;
+}
+
+/* ====================== GEONEWS (render) ====================== */
+function renderGeoNews(news){
+  const el=document.getElementById('geonews');
+  if(!news || !news.ok){
+    el.innerHTML='<div class="small">Contexto de noticias pendiente del primer calculo (GitHub Actions). Se rellena en la proxima ejecucion.</div>';
+    return;
+  }
+  const p=news.news_pulse, col=p>8?'var(--bull)':p<-8?'var(--bear)':'var(--neu)';
+  const w=Math.min(50,Math.abs(p)/2), left=p>=0?'50%':(50-w)+'%';
+  let drivers=(news.drivers||[]).map(d=>`<span class="gn-driver ${d.score>=0?'up':'down'}">${d.category} ${d.score>=0?'▲':'▼'} (${d.n})</span>`).join('');
+  let items=(news.headlines||[]).slice(0,10).map(h=>{
+    const dir=h.direction==='alcista'?'up':'down';
+    return `<div class="gn-item"><div class="tag ${dir}"></div><div class="body">
+      <div class="ti">${h.title}</div>
+      <div class="mt">${h.category} · ${h.direction} · ${h.why}<br>${h.source||''} · hace ${h.hours_ago}h</div></div></div>`;
+  }).join('');
+  el.innerHTML=`<div class="gn-head">
+      <div><div class="gn-pulse" style="color:${col}">${p>=0?'+':''}${p}</div><div class="small">pulso de noticias</div></div>
+      <div class="gn-mini"><div class="small" style="margin-bottom:4px">Sesgo de contexto: <b style="color:${col}">${news.label.toUpperCase()}</b></div>
+        <div class="gn-bar"><div class="mid"></div><i style="left:${left};width:${w}%;background:${col}"></i></div>
+        <div style="margin-top:8px">${drivers}</div></div>
+    </div>
+    <div class="conclusion" style="margin-bottom:12px">${news.conclusion}</div>
+    <div class="gn-list">${items||'<div class="small">Sin titulares de alto impacto.</div>'}</div>
+    <div class="src">Fuente: ${news.source} · ${news.raw_count||0} titulares escaneados · actualizado ${new Date(news.generated_at).toLocaleString('es')}. Pulso: -100 (presion bajista) a +100 (apoyo alcista).</div>`;
 }
 
 /* ====================== GEX / FEAR&GREED / CORRELACIONES / ESTACIONALIDAD ====================== */
@@ -961,9 +1026,22 @@ async function load(){
   const news=analyzeNews(events);
   const analysis=compose({ndx:market.ndx,vix:market.vix,dxy:market.dxy,tnx:market.tnx,cons:market.cons,news});
   let gex=null; try{ gex=await fetchGEX(); }catch(e){}
+  let geonews=null; try{ geonews=await fetchNews(); }catch(e){}
   const levels=computeLevels(market.ndx, gex);
   if(levels){ levels._why=levelsNarrative(levels,analysis.composite);
     analysis.conclusion += " " + levels._why; }
+  // integrar contexto de noticias: combina sesgo tecnico con pulso geopolitico
+  if(geonews && geonews.ok){
+    const tech=analysis.composite, pulse=geonews.news_pulse;
+    const combined=Math.round(Math.max(-100,Math.min(100, tech*0.65 + pulse*0.35)));
+    analysis.combined_bias=combined; analysis.news_pulse=pulse;
+    let nota=` CONTEXTO MUNDIAL: el pulso de noticias es ${pulse>=0?'+':''}${pulse}/100 (${geonews.label}). `;
+    if((tech>=0)!==(pulse>=0) && Math.abs(pulse)>20)
+      nota+=`Atencion: las noticias (${geonews.label}) CONTRADICEN el sesgo tecnico — sesgo combinado ${combined>=0?'+':''}${combined}/100, reduce conviccion y tamano. `;
+    else
+      nota+=`Alineado con lo tecnico — sesgo combinado ${combined>=0?'+':''}${combined}/100. `;
+    analysis.conclusion += nota;
+  }
   const feargreed=computeFearGreed(market);
   const correl=computeCorrelations(market);
   const season=computeSeasonality(market.ndx.bars);
@@ -973,7 +1051,7 @@ async function load(){
       dxy:{price:market.dxy.price,change_pct:market.dxy.change_pct},
       tnx:{price:market.tnx.price,change_pct:market.tnx.change_pct}},
     analysis, cons:market.cons, calendar:news.high_upcoming, levels,
-    gex, feargreed, correl, season
+    gex, geonews, feargreed, correl, season
   };
   render(R); setBar(100);
   if(errors.length) showErr("Avisos de datos (proxy CORS intermitente): "+errors.join(" · ")+". Pulsa 'refrescar ahora' si faltan paneles.");

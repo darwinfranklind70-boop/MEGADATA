@@ -1,4 +1,4 @@
-name: Actualizar niveles de gamma (GEX)
+name: Actualizar contexto (gamma + noticias)
 
 # Datos institucionales tipo SpotGamma: corre de forma moderada (cada 30 min en
 # horario de mercado US) y publica un JSON pequeno en data/gex.json.
@@ -7,8 +7,8 @@ name: Actualizar niveles de gamma (GEX)
 on:
   workflow_dispatch:        # ejecucion manual
   schedule:
-    # cada 30 min, Lun-Vie, ~12:00-21:30 UTC (premarket a cierre NY). Cron en UTC.
-    - cron: "0,30 12-21 * * 1-5"
+    # cada 15 min, Lun-Vie, ~12:00-21:45 UTC (premarket a cierre NY). Cron en UTC.
+    - cron: "*/15 12-21 * * 1-5"
 
 permissions:
   contents: write
@@ -30,16 +30,19 @@ jobs:
           python-version: "3.12"
 
       - name: Calcular GEX (CBOE)
-        run: python tools/build_gex.py
+        run: python tools/build_gex.py || true
+
+      - name: Analizar contexto de noticias (Google News)
+        run: python tools/build_news.py || true
 
       - name: Commit si hay cambios
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/gex.json
+          git add data/gex.json data/news.json
           if git diff --staged --quiet; then
-            echo "Sin cambios en data/gex.json"
+            echo "Sin cambios"
           else
-            git commit -m "chore(gex): actualizar niveles de gamma [skip ci]"
+            git commit -m "chore: actualizar gamma y contexto de noticias [skip ci]"
             git push
           fi
