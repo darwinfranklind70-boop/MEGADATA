@@ -1,128 +1,118 @@
 {
   "ok": true,
-  "generated_at": "2026-06-18T18:53:12.690244+00:00",
+  "generated_at": "2026-06-19T00:16:23.358407+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": 39.6,
+  "news_pulse": 24.6,
   "label": "alcista",
   "drivers": [
     {
       "category": "Desescalada / acuerdo",
-      "score": 79.15,
+      "score": 50.16,
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "n": 29
-    },
-    {
-      "category": "Fed hawkish",
-      "score": -34.75,
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 18
-    },
-    {
-      "category": "Petroleo a la baja",
-      "score": 28.37,
-      "direction": "alcista",
-      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "n": 20
-    },
-    {
-      "category": "Fed dovish/pausa",
-      "score": 28.0,
-      "direction": "alcista",
-      "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
       "n": 17
     },
     {
+      "category": "Fed hawkish",
+      "score": -26.21,
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "n": 16
+    },
+    {
+      "category": "Petroleo a la baja",
+      "score": 25.12,
+      "direction": "alcista",
+      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
+      "n": 17
+    },
+    {
+      "category": "Fed dovish/pausa",
+      "score": 20.71,
+      "direction": "alcista",
+      "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
+      "n": 14
+    },
+    {
       "category": "Geopolitica/escalada",
-      "score": -14.77,
+      "score": -16.76,
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "n": 7
+      "n": 8
     },
     {
       "category": "Mercado risk-on",
-      "score": 8.34,
+      "score": 13.64,
       "direction": "alcista",
       "why": "Tono de mercado positivo (risk-on)",
-      "n": 6
+      "n": 11
     }
   ],
   "headlines": [
     {
       "title": "Oil Prices Fall as U.S.-Iran Deal to Reopen Hormuz Takes Effect - The New York Times",
       "source": "The New York Times",
-      "when": "2026-06-18T15:38:38+00:00",
-      "hours_ago": 3.2,
+      "when": "2026-06-18T20:17:37+00:00",
+      "hours_ago": 4.0,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 4.54
+      "score": 4.48
     },
     {
-      "title": "Oil Price Falls Following Ceasefire Agreement - Inspenet",
-      "source": "Inspenet",
-      "when": "2026-06-18T15:08:45+00:00",
-      "hours_ago": 3.7,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 4.5
-    },
-    {
-      "title": "US Equity Indexes Jump as Crude Oil Heads for Pre-War Levels Ahead of Iran Reopening Hormuz Chokepoint - marketscreener.com",
-      "source": "marketscreener.com",
-      "when": "2026-06-18T16:56:57+00:00",
-      "hours_ago": 1.9,
+      "title": "Oil Prices Fall After Trump Signs Iran Peace Deal: Trade on Kalshi Crude Oil Markets - Federal News Network",
+      "source": "Federal News Network",
+      "when": "2026-06-18T18:41:09+00:00",
+      "hours_ago": 5.6,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
       "score": 4.35
     },
     {
-      "title": "Oil Falls to Lowest Since Start of Iran War After Ceasefire Deal Signed - EnergyNow.com",
-      "source": "EnergyNow.com",
-      "when": "2026-06-18T07:59:04+00:00",
-      "hours_ago": 10.9,
+      "title": "Stocks Rally, Gas Prices Fall as U.S., Iran Move Ahead on Peace Deal - WSJ",
+      "source": "WSJ",
+      "when": "2026-06-18T21:09:00+00:00",
+      "hours_ago": 3.1,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 3.93
+      "score": 4.27
+    },
+    {
+      "title": "Oil Price Falls Following Ceasefire Agreement - Inspenet",
+      "source": "Inspenet",
+      "when": "2026-06-18T15:08:45+00:00",
+      "hours_ago": 9.1,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 4.07
     },
     {
       "title": "Oil Prices Slide After U.S. and Iran Sign Ceasefire Agreement - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "when": "2026-06-18T05:51:39+00:00",
-      "hours_ago": 13.0,
+      "hours_ago": 18.4,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 3.76
+      "score": 3.33
     },
     {
-      "title": "OPEC Chief Rejects IEA’s Oil Glut Warning as Strait of Hormuz Reopens - International Business Times",
-      "source": "International Business Times",
-      "when": "2026-06-18T18:20:39+00:00",
-      "hours_ago": 0.5,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.97
-    },
-    {
-      "title": "U.S. Navy ends blockade of Iran's ports and coastal areas - CNBC",
-      "source": "CNBC",
-      "when": "2026-06-18T18:08:30+00:00",
-      "hours_ago": 0.7,
+      "title": "Vance slams Israeli reaction to Iran deal as U.S. military lifts blockade - The Washington Post",
+      "source": "The Washington Post",
+      "when": "2026-06-19T00:02:01+00:00",
+      "hours_ago": 0.2,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.96
+      "score": -2.99
     },
     {
-      "title": "ENERGY: Oil tumbles as Strait of Hormuz reopens infographic - Graphic News",
-      "source": "Graphic News",
-      "when": "2026-06-18T17:54:56+00:00",
+      "title": "Trump, Pezeshkian sign deal to end Iran war, reopen Hormuz - DW.com",
+      "source": "DW.com",
+      "when": "2026-06-18T23:17:43+00:00",
       "hours_ago": 1.0,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
@@ -130,46 +120,56 @@
       "score": 2.95
     },
     {
-      "title": "Nasdaq Plunges 354 Points as Fed Signals Rate Hike, Tech Stocks Sink 1.34% - HDFC Sky",
-      "source": "HDFC Sky",
-      "when": "2026-06-18T03:11:49+00:00",
-      "hours_ago": 15.7,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.95
-    },
-    {
-      "title": "What Fetterman's vote against Iran war powers resolution means - USA Today",
-      "source": "USA Today",
-      "when": "2026-06-18T17:33:00+00:00",
-      "hours_ago": 1.3,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.93
-    },
-    {
       "title": "Iran peace deal makes clear how far US has been forced to retreat since 2025 - The Guardian",
       "source": "The Guardian",
-      "when": "2026-06-18T17:13:00+00:00",
-      "hours_ago": 1.7,
+      "when": "2026-06-18T23:04:00+00:00",
+      "hours_ago": 1.2,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.92
+      "score": 2.94
     },
     {
-      "title": "World reacts to US-Iran deal to extend ceasefire, reopen Strait of Hormuz - Al Jazeera",
-      "source": "Al Jazeera",
-      "when": "2026-06-18T17:01:05+00:00",
-      "hours_ago": 1.9,
+      "title": "US President Donald Trump has declared the price of oil is “dropping like a rock” following the signing of the Iran peace deal. - facebook.com",
+      "source": "facebook.com",
+      "when": "2026-06-18T21:50:45+00:00",
+      "hours_ago": 2.4,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.91
+      "score": 2.88
+    },
+    {
+      "title": "US lifts naval blockade as Iran's supreme leader says Trump made deal 'out of desperation' - BBC",
+      "source": "BBC",
+      "when": "2026-06-18T21:34:28+00:00",
+      "hours_ago": 2.7,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.87
+    },
+    {
+      "title": "Goldman Sachs Raises Q4 Brent, WTI Crude Price Forecast Amid Longer Hormuz Disruption - EnergyNow.com",
+      "source": "EnergyNow.com",
+      "when": "2026-06-18T13:32:35+00:00",
+      "hours_ago": 10.7,
+      "category": "Ormuz cerrado/amenazado",
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -2.87
+    },
+    {
+      "title": "US ends blockade of Iran, warns of return to war if Tehran doesn’t fulfill deal - The Times of Israel",
+      "source": "The Times of Israel",
+      "when": "2026-06-18T21:11:24+00:00",
+      "hours_ago": 3.1,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.85
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido alcista (pulso +40/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 527
+  "conclusion": "El contexto de noticias inclina al US100 en sentido alcista (pulso +25/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 530
 }
