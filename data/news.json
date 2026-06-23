@@ -1,175 +1,175 @@
 {
   "ok": true,
-  "generated_at": "2026-06-23T19:22:38.138936+00:00",
+  "generated_at": "2026-06-23T23:34:43.977516+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -33.6,
+  "news_pulse": -17.5,
   "label": "bajista",
   "drivers": [
     {
-      "category": "Tech debil",
-      "score": -28.07,
-      "direction": "bajista",
-      "why": "Debilidad tech pesa directamente sobre el US100",
-      "n": 12
-    },
-    {
       "category": "Desescalada / acuerdo",
-      "score": 27.75,
+      "score": 70.22,
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "n": 11
+      "n": 27
     },
     {
-      "category": "Petroleo a la baja",
-      "score": 18.32,
-      "direction": "alcista",
-      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
+      "category": "Tech debil",
+      "score": -34.43,
+      "direction": "bajista",
+      "why": "Debilidad tech pesa directamente sobre el US100",
       "n": 14
     },
     {
+      "category": "Geopolitica/escalada",
+      "score": -23.62,
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "n": 9
+    },
+    {
       "category": "Fed hawkish",
-      "score": -18.22,
+      "score": -18.64,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 8
+      "n": 10
     },
     {
       "category": "Mercado risk-off",
-      "score": -17.58,
+      "score": -18.58,
       "direction": "bajista",
       "why": "Tono de mercado negativo (risk-off)",
-      "n": 13
+      "n": 14
     },
     {
-      "category": "Geopolitica/escalada",
-      "score": -11.97,
+      "category": "Aranceles / guerra comercial",
+      "score": -11.55,
       "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "n": 5
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "n": 9
     }
   ],
   "headlines": [
     {
-      "title": "S&P, Nasdaq drop on tech selloff as concerns about hawkish Fed, AI spending mount - Reuters",
-      "source": "Reuters",
-      "when": "2026-06-23T15:53:44+00:00",
-      "hours_ago": 3.5,
-      "category": "Fed hawkish",
+      "title": "Brent Crude Oil Price Jumps After Attack on Iran’s South Pars Field - EnergyNow.com",
+      "source": "EnergyNow.com",
+      "when": "2026-06-23T19:57:33+00:00",
+      "hours_ago": 3.6,
+      "category": "Geopolitica/escalada",
       "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -5.65
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -4.7
+    },
+    {
+      "title": "S&P 500 falls 1.4% as tech selloff deepens on AI spending fears - eciks.org",
+      "source": "eciks.org",
+      "when": "2026-06-23T22:08:43+00:00",
+      "hours_ago": 1.4,
+      "category": "Tech debil",
+      "direction": "bajista",
+      "why": "Debilidad tech pesa directamente sobre el US100",
+      "score": -3.42
+    },
+    {
+      "title": "Chip stocks plunge, but bargain-hunters limit scale of tech rout - Reuters",
+      "source": "Reuters",
+      "when": "2026-06-23T21:18:24+00:00",
+      "hours_ago": 2.3,
+      "category": "Tech debil",
+      "direction": "bajista",
+      "why": "Debilidad tech pesa directamente sobre el US100",
+      "score": -3.37
+    },
+    {
+      "title": "US Stocks Fall as Global Tech Selloff Deepens - Morningstar",
+      "source": "Morningstar",
+      "when": "2026-06-23T20:49:16+00:00",
+      "hours_ago": 2.8,
+      "category": "Tech debil",
+      "direction": "bajista",
+      "why": "Debilidad tech pesa directamente sobre el US100",
+      "score": -3.34
+    },
+    {
+      "title": "Is AI 'one big bubble?' Behind the tech selloff - Delaware Public Media",
+      "source": "Delaware Public Media",
+      "when": "2026-06-23T19:31:00+00:00",
+      "hours_ago": 4.1,
+      "category": "Tech debil",
+      "direction": "bajista",
+      "why": "Debilidad tech pesa directamente sobre el US100",
+      "score": -3.26
+    },
+    {
+      "title": "Goldman Sachs Raises Q4 Brent, WTI Crude Price Forecast Amid Longer Hormuz Disruption - EnergyNow.com",
+      "source": "EnergyNow.com",
+      "when": "2026-06-23T18:16:40+00:00",
+      "hours_ago": 5.3,
+      "category": "Ormuz cerrado/amenazado",
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -3.19
     },
     {
       "title": "US Stocks Down Sharply as Global Tech Selloff Deepens - Morningstar",
       "source": "Morningstar",
       "when": "2026-06-23T15:43:36+00:00",
-      "hours_ago": 3.7,
+      "hours_ago": 7.9,
       "category": "Tech debil",
       "direction": "bajista",
       "why": "Debilidad tech pesa directamente sobre el US100",
-      "score": -3.29
+      "score": -3.04
     },
     {
-      "title": "Wall Street tumbles on SpaceX, tech selloff - The Detroit News",
-      "source": "The Detroit News",
-      "when": "2026-06-23T14:35:00+00:00",
-      "hours_ago": 4.8,
-      "category": "Tech debil",
-      "direction": "bajista",
-      "why": "Debilidad tech pesa directamente sobre el US100",
-      "score": -3.22
-    },
-    {
-      "title": "US stock market: Why are Wall Street futures falling today? AI fears trigger global tech selloff | Hindustan Times - Hindustan Times",
-      "source": "Hindustan Times",
-      "when": "2026-06-23T13:20:26+00:00",
-      "hours_ago": 6.0,
-      "category": "Tech debil",
-      "direction": "bajista",
-      "why": "Debilidad tech pesa directamente sobre el US100",
-      "score": -3.15
-    },
-    {
-      "title": "Strait Reopens and Iranian Oil Flows, But the Path Through Is Complicated - The New York Times",
-      "source": "The New York Times",
-      "when": "2026-06-23T18:43:32+00:00",
-      "hours_ago": 0.7,
+      "title": "U.S. Senate passes war powers resolution in rebuke to Trump over Iran war - WPLG Local 10",
+      "source": "WPLG Local 10",
+      "when": "2026-06-23T22:40:08+00:00",
+      "hours_ago": 0.9,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.97
+      "score": 2.95
     },
     {
-      "title": "Trump insists Iran has agreed to nuclear inspections in talks for war-ending deal - NBC News",
-      "source": "NBC News",
-      "when": "2026-06-23T17:51:24+00:00",
-      "hours_ago": 1.5,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.92
+      "title": "Senate passes anti-Iran war resolution with 4 Republican votes - New York Post",
+      "source": "New York Post",
+      "when": "2026-06-23T22:33:00+00:00",
+      "hours_ago": 1.0,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.95
     },
     {
-      "title": "Senate is set to vote again on a war powers resolution to halt the Iran conflict - AP News",
+      "title": "US Senate passes war powers resolution challenging Trump’s Iran war authority - The Guardian",
+      "source": "The Guardian",
+      "when": "2026-06-23T22:24:00+00:00",
+      "hours_ago": 1.2,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.94
+    },
+    {
+      "title": "US Senate votes to pass Iran war powers resolution in blow to Trump - Al Jazeera",
+      "source": "Al Jazeera",
+      "when": "2026-06-23T22:19:17+00:00",
+      "hours_ago": 1.3,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.94
+    },
+    {
+      "title": "Senate for first time approves a war powers resolution in a rebuke to Trump over Iran conflict - AP News",
       "source": "AP News",
-      "when": "2026-06-23T17:37:00+00:00",
-      "hours_ago": 1.8,
+      "when": "2026-06-23T22:05:00+00:00",
+      "hours_ago": 1.5,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.91
-    },
-    {
-      "title": "Tech rout intensifies as selloff grips global stocks - CNBC",
-      "source": "CNBC",
-      "when": "2026-06-23T08:56:21+00:00",
-      "hours_ago": 10.4,
-      "category": "Tech debil",
-      "direction": "bajista",
-      "why": "Debilidad tech pesa directamente sobre el US100",
-      "score": -2.89
-    },
-    {
-      "title": "Israel fire kills two in Lebanon, testing Iran-linked ceasefire - Reuters",
-      "source": "Reuters",
-      "when": "2026-06-23T15:37:38+00:00",
-      "hours_ago": 3.8,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.81
-    },
-    {
-      "title": "Iran War Day 116: Iran Disputes Trump’s Claims on Frozen Funds, Nuclear Inspections - The American Conservative",
-      "source": "The American Conservative",
-      "when": "2026-06-23T15:25:00+00:00",
-      "hours_ago": 4.0,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.8
-    },
-    {
-      "title": "U.S. and Iran Signal Progress Toward Peace Deal - Crude Oil Prices Today | OilPrice.com",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "when": "2026-06-23T14:00:00+00:00",
-      "hours_ago": 5.4,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.73
-    },
-    {
-      "title": "Oil: Softer path for Brent and WTI as Hormuz reopens – Rabobank - FXStreet",
-      "source": "FXStreet",
-      "when": "2026-06-23T12:13:10+00:00",
-      "hours_ago": 7.2,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.64
+      "score": 2.93
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -34/100). Presion bajista por: Tech debil (Debilidad tech pesa directamente sobre el US100); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Mercado risk-off (Tono de mercado negativo (risk-off)). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 475
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -18/100). Presion bajista por: Tech debil (Debilidad tech pesa directamente sobre el US100); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 529
 }
