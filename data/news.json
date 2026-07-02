@@ -1,148 +1,128 @@
 {
   "ok": true,
-  "generated_at": "2026-07-01T22:52:10.210462+00:00",
+  "generated_at": "2026-07-02T18:17:13.931868+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": 34.5,
+  "news_pulse": 34.1,
   "label": "alcista",
   "drivers": [
     {
+      "category": "Petroleo a la baja",
+      "score": 30.92,
+      "direction": "alcista",
+      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
+      "n": 21
+    },
+    {
       "category": "Mercado risk-on",
-      "score": 36.46,
+      "score": 24.18,
       "direction": "alcista",
       "why": "Tono de mercado positivo (risk-on)",
-      "n": 27
+      "n": 22
     },
     {
       "category": "Desescalada / acuerdo",
-      "score": 29.83,
+      "score": 21.62,
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "n": 12
-    },
-    {
-      "category": "Petroleo a la baja",
-      "score": 21.39,
-      "direction": "alcista",
-      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "n": 16
+      "n": 9
     },
     {
       "category": "Fed hawkish",
-      "score": -12.64,
+      "score": -20.16,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 8
+      "n": 10
+    },
+    {
+      "category": "Fed dovish/pausa",
+      "score": 10.3,
+      "direction": "alcista",
+      "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
+      "n": 5
     },
     {
       "category": "Aranceles / guerra comercial",
-      "score": -8.15,
+      "score": -8.59,
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
       "n": 6
-    },
-    {
-      "category": "Mercado risk-off",
-      "score": -6.79,
-      "direction": "bajista",
-      "why": "Tono de mercado negativo (risk-off)",
-      "n": 5
     }
   ],
   "headlines": [
     {
-      "title": "Crude oil prices drop 4% after US-Iran ceasefire, boosting European equities - Crypto Briefing",
-      "source": "Crypto Briefing",
-      "when": "2026-07-01T07:14:56+00:00",
-      "hours_ago": 15.6,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 3.55
-    },
-    {
-      "title": "Report: Saudi pressed Trump to halt naval Hormuz mission over fears of renewed Iran war - Ynetnews",
-      "source": "Ynetnews",
-      "when": "2026-07-01T15:41:47+00:00",
-      "hours_ago": 7.2,
+      "title": "Oil's war rally reverses as Hormuz tensions ease, Brent falls back below $73 - Anadolu Ajansı",
+      "source": "Anadolu Ajansı",
+      "when": "2026-07-02T12:23:51+00:00",
+      "hours_ago": 5.9,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.08
+      "score": -3.34
     },
     {
-      "title": "European shares close lower after rally, as concerns over US Fed rates and Iran peace deal linger - The Business Times",
-      "source": "The Business Times",
-      "when": "2026-07-01T21:37:00+00:00",
-      "hours_ago": 1.3,
+      "title": "Diesel, Petrol Prices Fall After Iran War Truce - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "when": "2026-07-02T17:55:48+00:00",
+      "hours_ago": 0.4,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.94
+      "score": 2.98
     },
     {
-      "title": "Israel kills three Palestinians in Gaza despite ‘ceasefire’ - Al Jazeera",
-      "source": "Al Jazeera",
-      "when": "2026-07-01T19:35:59+00:00",
-      "hours_ago": 3.3,
+      "title": "Trump-backed truce in Lebanon, key to Iran peace deal, risks new civil war - The Washington Post",
+      "source": "The Washington Post",
+      "when": "2026-07-02T17:35:14+00:00",
+      "hours_ago": 0.7,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.84
+      "score": 2.97
     },
     {
-      "title": "Everyone's talking ‘ceasefire.' But what does it really mean? - NBC4 Washington",
-      "source": "NBC4 Washington",
-      "when": "2026-07-01T17:45:10+00:00",
-      "hours_ago": 5.1,
+      "title": "Iran War Truce Faces a Diplomatic Test - الحرة",
+      "source": "الحرة",
+      "when": "2026-07-02T15:38:08+00:00",
+      "hours_ago": 2.7,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.74
+      "score": 2.87
     },
     {
-      "title": "In Mideast and around the world, everyone’s talking ‘ceasefire.’ But what does it really mean? - Orlando Sentinel",
-      "source": "Orlando Sentinel",
-      "when": "2026-07-01T16:40:53+00:00",
-      "hours_ago": 6.2,
+      "title": "Saudi crude exports from Gulf hit highest since Iran war truce: Report - Anadolu Ajansı",
+      "source": "Anadolu Ajansı",
+      "when": "2026-07-02T11:58:16+00:00",
+      "hours_ago": 6.3,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.69
+      "score": 2.68
     },
     {
-      "title": "In Mideast and around the world, everyone's talking 'ceasefire.' But what does it really mean? - Audacy",
-      "source": "Audacy",
-      "when": "2026-07-01T16:20:17+00:00",
-      "hours_ago": 6.5,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.67
-    },
-    {
-      "title": "Europe's Nuclear Ambitions Drive New Interest in Italian Uranium Exploration - Crude Oil Prices Today | OilPrice.com",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "when": "2026-07-01T16:00:00+00:00",
-      "hours_ago": 6.9,
-      "category": "Geopolitica/escalada",
+      "title": "BofA CEO Brian Moynihan dismisses recession fears despite Wall Street's most hawkish Fed forecast - Fox Business",
+      "source": "Fox Business",
+      "when": "2026-07-01T14:20:00+00:00",
+      "hours_ago": 28.0,
+      "category": "Fed hawkish",
       "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.66
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.67
     },
     {
-      "title": "House rejects Lebanon war powers resolution as 22 Democrats side with Republicans - Muslim Network TV",
-      "source": "Muslim Network TV",
-      "when": "2026-07-01T15:44:05+00:00",
+      "title": "Saudi Supertankers Exit Hormuz in Kingdom’s Biggest Oil Flow Since Iran War Truce - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "when": "2026-07-02T11:14:00+00:00",
       "hours_ago": 7.1,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.64
+      "score": 2.65
     },
     {
-      "title": "22 House Democrats Join Republicans to Defeat Lebanon War Powers Resolution - Democracy Now!",
-      "source": "Democracy Now!",
-      "when": "2026-07-01T14:25:27+00:00",
+      "title": "Hormuz war risk market enters fragile new phase as ceasefire clock ticks - Insurance Business",
+      "source": "Insurance Business",
+      "when": "2026-07-02T09:55:50+00:00",
       "hours_ago": 8.4,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
@@ -150,26 +130,46 @@
       "score": 2.58
     },
     {
-      "title": "European shares pause after rally as concerns over Fed rates, Iran peace deal linger - StreetInsider",
-      "source": "StreetInsider",
-      "when": "2026-07-01T09:35:33+00:00",
-      "hours_ago": 13.3,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.34
-    },
-    {
-      "title": "US Fed to make a decision on rate hike in four weeks, Warsh says - Euronews.com",
-      "source": "Euronews.com",
-      "when": "2026-07-01T16:30:16+00:00",
-      "hours_ago": 6.4,
+      "title": "Dow Soars Over 400 Points, Hits All-Time High As Rate Hike Odds Fall On Weak Jobs Report — Hassett Says US Economy Is 'Very Strong' - TradingView",
+      "source": "TradingView",
+      "when": "2026-07-02T15:40:28+00:00",
+      "hours_ago": 2.6,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.23
+      "score": -2.39
+    },
+    {
+      "title": "Gold prices surge 2.5% as weak US jobs report chills rate hike fears - Latest news from Azerbaijan",
+      "source": "Latest news from Azerbaijan",
+      "when": "2026-07-02T15:04:38+00:00",
+      "hours_ago": 3.2,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.37
+    },
+    {
+      "title": "Trump Tariff Tracker – July 2, 2026 (via Passle) - Baker Botts",
+      "source": "Baker Botts",
+      "when": "2026-07-02T14:21:21+00:00",
+      "hours_ago": 3.9,
+      "category": "Aranceles / guerra comercial",
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "score": -2.34
+    },
+    {
+      "title": "Fed seen less likely to raise rates as job growth slows - Reuters",
+      "source": "Reuters",
+      "when": "2026-07-02T13:14:21+00:00",
+      "hours_ago": 5.0,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.29
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido alcista (pulso +34/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Mercado risk-off (Tono de mercado negativo (risk-off)). Apoyo alcista por: Mercado risk-on (Tono de mercado positivo (risk-on)); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 572
+  "conclusion": "El contexto de noticias inclina al US100 en sentido alcista (pulso +34/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Mercado risk-off (Tono de mercado negativo (risk-off)). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Mercado risk-on (Tono de mercado positivo (risk-on)); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 628
 }
