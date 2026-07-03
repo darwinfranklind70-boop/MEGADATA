@@ -1,51 +1,51 @@
 {
   "ok": true,
-  "generated_at": "2026-07-03T21:20:50.981292+00:00",
+  "generated_at": "2026-07-03T22:30:13.497011+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -25.4,
+  "news_pulse": -24.4,
   "label": "bajista",
   "drivers": [
     {
       "category": "Fed hawkish",
-      "score": -36.25,
+      "score": -35.17,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
       "n": 23
     },
     {
       "category": "Aranceles / guerra comercial",
-      "score": -21.21,
+      "score": -21.65,
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
       "n": 17
     },
     {
       "category": "Desescalada / acuerdo",
-      "score": 19.94,
+      "score": 19.44,
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
       "n": 9
     },
     {
       "category": "Petroleo a la baja",
-      "score": 14.47,
+      "score": 12.57,
       "direction": "alcista",
       "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "n": 12
+      "n": 11
     },
     {
       "category": "Petroleo al alza",
-      "score": -12.1,
+      "score": -11.41,
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
       "n": 7
     },
     {
       "category": "Mercado risk-on",
-      "score": 9.43,
+      "score": 9.9,
       "direction": "alcista",
       "why": "Tono de mercado positivo (risk-on)",
-      "n": 9
+      "n": 10
     }
   ],
   "headlines": [
@@ -53,123 +53,123 @@
       "title": "Citi and Goldman Forecast Brent Crude at $60-65 as Iran Deal and Hormuz Reopening Loom - News and Statistics - IndexBox",
       "source": "IndexBox",
       "when": "2026-07-03T18:31:00+00:00",
-      "hours_ago": 2.8,
+      "hours_ago": 4.0,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.86
+      "score": 2.8
     },
     {
       "title": "Lukoil's largest oil refinery halts operations after drone attack - Українська правда",
       "source": "Українська правда",
       "when": "2026-07-03T17:10:00+00:00",
-      "hours_ago": 4.2,
+      "hours_ago": 5.3,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.79
-    },
-    {
-      "title": "OPEC Sees Significant Oil Production Increase Amid Peace Deal - GuruFocus",
-      "source": "GuruFocus",
-      "when": "2026-07-03T16:15:08+00:00",
-      "hours_ago": 5.1,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.75
+      "score": -2.73
     },
     {
       "title": "Over 600,000 displaced Lebanese return home amid ceasefire, IOM says - The New Arab",
       "source": "The New Arab",
       "when": "2026-07-03T16:13:07+00:00",
-      "hours_ago": 5.1,
+      "hours_ago": 6.3,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.74
+      "score": 2.69
+    },
+    {
+      "title": "OPEC Sees Significant Oil Production Increase Amid Peace Deal - GuruFocus",
+      "source": "GuruFocus",
+      "when": "2026-07-03T16:15:08+00:00",
+      "hours_ago": 6.3,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.69
     },
     {
       "title": "Oil Markets Grow Numb to U.S.-Iran Ceasefire Drama - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "when": "2026-07-03T16:01:00+00:00",
-      "hours_ago": 5.3,
+      "hours_ago": 6.5,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.73
+      "score": 2.68
     },
     {
       "title": "Asian Chip Stocks Plunge Following Wall Street Tech Selloff - HarianBasis.co",
       "source": "HarianBasis.co",
       "when": "2026-07-03T06:57:18+00:00",
-      "hours_ago": 14.4,
+      "hours_ago": 15.5,
       "category": "Tech debil",
       "direction": "bajista",
       "why": "Debilidad tech pesa directamente sobre el US100",
-      "score": -2.66
+      "score": -2.59
     },
     {
       "title": "US Stock Market Today: Is the US Market Open or Closed on July 3, 2026? Check the NYSE, Nasdaq Holiday Schedule and Reopening Time - The Sunday Guardian",
       "source": "The Sunday Guardian",
       "when": "2026-07-03T13:00:08+00:00",
-      "hours_ago": 8.3,
+      "hours_ago": 9.5,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.58
+      "score": 2.52
     },
     {
       "title": "Dow Soars Over 400 Points, Hits All-Time High As Rate Hike Odds Fall On Weak Jobs Report — Hassett Says US Economy Is 'Very Strong' - Stocktwits",
       "source": "Stocktwits",
       "when": "2026-07-03T19:16:02+00:00",
-      "hours_ago": 2.1,
+      "hours_ago": 3.2,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.41
+      "score": -2.37
     },
     {
       "title": "White House confirms temporary 10 per cent tariff for India after US Supreme Court ruling | Akashvani News - News On AIR",
       "source": "News On AIR",
       "when": "2026-07-03T17:48:54+00:00",
-      "hours_ago": 3.5,
+      "hours_ago": 4.7,
       "category": "Aranceles / guerra comercial",
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.35
+      "score": -2.3
+    },
+    {
+      "title": "Indian Rupee strengthens as falling oil prices and dovish Fed outlook boost sentiment - CryptoRank",
+      "source": "CryptoRank",
+      "when": "2026-07-03T19:45:42+00:00",
+      "hours_ago": 2.7,
+      "category": "Fed dovish/pausa",
+      "direction": "alcista",
+      "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
+      "score": 2.19
     },
     {
       "title": "India urges Mali to lift shea nut export ban at inaugural forum - Moneycontrol.com",
       "source": "Moneycontrol.com",
       "when": "2026-07-03T14:31:16+00:00",
-      "hours_ago": 6.8,
+      "hours_ago": 8.0,
       "category": "Aranceles / guerra comercial",
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.22
+      "score": -2.17
     },
     {
       "title": "Federal Reserve minutes draw investor attention as crypto markets brace for rate hike signals - Crypto Briefing",
       "source": "Crypto Briefing",
       "when": "2026-07-03T12:48:08+00:00",
-      "hours_ago": 8.5,
+      "hours_ago": 9.7,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.14
-    },
-    {
-      "title": "Nonfarm Payrolls Preview: Steady US Job Market Faces Fed Rate Hike Pressure - CryptoRank",
-      "source": "CryptoRank",
-      "when": "2026-07-03T11:56:05+00:00",
-      "hours_ago": 9.4,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.11
+      "score": -2.1
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -25/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Mercado risk-on (Tono de mercado positivo (risk-on)). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -24/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Mercado risk-on (Tono de mercado positivo (risk-on)). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
   "raw_count": 579
 }
