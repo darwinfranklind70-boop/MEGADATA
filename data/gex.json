@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "generated_at": "2026-07-07T20:30:27.925855+00:00",
+  "generated_at": "2026-07-07T21:59:28.021840+00:00",
   "source": "CBOE delayed (~15min)",
   "underlying": "NDX",
   "spot": 29173.02,
@@ -8,7 +8,7 @@
   "nearest_expiry": "2026-07-07",
   "total_gex_bn": 0.33,
   "regime": "positiva",
-  "gamma_flip": 29047.8,
+  "gamma_flip": 29047.3,
   "call_wall": 30325.0,
   "put_wall": 28000.0,
   "max_pain": 29700.0,
@@ -233,8 +233,8 @@
     },
     {
       "strike": 29500.0,
-      "gex": 0.0573,
-      "call": 0.1252,
+      "gex": 0.057,
+      "call": 0.1249,
       "put": -0.0679
     },
     {
