@@ -1,175 +1,175 @@
 {
   "ok": true,
-  "generated_at": "2026-07-13T20:45:50.728000+00:00",
+  "generated_at": "2026-07-13T21:41:15.818748+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -91.7,
+  "news_pulse": -92.7,
   "label": "bajista",
   "drivers": [
     {
       "category": "Ormuz cerrado/amenazado",
-      "score": -197.15,
+      "score": -182.69,
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "n": 38
+      "n": 34
     },
     {
       "category": "Geopolitica/escalada",
-      "score": -82.43,
+      "score": -76.97,
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "n": 31
-    },
-    {
-      "category": "Fed hawkish",
-      "score": -39.94,
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 17
+      "n": 28
     },
     {
       "category": "Petroleo al alza",
-      "score": -39.71,
+      "score": -42.21,
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "n": 22
+      "n": 23
+    },
+    {
+      "category": "Fed hawkish",
+      "score": -34.59,
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "n": 15
     },
     {
       "category": "Mercado risk-off",
-      "score": -13.27,
+      "score": -11.91,
       "direction": "bajista",
       "why": "Tono de mercado negativo (risk-off)",
-      "n": 10
+      "n": 9
     },
     {
-      "category": "Desescalada / acuerdo",
-      "score": 11.99,
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "n": 5
+      "category": "Recesion / debilidad",
+      "score": -9.48,
+      "direction": "bajista",
+      "why": "Temor de recesion pesa sobre las acciones",
+      "n": 7
     }
   ],
   "headlines": [
     {
-      "title": "Oil prices rise as Trump vows to reinstate Hormuz strait blockade, charge 20% 'on all cargo shipped' - Yahoo Finance UK",
-      "source": "Yahoo Finance UK",
-      "when": "2026-07-13T18:32:53+00:00",
-      "hours_ago": 2.2,
+      "title": "Trump reinstates Hormuz blockade as oil prices rise above $79 - Crypto Briefing",
+      "source": "Crypto Briefing",
+      "when": "2026-07-13T20:35:48+00:00",
+      "hours_ago": 1.1,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -8.19
+      "score": -8.35
     },
     {
-      "title": "Trump reimposes Iran naval blockade, threatens 20% Hormuz fees; Tehran mocks announcement - The New Indian Express",
-      "source": "The New Indian Express",
-      "when": "2026-07-13T19:42:46+00:00",
-      "hours_ago": 1.1,
+      "title": "Oil prices rise as Trump vows to reinstate Hormuz strait blockade, charge 20% 'on all cargo shipped' - Yahoo Finance UK",
+      "source": "Yahoo Finance UK",
+      "when": "2026-07-13T18:39:15+00:00",
+      "hours_ago": 3.0,
+      "category": "Ormuz cerrado/amenazado",
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -8.07
+    },
+    {
+      "title": "Oil prices rise as Trump vows to reinstate Hormuz strait blockade, US and Iran exchange strikes - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "when": "2026-07-13T14:50:59+00:00",
+      "hours_ago": 6.8,
+      "category": "Ormuz cerrado/amenazado",
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -7.53
+    },
+    {
+      "title": "US launches more Iran strikes after Trump orders new blockade of Strait of Hormuz, vows to charge fee - SMH.com.au",
+      "source": "SMH.com.au",
+      "when": "2026-07-13T21:23:31+00:00",
+      "hours_ago": 0.3,
+      "category": "Ormuz cerrado/amenazado",
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -6.47
+    },
+    {
+      "title": "The Latest: Trump says US will blockade Iran in Strait of Hormuz and charge ships for safe passage - WRAL",
+      "source": "WRAL",
+      "when": "2026-07-13T20:39:44+00:00",
+      "hours_ago": 1.0,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
       "score": -6.39
     },
     {
-      "title": "The Latest: Trump says US will blockade Iran in Strait of Hormuz and charge ships for safe passage - The Washington Post",
-      "source": "The Washington Post",
-      "when": "2026-07-13T19:40:21+00:00",
-      "hours_ago": 1.1,
+      "title": "Trump to Hold Nationwide Press Conference on the 16th... Expected to Announce Iran Blockade and Hormuz Control Plans - 아시아경제",
+      "source": "아시아경제",
+      "when": "2026-07-13T19:54:14+00:00",
+      "hours_ago": 1.8,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -6.38
+      "score": -6.31
+    },
+    {
+      "title": "Trump reimposes Iran naval blockade, threatens 20% Hormuz fees; Tehran mocks announcement - The New Indian Express",
+      "source": "The New Indian Express",
+      "when": "2026-07-13T19:42:46+00:00",
+      "hours_ago": 2.0,
+      "category": "Ormuz cerrado/amenazado",
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -6.29
+    },
+    {
+      "title": "Iran war: Trump reinstates US blockade of Strait of Hormuz - dw.com",
+      "source": "dw.com",
+      "when": "2026-07-13T19:35:37+00:00",
+      "hours_ago": 2.1,
+      "category": "Ormuz cerrado/amenazado",
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -6.27
+    },
+    {
+      "title": "US to restart blockade of Strait of Hormuz, may charge major toll - Task & Purpose",
+      "source": "Task & Purpose",
+      "when": "2026-07-13T19:32:05+00:00",
+      "hours_ago": 2.2,
+      "category": "Ormuz cerrado/amenazado",
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -6.27
     },
     {
       "title": "Oil Is Back Above $80 a Barrel as U.S. Reinstates Naval Blockade in Strait of Hormuz - Barron's",
       "source": "Barron's",
       "when": "2026-07-13T19:28:00+00:00",
-      "hours_ago": 1.3,
+      "hours_ago": 2.2,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -6.36
+      "score": -6.26
     },
     {
       "title": "US to resume Iran blockade, ‘guard’ Strait of Hormuz and charge 20 per cent fee - SMH.com.au",
       "source": "SMH.com.au",
       "when": "2026-07-13T19:18:17+00:00",
-      "hours_ago": 1.5,
+      "hours_ago": 2.4,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -6.34
+      "score": -6.24
     },
     {
-      "title": "Trump says US will blockade Iran in the Strait of Hormuz and charge ships for safe passage - AP News",
-      "source": "AP News",
-      "when": "2026-07-13T19:07:00+00:00",
-      "hours_ago": 1.6,
+      "title": "‘Guardian of the Hormuz Strait’: Trump Reimposes Blockade as Iran Warns US Allies - Palestine Chronicle",
+      "source": "Palestine Chronicle",
+      "when": "2026-07-13T18:23:59+00:00",
+      "hours_ago": 3.3,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -6.32
-    },
-    {
-      "title": "Trump Reignites US-Iran Showdown with Hormuz Blockade and 20% Shipping Fee Threat - Novinite.com",
-      "source": "Novinite.com",
-      "when": "2026-07-13T17:42:31+00:00",
-      "hours_ago": 3.1,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -6.17
-    },
-    {
-      "title": "Trump reimposing Iran blockade, charging 20% Hormuz shipping toll - qz.com",
-      "source": "qz.com",
-      "when": "2026-07-13T17:34:32+00:00",
-      "hours_ago": 3.2,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -6.15
-    },
-    {
-      "title": "Trump reinstates Hormuz blockade, demands 20pc shipping toll - AFR",
-      "source": "AFR",
-      "when": "2026-07-13T17:20:00+00:00",
-      "hours_ago": 3.4,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -6.13
-    },
-    {
-      "title": "DUBAI, United Arab Emirates (AP) – U.S. President Donald Trump said Monday that the United States is “reinstating” a blockade on Iran in the Strait of Hormuz and will charge other ships for safe passage. Iran has insisted it controls the critical waterway, as an - WPTF",
-      "source": "WPTF",
-      "when": "2026-07-13T17:04:43+00:00",
-      "hours_ago": 3.7,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -6.1
-    },
-    {
-      "title": "Trump to reinstate Hormuz blockade, announces 20% toll on ships - Rediff",
-      "source": "Rediff",
-      "when": "2026-07-13T16:56:03+00:00",
-      "hours_ago": 3.8,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -6.09
-    },
-    {
-      "title": "Trump revives Hormuz blockade as Bitcoin slips towards $62K - Crypto News",
-      "source": "Crypto News",
-      "when": "2026-07-13T16:54:23+00:00",
-      "hours_ago": 3.9,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -6.08
+      "score": -6.14
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -92/100). Presion bajista por: Ormuz cerrado/amenazado (Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 545
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -93/100). Presion bajista por: Ormuz cerrado/amenazado (Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 544
 }
