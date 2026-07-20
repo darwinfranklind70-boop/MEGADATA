@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "generated_at": "2026-07-17T23:21:11.792692+00:00",
+  "generated_at": "2026-07-20T23:29:05.190561+00:00",
   "period": {
-    "from": "2017-05-05",
-    "to": "2026-07-17",
+    "from": "2017-05-10",
+    "to": "2026-07-20",
     "years": 9.2
   },
   "grid": {
@@ -110,13 +110,13 @@
     ],
     "short": [
       {
-        "n": 78,
-        "win_rate": 34.6,
-        "avg_trade_pct": -0.364,
-        "avg_win_pct": 1.863,
-        "avg_loss_pct": -1.543,
-        "total_pct": -28.4,
-        "profit_factor": 0.64,
+        "n": 77,
+        "win_rate": 35.1,
+        "avg_trade_pct": -0.361,
+        "avg_win_pct": 1.882,
+        "avg_loss_pct": -1.573,
+        "total_pct": -27.8,
+        "profit_factor": 0.65,
         "threshold": 50,
         "hold_days": 5
       },
@@ -137,12 +137,12 @@
         "hold_days": 5
       },
       {
-        "n": 52,
-        "win_rate": 38.5,
-        "avg_trade_pct": -0.768,
-        "avg_win_pct": 2.026,
-        "avg_loss_pct": -2.514,
-        "total_pct": -39.9,
+        "n": 51,
+        "win_rate": 39.2,
+        "avg_trade_pct": -0.773,
+        "avg_win_pct": 1.968,
+        "avg_loss_pct": -2.541,
+        "total_pct": -39.4,
         "profit_factor": 0.5,
         "threshold": 50,
         "hold_days": 10
@@ -164,13 +164,13 @@
         "hold_days": 10
       },
       {
-        "n": 38,
-        "win_rate": 31.6,
-        "avg_trade_pct": -1.318,
-        "avg_win_pct": 4.492,
-        "avg_loss_pct": -3.999,
-        "total_pct": -50.1,
-        "profit_factor": 0.52,
+        "n": 37,
+        "win_rate": 29.7,
+        "avg_trade_pct": -1.365,
+        "avg_win_pct": 4.578,
+        "avg_loss_pct": -3.879,
+        "total_pct": -50.5,
+        "profit_factor": 0.5,
         "threshold": 50,
         "hold_days": 20
       },
@@ -214,9 +214,9 @@
     "threshold": 60,
     "hold_days": 5
   },
-  "base_rate_5d": 0.4,
-  "base_rate_20d": 1.609,
+  "base_rate_5d": 0.398,
+  "base_rate_20d": 1.603,
   "rating": "long_only",
-  "verdict": "CONFIRMADO en el lado LARGO: comprar la caida en sesgo extremo bajista tiene ventaja clara. El lado CORTO NO bate al indice (tiende a subir): operar SOLO largos de reversion. LONG-the-dip: sesgo<= -50, 20d -> +4.91%/trade, 63.6% aciertos, PF 2.84, 11 trades (base del indice +1.61%) ADVERTENCIA: muestra pequeña (pocos eventos extremos en el periodo); efecto grande pero usar con gestion de riesgo, no como sistema de alta frecuencia.",
+  "verdict": "CONFIRMADO en el lado LARGO: comprar la caida en sesgo extremo bajista tiene ventaja clara. El lado CORTO NO bate al indice (tiende a subir): operar SOLO largos de reversion. LONG-the-dip: sesgo<= -50, 20d -> +4.91%/trade, 63.6% aciertos, PF 2.84, 11 trades (base del indice +1.60%) ADVERTENCIA: muestra pequeña (pocos eventos extremos en el periodo); efecto grande pero usar con gestion de riesgo, no como sistema de alta frecuencia.",
   "gamma_note": "La confluencia con gamma (entrar largo cerca del PUT WALL, corto cerca del CALL WALL) no se puede backtestear sin historico de opciones, pero se aplica EN VIVO como filtro de mayor conviccion en el detector de setups del dashboard."
 }
