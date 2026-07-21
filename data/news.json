@@ -1,175 +1,175 @@
 {
   "ok": true,
-  "generated_at": "2026-07-21T20:55:40.891212+00:00",
+  "generated_at": "2026-07-21T21:52:38.537954+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -56.6,
+  "news_pulse": -50.8,
   "label": "bajista",
   "drivers": [
     {
       "category": "Aranceles / guerra comercial",
-      "score": -48.3,
+      "score": -49.15,
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "n": 25
-    },
-    {
-      "category": "Geopolitica/escalada",
-      "score": -20.53,
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "n": 8
+      "n": 26
     },
     {
       "category": "Fed hawkish",
-      "score": -16.21,
+      "score": -15.02,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 13
+      "n": 12
     },
     {
-      "category": "Ormuz cerrado/amenazado",
-      "score": -15.28,
+      "category": "Petroleo al alza",
+      "score": -13.17,
       "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
+      "n": 9
+    },
+    {
+      "category": "Geopolitica/escalada",
+      "score": -13.13,
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
       "n": 5
     },
     {
       "category": "Mercado risk-on",
-      "score": 13.28,
+      "score": 13.05,
       "direction": "alcista",
       "why": "Tono de mercado positivo (risk-on)",
       "n": 11
     },
     {
-      "category": "Petroleo al alza",
-      "score": -12.91,
-      "direction": "bajista",
-      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "n": 9
+      "category": "Desescalada / acuerdo",
+      "score": 10.87,
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "n": 5
     }
   ],
   "headlines": [
     {
-      "title": "After Hormuz, are Iran-backed Houthis closing another vital strait? - ایران اینترنشنال",
-      "source": "ایران اینترنشنال",
-      "when": "2026-07-21T19:27:00+00:00",
-      "hours_ago": 1.5,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.41
-    },
-    {
       "title": "Goldman Sachs Says Oil Could Surpass $120 a Barrel if Hormuz Disruptions Don't Ease. Here's What That Means for Oil Stocks. - The Motley Fool",
       "source": "The Motley Fool",
       "when": "2026-07-21T18:13:59+00:00",
-      "hours_ago": 2.7,
+      "hours_ago": 3.6,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.34
-    },
-    {
-      "title": "Goldman says Brent may top $120 if Hormuz disruptions persist - Transport Topics",
-      "source": "Transport Topics",
-      "when": "2026-07-21T12:30:42+00:00",
-      "hours_ago": 8.4,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.01
+      "score": -3.29
     },
     {
       "title": "Houthis threaten to attack shipping tankers if they use Saudi Arabian ports on Red Sea - The Guardian",
       "source": "The Guardian",
       "when": "2026-07-21T20:18:00+00:00",
-      "hours_ago": 0.6,
+      "hours_ago": 1.6,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.97
+      "score": -2.92
     },
     {
       "title": "Can mediators broker a truce between the US and Iran? - Al Jazeera",
       "source": "Al Jazeera",
       "when": "2026-07-21T19:33:32+00:00",
-      "hours_ago": 1.4,
+      "hours_ago": 2.3,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.93
+      "score": 2.88
     },
     {
       "title": "Donald Trump vows to attack Iranian nuclear facility as Middle East war escalates - Financial Times",
       "source": "Financial Times",
       "when": "2026-07-21T17:36:23+00:00",
-      "hours_ago": 3.3,
+      "hours_ago": 4.3,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.83
+      "score": -2.79
     },
     {
       "title": "Goldman Says Brent Could Top $120 If Hormuz Disruptions Persist - Bloomberg.com",
       "source": "Bloomberg.com",
       "when": "2026-07-21T09:30:45+00:00",
-      "hours_ago": 11.4,
+      "hours_ago": 12.4,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -2.83
+      "score": -2.78
     },
     {
       "title": "New warning on oil: Goldman Sachs says crude prices could cross $120 if Strait of Hormuz disruptions cont - The Times of India",
       "source": "The Times of India",
       "when": "2026-07-21T07:05:00+00:00",
-      "hours_ago": 13.8,
+      "hours_ago": 14.8,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -2.69
-    },
-    {
-      "title": "New fighting, blockade in Middle East threaten success of moves to stabilize oil markets - Washington Times",
-      "source": "Washington Times",
-      "when": "2026-07-21T13:42:35+00:00",
-      "hours_ago": 7.2,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
       "score": -2.64
-    },
-    {
-      "title": "Asia’s oil buyers face US$100-per-barrel risk as Houthis threaten Saudi blockade - South China Morning Post",
-      "source": "South China Morning Post",
-      "when": "2026-07-21T13:20:24+00:00",
-      "hours_ago": 7.6,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.62
     },
     {
       "title": "Houthis Declare Naval Blockade On Saudi Arabia’s Shipping At Red Sea Gateway - Marine Insight",
       "source": "Marine Insight",
       "when": "2026-07-21T12:57:48+00:00",
-      "hours_ago": 8.0,
+      "hours_ago": 8.9,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.6
+      "score": -2.55
     },
     {
-      "title": "Iran war: Analyzing the Houthi blockade against Saudi Arabia - dw.com",
-      "source": "dw.com",
+      "title": "Trump imposes new 50% tariff on many imports from Canada - USA Today",
+      "source": "USA Today",
+      "when": "2026-07-21T21:17:00+00:00",
+      "hours_ago": 0.6,
+      "category": "Aranceles / guerra comercial",
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "score": -2.48
+    },
+    {
+      "title": "Iran war: Analyzing the Houthi blockade against Saudi Arabia - DW.com",
+      "source": "DW.com",
       "when": "2026-07-21T10:51:46+00:00",
-      "hours_ago": 10.1,
+      "hours_ago": 11.0,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.5
+      "score": -2.45
+    },
+    {
+      "title": "Amid U.S.-Iran war, Houthis declare a blockade of another key strait: Bab el-Mandeb - NPR",
+      "source": "NPR",
+      "when": "2026-07-21T10:21:43+00:00",
+      "hours_ago": 11.5,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.42
+    },
+    {
+      "title": "Carney says Trump agreed to 'intensify' trade talks after 50% tariff threat - CBC",
+      "source": "CBC",
+      "when": "2026-07-21T19:32:25+00:00",
+      "hours_ago": 2.3,
+      "category": "Aranceles / guerra comercial",
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "score": -2.4
+    },
+    {
+      "title": "Canadian provinces dig in with U.S. alcohol sales ban amid new tariff threat (BF.A:NYSE) - Seeking Alpha",
+      "source": "Seeking Alpha",
+      "when": "2026-07-21T17:58:05+00:00",
+      "hours_ago": 3.9,
+      "category": "Aranceles / guerra comercial",
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "score": -2.34
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -57/100). Presion bajista por: Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100). Apoyo alcista por: Mercado risk-on (Tono de mercado positivo (risk-on)); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 548
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -51/100). Presion bajista por: Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq). Apoyo alcista por: Mercado risk-on (Tono de mercado positivo (risk-on)); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 563
 }
