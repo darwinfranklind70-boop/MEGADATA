@@ -1,51 +1,51 @@
 {
   "ok": true,
-  "generated_at": "2026-07-23T19:41:50.577612+00:00",
+  "generated_at": "2026-07-23T20:40:45.402120+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -43.1,
+  "news_pulse": -48.1,
   "label": "bajista",
   "drivers": [
     {
       "category": "Geopolitica/escalada",
-      "score": -67.36,
+      "score": -73.79,
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "n": 30
+      "n": 32
     },
     {
       "category": "Desescalada / acuerdo",
-      "score": 45.71,
+      "score": 43.18,
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "n": 17
-    },
-    {
-      "category": "Petroleo al alza",
-      "score": -26.0,
-      "direction": "bajista",
-      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
       "n": 16
     },
     {
+      "category": "Petroleo al alza",
+      "score": -30.22,
+      "direction": "bajista",
+      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
+      "n": 18
+    },
+    {
       "category": "Fed hawkish",
-      "score": -22.93,
+      "score": -27.0,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 13
+      "n": 15
     },
     {
       "category": "Aranceles / guerra comercial",
-      "score": -15.37,
+      "score": -15.0,
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
       "n": 9
     },
     {
-      "category": "Fed dovish/pausa",
-      "score": 8.84,
+      "category": "Tech/IA fuerte",
+      "score": 7.15,
       "direction": "alcista",
-      "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
-      "n": 5
+      "why": "Demanda de IA/chips impulsa al Nasdaq",
+      "n": 4
     }
   ],
   "headlines": [
@@ -53,123 +53,123 @@
       "title": "Silver Slips as Oil Rally Fuels Fed Rate Hike Bets - TradingView",
       "source": "TradingView",
       "when": "2026-07-23T09:36:44+00:00",
-      "hours_ago": 10.1,
+      "hours_ago": 11.1,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -3.74
+      "score": -3.67
     },
     {
       "title": "U.S. Stocks Fall as Tech Selloff Deepens, Oil Prices Hit $100 a Barrel - WSJ",
       "source": "WSJ",
       "when": "2026-07-23T18:22:00+00:00",
-      "hours_ago": 1.3,
+      "hours_ago": 2.3,
       "category": "Tech debil",
       "direction": "bajista",
       "why": "Debilidad tech pesa directamente sobre el US100",
-      "score": -3.42
+      "score": -3.37
     },
     {
-      "title": "Trump linked Iran’s Hormuz attacks, midterms. Senators have doubts - Roll Call",
-      "source": "Roll Call",
-      "when": "2026-07-23T17:15:28+00:00",
-      "hours_ago": 2.4,
-      "category": "Ormuz cerrado/amenazado",
+      "title": "Stocks Fall as Crude Oil Prices Soar and Alphabet Sparks AI Spending Concerns - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "when": "2026-07-23T14:05:02+00:00",
+      "hours_ago": 6.6,
+      "category": "Petroleo al alza",
       "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.36
-    },
-    {
-      "title": "How shipping insurance rates are rising, as Hormuz, Bab al-Mandeb shut down - Al Jazeera",
-      "source": "Al Jazeera",
-      "when": "2026-07-23T14:29:45+00:00",
-      "hours_ago": 5.2,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.2
+      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
+      "score": -3.12
     },
     {
       "title": "Yemen’s Houthis attack Saudi tankers in the Red Sea, threatening to widen Iran war - AP News",
       "source": "AP News",
-      "when": "2026-07-23T19:25:00+00:00",
-      "hours_ago": 0.3,
+      "when": "2026-07-23T20:27:00+00:00",
+      "hours_ago": 0.2,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
       "score": -2.99
     },
     {
-      "title": "Trump adds new condition to Saudi nuclear deal, says kingdom must normalize relations with Israel - PBS",
-      "source": "PBS",
-      "when": "2026-07-23T18:40:05+00:00",
-      "hours_ago": 1.0,
+      "title": "Saudi Arabia takes center stage as oil hits $100 and the Iran war escalates amid Houthi attacks and nuclear expansion - Fortune",
+      "source": "Fortune",
+      "when": "2026-07-23T20:26:00+00:00",
+      "hours_ago": 0.2,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.95
+      "score": -2.99
+    },
+    {
+      "title": "Donald Trump says decision on ‘massive attack’ against Iran is close - The Guardian",
+      "source": "The Guardian",
+      "when": "2026-07-23T19:53:00+00:00",
+      "hours_ago": 0.8,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.96
+    },
+    {
+      "title": "Senate Iran war powers resolution vote fails - 11Alive.com",
+      "source": "11Alive.com",
+      "when": "2026-07-23T19:00:00+00:00",
+      "hours_ago": 1.7,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.92
     },
     {
       "title": "US House votes to limit Iran war for first time since ceasefire breakdown - Al Jazeera",
       "source": "Al Jazeera",
       "when": "2026-07-23T18:41:34+00:00",
-      "hours_ago": 1.0,
+      "hours_ago": 2.0,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.95
+      "score": 2.9
     },
     {
-      "title": "How the Bab al-Mandab blockade threat helped push oil back above $100 - The Guardian",
-      "source": "The Guardian",
-      "when": "2026-07-23T18:40:00+00:00",
-      "hours_ago": 1.0,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.95
-    },
-    {
-      "title": "Donald Trump says decision on ‘massive attack’ against Iran is close - The Guardian",
-      "source": "The Guardian",
-      "when": "2026-07-23T18:23:00+00:00",
-      "hours_ago": 1.3,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.93
-    },
-    {
-      "title": "Rep. Tom Barrett again votes in favor of Iran war powers resolution - WILX",
-      "source": "WILX",
-      "when": "2026-07-23T18:13:00+00:00",
-      "hours_ago": 1.5,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.93
-    },
-    {
-      "title": "WATCH: White House holds briefing as Trump says nuclear program deal requires Saudi Arabia to join Abraham Accords - PBS",
-      "source": "PBS",
-      "when": "2026-07-23T17:46:11+00:00",
-      "hours_ago": 1.9,
+      "title": "Chinese tanker passes Red Sea choke point despite Houthi blockade - South China Morning Post",
+      "source": "South China Morning Post",
+      "when": "2026-07-23T18:40:32+00:00",
+      "hours_ago": 2.0,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
       "score": -2.9
     },
     {
-      "title": "For a 2nd time, House approves resolution to end the war in Iran in a rebuke to Trump - NPR",
-      "source": "NPR",
-      "when": "2026-07-23T17:35:02+00:00",
+      "title": "How the Bab al-Mandab blockade threat helped push oil back above $100 - The Guardian",
+      "source": "The Guardian",
+      "when": "2026-07-23T18:40:00+00:00",
+      "hours_ago": 2.0,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.9
+    },
+    {
+      "title": "The Latest: Trump says Saudi nuclear pact requires kingdom to normalize Israel relations - Alton Telegraph",
+      "source": "Alton Telegraph",
+      "when": "2026-07-23T18:33:53+00:00",
       "hours_ago": 2.1,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.89
+    },
+    {
+      "title": "Rep. Tom Barrett again votes in favor of Iran war powers resolution - WILX",
+      "source": "WILX",
+      "when": "2026-07-23T18:13:00+00:00",
+      "hours_ago": 2.5,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.89
+      "score": 2.88
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -43/100). Presion bajista por: Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100); Tech/IA fuerte (Demanda de IA/chips impulsa al Nasdaq). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 519
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -48/100). Presion bajista por: Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Tech/IA fuerte (Demanda de IA/chips impulsa al Nasdaq); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 515
 }
