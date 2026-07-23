@@ -1,175 +1,175 @@
 {
   "ok": true,
-  "generated_at": "2026-07-22T22:38:41.263098+00:00",
+  "generated_at": "2026-07-23T13:17:29.494135+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -79.0,
+  "news_pulse": -67.7,
   "label": "bajista",
   "drivers": [
     {
       "category": "Geopolitica/escalada",
-      "score": -56.45,
+      "score": -64.3,
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "n": 21
-    },
-    {
-      "category": "Petroleo al alza",
-      "score": -45.53,
-      "direction": "bajista",
-      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
       "n": 27
     },
     {
-      "category": "Aranceles / guerra comercial",
-      "score": -27.29,
-      "direction": "bajista",
-      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "n": 19
-    },
-    {
       "category": "Fed hawkish",
-      "score": -16.42,
+      "score": -38.54,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 11
+      "n": 20
     },
     {
-      "category": "Ormuz cerrado/amenazado",
-      "score": -11.07,
+      "category": "Petroleo al alza",
+      "score": -38.26,
       "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "n": 4
+      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
+      "n": 26
+    },
+    {
+      "category": "Fed dovish/pausa",
+      "score": 21.95,
+      "direction": "alcista",
+      "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
+      "n": 12
+    },
+    {
+      "category": "Aranceles / guerra comercial",
+      "score": -20.29,
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "n": 15
     },
     {
       "category": "Desescalada / acuerdo",
-      "score": 7.98,
+      "score": 5.72,
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "n": 4
+      "n": 3
     }
   ],
   "headlines": [
     {
-      "title": "Oil Jumps Nearly 4% as Houthis Threaten Red Sea Blockade - Crude Oil Prices Today | OilPrice.com",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "when": "2026-07-22T11:10:00+00:00",
-      "hours_ago": 11.5,
+      "title": "Silver Slips as Oil Rally Fuels Fed Rate Hike Bets - TradingView",
+      "source": "TradingView",
+      "when": "2026-07-23T09:36:44+00:00",
+      "hours_ago": 3.7,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -4.22
+    },
+    {
+      "title": "Gold retreats from two-week high as oil rally fuels rate hike concerns - Profit by Pakistan Today",
+      "source": "Profit by Pakistan Today",
+      "when": "2026-07-23T09:24:03+00:00",
+      "hours_ago": 3.9,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -4.21
+    },
+    {
+      "title": "Oil jumps to $99 after Houthis attack two Saudi Arabian tankers - Financial Times",
+      "source": "Financial Times",
+      "when": "2026-07-23T03:29:56+00:00",
+      "hours_ago": 9.8,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -4.04
+      "score": -4.18
     },
     {
-      "title": "Iran war: Trump threatens bridges over Hormuz Strait attacks - DW.com",
-      "source": "DW.com",
-      "when": "2026-07-22T20:06:06+00:00",
-      "hours_ago": 2.5,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.35
-    },
-    {
-      "title": "Trump administration announces deal to export nuclear materials to Saudi Arabia - Politico",
-      "source": "Politico",
-      "when": "2026-07-22T22:12:00+00:00",
-      "hours_ago": 0.4,
+      "title": "Yemen’s Houthis attack Saudi tankers in the Red Sea, threatening to widen Iran war - AP News",
+      "source": "AP News",
+      "when": "2026-07-23T13:00:00+00:00",
+      "hours_ago": 0.3,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.98
+      "score": -2.99
     },
     {
-      "title": "Trump admin, Saudi Arabia announce nuclear agreement - JNS.org",
-      "source": "JNS.org",
-      "when": "2026-07-22T22:09:21+00:00",
+      "title": "Houthis attack 2 Saudi oil tankers in the Red Sea, threatening to open a new front in the Iran war - Boston Herald",
+      "source": "Boston Herald",
+      "when": "2026-07-23T12:45:00+00:00",
       "hours_ago": 0.5,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.98
-    },
-    {
-      "title": "Brent Climbs to $92.85 as Red Sea Disruptions Deepen: Will a Hormuz Closure Push Oil Above $100? - Crux Investor",
-      "source": "Crux Investor",
-      "when": "2026-07-22T13:40:22+00:00",
-      "hours_ago": 9.0,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -2.98
-    },
-    {
-      "title": "Houthi Red Sea Blockade Could Shatter Hopes for Lower Oil Prices - Crude Oil Prices Today | OilPrice.com",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "when": "2026-07-22T22:00:00+00:00",
-      "hours_ago": 0.6,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
       "score": -2.97
     },
     {
-      "title": "Trump Approves Landmark Nuclear Deal With Saudi Arabia in Big Win for Kingdom - WSJ",
-      "source": "WSJ",
-      "when": "2026-07-22T21:36:00+00:00",
-      "hours_ago": 1.0,
+      "title": "Trump says Saudi nuclear pact requires kingdom to normalize Israel relations through Abraham Accords - San Diego Union-Tribune",
+      "source": "San Diego Union-Tribune",
+      "when": "2026-07-23T12:35:45+00:00",
+      "hours_ago": 0.7,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.95
+      "score": -2.97
     },
     {
-      "title": "US and Saudi Arabia announce nuclear cooperation deal - Al Jazeera",
-      "source": "Al Jazeera",
-      "when": "2026-07-22T21:35:45+00:00",
-      "hours_ago": 1.0,
+      "title": "Chinese Tankers Push Through Bab el-Mandeb Despite Houthi Blockade Threats - Crude Oil Prices Today | OilPrice.com",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "when": "2026-07-23T11:30:00+00:00",
+      "hours_ago": 1.8,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.95
+      "score": -2.91
+    },
+    {
+      "title": "Trump's nuclear deal with Saudis jettisons longstanding US demands - BBC",
+      "source": "BBC",
+      "when": "2026-07-23T11:13:13+00:00",
+      "hours_ago": 2.1,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.9
+    },
+    {
+      "title": "Oil price surges above $98 after Houthis attack Saudi tankers in Red Sea - Investing.com",
+      "source": "Investing.com",
+      "when": "2026-07-23T10:47:44+00:00",
+      "hours_ago": 2.5,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.88
     },
     {
       "title": "US signs landmark nuclear deal with Saudi Arabia - BBC",
       "source": "BBC",
-      "when": "2026-07-22T21:31:25+00:00",
-      "hours_ago": 1.1,
+      "when": "2026-07-23T09:17:50+00:00",
+      "hours_ago": 4.0,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.94
+      "score": -2.8
     },
     {
-      "title": "Diesel prices spike above $5 as Strait of Hormuz tensions threaten oil supply - FleetOwner",
-      "source": "FleetOwner",
-      "when": "2026-07-22T12:59:17+00:00",
-      "hours_ago": 9.7,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -2.94
+      "title": "Military briefing: can the US reopen the Strait of Hormuz by force? - Financial Times",
+      "source": "Financial Times",
+      "when": "2026-07-23T08:30:40+00:00",
+      "hours_ago": 4.8,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.76
     },
     {
-      "title": "New Mossad chief meets CIA director for talks on Iran war, nuclear program - The Jerusalem Post",
-      "source": "The Jerusalem Post",
-      "when": "2026-07-22T19:44:45+00:00",
-      "hours_ago": 2.9,
+      "title": "Two Saudi Oil Tankers Targeted as Houthi Blockade Disrupts Red Sea Shipping - Crude Oil Prices Today | OilPrice.com",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "when": "2026-07-23T06:30:00+00:00",
+      "hours_ago": 6.8,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.86
-    },
-    {
-      "title": "Natural Gas, WTI Oil, Brent Oil Forecasts – Oil Tests New Highs As Houthis Are Ready To Attack Ships - FXEmpire",
-      "source": "FXEmpire",
-      "when": "2026-07-22T19:00:00+00:00",
-      "hours_ago": 3.6,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.82
+      "score": -2.66
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -79/100). Presion bajista por: Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Mercado risk-on (Tono de mercado positivo (risk-on)); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 538
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -68/100). Presion bajista por: Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq). Apoyo alcista por: Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Mercado risk-on (Tono de mercado positivo (risk-on)). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 543
 }
