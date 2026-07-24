@@ -1,175 +1,175 @@
 {
   "ok": true,
-  "generated_at": "2026-07-24T19:43:22.718120+00:00",
+  "generated_at": "2026-07-24T20:49:17.666580+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -66.7,
+  "news_pulse": -73.2,
   "label": "bajista",
   "drivers": [
     {
       "category": "Geopolitica/escalada",
-      "score": -113.61,
+      "score": -152.77,
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "n": 47
+      "n": 57
     },
     {
       "category": "Fed hawkish",
-      "score": -33.9,
+      "score": -33.5,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 20
+      "n": 21
     },
     {
       "category": "Aranceles / guerra comercial",
-      "score": -28.74,
+      "score": -25.21,
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "n": 16
+      "n": 14
     },
     {
       "category": "Petroleo a la baja",
-      "score": 25.48,
+      "score": 23.32,
       "direction": "alcista",
       "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "n": 15
+      "n": 14
     },
     {
       "category": "Petroleo al alza",
-      "score": -14.26,
+      "score": -13.94,
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
       "n": 10
     },
     {
       "category": "Desescalada / acuerdo",
-      "score": 10.44,
+      "score": 7.54,
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "n": 5
+      "n": 4
     }
   ],
   "headlines": [
     {
-      "title": "Oman talking with Tehran on Hormuz as US and Iran continue strikes - Al Jazeera",
-      "source": "Al Jazeera",
-      "when": "2026-07-24T18:30:19+00:00",
-      "hours_ago": 1.2,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.43
-    },
-    {
       "title": "Stocks rise on Wall Street while crude oil prices fall for the first time in a week - AP News",
       "source": "AP News",
       "when": "2026-07-24T16:53:00+00:00",
-      "hours_ago": 2.8,
+      "hours_ago": 3.9,
       "category": "Petroleo a la baja",
       "direction": "alcista",
       "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "score": 3.14
+      "score": 3.08
     },
     {
-      "title": "LIVE: President Trump Makes Announcement on Nuclear Innovation - 13newsnow.com",
-      "source": "13newsnow.com",
-      "when": "2026-07-24T19:19:00+00:00",
-      "hours_ago": 0.4,
+      "title": "Watch live: Trump makes announcement on nuclear innovation - NBC News",
+      "source": "NBC News",
+      "when": "2026-07-24T20:29:17+00:00",
+      "hours_ago": 0.3,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
       "score": -2.98
+    },
+    {
+      "title": "Iran war nears turning point as Trump weighs broader attack - fox23maine.com",
+      "source": "fox23maine.com",
+      "when": "2026-07-24T20:15:23+00:00",
+      "hours_ago": 0.6,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.97
+    },
+    {
+      "title": "Trump makes an announcement on American nuclear innovation - WBFF",
+      "source": "WBFF",
+      "when": "2026-07-24T20:00:16+00:00",
+      "hours_ago": 0.8,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.96
+    },
+    {
+      "title": "LIVE: President Trump makes an announcement on American nuclear innovation - Modern Ghana",
+      "source": "Modern Ghana",
+      "when": "2026-07-24T19:45:00+00:00",
+      "hours_ago": 1.1,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.95
+    },
+    {
+      "title": "LIVE: President Trump Makes Announcement on Nuclear Innovation - fox43.com",
+      "source": "fox43.com",
+      "when": "2026-07-24T19:19:00+00:00",
+      "hours_ago": 1.5,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.92
     },
     {
       "title": "LIVE: President Trump Makes Announcement on Nuclear Innovation - localmemphis.com",
       "source": "localmemphis.com",
       "when": "2026-07-24T19:19:00+00:00",
-      "hours_ago": 0.4,
+      "hours_ago": 1.5,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.98
+      "score": -2.92
+    },
+    {
+      "title": "LIVE: President Trump Makes Announcement on Nuclear Innovation - 10TV",
+      "source": "10TV",
+      "when": "2026-07-24T19:19:00+00:00",
+      "hours_ago": 1.5,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.92
+    },
+    {
+      "title": "LIVE: President Trump Makes Announcement on Nuclear Innovation - wfmynews2.com",
+      "source": "wfmynews2.com",
+      "when": "2026-07-24T19:19:00+00:00",
+      "hours_ago": 1.5,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.92
+    },
+    {
+      "title": "LIVE: President Trump Makes Announcement on Nuclear Innovation - WTOL",
+      "source": "WTOL",
+      "when": "2026-07-24T19:19:00+00:00",
+      "hours_ago": 1.5,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.92
     },
     {
       "title": "LIVE: President Trump Makes Announcement on Nuclear Innovation - whas11.com",
       "source": "whas11.com",
       "when": "2026-07-24T19:19:00+00:00",
-      "hours_ago": 0.4,
+      "hours_ago": 1.5,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.98
+      "score": -2.92
     },
     {
-      "title": "LIVE: President Trump Makes Announcement on Nuclear Innovation - WFAA",
-      "source": "WFAA",
+      "title": "LIVE: President Trump makes announcement on nuclear innovation - WTHR",
+      "source": "WTHR",
       "when": "2026-07-24T19:19:00+00:00",
-      "hours_ago": 0.4,
+      "hours_ago": 1.5,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.98
-    },
-    {
-      "title": "LIVE: President Trump Makes Announcement on Nuclear Innovation - WWLTV.com",
-      "source": "WWLTV.com",
-      "when": "2026-07-24T19:19:00+00:00",
-      "hours_ago": 0.4,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.98
-    },
-    {
-      "title": "LIVE: President Trump Makes Announcement on Nuclear Innovation - WGRZ",
-      "source": "WGRZ",
-      "when": "2026-07-24T19:19:00+00:00",
-      "hours_ago": 0.4,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.98
-    },
-    {
-      "title": "LIVE: President Trump Makes Announcement on Nuclear Innovation - kagstv.com",
-      "source": "kagstv.com",
-      "when": "2026-07-24T19:19:00+00:00",
-      "hours_ago": 0.4,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.98
-    },
-    {
-      "title": "LIVE: President Trump Makes Announcement on Nuclear Innovation - KGW",
-      "source": "KGW",
-      "when": "2026-07-24T19:19:00+00:00",
-      "hours_ago": 0.4,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.98
-    },
-    {
-      "title": "President Trump Makes an Announcement on American Nuclear Innovation - WKNO FM",
-      "source": "WKNO FM",
-      "when": "2026-07-24T19:12:00+00:00",
-      "hours_ago": 0.5,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.97
-    },
-    {
-      "title": "WATCH LIVE: President Trump makes an announcement on American nuclear innovation - WFMZ.com",
-      "source": "WFMZ.com",
-      "when": "2026-07-24T19:13:21+00:00",
-      "hours_ago": 0.5,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.97
+      "score": -2.92
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -67/100). Presion bajista por: Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 546
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -73/100). Presion bajista por: Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 540
 }
