@@ -1,175 +1,175 @@
 {
   "ok": true,
-  "generated_at": "2026-07-28T15:39:59.925208+00:00",
+  "generated_at": "2026-07-28T17:05:53.369840+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -4.4,
+  "news_pulse": -4.7,
   "label": "neutral",
   "drivers": [
     {
       "category": "Petroleo a la baja",
-      "score": 48.37,
+      "score": 45.15,
       "direction": "alcista",
       "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "n": 34
+      "n": 32
     },
     {
       "category": "Fed hawkish",
-      "score": -23.24,
+      "score": -25.02,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
       "n": 13
     },
     {
-      "category": "Aranceles / guerra comercial",
-      "score": -21.89,
-      "direction": "bajista",
-      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "n": 15
-    },
-    {
       "category": "Geopolitica/escalada",
-      "score": -18.2,
+      "score": -20.64,
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "n": 10
+    },
+    {
+      "category": "Aranceles / guerra comercial",
+      "score": -20.36,
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "n": 14
+    },
+    {
+      "category": "Fed dovish/pausa",
+      "score": 16.79,
+      "direction": "alcista",
+      "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
       "n": 9
     },
     {
       "category": "Desescalada / acuerdo",
-      "score": 13.45,
+      "score": 10.74,
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "n": 7
-    },
-    {
-      "category": "Fed dovish/pausa",
-      "score": 7.87,
-      "direction": "alcista",
-      "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
-      "n": 5
+      "n": 6
     }
   ],
   "headlines": [
     {
-      "title": "Most of Wall Street rises as oil prices continue to ease, even as chip stocks keep dropping - AP News",
-      "source": "AP News",
-      "when": "2026-07-28T13:51:00+00:00",
-      "hours_ago": 1.8,
+      "title": "Nasdaq Today: Nasdaq 100 Drops -1.45% as Semiconductor Stocks Slide Amid Micron, AMD & Intel Lead Tech Selloff – Check Key Drivers, Daily Performance, Top Gainers-Losers & What Investors Should Watch - The Sunday Guardian",
+      "source": "The Sunday Guardian",
+      "when": "2026-07-28T15:55:19+00:00",
+      "hours_ago": 1.2,
+      "category": "Tech debil",
+      "direction": "bajista",
+      "why": "Debilidad tech pesa directamente sobre el US100",
+      "score": -3.43
+    },
+    {
+      "title": "Most of Wall Street rises as oil prices ease, even as chip stocks keep dropping - Boston Herald",
+      "source": "Boston Herald",
+      "when": "2026-07-28T13:57:24+00:00",
+      "hours_ago": 3.1,
       "category": "Petroleo a la baja",
       "direction": "alcista",
       "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "score": 3.2
+      "score": 3.13
+    },
+    {
+      "title": "Most of Wall Street rises as oil prices continue to ease, even as chip stocks keep dropping - Orange County Register",
+      "source": "Orange County Register",
+      "when": "2026-07-28T12:38:40+00:00",
+      "hours_ago": 4.5,
+      "category": "Petroleo a la baja",
+      "direction": "alcista",
+      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
+      "score": 3.06
+    },
+    {
+      "title": "Why Did Trump Just Give Saudi Arabia the Fast Track to a Nuclear Weapon? - Crude Oil Prices Today | OilPrice.com",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "when": "2026-07-28T17:00:00+00:00",
+      "hours_ago": 0.1,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -3.0
+    },
+    {
+      "title": "Oil prices fall 5% to two-week low on hopes for US-Iran conflict easing - Reuters",
+      "source": "Reuters",
+      "when": "2026-07-28T01:02:00+00:00",
+      "hours_ago": 16.1,
+      "category": "Fed dovish/pausa",
+      "direction": "alcista",
+      "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
+      "score": 3.0
     },
     {
       "title": "Tata Power Targets 2032 for India's First Private Nuclear Plant - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "when": "2026-07-28T14:30:00+00:00",
-      "hours_ago": 1.2,
+      "hours_ago": 2.6,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.94
+      "score": -2.87
     },
     {
       "title": "Fed’s Kevin Warsh Faces Oil-Driven Inflation Test — Jeremy Siegel Sees 5%-10% Upside For Markets If Strait Of Hormuz Reopens - TradingView",
       "source": "TradingView",
       "when": "2026-07-28T11:51:40+00:00",
-      "hours_ago": 3.8,
+      "hours_ago": 5.2,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.81
+      "score": 2.74
     },
     {
       "title": "Trump administration signs a nuclear deal with Saudi Arabia—and risks a Middle East arms race - mronline.org",
       "source": "mronline.org",
       "when": "2026-07-28T11:02:22+00:00",
-      "hours_ago": 4.6,
+      "hours_ago": 6.1,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.77
+      "score": -2.7
     },
     {
       "title": "Trump stuns Saudis by pinning nuclear deal to Israel ties - The Business Standard",
       "source": "The Business Standard",
       "when": "2026-07-28T09:57:10+00:00",
-      "hours_ago": 5.7,
+      "hours_ago": 7.1,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.71
+      "score": -2.64
     },
     {
-      "title": "Most of Wall Street rises as oil prices ease, even as chip stocks keep dropping - WPLG Local 10",
-      "source": "WPLG Local 10",
-      "when": "2026-07-28T04:06:23+00:00",
-      "hours_ago": 11.6,
-      "category": "Petroleo a la baja",
-      "direction": "alcista",
-      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "score": 2.66
+      "title": "The Fed hawks are winning even without a rate hike - HousingWire",
+      "source": "HousingWire",
+      "when": "2026-07-28T16:42:18+00:00",
+      "hours_ago": 0.4,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.48
     },
     {
       "title": "Iran rules out US talks as Hormuz Strait remains closed - DW.com",
       "source": "DW.com",
       "when": "2026-07-27T23:37:40+00:00",
-      "hours_ago": 16.0,
+      "hours_ago": 17.5,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -2.56
+      "score": -2.48
     },
     {
       "title": "Will New Fed Chair Kevin Warsh Shock the Market and Deliver a Surprise Rate Hike at the Fed's July Meeting? - The Globe and Mail",
       "source": "The Globe and Mail",
-      "when": "2026-07-28T14:39:15+00:00",
-      "hours_ago": 1.0,
+      "when": "2026-07-28T14:44:31+00:00",
+      "hours_ago": 2.4,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.46
-    },
-    {
-      "title": "China’s zero-tariff policy: Can Ghana turn market access into export growth? - Graphic Online",
-      "source": "Graphic Online",
-      "when": "2026-07-28T13:20:14+00:00",
-      "hours_ago": 2.3,
-      "category": "Aranceles / guerra comercial",
-      "direction": "bajista",
-      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
       "score": -2.4
-    },
-    {
-      "title": "China Rejects Industrial Overcapacity Claims Amid US Tariff Risk - Whalesbook",
-      "source": "Whalesbook",
-      "when": "2026-07-28T13:07:30+00:00",
-      "hours_ago": 2.5,
-      "category": "Aranceles / guerra comercial",
-      "direction": "bajista",
-      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.39
-    },
-    {
-      "title": "John Kennedy broke with Trump admin on Saudi nuclear deal - wonderwall.com",
-      "source": "wonderwall.com",
-      "when": "2026-07-28T03:04:52+00:00",
-      "hours_ago": 12.6,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.37
-    },
-    {
-      "title": "Analysis: Kevin Warsh's Fed press conference will be revealing even without a rate hike - CNBC",
-      "source": "CNBC",
-      "when": "2026-07-28T11:00:01+00:00",
-      "hours_ago": 4.7,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.31
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido neutral (pulso -4/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 538
+  "conclusion": "El contexto de noticias inclina al US100 en sentido neutral (pulso -5/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 535
 }
