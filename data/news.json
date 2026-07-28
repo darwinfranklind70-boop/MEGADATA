@@ -1,175 +1,175 @@
 {
   "ok": true,
-  "generated_at": "2026-07-27T22:01:41.169299+00:00",
+  "generated_at": "2026-07-28T13:24:04.030815+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -5.0,
+  "news_pulse": -4.7,
   "label": "neutral",
   "drivers": [
     {
       "category": "Petroleo a la baja",
-      "score": 48.83,
+      "score": 42.5,
       "direction": "alcista",
       "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
       "n": 32
     },
     {
       "category": "Fed hawkish",
-      "score": -25.31,
+      "score": -27.78,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 13
+      "n": 15
     },
     {
       "category": "Aranceles / guerra comercial",
-      "score": -23.58,
+      "score": -20.69,
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
       "n": 14
     },
     {
       "category": "Geopolitica/escalada",
-      "score": -19.79,
+      "score": -16.06,
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "n": 11
-    },
-    {
-      "category": "Fed dovish/pausa",
-      "score": 14.6,
-      "direction": "alcista",
-      "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
-      "n": 7
+      "n": 8
     },
     {
       "category": "Desescalada / acuerdo",
-      "score": 11.2,
+      "score": 15.38,
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "n": 5
+      "n": 7
+    },
+    {
+      "category": "Fed dovish/pausa",
+      "score": 10.83,
+      "direction": "alcista",
+      "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
+      "n": 7
     }
   ],
   "headlines": [
     {
+      "title": "Traffic through the Bab el-Mandeb Strait increased amid hopes for a resolution to the Iran-Iran conflict - صحيفة مال",
+      "source": "صحيفة مال",
+      "when": "2026-07-28T12:11:20+00:00",
+      "hours_ago": 1.2,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.94
+    },
+    {
+      "title": "Fed’s Kevin Warsh Faces Oil-Driven Inflation Test — Jeremy Siegel Sees 5%-10% Upside For Markets If Strait Of Hormuz Reopens - TradingView",
+      "source": "TradingView",
+      "when": "2026-07-28T11:51:40+00:00",
+      "hours_ago": 1.5,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.92
+    },
+    {
+      "title": "Trump administration signs a nuclear deal with Saudi Arabia—and risks a Middle East arms race - mronline.org",
+      "source": "mronline.org",
+      "when": "2026-07-28T11:02:22+00:00",
+      "hours_ago": 2.4,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.88
+    },
+    {
+      "title": "Trump stuns Saudis by pinning nuclear deal to Israel ties - The Business Standard",
+      "source": "The Business Standard",
+      "when": "2026-07-28T09:57:10+00:00",
+      "hours_ago": 3.4,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.83
+    },
+    {
+      "title": "Bab el-Mandeb shipping rises amid hopes of resolution in US-Iran war - Reuters",
+      "source": "Reuters",
+      "when": "2026-07-28T07:31:43+00:00",
+      "hours_ago": 5.9,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.71
+    },
+    {
       "title": "Iran rules out US talks as Hormuz Strait remains closed - DW.com",
       "source": "DW.com",
-      "when": "2026-07-27T20:47:11+00:00",
-      "hours_ago": 1.2,
+      "when": "2026-07-27T20:34:26+00:00",
+      "hours_ago": 16.8,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.43
+      "score": -2.52
     },
     {
-      "title": "Iran says it controls Strait of Hormuz after weekend pause in strikes - The Hill",
-      "source": "The Hill",
-      "when": "2026-07-27T12:03:00+00:00",
-      "hours_ago": 10.0,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -2.92
-    },
-    {
-      "title": "President Donald J. Trump makes an announcement on American nuclear innovation - The White House (.gov)",
-      "source": "The White House (.gov)",
-      "when": "2026-07-27T17:19:49+00:00",
-      "hours_ago": 4.7,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.77
-    },
-    {
-      "title": "U.S./Iran conflict | Missile strikes on hold as negotiation on Strait of Hormuz continues - 13WMAZ",
-      "source": "13WMAZ",
-      "when": "2026-07-27T16:10:00+00:00",
-      "hours_ago": 5.9,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.71
-    },
-    {
-      "title": "Traders Place $430 Million Bet on Lower Oil Price Before Trump Ceasefire Extension - EnergyNow.com",
-      "source": "EnergyNow.com",
-      "when": "2026-07-27T12:07:52+00:00",
-      "hours_ago": 9.9,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.51
-    },
-    {
-      "title": "Kazakhstan Resumes CPC Oil Exports as Marine Terminal Reopens - The Astana Times",
-      "source": "The Astana Times",
-      "when": "2026-07-27T11:26:04+00:00",
-      "hours_ago": 10.6,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.47
-    },
-    {
-      "title": "Prediction Market Traders Brace for Surprise Fed Rate Hike - Cryptonews.net",
-      "source": "Cryptonews.net",
-      "when": "2026-07-27T21:09:51+00:00",
-      "hours_ago": 0.9,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.46
-    },
-    {
-      "title": "Drones attack Iran’s neighbours as Tehran appears to test Donald Trump’s latest pause - The Straits Times",
-      "source": "The Straits Times",
-      "when": "2026-07-27T10:20:53+00:00",
-      "hours_ago": 11.7,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.42
-    },
-    {
-      "title": "White House confirms temporary 10 per cent tariff for India after US Supreme Court ruling - News On AIR",
-      "source": "News On AIR",
-      "when": "2026-07-27T19:05:32+00:00",
-      "hours_ago": 2.9,
+      "title": "China’s zero-tariff policy: Can Ghana turn market access into export growth? - Graphic Online",
+      "source": "Graphic Online",
+      "when": "2026-07-28T13:20:14+00:00",
+      "hours_ago": 0.1,
       "category": "Aranceles / guerra comercial",
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.38
+      "score": -2.5
     },
     {
-      "title": "Iran War Will End Only With Regime Collapse or Nuclear Halt: Netanyahu - IranWire",
-      "source": "IranWire",
-      "when": "2026-07-27T08:58:35+00:00",
-      "hours_ago": 13.1,
+      "title": "John Kennedy broke with Trump admin on Saudi nuclear deal - wonderwall.com",
+      "source": "wonderwall.com",
+      "when": "2026-07-28T03:04:52+00:00",
+      "hours_ago": 10.3,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.35
+      "score": -2.48
     },
     {
-      "title": "US Fed Prepping For Rate Hike This Week? What Bond Market Activity Suggests - NDTV Profit",
-      "source": "NDTV Profit",
-      "when": "2026-07-27T17:25:13+00:00",
-      "hours_ago": 4.6,
+      "title": "Analysis: Kevin Warsh's Fed press conference will be revealing even without a rate hike - CNBC",
+      "source": "CNBC",
+      "when": "2026-07-28T11:00:01+00:00",
+      "hours_ago": 2.4,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.31
+      "score": -2.4
     },
     {
-      "title": "The \"Greenspan conundrum\" reappears, could Wa...｜Wosh, interest rate hike - 链捕手ChainCatcher",
-      "source": "链捕手ChainCatcher",
-      "when": "2026-07-27T17:26:18+00:00",
-      "hours_ago": 4.6,
+      "title": "Bar to Fed rate hike this week remains high even as markets see a chance - Reuters",
+      "source": "Reuters",
+      "when": "2026-07-28T10:23:44+00:00",
+      "hours_ago": 3.0,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.31
+      "score": -2.37
+    },
+    {
+      "title": "Warsh faces rate hike quandary in this week’s meeting - Washington Examiner",
+      "source": "Washington Examiner",
+      "when": "2026-07-28T10:00:00+00:00",
+      "hours_ago": 3.4,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.36
+    },
+    {
+      "title": "Australian interest rates expected to stay higher for longer as bond markets bet on rate rises and a hold off on cuts - AFR",
+      "source": "AFR",
+      "when": "2026-07-28T10:00:00+00:00",
+      "hours_ago": 3.4,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.36
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido neutral (pulso -5/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 506
+  "conclusion": "El contexto de noticias inclina al US100 en sentido neutral (pulso -5/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 528
 }
