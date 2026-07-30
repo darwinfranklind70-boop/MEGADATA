@@ -1,108 +1,108 @@
 {
   "ok": true,
-  "generated_at": "2026-07-29T22:25:48.993424+00:00",
+  "generated_at": "2026-07-30T13:20:09.773871+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -43.3,
+  "news_pulse": -46.8,
   "label": "bajista",
   "drivers": [
     {
       "category": "Geopolitica/escalada",
-      "score": -43.69,
+      "score": -30.61,
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "n": 17
-    },
-    {
-      "category": "Fed dovish/pausa",
-      "score": 40.23,
-      "direction": "alcista",
-      "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
-      "n": 19
-    },
-    {
-      "category": "Petroleo al alza",
-      "score": -35.07,
-      "direction": "bajista",
-      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "n": 20
-    },
-    {
-      "category": "Fed hawkish",
-      "score": -32.82,
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
       "n": 13
     },
     {
-      "category": "Petroleo a la baja",
-      "score": 9.5,
+      "category": "Fed dovish/pausa",
+      "score": 28.78,
       "direction": "alcista",
-      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "n": 7
+      "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
+      "n": 16
+    },
+    {
+      "category": "Petroleo al alza",
+      "score": -28.26,
+      "direction": "bajista",
+      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
+      "n": 18
+    },
+    {
+      "category": "Fed hawkish",
+      "score": -17.95,
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "n": 9
+    },
+    {
+      "category": "Ormuz cerrado/amenazado",
+      "score": -8.89,
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "n": 2
     },
     {
       "category": "Aranceles / guerra comercial",
-      "score": -6.67,
+      "score": -7.02,
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "n": 5
+      "n": 4
     }
   ],
   "headlines": [
     {
-      "title": "Oil prices jump following fighting with Iran, while U.S. stocks sink after Fed opts not to raise rates - BNN Bloomberg",
-      "source": "BNN Bloomberg",
-      "when": "2026-07-29T20:07:57+00:00",
-      "hours_ago": 2.3,
+      "title": "Qatar Sends First LNG Cargo Through Hormuz Since Tanker Attack - Crude Oil Prices Today | OilPrice.com",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "when": "2026-07-30T07:30:00+00:00",
+      "hours_ago": 5.8,
+      "category": "Ormuz cerrado/amenazado",
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -5.87
+    },
+    {
+      "title": "Oil prices jump following fighting with Iran, while US stocks sink after Fed opts not to raise rates - InsuranceNewsNet",
+      "source": "InsuranceNewsNet",
+      "when": "2026-07-29T20:52:25+00:00",
+      "hours_ago": 16.5,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -5.77
+      "score": -4.35
     },
     {
-      "title": "Oil prices jump following fighting with Iran, while US stocks sink after Fed opts not to raise rates - Newsday",
-      "source": "Newsday",
-      "when": "2026-07-29T20:04:04+00:00",
-      "hours_ago": 2.4,
-      "category": "Fed hawkish",
+      "title": "Video Stocks plunge, oil prices spike as Iran war escalates - abcnews.com",
+      "source": "abcnews.com",
+      "when": "2026-07-30T11:22:34+00:00",
+      "hours_ago": 2.0,
+      "category": "Petroleo al alza",
       "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -5.76
+      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
+      "score": -3.39
     },
     {
-      "title": "Oil Prices Surge as Brent Jumps Over 6% Following Houthi Tanker Attack and US-Saudi Strikes in Iraq - TradingKey",
-      "source": "TradingKey",
-      "when": "2026-07-29T14:22:29+00:00",
-      "hours_ago": 8.1,
-      "category": "Geopolitica/escalada",
+      "title": "EXCLUSIVE: QatarEnergy buys 33 US LNG cargoes to offset Hormuz disruption, sources say - Reuters",
+      "source": "Reuters",
+      "when": "2026-07-30T05:03:00+00:00",
+      "hours_ago": 8.3,
+      "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -4.33
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -3.02
     },
     {
-      "title": "Nasdaq Today: Nasdaq 100 Falls -1.15% as Semiconductor Stocks Slide Amid Micron, AMD & Nvidia Tech Selloff – Check Key Drivers, Daily Performance, Top Gainers-Losers & What Investors Should Watch - The Sunday Guardian",
-      "source": "The Sunday Guardian",
-      "when": "2026-07-29T15:23:59+00:00",
-      "hours_ago": 7.0,
-      "category": "Tech debil",
-      "direction": "bajista",
-      "why": "Debilidad tech pesa directamente sobre el US100",
-      "score": -3.09
-    },
-    {
-      "title": "Trump threatens to hit Iran ‘hard’ following missile attack on U.S. assets - The Washington Post",
-      "source": "The Washington Post",
-      "when": "2026-07-29T21:39:10+00:00",
+      "title": "The Latest: US and Iran trade strikes as hopes dim for a quick resolution - KVUE",
+      "source": "KVUE",
+      "when": "2026-07-30T12:34:00+00:00",
       "hours_ago": 0.8,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.96
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.96
     },
     {
-      "title": "Iran launches renewed missile attacks as US and Saudis strike Tehran-backed militias in Iraq - AP News",
-      "source": "AP News",
-      "when": "2026-07-29T21:27:00+00:00",
+      "title": "Pentagon Pete Faces Probe Into Deadly Attack - The Daily Beast",
+      "source": "The Daily Beast",
+      "when": "2026-07-30T12:22:00+00:00",
       "hours_ago": 1.0,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
@@ -110,66 +110,66 @@
       "score": -2.95
     },
     {
-      "title": "US has used up two-thirds of its critical Patriot missile interceptors since Iran War started: report - New York Post",
-      "source": "New York Post",
-      "when": "2026-07-29T20:21:00+00:00",
-      "hours_ago": 2.1,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.9
-    },
-    {
-      "title": "Trump says will hit Iran hard after attack, was briefed on Egypt tanker - Reuters",
-      "source": "Reuters",
-      "when": "2026-07-29T20:10:09+00:00",
+      "title": "US -Iran war: US carry out 'heavy' strikes on Iran afta attempted attack on American sojas - BBC",
+      "source": "BBC",
+      "when": "2026-07-30T11:01:49+00:00",
       "hours_ago": 2.3,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.89
-    },
-    {
-      "title": "Trump Administration Picks Five States for Nuclear Fuel-Cycle Hubs - Crude Oil Prices Today | OilPrice.com",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "when": "2026-07-29T20:00:00+00:00",
-      "hours_ago": 2.4,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
       "score": -2.88
     },
     {
-      "title": "Ukraine's Attack on Iranian Cargo Ship Links Two Wars - Crude Oil Prices Today | OilPrice.com",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "when": "2026-07-29T18:00:00+00:00",
-      "hours_ago": 4.4,
+      "title": "US launches 'heavy' strikes on Iran after attempted attack on American troops - BBC",
+      "source": "BBC",
+      "when": "2026-07-30T10:49:14+00:00",
+      "hours_ago": 2.5,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.78
+      "score": -2.87
     },
     {
-      "title": "Iran war briefing: Was Iran's 'surprise' attack really a surprise to US? - Sky News",
-      "source": "Sky News",
-      "when": "2026-07-29T17:16:50+00:00",
-      "hours_ago": 5.1,
+      "title": "Egypt Suffers First Drone Attack, Widening the Iran War - WSJ",
+      "source": "WSJ",
+      "when": "2026-07-30T10:41:00+00:00",
+      "hours_ago": 2.7,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.74
+      "score": -2.87
     },
     {
-      "title": "Iran resumes missile attacks as U.S. and Saudis strike Tehran-backed militias in Iraq - PBS",
-      "source": "PBS",
-      "when": "2026-07-29T15:44:18+00:00",
-      "hours_ago": 6.7,
+      "title": "U.S.-Saudi Attack on Iraqi Militias Risks Drawing Them Further Into War - The New York Times",
+      "source": "The New York Times",
+      "when": "2026-07-30T04:00:10+00:00",
+      "hours_ago": 9.3,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.67
+      "score": -2.53
+    },
+    {
+      "title": "US launches strikes on Iranian targets a day after it foiled missile attack on American forces - apnews.com",
+      "source": "apnews.com",
+      "when": "2026-07-30T03:47:00+00:00",
+      "hours_ago": 9.6,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.52
+    },
+    {
+      "title": "Pentagon details attempted surprise attack on US forces - NewsNation",
+      "source": "NewsNation",
+      "when": "2026-07-30T01:56:50+00:00",
+      "hours_ago": 11.4,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.43
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -43/100). Presion bajista por: Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100). Apoyo alcista por: Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Tech/IA fuerte (Demanda de IA/chips impulsa al Nasdaq). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 534
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -47/100). Presion bajista por: Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100). Apoyo alcista por: Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 540
 }
