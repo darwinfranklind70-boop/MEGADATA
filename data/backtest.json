@@ -1,10 +1,10 @@
 {
   "ok": true,
-  "generated_at": "2026-07-30T23:31:07.516016+00:00",
+  "generated_at": "2026-07-31T23:28:24.487998+00:00",
   "period": {
     "from": "2017-05-19",
-    "to": "2026-07-30",
-    "trading_days": 2291,
+    "to": "2026-07-31",
+    "trading_days": 2292,
     "years": 9.1
   },
   "note": "Backtest del nucleo tecnico (5 de 7 factores; sin breadth/sectores). Pesos renormalizados.",
@@ -29,11 +29,11 @@
     },
     {
       "bucket": "Neutral (-22..22)",
-      "n": 685,
-      "avg_fwd_1d": 0.071,
-      "avg_fwd_5d": 0.451,
-      "avg_fwd_10d": 0.939,
-      "avg_fwd_20d": 1.918,
+      "n": 686,
+      "avg_fwd_1d": 0.073,
+      "avg_fwd_5d": 0.453,
+      "avg_fwd_10d": 0.934,
+      "avg_fwd_20d": 1.91,
       "hit_rate_5d": null
     },
     {
@@ -57,10 +57,10 @@
   ],
   "corr_bias_vs_fwd5d": -0.027,
   "strategy": {
-    "total_return_pct": 18.7,
-    "buyhold_return_pct": 427.4,
-    "annualized_pct": 1.9,
-    "sharpe": 0.26,
+    "total_return_pct": 18.1,
+    "buyhold_return_pct": 419.0,
+    "annualized_pct": 1.8,
+    "sharpe": 0.25,
     "max_drawdown_pct": -15.2,
     "buyhold_max_drawdown_pct": -35.6,
     "win_rate_pct": 53.4
