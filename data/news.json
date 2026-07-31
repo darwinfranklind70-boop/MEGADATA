@@ -1,51 +1,51 @@
 {
   "ok": true,
-  "generated_at": "2026-07-31T15:33:34.560114+00:00",
+  "generated_at": "2026-07-31T17:09:24.988776+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -12.5,
+  "news_pulse": -32.4,
   "label": "bajista",
   "drivers": [
     {
-      "category": "Desescalada / acuerdo",
-      "score": 14.18,
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "n": 6
-    },
-    {
       "category": "Geopolitica/escalada",
-      "score": -13.93,
+      "score": -17.05,
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "n": 7
+      "n": 8
     },
     {
       "category": "Petroleo al alza",
-      "score": -11.25,
+      "score": -15.33,
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "n": 7
+      "n": 9
     },
     {
-      "category": "Mercado risk-on",
-      "score": 8.81,
+      "category": "Desescalada / acuerdo",
+      "score": 11.5,
       "direction": "alcista",
-      "why": "Tono de mercado positivo (risk-on)",
-      "n": 7
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "n": 5
     },
     {
       "category": "Aranceles / guerra comercial",
-      "score": -7.95,
+      "score": -7.65,
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
       "n": 6
     },
     {
       "category": "Fed dovish/pausa",
-      "score": 7.54,
+      "score": 7.38,
       "direction": "alcista",
       "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
       "n": 7
+    },
+    {
+      "category": "Fed hawkish",
+      "score": -6.85,
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "n": 3
     }
   ],
   "headlines": [
@@ -53,123 +53,123 @@
       "title": "Hormuz Oil-Tanker Shuttling Trade Is Picking Up Again After Lull - Bloomberg.com",
       "source": "Bloomberg.com",
       "when": "2026-07-31T10:48:00+00:00",
-      "hours_ago": 4.8,
+      "hours_ago": 6.4,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.22
+      "score": -3.13
     },
     {
       "title": "Asia stocks climb as KOSPI rebounds tracking Wall St gains; BOJ holds rates - Investing.com",
       "source": "Investing.com",
       "when": "2026-07-31T03:37:00+00:00",
-      "hours_ago": 11.9,
+      "hours_ago": 13.5,
       "category": "Fed dovish/pausa",
       "direction": "alcista",
       "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
-      "score": 3.04
+      "score": 2.94
+    },
+    {
+      "title": "Kuwait air base hit by Iranian attack; conflict spreads to Egypt, Saudi Arabia - NewsNation",
+      "source": "NewsNation",
+      "when": "2026-07-31T15:21:40+00:00",
+      "hours_ago": 1.8,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.91
     },
     {
       "title": "U.S.-Saudi Attack on Iraqi Militias Risks Drawing Them Further Into War - The New York Times",
       "source": "The New York Times",
       "when": "2026-07-31T14:34:36+00:00",
-      "hours_ago": 1.0,
+      "hours_ago": 2.6,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.95
+      "score": -2.87
     },
     {
       "title": "Hamas will hand over weapons under Gaza peace deal only if Israel withdraws forces, ends attacks - CBC",
       "source": "CBC",
       "when": "2026-07-31T13:16:30+00:00",
-      "hours_ago": 2.3,
+      "hours_ago": 3.9,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.89
+      "score": 2.81
     },
     {
       "title": "The Drone Attack That Exposed Egypt's Energy Defenses - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "when": "2026-07-31T12:00:00+00:00",
-      "hours_ago": 3.6,
+      "hours_ago": 5.2,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.82
+      "score": -2.74
+    },
+    {
+      "title": "Iran targets strategic U.S. assets in Kuwait, Bahrain after Egypt drone attack - CNBC",
+      "source": "CNBC",
+      "when": "2026-07-31T06:44:06+00:00",
+      "hours_ago": 10.4,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.48
     },
     {
       "title": "Caspian Oil Pipeline Shuts Down Again After Black Sea Drone Attack - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "when": "2026-07-31T06:20:00+00:00",
-      "hours_ago": 9.2,
+      "hours_ago": 10.8,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.54
+      "score": -2.46
     },
     {
       "title": "Three Fed dissenters say rate hike is needed to curb inflation - Reuters",
       "source": "Reuters",
-      "when": "2026-07-31T14:56:26+00:00",
-      "hours_ago": 0.6,
+      "when": "2026-07-31T15:24:40+00:00",
+      "hours_ago": 1.7,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.47
+      "score": -2.43
     },
     {
       "title": "WATCH: Gillibrand Slams President Trump’s Reckless Iran War Ahead Of Senate Vote On Her War Powers Resolution - U.S. Senate (.gov)",
       "source": "U.S. Senate (.gov)",
       "when": "2026-07-31T02:03:45+00:00",
-      "hours_ago": 13.5,
+      "hours_ago": 15.1,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.33
+      "score": 2.25
     },
     {
       "title": "India's Reliance fills diesel gap in Europe and Brazil as global supplies tighten - Baird Maritime",
       "source": "Baird Maritime",
       "when": "2026-07-31T10:34:37+00:00",
-      "hours_ago": 5.0,
+      "hours_ago": 6.6,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.29
+      "score": -2.23
     },
     {
       "title": "Trump says Hamas agreed to next phase of Gaza peace deal, including disarmament, negotiated by \"Board of Peace\" - CBS News",
       "source": "CBS News",
       "when": "2026-07-31T01:25:00+00:00",
-      "hours_ago": 14.1,
+      "hours_ago": 15.7,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.29
-    },
-    {
-      "title": "Trump says deal reached to disarm Hamas, Israeli support for plan remains uncertain - USA Today",
-      "source": "USA Today",
-      "when": "2026-07-31T01:27:00+00:00",
-      "hours_ago": 14.1,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.29
-    },
-    {
-      "title": "Trump says Hamas to disarm in Gaza peace deal - afr.com",
-      "source": "afr.com",
-      "when": "2026-07-31T01:15:00+00:00",
-      "hours_ago": 14.3,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.28
+      "score": 2.21
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -13/100). Presion bajista por: Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Mercado risk-on (Tono de mercado positivo (risk-on)); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 551
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -32/100). Presion bajista por: Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100); Mercado risk-on (Tono de mercado positivo (risk-on)). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 543
 }
