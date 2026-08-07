@@ -1,10 +1,10 @@
 {
   "ok": true,
-  "generated_at": "2026-08-07T01:35:53.096882+00:00",
+  "generated_at": "2026-08-07T23:03:29.598344+00:00",
   "period": {
     "from": "2017-05-26",
-    "to": "2026-08-06",
-    "trading_days": 2291,
+    "to": "2026-08-07",
+    "trading_days": 2292,
     "years": 9.1
   },
   "note": "Backtest del nucleo tecnico (5 de 7 factores; sin breadth/sectores). Pesos renormalizados.",
@@ -38,11 +38,11 @@
     },
     {
       "bucket": "Alcista (22..55)",
-      "n": 1216,
-      "avg_fwd_1d": 0.07,
-      "avg_fwd_5d": 0.391,
-      "avg_fwd_10d": 0.707,
-      "avg_fwd_20d": 1.243,
+      "n": 1217,
+      "avg_fwd_1d": 0.068,
+      "avg_fwd_5d": 0.387,
+      "avg_fwd_10d": 0.702,
+      "avg_fwd_20d": 1.242,
       "hit_rate_5d": 62.0
     },
     {
@@ -57,8 +57,8 @@
   ],
   "corr_bias_vs_fwd5d": -0.029,
   "strategy": {
-    "total_return_pct": 16.1,
-    "buyhold_return_pct": 413.6,
+    "total_return_pct": 16.3,
+    "buyhold_return_pct": 415.3,
     "annualized_pct": 1.7,
     "sharpe": 0.23,
     "max_drawdown_pct": -15.2,
