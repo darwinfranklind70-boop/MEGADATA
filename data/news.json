@@ -1,51 +1,51 @@
 {
   "ok": true,
-  "generated_at": "2026-08-07T18:11:29.635462+00:00",
+  "generated_at": "2026-08-07T19:12:16.595783+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -43.6,
+  "news_pulse": -53.9,
   "label": "bajista",
   "drivers": [
     {
       "category": "Ormuz cerrado/amenazado",
-      "score": -28.02,
+      "score": -25.54,
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "n": 10
-    },
-    {
-      "category": "Fed hawkish",
-      "score": -22.45,
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 12
-    },
-    {
-      "category": "Geopolitica/escalada",
-      "score": -18.39,
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
       "n": 9
     },
     {
-      "category": "Desescalada / acuerdo",
-      "score": 13.01,
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "n": 6
+      "category": "Fed hawkish",
+      "score": -25.53,
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "n": 14
     },
     {
-      "category": "Petroleo al alza",
-      "score": -10.45,
+      "category": "Geopolitica/escalada",
+      "score": -15.28,
       "direction": "bajista",
-      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
       "n": 7
     },
     {
       "category": "Petroleo a la baja",
-      "score": 9.16,
+      "score": 8.98,
       "direction": "alcista",
       "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
       "n": 6
+    },
+    {
+      "category": "Petroleo al alza",
+      "score": -8.58,
+      "direction": "bajista",
+      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
+      "n": 6
+    },
+    {
+      "category": "Desescalada / acuerdo",
+      "score": 6.43,
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "n": 3
     }
   ],
   "headlines": [
@@ -53,123 +53,123 @@
       "title": "Oil price today: Brent rises 1% as Middle East conflict continues Hormuz shipping disruption - The Times of India",
       "source": "The Times of India",
       "when": "2026-08-07T02:13:00+00:00",
-      "hours_ago": 16.0,
+      "hours_ago": 17.0,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -4.04
+      "score": -3.94
     },
     {
       "title": "Is Iran Preparing to Permanently Block the Strait of Hormuz - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "when": "2026-08-07T16:04:46+00:00",
-      "hours_ago": 2.1,
+      "hours_ago": 3.1,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.38
+      "score": -3.32
     },
     {
       "title": "ADNOC Reports 15 Vessel Attacks as Hormuz Risks Mount - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "when": "2026-08-07T15:45:00+00:00",
-      "hours_ago": 2.4,
+      "hours_ago": 3.5,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.36
+      "score": -3.3
     },
     {
       "title": "Shipping through Hormuz Drops, Tensions Mount: Where Do Oil Prices Go? - Energy News Beat",
       "source": "Energy News Beat",
       "when": "2026-08-07T12:40:34+00:00",
-      "hours_ago": 5.5,
+      "hours_ago": 6.5,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.18
+      "score": -3.12
     },
     {
       "title": "Rupiah Weakens to Rp 17,897 as Strait of Hormuz Tensions Fuel Fed Rate Bets - Jakarta Globe",
       "source": "Jakarta Globe",
       "when": "2026-08-07T10:12:00+00:00",
-      "hours_ago": 8.0,
+      "hours_ago": 9.0,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.03
+      "score": -2.97
     },
     {
       "title": "Shipping Through Hormuz Drops Sharply as Tensions Rise - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "when": "2026-08-07T09:30:00+00:00",
-      "hours_ago": 8.7,
+      "hours_ago": 9.7,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -2.99
+      "score": -2.93
     },
     {
       "title": "North Korea expert warns US can 'never take their eye off' Kim Jong Un following missile test during Iran war - Fox News",
       "source": "Fox News",
       "when": "2026-08-07T17:18:53+00:00",
-      "hours_ago": 0.9,
+      "hours_ago": 1.9,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.96
+      "score": -2.91
     },
     {
-      "title": "Ebola response concerns, Tigray war warnings, and Gaza’s ceasefire mirage: The Cheat Sheet - thenewhumanitarian.org",
-      "source": "thenewhumanitarian.org",
-      "when": "2026-08-07T14:56:48+00:00",
-      "hours_ago": 3.2,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.84
-    },
-    {
-      "title": "Iran’s oil exports stall and Kharg Island idles under US blockade - eurasiabusinessnews.com",
-      "source": "eurasiabusinessnews.com",
+      "title": "Iran’s oil exports stall and Kharg Island idles under US blockade - Eurasia Business News",
+      "source": "Eurasia Business News",
       "when": "2026-08-07T14:48:18+00:00",
-      "hours_ago": 3.4,
+      "hours_ago": 4.4,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.83
+      "score": -2.78
     },
     {
       "title": "Hormuz closure clouds China's crude imports after they hit a 3-month high in July - CNBC",
       "source": "CNBC",
       "when": "2026-08-07T05:55:34+00:00",
-      "hours_ago": 12.3,
+      "hours_ago": 13.3,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -2.78
+      "score": -2.73
     },
     {
-      "title": "Iran’s oil exports stall and Kharg Island idles under US blockade - ft.com",
-      "source": "ft.com",
+      "title": "Iran’s oil exports stall and Kharg Island idles under US blockade - Financial Times",
+      "source": "Financial Times",
       "when": "2026-08-07T12:29:35+00:00",
-      "hours_ago": 5.7,
+      "hours_ago": 6.7,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.72
+      "score": -2.66
     },
     {
-      "title": "WTI Oil pulls back below $76.00 with markets pondering talks to reopen Hormuz - FXStreet",
-      "source": "FXStreet",
-      "when": "2026-08-07T11:50:22+00:00",
-      "hours_ago": 6.4,
+      "title": "Gaza Ceasefire Unravels as Regional Pressure on Israel Grows - Crude Oil Prices Today | OilPrice.com",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "when": "2026-08-07T11:30:00+00:00",
+      "hours_ago": 7.7,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.68
+      "score": 2.61
+    },
+    {
+      "title": "Crucial US missile stockpiles 'extremely low,' official says - abcnews.com",
+      "source": "abcnews.com",
+      "when": "2026-08-07T09:06:12+00:00",
+      "hours_ago": 10.1,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.49
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -44/100). Presion bajista por: Ormuz cerrado/amenazado (Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Mercado risk-on (Tono de mercado positivo (risk-on)). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 499
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -54/100). Presion bajista por: Ormuz cerrado/amenazado (Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 509
 }
