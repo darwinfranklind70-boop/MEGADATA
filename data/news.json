@@ -1,51 +1,51 @@
 {
   "ok": true,
-  "generated_at": "2026-08-07T12:33:54.347839+00:00",
+  "generated_at": "2026-08-07T13:56:05.031822+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -49.9,
+  "news_pulse": -57.1,
   "label": "bajista",
   "drivers": [
     {
       "category": "Ormuz cerrado/amenazado",
-      "score": -30.92,
+      "score": -35.25,
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
       "n": 11
     },
     {
+      "category": "Fed hawkish",
+      "score": -27.73,
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "n": 15
+    },
+    {
       "category": "Petroleo al alza",
-      "score": -24.04,
+      "score": -18.99,
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "n": 14
+      "n": 12
     },
     {
       "category": "Geopolitica/escalada",
-      "score": -19.09,
+      "score": -16.81,
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "n": 10
-    },
-    {
-      "category": "Fed hawkish",
-      "score": -12.63,
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 11
-    },
-    {
-      "category": "Desescalada / acuerdo",
-      "score": 12.53,
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "n": 7
+      "n": 9
     },
     {
       "category": "Petroleo a la baja",
-      "score": 12.48,
+      "score": 12.35,
       "direction": "alcista",
       "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
       "n": 8
+    },
+    {
+      "category": "Desescalada / acuerdo",
+      "score": 11.91,
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "n": 6
     }
   ],
   "headlines": [
@@ -53,123 +53,123 @@
       "title": "Iran war: How the blockade of Hormuz is affecting the energy transition in ASEAN countries - Table.Briefings",
       "source": "Table.Briefings",
       "when": "2026-08-07T03:53:42+00:00",
-      "hours_ago": 8.7,
+      "hours_ago": 10.0,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -5.56
+      "score": -5.41
     },
     {
       "title": "Oil price today: Brent rises 1% as Middle East conflict continues Hormuz shipping disruption - The Times of India",
       "source": "The Times of India",
       "when": "2026-08-07T02:13:00+00:00",
-      "hours_ago": 10.3,
+      "hours_ago": 11.7,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -4.55
+      "score": -4.43
+    },
+    {
+      "title": "Shipping through Hormuz Drops, Tensions Mount: Where Do Oil Prices Go? - Energy News Beat",
+      "source": "Energy News Beat",
+      "when": "2026-08-07T12:40:34+00:00",
+      "hours_ago": 1.3,
+      "category": "Ormuz cerrado/amenazado",
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -3.43
     },
     {
       "title": "Oman: Middle East conflict and disruptions in the Strait of Hormuz highlight strategic opportunities and risks - Credendo",
       "source": "Credendo",
       "when": "2026-08-07T12:00:50+00:00",
-      "hours_ago": 0.6,
+      "hours_ago": 1.9,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.47
+      "score": -3.39
+    },
+    {
+      "title": "Rupiah Weakens to Rp 17,897 as Strait of Hormuz Tensions Fuel Fed Rate Bets - Jakarta Globe",
+      "source": "Jakarta Globe",
+      "when": "2026-08-07T10:12:00+00:00",
+      "hours_ago": 3.7,
+      "category": "Ormuz cerrado/amenazado",
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -3.28
     },
     {
       "title": "Shipping Through Hormuz Drops Sharply as Tensions Rise - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "when": "2026-08-07T09:30:00+00:00",
-      "hours_ago": 3.1,
+      "hours_ago": 4.4,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.32
+      "score": -3.24
     },
     {
       "title": "Iran, Oman deal on Strait of Hormuz getting close, Tehran says - CBS News",
       "source": "CBS News",
       "when": "2026-08-07T05:56:00+00:00",
-      "hours_ago": 6.6,
+      "hours_ago": 8.0,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.11
+      "score": -3.03
     },
     {
       "title": "Hormuz closure clouds China's crude imports after they hit a 3-month high in July - CNBC",
       "source": "CNBC",
       "when": "2026-08-07T05:55:34+00:00",
-      "hours_ago": 6.6,
+      "hours_ago": 8.0,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.11
+      "score": -3.03
+    },
+    {
+      "title": "WTI Oil pulls back below $76.00 with markets pondering talks to reopen Hormuz - FXStreet",
+      "source": "FXStreet",
+      "when": "2026-08-07T11:50:22+00:00",
+      "hours_ago": 2.1,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.9
     },
     {
       "title": "Gaza Ceasefire Unravels as Regional Pressure on Israel Grows - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "when": "2026-08-07T11:30:00+00:00",
-      "hours_ago": 1.1,
+      "hours_ago": 2.4,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.95
+      "score": 2.88
+    },
+    {
+      "title": "Saudi Arabia warns war could be spreading after attack wounds 11 - NewsNation",
+      "source": "NewsNation",
+      "when": "2026-08-07T09:14:35+00:00",
+      "hours_ago": 4.7,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.77
     },
     {
       "title": "Crucial US missile stockpiles 'extremely low,' official says - ABC News - Breaking News, Latest News and Videos",
       "source": "ABC News - Breaking News, Latest News and Videos",
       "when": "2026-08-07T09:06:12+00:00",
-      "hours_ago": 3.5,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.83
-    },
-    {
-      "title": "U.S. jobs report ahead; Houthi attack on Saudi Arabia - what’s moving markets - Investing.com Australia",
-      "source": "Investing.com Australia",
-      "when": "2026-08-07T07:47:27+00:00",
       "hours_ago": 4.8,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
       "score": -2.76
-    },
-    {
-      "title": "Stocks fall ahead of US jobs data, oil prices rise - 香港電台新聞網",
-      "source": "香港電台新聞網",
-      "when": "2026-08-06T22:41:00+00:00",
-      "hours_ago": 13.9,
-      "category": "Petroleo al alza",
-      "direction": "bajista",
-      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "score": -2.69
-    },
-    {
-      "title": "Dow falls 454 points as earnings, Hormuz tensions weigh on Wall Street - Invezz",
-      "source": "Invezz",
-      "when": "2026-08-06T20:19:06+00:00",
-      "hours_ago": 16.2,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -2.55
-    },
-    {
-      "title": "Flurry of diplomacy as Gulf nations seek Iran deal to reopen the Strait of Hormuz - NBC News",
-      "source": "NBC News",
-      "when": "2026-08-06T23:16:15+00:00",
-      "hours_ago": 13.3,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.34
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -50/100). Presion bajista por: Ormuz cerrado/amenazado (Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 512
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -57/100). Presion bajista por: Ormuz cerrado/amenazado (Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Mercado risk-on (Tono de mercado positivo (risk-on)). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 501
 }
