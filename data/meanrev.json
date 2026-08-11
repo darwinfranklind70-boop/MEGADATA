@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "generated_at": "2026-08-10T23:05:09.221065+00:00",
+  "generated_at": "2026-08-11T23:10:37.237598+00:00",
   "period": {
-    "from": "2017-06-01",
-    "to": "2026-08-10",
+    "from": "2017-06-02",
+    "to": "2026-08-11",
     "years": 9.2
   },
   "grid": {
@@ -110,12 +110,12 @@
     ],
     "short": [
       {
-        "n": 75,
-        "win_rate": 34.7,
-        "avg_trade_pct": -0.334,
-        "avg_win_pct": 1.953,
-        "avg_loss_pct": -1.548,
-        "total_pct": -25.1,
+        "n": 74,
+        "win_rate": 35.1,
+        "avg_trade_pct": -0.333,
+        "avg_win_pct": 1.923,
+        "avg_loss_pct": -1.556,
+        "total_pct": -24.7,
         "profit_factor": 0.67,
         "threshold": 50,
         "hold_days": 5
@@ -139,11 +139,11 @@
       {
         "n": 50,
         "win_rate": 40.0,
-        "avg_trade_pct": -0.734,
-        "avg_win_pct": 2.014,
+        "avg_trade_pct": -0.706,
+        "avg_win_pct": 2.084,
         "avg_loss_pct": -2.566,
-        "total_pct": -36.7,
-        "profit_factor": 0.52,
+        "total_pct": -35.3,
+        "profit_factor": 0.54,
         "threshold": 50,
         "hold_days": 10
       },
@@ -166,11 +166,11 @@
       {
         "n": 37,
         "win_rate": 32.4,
-        "avg_trade_pct": -1.279,
-        "avg_win_pct": 4.431,
+        "avg_trade_pct": -1.247,
+        "avg_win_pct": 4.529,
         "avg_loss_pct": -4.02,
-        "total_pct": -47.3,
-        "profit_factor": 0.53,
+        "total_pct": -46.1,
+        "profit_factor": 0.54,
         "threshold": 50,
         "hold_days": 20
       },
@@ -214,8 +214,8 @@
     "threshold": 60,
     "hold_days": 5
   },
-  "base_rate_5d": 0.396,
-  "base_rate_20d": 1.579,
+  "base_rate_5d": 0.395,
+  "base_rate_20d": 1.58,
   "rating": "long_only",
   "verdict": "CONFIRMADO en el lado LARGO: comprar la caida en sesgo extremo bajista tiene ventaja clara. El lado CORTO NO bate al indice (tiende a subir): operar SOLO largos de reversion. LONG-the-dip: sesgo<= -50, 20d -> +4.91%/trade, 63.6% aciertos, PF 2.84, 11 trades (base del indice +1.58%) ADVERTENCIA: muestra pequeña (pocos eventos extremos en el periodo); efecto grande pero usar con gestion de riesgo, no como sistema de alta frecuencia.",
   "gamma_note": "La confluencia con gamma (entrar largo cerca del PUT WALL, corto cerca del CALL WALL) no se puede backtestear sin historico de opciones, pero se aplica EN VIVO como filtro de mayor conviccion en el detector de setups del dashboard."
