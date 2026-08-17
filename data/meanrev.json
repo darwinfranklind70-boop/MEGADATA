@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "generated_at": "2026-08-14T22:47:41.590379+00:00",
+  "generated_at": "2026-08-17T22:48:20.688240+00:00",
   "period": {
-    "from": "2017-06-05",
-    "to": "2026-08-14",
+    "from": "2017-06-08",
+    "to": "2026-08-17",
     "years": 9.2
   },
   "grid": {
@@ -112,10 +112,10 @@
       {
         "n": 74,
         "win_rate": 35.1,
-        "avg_trade_pct": -0.326,
-        "avg_win_pct": 1.943,
+        "avg_trade_pct": -0.323,
+        "avg_win_pct": 1.953,
         "avg_loss_pct": -1.556,
-        "total_pct": -24.1,
+        "total_pct": -23.9,
         "profit_factor": 0.68,
         "threshold": 50,
         "hold_days": 5
@@ -166,11 +166,11 @@
       {
         "n": 37,
         "win_rate": 32.4,
-        "avg_trade_pct": -1.226,
-        "avg_win_pct": 4.595,
+        "avg_trade_pct": -1.25,
+        "avg_win_pct": 4.521,
         "avg_loss_pct": -4.02,
-        "total_pct": -45.3,
-        "profit_factor": 0.55,
+        "total_pct": -46.2,
+        "profit_factor": 0.54,
         "threshold": 50,
         "hold_days": 20
       },
@@ -214,8 +214,8 @@
     "threshold": 60,
     "hold_days": 5
   },
-  "base_rate_5d": 0.399,
-  "base_rate_20d": 1.587,
+  "base_rate_5d": 0.402,
+  "base_rate_20d": 1.594,
   "rating": "long_only",
   "verdict": "CONFIRMADO en el lado LARGO: comprar la caida en sesgo extremo bajista tiene ventaja clara. El lado CORTO NO bate al indice (tiende a subir): operar SOLO largos de reversion. LONG-the-dip: sesgo<= -50, 20d -> +4.91%/trade, 63.6% aciertos, PF 2.84, 11 trades (base del indice +1.59%) ADVERTENCIA: muestra pequeña (pocos eventos extremos en el periodo); efecto grande pero usar con gestion de riesgo, no como sistema de alta frecuencia.",
   "gamma_note": "La confluencia con gamma (entrar largo cerca del PUT WALL, corto cerca del CALL WALL) no se puede backtestear sin historico de opciones, pero se aplica EN VIVO como filtro de mayor conviccion en el detector de setups del dashboard."
