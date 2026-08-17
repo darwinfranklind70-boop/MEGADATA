@@ -1,78 +1,78 @@
 {
   "ok": true,
-  "generated_at": "2026-08-17T12:15:59.815361+00:00",
+  "generated_at": "2026-08-17T13:11:52.350960+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -54.5,
+  "news_pulse": -52.9,
   "label": "bajista",
   "drivers": [
     {
       "category": "Fed hawkish",
-      "score": -33.7,
+      "score": -33.03,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
       "n": 17
     },
     {
       "category": "Ormuz cerrado/amenazado",
-      "score": -15.62,
+      "score": -18.7,
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "n": 6
+      "n": 7
     },
     {
       "category": "Desescalada / acuerdo",
-      "score": 13.5,
+      "score": 13.57,
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
       "n": 5
     },
     {
       "category": "Petroleo al alza",
-      "score": -10.81,
+      "score": -10.76,
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
       "n": 6
     },
     {
       "category": "Geopolitica/escalada",
-      "score": -10.28,
+      "score": -10.08,
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
       "n": 4
     },
     {
       "category": "Aranceles / guerra comercial",
-      "score": -5.57,
+      "score": -4.74,
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "n": 3
+      "n": 2
     }
   ],
   "headlines": [
     {
-      "title": "Pakistan refiner Cnergyico expands US crude imports amid Hormuz disruption - Reuters",
-      "source": "Reuters",
-      "when": "2026-08-17T09:20:05+00:00",
-      "hours_ago": 2.9,
+      "title": "Shipping continues to grind to a halt in Hormuz Strait - gulfbusiness.com",
+      "source": "gulfbusiness.com",
+      "when": "2026-08-17T11:10:14+00:00",
+      "hours_ago": 2.0,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.33
+      "score": -3.38
+    },
+    {
+      "title": "Pakistan refiner Cnergyico expands US crude imports amid Hormuz disruption - Reuters",
+      "source": "Reuters",
+      "when": "2026-08-17T09:20:05+00:00",
+      "hours_ago": 3.9,
+      "category": "Ormuz cerrado/amenazado",
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -3.27
     },
     {
       "title": "South Korean oil tanker takes Suez route amid Strait of Hormuz closure - سانا",
       "source": "سانا",
       "when": "2026-08-17T09:13:06+00:00",
-      "hours_ago": 3.0,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.32
-    },
-    {
-      "title": "APAC oil and gas producers remain insulated from Hormuz disruption - investordaily.com.au",
-      "source": "investordaily.com.au",
-      "when": "2026-08-17T08:16:06+00:00",
       "hours_ago": 4.0,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
@@ -80,96 +80,96 @@
       "score": -3.27
     },
     {
-      "title": "Brent Crude Nears $89 As Hormuz Stays Disrupted – Exxon, Chevron And Shell Rack Up Record Cash Flow - TradingView",
-      "source": "TradingView",
-      "when": "2026-08-17T06:52:00+00:00",
-      "hours_ago": 5.4,
+      "title": "APAC oil and gas producers remain insulated from Hormuz disruption - investordaily.com.au",
+      "source": "investordaily.com.au",
+      "when": "2026-08-17T08:16:06+00:00",
+      "hours_ago": 4.9,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.19
+      "score": -3.21
+    },
+    {
+      "title": "Brent Crude Nears $89 As Hormuz Stays Disrupted – Exxon, Chevron And Shell Rack Up Record Cash Flow - TradingView",
+      "source": "TradingView",
+      "when": "2026-08-17T06:52:00+00:00",
+      "hours_ago": 6.3,
+      "category": "Ormuz cerrado/amenazado",
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -3.13
     },
     {
       "title": "Iraqi Kurdish PM Barzani’s office targeted in drone attack - Al Jazeera",
       "source": "Al Jazeera",
       "when": "2026-08-17T11:13:34+00:00",
-      "hours_ago": 1.0,
+      "hours_ago": 2.0,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.95
+      "score": -2.9
     },
     {
       "title": "The 60-day deadline for an Iran peace deal is expiring. Here's where things stand. - ABC10",
       "source": "ABC10",
       "when": "2026-08-17T10:32:00+00:00",
-      "hours_ago": 1.7,
+      "hours_ago": 2.7,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.91
+      "score": 2.87
+    },
+    {
+      "title": "Oil Futures: Crude edges up as MoU deadline ends without resolution - Quantum Commodity Intelligence",
+      "source": "Quantum Commodity Intelligence",
+      "when": "2026-08-17T10:11:15+00:00",
+      "hours_ago": 3.0,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.85
     },
     {
       "title": "US considering nuclear weapons against Iran as war falters, claims Marjorie Taylor Greene - Middle East Eye",
       "source": "Middle East Eye",
       "when": "2026-08-17T10:00:23+00:00",
-      "hours_ago": 2.3,
+      "hours_ago": 3.2,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.89
+      "score": -2.84
     },
     {
       "title": "Iran says ceasefire deal no longer relevant after ‘gross’ US violations - The New Region",
       "source": "The New Region",
       "when": "2026-08-17T10:00:03+00:00",
-      "hours_ago": 2.3,
+      "hours_ago": 3.2,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.89
+      "score": 2.84
     },
     {
       "title": "Iran memorandum of understanding 60-day deadline expires without a peace deal - NewsNation",
       "source": "NewsNation",
       "when": "2026-08-17T05:30:35+00:00",
-      "hours_ago": 6.8,
+      "hours_ago": 7.7,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.66
+      "score": 2.62
     },
     {
       "title": "Iran war: President Trump Iran nuclear deal set to expire - FOX 10 Phoenix",
       "source": "FOX 10 Phoenix",
       "when": "2026-08-17T04:47:06+00:00",
-      "hours_ago": 7.5,
+      "hours_ago": 8.4,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.63
-    },
-    {
-      "title": "Oil Futures: Crude steadies as MoU deadline ends without resolution - Quantum Commodity Intelligence",
-      "source": "Quantum Commodity Intelligence",
-      "when": "2026-08-17T04:30:46+00:00",
-      "hours_ago": 7.8,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.61
-    },
-    {
-      "title": "US Chip Ban Built Biren’s Captive Market; Biren Filed 22-Fold Revenue Surge - Tech Times",
-      "source": "Tech Times",
-      "when": "2026-08-17T11:02:49+00:00",
-      "hours_ago": 1.2,
-      "category": "Aranceles / guerra comercial",
-      "direction": "bajista",
-      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.45
+      "score": -2.58
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -54/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Ormuz cerrado/amenazado (Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Mercado risk-on (Tono de mercado positivo (risk-on)). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 412
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -53/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Ormuz cerrado/amenazado (Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Mercado risk-on (Tono de mercado positivo (risk-on)); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 418
 }
