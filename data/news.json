@@ -1,51 +1,51 @@
 {
   "ok": true,
-  "generated_at": "2026-08-19T19:45:30.312062+00:00",
+  "generated_at": "2026-08-19T20:11:36.107309+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -72.9,
+  "news_pulse": -68.7,
   "label": "bajista",
   "drivers": [
     {
       "category": "Fed hawkish",
-      "score": -35.59,
+      "score": -31.48,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 17
-    },
-    {
-      "category": "Tech debil",
-      "score": -24.81,
-      "direction": "bajista",
-      "why": "Debilidad tech pesa directamente sobre el US100",
-      "n": 12
+      "n": 15
     },
     {
       "category": "Petroleo al alza",
-      "score": -24.3,
+      "score": -25.12,
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
       "n": 14
     },
     {
+      "category": "Tech debil",
+      "score": -22.62,
+      "direction": "bajista",
+      "why": "Debilidad tech pesa directamente sobre el US100",
+      "n": 11
+    },
+    {
       "category": "Geopolitica/escalada",
-      "score": -19.68,
+      "score": -17.66,
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "n": 8
+      "n": 7
     },
     {
       "category": "Aranceles / guerra comercial",
-      "score": -15.45,
+      "score": -16.06,
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "n": 9
+      "n": 10
     },
     {
       "category": "Ormuz cerrado/amenazado",
-      "score": -14.59,
+      "score": -11.0,
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "n": 4
+      "n": 3
     }
   ],
   "headlines": [
@@ -53,123 +53,123 @@
       "title": "Strait of Hormuz Shipping Slows After Vessel Attack - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "when": "2026-08-19T09:30:00+00:00",
-      "hours_ago": 10.3,
+      "hours_ago": 10.7,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -5.39
+      "score": -5.34
     },
     {
       "title": "Tech selloff pulls Wall Street to two-week lows as oil and yields climb - The Standard (HK)",
       "source": "The Standard (HK)",
       "when": "2026-08-18T21:47:33+00:00",
-      "hours_ago": 22.0,
+      "hours_ago": 22.4,
       "category": "Petroleo al alza",
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "score": -3.49
-    },
-    {
-      "title": "The Fate of Hormuz: Iranian attacks force Gulf nations to find work-arounds to war-zone waterway - Washington Times",
-      "source": "Washington Times",
-      "when": "2026-08-19T19:04:59+00:00",
-      "hours_ago": 0.7,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.46
+      "score": -3.45
     },
     {
       "title": "Donald Trump says Strait of Hormuz is 'new US territory' as blockade continues - The Jerusalem Post",
       "source": "The Jerusalem Post",
       "when": "2026-08-18T14:23:22+00:00",
-      "hours_ago": 29.4,
+      "hours_ago": 29.8,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.32
+      "score": -3.27
     },
     {
-      "title": "Wall Street up after tech selloff as yields retreat; Moderna surges - The Detroit News",
-      "source": "The Detroit News",
+      "title": "Wall Street up after tech selloff as yields retreat; Moderna surges - detroitnews.com",
+      "source": "detroitnews.com",
       "when": "2026-08-19T14:28:00+00:00",
-      "hours_ago": 5.3,
+      "hours_ago": 5.7,
       "category": "Tech debil",
       "direction": "bajista",
       "why": "Debilidad tech pesa directamente sobre el US100",
-      "score": -3.19
+      "score": -3.17
     },
     {
-      "title": "Canada avoided a tariff-induced recession in 2025. Can it do the same this year? - CTV News",
-      "source": "CTV News",
+      "title": "Canada avoided a tariff-induced recession in 2025. Can it do the same this year? - vancouverisland.ctvnews.ca",
+      "source": "vancouverisland.ctvnews.ca",
       "when": "2026-08-18T20:04:30+00:00",
-      "hours_ago": 23.7,
+      "hours_ago": 24.1,
       "category": "Recesion / debilidad",
       "direction": "bajista",
       "why": "Temor de recesion pesa sobre las acciones",
-      "score": -3.03
+      "score": -2.99
+    },
+    {
+      "title": "UAE's financial embargo on Iran after missile threat puts rivalry back in spotlight - Reuters",
+      "source": "Reuters",
+      "when": "2026-08-19T18:57:09+00:00",
+      "hours_ago": 1.2,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.94
     },
     {
       "title": "UAE Cuts Trade With Iran After Accusing Tehran of Missile Fire - Morocco World News",
       "source": "Morocco World News",
       "when": "2026-08-19T17:02:42+00:00",
-      "hours_ago": 2.7,
+      "hours_ago": 3.1,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.86
+      "score": -2.84
     },
     {
       "title": "Oil rises, stocks waver amid tech sell-off - France 24",
       "source": "France 24",
       "when": "2026-08-19T02:43:10+00:00",
-      "hours_ago": 17.0,
+      "hours_ago": 17.5,
       "category": "Petroleo al alza",
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "score": -2.86
+      "score": -2.84
     },
     {
       "title": "UAE Suspends All Trade With Iran After Renewed Missile Fire, Deepening Economic Pressure On Tehran - Free Press Journal",
       "source": "Free Press Journal",
       "when": "2026-08-19T14:50:45+00:00",
-      "hours_ago": 4.9,
+      "hours_ago": 5.3,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.75
+      "score": -2.73
     },
     {
       "title": "Canadian official condemns Israel's 'unlawful invasion' of Lebanon - Daily Sabah",
       "source": "Daily Sabah",
       "when": "2026-08-19T14:43:00+00:00",
-      "hours_ago": 5.0,
+      "hours_ago": 5.5,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.75
+      "score": -2.73
     },
     {
-      "title": "United Arab Emirates suspends trade with Iran after coming under renewed missile fire - spectrumlocalnews.com",
-      "source": "spectrumlocalnews.com",
+      "title": "United Arab Emirates suspends trade with Iran after coming under renewed missile fire - Spectrum News",
+      "source": "Spectrum News",
       "when": "2026-08-19T13:51:00+00:00",
-      "hours_ago": 5.9,
+      "hours_ago": 6.3,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.7
+      "score": -2.68
     },
     {
-      "title": "US stocks rise to a record as oil prices drop and inflation gets less bad - scrippsnews.com",
-      "source": "scrippsnews.com",
+      "title": "US stocks rise to a record as oil prices drop and inflation gets less bad - Scripps News",
+      "source": "Scripps News",
       "when": "2026-08-19T08:21:20+00:00",
-      "hours_ago": 11.4,
+      "hours_ago": 11.8,
       "category": "Petroleo a la baja",
       "direction": "alcista",
       "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "score": 2.67
+      "score": 2.65
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -73/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Tech debil (Debilidad tech pesa directamente sobre el US100); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq). Apoyo alcista por: Acuerdo comercial (Distension comercial favorece a las tecnologicas); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 567
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -69/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq); Tech debil (Debilidad tech pesa directamente sobre el US100). Apoyo alcista por: Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100); Acuerdo comercial (Distension comercial favorece a las tecnologicas); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 566
 }
