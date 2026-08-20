@@ -1,50 +1,50 @@
 {
   "ok": true,
-  "generated_at": "2026-08-20T16:56:58.105875+00:00",
+  "generated_at": "2026-08-20T17:20:41.960172+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -71.3,
+  "news_pulse": -73.4,
   "label": "bajista",
   "drivers": [
     {
       "category": "Fed hawkish",
-      "score": -32.41,
+      "score": -33.75,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 17
+      "n": 18
     },
     {
       "category": "Petroleo al alza",
-      "score": -25.36,
+      "score": -23.32,
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "n": 15
+      "n": 14
     },
     {
       "category": "Ormuz cerrado/amenazado",
-      "score": -17.86,
+      "score": -17.69,
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
       "n": 5
     },
     {
       "category": "Geopolitica/escalada",
-      "score": -12.45,
+      "score": -9.68,
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "n": 6
-    },
-    {
-      "category": "Aranceles / guerra comercial",
-      "score": -7.1,
-      "direction": "bajista",
-      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
       "n": 5
     },
     {
-      "category": "Desescalada / acuerdo",
-      "score": 4.66,
+      "category": "Aranceles / guerra comercial",
+      "score": -6.78,
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "n": 4
+    },
+    {
+      "category": "Petroleo a la baja",
+      "score": 4.99,
       "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
       "n": 3
     }
   ],
@@ -53,77 +53,57 @@
       "title": "Brent Prices Rise as Hormuz Disruptions Fuel Supply Concerns. Forecast as of 20.08.2026 - LiteFinance",
       "source": "LiteFinance",
       "when": "2026-08-20T11:02:36+00:00",
-      "hours_ago": 5.9,
+      "hours_ago": 6.3,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -4.96
+      "score": -4.92
     },
     {
       "title": "As Hormuz blockade continues, Trump appears ready to wait for Iran to show interest in a deal - Scripps News",
       "source": "Scripps News",
       "when": "2026-08-19T23:32:52+00:00",
-      "hours_ago": 17.4,
+      "hours_ago": 17.8,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -4.61
+      "score": -4.57
     },
     {
       "title": "Oil Rises as Iran Sanctions Tighten Despite U.S. Crude Build - TradingPedia",
       "source": "TradingPedia",
       "when": "2026-08-20T08:30:13+00:00",
-      "hours_ago": 8.4,
+      "hours_ago": 8.8,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -3.87
+      "score": -3.84
     },
     {
       "title": "Strait of Hormuz Shipping Slows After Vessel Attack - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "when": "2026-08-19T09:30:00+00:00",
-      "hours_ago": 31.4,
+      "hours_ago": 31.8,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.09
+      "score": -3.05
     },
     {
       "title": "LIVE | Dow Jones, Nasdaq, US Stock Market Today: Check Latest Move in Futures, Dow Jones Rise 0.28% as Gold Surges, Oil Rises, Dollar Weakens, Fed Rate Hike & US-Canada Trade | Why Are Stocks Up Today - The Sunday Guardian",
       "source": "The Sunday Guardian",
       "when": "2026-08-19T20:13:28+00:00",
-      "hours_ago": 20.7,
+      "hours_ago": 21.1,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.95
-    },
-    {
-      "title": "Turkey, Egypt, Qatar condemn Israeli attacks on Gaza, call on Israel to comply with ceasefire obligations - Al-Monitor",
-      "source": "Al-Monitor",
-      "when": "2026-08-20T12:30:31+00:00",
-      "hours_ago": 4.4,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.78
+      "score": -2.92
     },
     {
       "title": "South Korea: Seoul detects North Korean missile launches hours after Trump's announcement of a meeting with Kim - voz.us",
       "source": "voz.us",
       "when": "2026-08-20T11:03:54+00:00",
-      "hours_ago": 5.9,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.71
-    },
-    {
-      "title": "North Korea launches missile barrage after dismissing Donald Trump’s overture - Financial Times",
-      "source": "Financial Times",
-      "when": "2026-08-20T10:45:13+00:00",
-      "hours_ago": 6.2,
+      "hours_ago": 6.3,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
@@ -133,43 +113,63 @@
       "title": "Oil price today: Brent crude remains above $90 per barrel as Hormuz operations remain disrupted - The Times of India",
       "source": "The Times of India",
       "when": "2026-08-20T02:07:00+00:00",
-      "hours_ago": 14.8,
+      "hours_ago": 15.2,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -2.63
+      "score": -2.61
     },
     {
       "title": "Trump appears to have dropped his tit-for-tat approach to Iran attacks in the Strait of Hormuz - ABC News - Breaking News, Latest News and Videos",
       "source": "ABC News - Breaking News, Latest News and Videos",
       "when": "2026-08-20T00:57:09+00:00",
-      "hours_ago": 16.0,
+      "hours_ago": 16.4,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -2.57
+      "score": -2.54
     },
     {
       "title": "India's Sweet Strategy: Duty-Free Raw Sugar Import and Sugar Export Ban - Devdiscourse",
       "source": "Devdiscourse",
       "when": "2026-08-20T15:43:14+00:00",
-      "hours_ago": 1.2,
+      "hours_ago": 1.6,
       "category": "Aranceles / guerra comercial",
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.45
+      "score": -2.43
     },
     {
       "title": "Ghana’s 10-Year Rubber Export Ban Divides Industry - News Ghana",
       "source": "News Ghana",
       "when": "2026-08-20T13:46:32+00:00",
-      "hours_ago": 3.2,
+      "hours_ago": 3.6,
       "category": "Aranceles / guerra comercial",
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.37
+      "score": -2.35
+    },
+    {
+      "title": "Fed minutes show September rate hike still on the table - Reuters",
+      "source": "Reuters",
+      "when": "2026-08-20T13:04:07+00:00",
+      "hours_ago": 4.3,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.32
+    },
+    {
+      "title": "Fed's Rate Hike Prospects in Question Amid Mixed Economic Data - Devdiscourse",
+      "source": "Devdiscourse",
+      "when": "2026-08-20T13:00:37+00:00",
+      "hours_ago": 4.3,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.32
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -71/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq); Ormuz cerrado/amenazado (Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Mercado risk-on (Tono de mercado positivo (risk-on)); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 523
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -73/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq); Ormuz cerrado/amenazado (Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Mercado risk-on (Tono de mercado positivo (risk-on)); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 518
 }
