@@ -1,51 +1,51 @@
 {
   "ok": true,
-  "generated_at": "2026-08-21T14:03:08.888487+00:00",
+  "generated_at": "2026-08-21T14:50:18.155309+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -67.5,
+  "news_pulse": -61.6,
   "label": "bajista",
   "drivers": [
     {
       "category": "Petroleo al alza",
-      "score": -29.09,
+      "score": -25.58,
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "n": 19
-    },
-    {
-      "category": "Fed hawkish",
-      "score": -12.32,
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 11
+      "n": 17
     },
     {
       "category": "Aranceles / guerra comercial",
-      "score": -10.39,
+      "score": -14.66,
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "n": 6
+      "n": 7
+    },
+    {
+      "category": "Fed hawkish",
+      "score": -11.38,
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "n": 10
     },
     {
       "category": "Ormuz cerrado/amenazado",
-      "score": -8.2,
+      "score": -8.09,
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
       "n": 2
     },
     {
-      "category": "Petroleo a la baja",
-      "score": 7.08,
+      "category": "Mercado risk-on",
+      "score": 7.01,
       "direction": "alcista",
-      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
+      "why": "Tono de mercado positivo (risk-on)",
       "n": 5
     },
     {
-      "category": "Geopolitica/escalada",
-      "score": -4.54,
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "n": 3
+      "category": "Petroleo a la baja",
+      "score": 5.89,
+      "direction": "alcista",
+      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
+      "n": 4
     }
   ],
   "headlines": [
@@ -53,123 +53,123 @@
       "title": "Crude Oil Prices: Surge as Brent and WTI Rally on Strait of Hormuz Disruptions - CryptoRank",
       "source": "CryptoRank",
       "when": "2026-08-21T09:42:38+00:00",
-      "hours_ago": 4.3,
+      "hours_ago": 5.1,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -5.1
+      "score": -5.03
     },
     {
       "title": "Warning of mines in Hormuz after Trump claimed it was clear - Seatrade Maritime News",
       "source": "Seatrade Maritime News",
       "when": "2026-08-21T07:13:32+00:00",
-      "hours_ago": 6.8,
+      "hours_ago": 7.6,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.1
+      "score": -3.06
     },
     {
       "title": "Iranian oil offers to Chinese buyers fall as US blockade bites, sources say - Reuters",
       "source": "Reuters",
       "when": "2026-08-21T08:45:59+00:00",
-      "hours_ago": 5.3,
+      "hours_ago": 6.1,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.74
+      "score": -2.7
+    },
+    {
+      "title": "KNEB-AM 960 AM – 100.3 FM - Trump says 300,000 metric tons of beef will enter U.S. tariff-free - Rural Radio Network",
+      "source": "Rural Radio Network",
+      "when": "2026-08-21T14:30:46+00:00",
+      "hours_ago": 0.3,
+      "category": "Aranceles / guerra comercial",
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "score": -2.49
     },
     {
       "title": "What could the US-Iran ceasefire mean for inflation, jobs? - ABC News - Breaking News, Latest News and Videos",
       "source": "ABC News - Breaking News, Latest News and Videos",
       "when": "2026-08-21T04:40:04+00:00",
-      "hours_ago": 9.4,
+      "hours_ago": 10.2,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.53
+      "score": 2.49
     },
     {
       "title": "Trump Announces 90-Day Tariff Relief for Ground Beef Imports as Prices Outpace Cattle Gains at Retail - RFD-TV",
       "source": "RFD-TV",
       "when": "2026-08-21T13:57:17+00:00",
-      "hours_ago": 0.1,
+      "hours_ago": 0.9,
       "category": "Aranceles / guerra comercial",
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.5
+      "score": -2.46
     },
     {
       "title": "Trump to allow import of 300,000 metric tons of ground beef without tariff - CNBC",
       "source": "CNBC",
       "when": "2026-08-21T13:37:43+00:00",
-      "hours_ago": 0.4,
+      "hours_ago": 1.2,
       "category": "Aranceles / guerra comercial",
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.48
+      "score": -2.45
+    },
+    {
+      "title": "Trump pauses quota tariff on 300,000 tons of beef ahead of midterms - Politico",
+      "source": "Politico",
+      "when": "2026-08-21T13:21:00+00:00",
+      "hours_ago": 1.5,
+      "category": "Aranceles / guerra comercial",
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "score": -2.44
     },
     {
       "title": "SK Hynix Climbs 4% on Record Buyback, Micron Ticks Up as Memory Defies the Tech Selloff - 24/7 Wall St.",
       "source": "24/7 Wall St.",
       "when": "2026-08-20T18:31:39+00:00",
-      "hours_ago": 19.5,
+      "hours_ago": 20.3,
       "category": "Tech debil",
       "direction": "bajista",
       "why": "Debilidad tech pesa directamente sobre el US100",
-      "score": -2.36
+      "score": -2.32
     },
     {
       "title": "Kuwait Oil Price Rises to USD 90.26 per Barrel - Fana News -",
       "source": "Fana News -",
       "when": "2026-08-21T10:59:46+00:00",
-      "hours_ago": 3.1,
+      "hours_ago": 3.8,
       "category": "Petroleo al alza",
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "score": -1.9
+      "score": -1.87
     },
     {
       "title": "Oman Oil Price Rises to USD 99.61 per Barrel - Fana News -",
       "source": "Fana News -",
       "when": "2026-08-21T10:59:46+00:00",
-      "hours_ago": 3.1,
+      "hours_ago": 3.8,
       "category": "Petroleo al alza",
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "score": -1.9
+      "score": -1.87
     },
     {
       "title": "Crude Oil Rises for Second Straight Week - TradingView",
       "source": "TradingView",
       "when": "2026-08-21T10:54:12+00:00",
-      "hours_ago": 3.1,
+      "hours_ago": 3.9,
       "category": "Petroleo al alza",
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "score": -1.9
-    },
-    {
-      "title": "Asia Stocks Diverge As Oil Ticks Up And Yields Rise - Finimize",
-      "source": "Finimize",
-      "when": "2026-08-21T10:44:10+00:00",
-      "hours_ago": 3.3,
-      "category": "Petroleo al alza",
-      "direction": "bajista",
-      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "score": -1.89
-    },
-    {
-      "title": "Fed minutes show September rate hike still on the table - Reuters",
-      "source": "Reuters",
-      "when": "2026-08-20T23:31:30+00:00",
-      "hours_ago": 14.5,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -1.89
+      "score": -1.87
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -67/100). Presion bajista por: Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Mercado risk-on (Tono de mercado positivo (risk-on)); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 504
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -62/100). Presion bajista por: Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100). Apoyo alcista por: Mercado risk-on (Tono de mercado positivo (risk-on)); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 501
 }
