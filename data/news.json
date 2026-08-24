@@ -1,51 +1,51 @@
 {
   "ok": true,
-  "generated_at": "2026-08-24T19:39:48.015370+00:00",
+  "generated_at": "2026-08-24T19:59:28.677327+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -62.2,
+  "news_pulse": -64.5,
   "label": "bajista",
   "drivers": [
     {
       "category": "Aranceles / guerra comercial",
-      "score": -79.36,
+      "score": -80.92,
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "n": 36
+      "n": 37
     },
     {
       "category": "Diplomacia rota",
-      "score": -32.77,
+      "score": -25.86,
       "direction": "bajista",
       "why": "Ruptura de negociaciones aumenta la incertidumbre",
-      "n": 14
+      "n": 11
     },
     {
       "category": "Petroleo a la baja",
-      "score": 21.72,
+      "score": 21.84,
       "direction": "alcista",
       "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
       "n": 14
     },
     {
       "category": "Ormuz cerrado/amenazado",
-      "score": -8.01,
+      "score": -7.95,
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
       "n": 3
     },
     {
-      "category": "Desescalada / acuerdo",
-      "score": 5.67,
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "n": 2
-    },
-    {
       "category": "Fed hawkish",
-      "score": -5.12,
+      "score": -5.08,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
       "n": 4
+    },
+    {
+      "category": "Geopolitica/escalada",
+      "score": -2.99,
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "n": 1
     }
   ],
   "headlines": [
@@ -53,86 +53,66 @@
       "title": "Trump announces 50 percent tariff on Canadian vehicles, steel after trade talks collapse - Politico",
       "source": "Politico",
       "when": "2026-08-24T17:31:00+00:00",
-      "hours_ago": 2.1,
+      "hours_ago": 2.5,
       "category": "Diplomacia rota",
       "direction": "bajista",
       "why": "Ruptura de negociaciones aumenta la incertidumbre",
-      "score": -4.82
+      "score": -4.79
     },
     {
       "title": "US automaker stocks fall after Trump announces Canada tariff hike - Investing.com",
       "source": "Investing.com",
       "when": "2026-08-24T13:50:00+00:00",
-      "hours_ago": 5.8,
+      "hours_ago": 6.2,
       "category": "Aranceles / guerra comercial",
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -3.61
+      "score": -3.59
+    },
+    {
+      "title": "Yemen’s Houthis report attack on Saudi ship - Al Jazeera",
+      "source": "Al Jazeera",
+      "when": "2026-08-24T19:44:41+00:00",
+      "hours_ago": 0.2,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.99
     },
     {
       "title": "Dow Jones (DJIA) Dips to 53,770.27 as Investors Balance Cooling Inflation Against Lingering Strait of Hormuz Closure and US-Iran Conflict - BBN Times",
       "source": "BBN Times",
       "when": "2026-08-24T10:24:46+00:00",
-      "hours_ago": 9.3,
+      "hours_ago": 9.6,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -2.96
+      "score": -2.94
     },
     {
       "title": "Iran threatens 46 ships in Strait of Hormuz transit crackdown - Financial Times",
       "source": "Financial Times",
       "when": "2026-08-24T09:48:30+00:00",
-      "hours_ago": 9.9,
+      "hours_ago": 10.2,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -2.93
-    },
-    {
-      "title": "U.S. Tech Stocks Slip as Bond Yields Hit Decade Highs; Iran Truce Expires - WSJ",
-      "source": "WSJ",
-      "when": "2026-08-24T17:38:06+00:00",
-      "hours_ago": 2.0,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.9
+      "score": -2.91
     },
     {
       "title": "A flesh-eating parasite shut out Mexican cattle—now record beef prices are forcing Trump to reopen the gate - Fortune",
       "source": "Fortune",
       "when": "2026-08-24T15:05:00+00:00",
-      "hours_ago": 4.6,
+      "hours_ago": 4.9,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.77
+      "score": 2.75
     },
     {
       "title": "Trump announces new 50% tariff on Canadian cars, trucks and steel - The Guardian",
       "source": "The Guardian",
       "when": "2026-08-24T18:59:00+00:00",
-      "hours_ago": 0.7,
-      "category": "Aranceles / guerra comercial",
-      "direction": "bajista",
-      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.47
-    },
-    {
-      "title": "Trump’s renewed trade war with Canada gives yet another policy for Republicans to face on the campaign trail - Yahoo",
-      "source": "Yahoo",
-      "when": "2026-08-24T18:54:01+00:00",
-      "hours_ago": 0.8,
-      "category": "Aranceles / guerra comercial",
-      "direction": "bajista",
-      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.47
-    },
-    {
-      "title": "Trump Threatens New 50% Tariffs on Cars, Trucks and Steel as U.S.-Canada Trade War Unfolds - The New York Times",
-      "source": "The New York Times",
-      "when": "2026-08-24T18:37:48+00:00",
       "hours_ago": 1.0,
       "category": "Aranceles / guerra comercial",
       "direction": "bajista",
@@ -140,36 +120,56 @@
       "score": -2.46
     },
     {
-      "title": "US issues ultimatum to countries to end all financial dealings with Iran - SMH.com.au",
-      "source": "SMH.com.au",
-      "when": "2026-08-24T18:36:01+00:00",
-      "hours_ago": 1.1,
-      "category": "Diplomacia rota",
-      "direction": "bajista",
-      "why": "Ruptura de negociaciones aumenta la incertidumbre",
-      "score": -2.46
-    },
-    {
-      "title": "Trump Beef Tariff Plan Draws Backlash From U.S. Cattle Producers - Florida Daily",
-      "source": "Florida Daily",
-      "when": "2026-08-24T18:30:58+00:00",
-      "hours_ago": 1.1,
+      "title": "Trump Threatens New 50% Tariffs on Cars, Trucks and Steel as U.S.-Canada Trade War Unfolds - The New York Times",
+      "source": "The New York Times",
+      "when": "2026-08-24T18:37:48+00:00",
+      "hours_ago": 1.4,
       "category": "Aranceles / guerra comercial",
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.45
+      "score": -2.44
+    },
+    {
+      "title": "US issues ultimatum to countries to end all financial dealings with Iran - SMH.com.au",
+      "source": "SMH.com.au",
+      "when": "2026-08-24T18:36:01+00:00",
+      "hours_ago": 1.4,
+      "category": "Diplomacia rota",
+      "direction": "bajista",
+      "why": "Ruptura de negociaciones aumenta la incertidumbre",
+      "score": -2.44
     },
     {
       "title": "Bessent threatens new sanctions against Iran as war nears 6-month mark - MS NOW",
       "source": "MS NOW",
       "when": "2026-08-24T17:58:00+00:00",
-      "hours_ago": 1.7,
+      "hours_ago": 2.0,
       "category": "Diplomacia rota",
       "direction": "bajista",
       "why": "Ruptura de negociaciones aumenta la incertidumbre",
-      "score": -2.43
+      "score": -2.42
+    },
+    {
+      "title": "WATCH: Bessent announces new sanctions to block Iran's revenue streams - PBS",
+      "source": "PBS",
+      "when": "2026-08-24T17:40:46+00:00",
+      "hours_ago": 2.3,
+      "category": "Diplomacia rota",
+      "direction": "bajista",
+      "why": "Ruptura de negociaciones aumenta la incertidumbre",
+      "score": -2.4
+    },
+    {
+      "title": "Trump says he'll impose new 50% tariffs on Canadian cars and steel in January, escalating trade war - ABC News - Breaking News, Latest News and Videos",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "when": "2026-08-24T17:34:35+00:00",
+      "hours_ago": 2.4,
+      "category": "Aranceles / guerra comercial",
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "score": -2.4
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -62/100). Presion bajista por: Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Diplomacia rota (Ruptura de negociaciones aumenta la incertidumbre); Ormuz cerrado/amenazado (Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 493
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -64/100). Presion bajista por: Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Diplomacia rota (Ruptura de negociaciones aumenta la incertidumbre); Ormuz cerrado/amenazado (Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 491
 }
