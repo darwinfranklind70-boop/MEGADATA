@@ -1,51 +1,51 @@
 {
   "ok": true,
-  "generated_at": "2026-08-24T21:22:39.652323+00:00",
+  "generated_at": "2026-08-24T21:49:18.412513+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -61.3,
+  "news_pulse": -61.8,
   "label": "bajista",
   "drivers": [
     {
       "category": "Aranceles / guerra comercial",
-      "score": -67.04,
+      "score": -58.24,
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "n": 32
+      "n": 28
     },
     {
       "category": "Diplomacia rota",
-      "score": -28.54,
+      "score": -29.47,
       "direction": "bajista",
       "why": "Ruptura de negociaciones aumenta la incertidumbre",
       "n": 12
     },
     {
       "category": "Petroleo a la baja",
-      "score": 22.73,
+      "score": 22.52,
       "direction": "alcista",
       "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
       "n": 15
     },
     {
+      "category": "Fed hawkish",
+      "score": -9.66,
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "n": 6
+    },
+    {
       "category": "Ormuz cerrado/amenazado",
-      "score": -7.71,
+      "score": -7.62,
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
       "n": 3
     },
     {
-      "category": "Fed hawkish",
-      "score": -7.31,
+      "category": "Geopolitica/escalada",
+      "score": -5.82,
       "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 5
-    },
-    {
-      "category": "Mercado risk-off",
-      "score": -3.49,
-      "direction": "bajista",
-      "why": "Tono de mercado negativo (risk-off)",
-      "n": 3
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "n": 2
     }
   ],
   "headlines": [
@@ -53,86 +53,106 @@
       "title": "Trump announces 50 percent tariff on Canadian vehicles, steel after trade talks collapse - Politico",
       "source": "Politico",
       "when": "2026-08-24T17:31:00+00:00",
-      "hours_ago": 3.9,
+      "hours_ago": 4.3,
       "category": "Diplomacia rota",
       "direction": "bajista",
       "why": "Ruptura de negociaciones aumenta la incertidumbre",
-      "score": -4.68
+      "score": -4.64
+    },
+    {
+      "title": "Yemen’s Houthis report attack on Saudi oil tanker in Red Sea - Al Jazeera",
+      "source": "Al Jazeera",
+      "when": "2026-08-24T20:07:17+00:00",
+      "hours_ago": 1.7,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.91
     },
     {
       "title": "Houthis Target Saudi Oil Tanker in Red Sea Missile and Drone Attack - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "when": "2026-08-24T20:00:00+00:00",
-      "hours_ago": 1.4,
+      "hours_ago": 1.8,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.93
+      "score": -2.91
     },
     {
       "title": "Dow Jones (DJIA) Dips to 53,770.27 as Investors Balance Cooling Inflation Against Lingering Strait of Hormuz Closure and US-Iran Conflict - BBN Times",
       "source": "BBN Times",
       "when": "2026-08-24T10:24:46+00:00",
-      "hours_ago": 11.0,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -2.86
-    },
-    {
-      "title": "Iran threatens 46 ships in Strait of Hormuz transit crackdown - Financial Times",
-      "source": "Financial Times",
-      "when": "2026-08-24T09:48:30+00:00",
-      "hours_ago": 11.6,
+      "hours_ago": 11.4,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
       "score": -2.83
     },
     {
+      "title": "Iran threatens 46 ships in Strait of Hormuz transit crackdown - Financial Times",
+      "source": "Financial Times",
+      "when": "2026-08-24T09:48:30+00:00",
+      "hours_ago": 12.0,
+      "category": "Ormuz cerrado/amenazado",
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -2.8
+    },
+    {
       "title": "A flesh-eating parasite shut out Mexican cattle—now record beef prices are forcing Trump to reopen the gate - Fortune",
       "source": "Fortune",
       "when": "2026-08-24T15:05:00+00:00",
-      "hours_ago": 6.3,
+      "hours_ago": 6.7,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.69
+      "score": 2.66
     },
     {
       "title": "These 3 Sectors Will Outperform if the Fed Hikes Rates - Barron's",
       "source": "Barron's",
       "when": "2026-08-24T20:40:00+00:00",
-      "hours_ago": 0.7,
+      "hours_ago": 1.2,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.47
+      "score": -2.45
+    },
+    {
+      "title": "Trump unleashes 'Operation Economic Outcast' against Iran as Bessent warns nations not to do business: 'Tighten the noose' - New York Post",
+      "source": "New York Post",
+      "when": "2026-08-24T20:30:41+00:00",
+      "hours_ago": 1.3,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.45
     },
     {
       "title": "Trump announces new 50% tariff on Canadian cars, trucks and steel - The Guardian",
       "source": "The Guardian",
       "when": "2026-08-24T19:53:00+00:00",
-      "hours_ago": 1.5,
+      "hours_ago": 1.9,
       "category": "Aranceles / guerra comercial",
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.44
+      "score": -2.42
     },
     {
       "title": "How Trump's new trade war with Canada affects everything from building new homes to dog jackets - Business Insider",
       "source": "Business Insider",
       "when": "2026-08-24T19:34:52+00:00",
-      "hours_ago": 1.8,
+      "hours_ago": 2.2,
       "category": "Aranceles / guerra comercial",
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.43
+      "score": -2.41
     },
     {
-      "title": "Trump’s renewed trade war with Canada gives yet another policy for Republicans to face on the campaign trail - AOL.com",
-      "source": "AOL.com",
-      "when": "2026-08-24T18:54:01+00:00",
+      "title": "Trump's tariff-free ground beef import announcement faces local criticism - KGAN",
+      "source": "KGAN",
+      "when": "2026-08-24T19:22:01+00:00",
       "hours_ago": 2.5,
       "category": "Aranceles / guerra comercial",
       "direction": "bajista",
@@ -140,36 +160,16 @@
       "score": -2.4
     },
     {
-      "title": "Trump Beef Tariff Plan Draws Backlash From U.S. Cattle Producers - Florida Daily",
-      "source": "Florida Daily",
-      "when": "2026-08-24T18:30:58+00:00",
+      "title": "Trump’s renewed trade war with Canada gives yet another policy for Republicans to face on the campaign trail - AOL.com",
+      "source": "AOL.com",
+      "when": "2026-08-24T18:54:01+00:00",
       "hours_ago": 2.9,
       "category": "Aranceles / guerra comercial",
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
       "score": -2.38
-    },
-    {
-      "title": "The Latest: Trump administration announces new sanctions against Iran - 5 EYEWITNESS NEWS",
-      "source": "5 EYEWITNESS NEWS",
-      "when": "2026-08-24T18:04:48+00:00",
-      "hours_ago": 3.3,
-      "category": "Diplomacia rota",
-      "direction": "bajista",
-      "why": "Ruptura de negociaciones aumenta la incertidumbre",
-      "score": -2.36
-    },
-    {
-      "title": "Bessent threatens new sanctions against Iran as war nears 6-month mark - MS NOW",
-      "source": "MS NOW",
-      "when": "2026-08-24T17:58:00+00:00",
-      "hours_ago": 3.4,
-      "category": "Diplomacia rota",
-      "direction": "bajista",
-      "why": "Ruptura de negociaciones aumenta la incertidumbre",
-      "score": -2.36
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -61/100). Presion bajista por: Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Diplomacia rota (Ruptura de negociaciones aumenta la incertidumbre); Ormuz cerrado/amenazado (Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 503
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -62/100). Presion bajista por: Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Diplomacia rota (Ruptura de negociaciones aumenta la incertidumbre); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 512
 }
