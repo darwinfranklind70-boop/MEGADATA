@@ -1,175 +1,175 @@
 {
   "ok": true,
-  "generated_at": "2026-08-24T21:49:18.412513+00:00",
+  "generated_at": "2026-08-25T12:20:24.831295+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -61.8,
+  "news_pulse": -62.8,
   "label": "bajista",
   "drivers": [
     {
       "category": "Aranceles / guerra comercial",
-      "score": -58.24,
+      "score": -71.97,
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "n": 28
-    },
-    {
-      "category": "Diplomacia rota",
-      "score": -29.47,
-      "direction": "bajista",
-      "why": "Ruptura de negociaciones aumenta la incertidumbre",
-      "n": 12
+      "n": 42
     },
     {
       "category": "Petroleo a la baja",
-      "score": 22.52,
+      "score": 15.78,
       "direction": "alcista",
       "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "n": 15
-    },
-    {
-      "category": "Fed hawkish",
-      "score": -9.66,
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 6
+      "n": 12
     },
     {
       "category": "Ormuz cerrado/amenazado",
-      "score": -7.62,
+      "score": -11.51,
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
       "n": 3
     },
     {
-      "category": "Geopolitica/escalada",
-      "score": -5.82,
+      "category": "Diplomacia rota",
+      "score": -9.14,
       "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "n": 2
+      "why": "Ruptura de negociaciones aumenta la incertidumbre",
+      "n": 6
+    },
+    {
+      "category": "Tech debil",
+      "score": -7.42,
+      "direction": "bajista",
+      "why": "Debilidad tech pesa directamente sobre el US100",
+      "n": 5
+    },
+    {
+      "category": "Petroleo al alza",
+      "score": -7.12,
+      "direction": "bajista",
+      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
+      "n": 4
     }
   ],
   "headlines": [
     {
-      "title": "Trump announces 50 percent tariff on Canadian vehicles, steel after trade talks collapse - Politico",
-      "source": "Politico",
-      "when": "2026-08-24T17:31:00+00:00",
-      "hours_ago": 4.3,
-      "category": "Diplomacia rota",
+      "title": "Ship disabled by attack in Strait of Hormuz and other news from around the Middle East - Audacy",
+      "source": "Audacy",
+      "when": "2026-08-25T09:46:00+00:00",
+      "hours_ago": 2.6,
+      "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
-      "why": "Ruptura de negociaciones aumenta la incertidumbre",
-      "score": -4.64
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -6.22
+    },
+    {
+      "title": "Oil Prices Drop | Strait Of Hormuz Reopens | Brent Crude Falls - Aaj News Seven Film (NjXcUsgjkq) - Mshale",
+      "source": "Mshale",
+      "when": "2026-08-25T00:07:46+00:00",
+      "hours_ago": 12.2,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 3.82
+    },
+    {
+      "title": "US intelligence warned Trump of Hormuz closure, wider regional fallout before Iran war - Al Arabiya English",
+      "source": "Al Arabiya English",
+      "when": "2026-08-25T08:50:00+00:00",
+      "hours_ago": 3.5,
+      "category": "Ormuz cerrado/amenazado",
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -3.3
+    },
+    {
+      "title": "Tech Stocks Fall Amid Trump Trade War; Nvidia Down Before It 'Needs To Impress' With Earnings - Investor's Business Daily",
+      "source": "Investor's Business Daily",
+      "when": "2026-08-24T22:20:00+00:00",
+      "hours_ago": 14.0,
+      "category": "Aranceles / guerra comercial",
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "score": -3.07
     },
     {
       "title": "Yemen’s Houthis report attack on Saudi oil tanker in Red Sea - Al Jazeera",
       "source": "Al Jazeera",
-      "when": "2026-08-24T20:07:17+00:00",
+      "when": "2026-08-25T08:01:38+00:00",
+      "hours_ago": 4.3,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.78
+    },
+    {
+      "title": "Iran war puts spotlight on US defenses against Pacific missile, drone threats - stripes.com",
+      "source": "stripes.com",
+      "when": "2026-08-25T04:04:54+00:00",
+      "hours_ago": 8.3,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.59
+    },
+    {
+      "title": "Following US President Donald Trump’s announcement of a 50% tariff on all Canadian automotive goods and steel starting January 1st, 2027, here is how bilateral trade between the two nations has evolved by year - Anadolu Ajansı",
+      "source": "Anadolu Ajansı",
+      "when": "2026-08-25T11:47:48+00:00",
+      "hours_ago": 0.5,
+      "category": "Aranceles / guerra comercial",
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "score": -2.48
+    },
+    {
+      "title": "UBS says Fed unlikely to raise rates despite housing pressures and AI investment - Yahoo Finance UK",
+      "source": "Yahoo Finance UK",
+      "when": "2026-08-25T11:30:00+00:00",
+      "hours_ago": 0.8,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.46
+    },
+    {
+      "title": "India lifts wheat export ban as Black Sea war squeezes global supplies: Why it matters - Moneycontrol.com",
+      "source": "Moneycontrol.com",
+      "when": "2026-08-25T10:35:47+00:00",
       "hours_ago": 1.7,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.91
-    },
-    {
-      "title": "Houthis Target Saudi Oil Tanker in Red Sea Missile and Drone Attack - Crude Oil Prices Today | OilPrice.com",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "when": "2026-08-24T20:00:00+00:00",
-      "hours_ago": 1.8,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.91
-    },
-    {
-      "title": "Dow Jones (DJIA) Dips to 53,770.27 as Investors Balance Cooling Inflation Against Lingering Strait of Hormuz Closure and US-Iran Conflict - BBN Times",
-      "source": "BBN Times",
-      "when": "2026-08-24T10:24:46+00:00",
-      "hours_ago": 11.4,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -2.83
-    },
-    {
-      "title": "Iran threatens 46 ships in Strait of Hormuz transit crackdown - Financial Times",
-      "source": "Financial Times",
-      "when": "2026-08-24T09:48:30+00:00",
-      "hours_ago": 12.0,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -2.8
-    },
-    {
-      "title": "A flesh-eating parasite shut out Mexican cattle—now record beef prices are forcing Trump to reopen the gate - Fortune",
-      "source": "Fortune",
-      "when": "2026-08-24T15:05:00+00:00",
-      "hours_ago": 6.7,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.66
-    },
-    {
-      "title": "These 3 Sectors Will Outperform if the Fed Hikes Rates - Barron's",
-      "source": "Barron's",
-      "when": "2026-08-24T20:40:00+00:00",
-      "hours_ago": 1.2,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.45
-    },
-    {
-      "title": "Trump unleashes 'Operation Economic Outcast' against Iran as Bessent warns nations not to do business: 'Tighten the noose' - New York Post",
-      "source": "New York Post",
-      "when": "2026-08-24T20:30:41+00:00",
-      "hours_ago": 1.3,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.45
-    },
-    {
-      "title": "Trump announces new 50% tariff on Canadian cars, trucks and steel - The Guardian",
-      "source": "The Guardian",
-      "when": "2026-08-24T19:53:00+00:00",
-      "hours_ago": 1.9,
       "category": "Aranceles / guerra comercial",
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.42
+      "score": -2.43
     },
     {
-      "title": "How Trump's new trade war with Canada affects everything from building new homes to dog jackets - Business Insider",
-      "source": "Business Insider",
-      "when": "2026-08-24T19:34:52+00:00",
-      "hours_ago": 2.2,
+      "title": "Colombia lifts coal export ban on Israel imposed over Gaza genocide - Middle East Eye",
+      "source": "Middle East Eye",
+      "when": "2026-08-25T08:35:00+00:00",
+      "hours_ago": 3.8,
       "category": "Aranceles / guerra comercial",
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.41
+      "score": -2.34
     },
     {
-      "title": "Trump's tariff-free ground beef import announcement faces local criticism - KGAN",
-      "source": "KGAN",
-      "when": "2026-08-24T19:22:01+00:00",
-      "hours_ago": 2.5,
+      "title": "India scraps four-year wheat export ban to boost farmers' incomes as domestic prices fall - Swarajya",
+      "source": "Swarajya",
+      "when": "2026-08-25T08:05:23+00:00",
+      "hours_ago": 4.3,
       "category": "Aranceles / guerra comercial",
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.4
+      "score": -2.32
     },
     {
-      "title": "Trump’s renewed trade war with Canada gives yet another policy for Republicans to face on the campaign trail - AOL.com",
-      "source": "AOL.com",
-      "when": "2026-08-24T18:54:01+00:00",
-      "hours_ago": 2.9,
+      "title": "US-Canada trade war: Crude, minerals and more - How Canada could hammer American business and jobs - Livemint",
+      "source": "Livemint",
+      "when": "2026-08-25T06:39:33+00:00",
+      "hours_ago": 5.7,
       "category": "Aranceles / guerra comercial",
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.38
+      "score": -2.26
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -62/100). Presion bajista por: Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Diplomacia rota (Ruptura de negociaciones aumenta la incertidumbre); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 512
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -63/100). Presion bajista por: Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Ormuz cerrado/amenazado (Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off); Diplomacia rota (Ruptura de negociaciones aumenta la incertidumbre). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Tech/IA fuerte (Demanda de IA/chips impulsa al Nasdaq). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 546
 }
