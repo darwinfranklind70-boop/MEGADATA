@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "generated_at": "2026-08-24T22:51:36.611597+00:00",
+  "generated_at": "2026-08-25T22:52:57.965113+00:00",
   "period": {
-    "from": "2017-06-15",
-    "to": "2026-08-24",
+    "from": "2017-06-16",
+    "to": "2026-08-25",
     "trading_days": 2290,
     "years": 9.1
   },
@@ -29,21 +29,21 @@
     },
     {
       "bucket": "Neutral (-22..22)",
-      "n": 698,
-      "avg_fwd_1d": 0.066,
-      "avg_fwd_5d": 0.418,
-      "avg_fwd_10d": 0.909,
-      "avg_fwd_20d": 1.922,
+      "n": 699,
+      "avg_fwd_1d": 0.062,
+      "avg_fwd_5d": 0.427,
+      "avg_fwd_10d": 0.917,
+      "avg_fwd_20d": 1.926,
       "hit_rate_5d": null
     },
     {
       "bucket": "Alcista (22..55)",
-      "n": 1209,
+      "n": 1208,
       "avg_fwd_1d": 0.068,
-      "avg_fwd_5d": 0.387,
-      "avg_fwd_10d": 0.712,
-      "avg_fwd_20d": 1.257,
-      "hit_rate_5d": 62.0
+      "avg_fwd_5d": 0.386,
+      "avg_fwd_10d": 0.714,
+      "avg_fwd_20d": 1.256,
+      "hit_rate_5d": 61.9
     },
     {
       "bucket": "Alcista fuerte (>=55)",
@@ -55,10 +55,10 @@
       "hit_rate_5d": 52.4
     }
   ],
-  "corr_bias_vs_fwd5d": -0.024,
+  "corr_bias_vs_fwd5d": -0.025,
   "strategy": {
-    "total_return_pct": 16.4,
-    "buyhold_return_pct": 391.8,
+    "total_return_pct": 16.7,
+    "buyhold_return_pct": 388.7,
     "annualized_pct": 1.7,
     "sharpe": 0.24,
     "max_drawdown_pct": -15.2,
