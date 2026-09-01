@@ -1,175 +1,175 @@
 {
   "ok": true,
-  "generated_at": "2026-09-01T15:37:41.027463+00:00",
+  "generated_at": "2026-09-01T18:48:43.031647+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -76.8,
+  "news_pulse": -78.0,
   "label": "bajista",
   "drivers": [
     {
       "category": "Fed hawkish",
-      "score": -63.14,
+      "score": -50.33,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 33
+      "n": 28
     },
     {
       "category": "Ormuz cerrado/amenazado",
-      "score": -26.95,
+      "score": -34.05,
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
       "n": 9
     },
     {
       "category": "Petroleo al alza",
-      "score": -25.25,
+      "score": -29.4,
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "n": 16
+      "n": 20
     },
     {
       "category": "Geopolitica/escalada",
-      "score": -19.58,
+      "score": -15.38,
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "n": 7
+      "n": 6
     },
     {
       "category": "Aranceles / guerra comercial",
-      "score": -15.85,
+      "score": -13.89,
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
       "n": 8
     },
     {
       "category": "Desescalada / acuerdo",
-      "score": 13.02,
+      "score": 10.71,
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "n": 5
+      "n": 4
     }
   ],
   "headlines": [
     {
-      "title": "Oil Jumps 7% to Above $100 Ahead of US Blockade on Strait of Hormuz - EnergyNow.com",
-      "source": "EnergyNow.com",
-      "when": "2026-09-01T02:31:25+00:00",
-      "hours_ago": 13.1,
+      "title": "US Launches Fresh Strikes On Iran Hours After Oil Tankers In Hormuz Come Under Attack; Brent Jumps To $94 - NDTV Profit",
+      "source": "NDTV Profit",
+      "when": "2026-09-01T17:11:07+00:00",
+      "hours_ago": 1.6,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -6.64
+      "score": -8.27
     },
     {
-      "title": "Brent Crude Oil Price Jumps After Attack on Iran’s South Pars Field - EnergyNow.com",
-      "source": "EnergyNow.com",
-      "when": "2026-09-01T02:29:42+00:00",
-      "hours_ago": 13.1,
-      "category": "Geopolitica/escalada",
+      "title": "S&P 500 Today LIVE: Index Falls 0.36% as Oil Surges, Treasury Yields Rise & Fed Rate-Hike Bets Weigh on Wall Street Amid US-Iran Hormuz Tensions — Check What Investors Should Watch - The Sunday Guardian",
+      "source": "The Sunday Guardian",
+      "when": "2026-09-01T16:25:12+00:00",
+      "hours_ago": 2.4,
+      "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -3.91
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -5.28
     },
     {
-      "title": "Australian Dollar Holds Steady as Oil Spike and Fed Hawkish Bets Weigh on Traders - CryptoRank",
-      "source": "CryptoRank",
-      "when": "2026-09-01T05:08:40+00:00",
-      "hours_ago": 10.5,
-      "category": "Fed hawkish",
+      "title": "US launches new Iran strikes after attacks in Strait of Hormuz - KGUN 9",
+      "source": "KGUN 9",
+      "when": "2026-09-01T16:53:16+00:00",
+      "hours_ago": 1.9,
+      "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -3.71
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -3.39
     },
     {
-      "title": "Canadian Dollar Steadies as Oil Rally Offsets Fed Rate Hike Expectations - CryptoRank",
-      "source": "CryptoRank",
-      "when": "2026-09-01T05:02:13+00:00",
-      "hours_ago": 10.6,
-      "category": "Fed hawkish",
+      "title": "US launches new Iran strikes after attacks in Strait of Hormuz - WMAR 2 News Baltimore",
+      "source": "WMAR 2 News Baltimore",
+      "when": "2026-09-01T16:46:09+00:00",
+      "hours_ago": 2.0,
+      "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -3.71
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -3.38
     },
     {
-      "title": "Two tankers carrying Saudi oil attacked in Strait of Hormuz - Reuters",
-      "source": "Reuters",
-      "when": "2026-09-01T12:31:35+00:00",
-      "hours_ago": 3.1,
+      "title": "Two tankers carrying Saudi crude oil attacked in Strait of Hormuz - سانا",
+      "source": "سانا",
+      "when": "2026-09-01T15:39:25+00:00",
+      "hours_ago": 3.2,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
       "score": -3.32
     },
     {
-      "title": "The Strait of Hormuz witnesses consecutive attacks on crude oil tankers - المتداول العربي",
-      "source": "المتداول العربي",
-      "when": "2026-09-01T09:44:15+00:00",
-      "hours_ago": 5.9,
+      "title": "Asia Spot LNG Prices Hit 5-Month High as Hormuz Blockage Drags On - Crude Oil Prices Today | OilPrice.com",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "when": "2026-09-01T15:30:00+00:00",
+      "hours_ago": 3.3,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.16
+      "score": -3.31
     },
     {
-      "title": "Iran says it's ready to return to its ceasefire with the US—hours after the two sides exchanged fire again - fortune.com",
-      "source": "fortune.com",
-      "when": "2026-09-01T13:48:00+00:00",
-      "hours_ago": 1.8,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.91
+      "title": "US resumes strikes after tankers carrying Saudi oil attacked in Strait of Hormuz - NewsNation",
+      "source": "NewsNation",
+      "when": "2026-09-01T15:25:17+00:00",
+      "hours_ago": 3.4,
+      "category": "Ormuz cerrado/amenazado",
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -3.3
     },
     {
-      "title": "Blockade succeeds where sanctions failed as Iran oil exports stall - Reuters",
-      "source": "Reuters",
-      "when": "2026-09-01T13:10:16+00:00",
-      "hours_ago": 2.5,
+      "title": "Global Bond Rout Sparks Tech Selloff: 5 Nasdaq Stocks Falling 5% On Tuesday - TradingView",
+      "source": "TradingView",
+      "when": "2026-09-01T15:25:22+00:00",
+      "hours_ago": 3.4,
+      "category": "Tech debil",
+      "direction": "bajista",
+      "why": "Debilidad tech pesa directamente sobre el US100",
+      "score": -3.3
+    },
+    {
+      "title": "Crude oil moves higher. Stocks move lower as reports of an American attack on Iran - investingLive",
+      "source": "investingLive",
+      "when": "2026-09-01T16:27:35+00:00",
+      "hours_ago": 2.4,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
       "score": -2.88
     },
     {
-      "title": "Meet 'Castle Breaker,' Iran's missile wreaking havoc in US war - USA Today",
-      "source": "USA Today",
-      "when": "2026-09-01T13:03:00+00:00",
-      "hours_ago": 2.6,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.87
-    },
-    {
-      "title": "Iran's Central Bank chief says regime has enough foreign currency despite US sanctions, blockade - The Jerusalem Post",
-      "source": "The Jerusalem Post",
-      "when": "2026-09-01T11:15:05+00:00",
-      "hours_ago": 4.4,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.78
-    },
-    {
-      "title": "Oil Price Today (September 1): Crude oil above $90 as US, Iran attacks jolt Hormuz hopes. $100 in sight? - The Economic Times",
-      "source": "The Economic Times",
-      "when": "2026-09-01T02:11:11+00:00",
-      "hours_ago": 13.4,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -2.72
-    },
-    {
-      "title": "Tehran claims ready to reciprocate US return to interim peace deal - Daily Sabah",
-      "source": "Daily Sabah",
-      "when": "2026-09-01T09:55:00+00:00",
-      "hours_ago": 5.7,
+      "title": "Qatar says efforts under way to end Iran-US war and reopen Strait of Hormuz - Al Jazeera",
+      "source": "Al Jazeera",
+      "when": "2026-09-01T15:38:26+00:00",
+      "hours_ago": 3.2,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.71
+      "score": 2.84
+    },
+    {
+      "title": "Blockade succeeds where sanctions failed as Iran oil exports stall - Reuters",
+      "source": "Reuters",
+      "when": "2026-09-01T13:10:16+00:00",
+      "hours_ago": 5.6,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.72
+    },
+    {
+      "title": "Meet 'Castle Breaker,' Iranian missile wreaking havoc in US war - USA Today",
+      "source": "USA Today",
+      "when": "2026-09-01T13:03:00+00:00",
+      "hours_ago": 5.8,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.71
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -77/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Ormuz cerrado/amenazado (Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100); Mercado risk-on (Tono de mercado positivo (risk-on)). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 514
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -78/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Ormuz cerrado/amenazado (Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100); Mercado risk-on (Tono de mercado positivo (risk-on)). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 500
 }
