@@ -1,51 +1,51 @@
 {
   "ok": true,
-  "generated_at": "2026-09-02T15:25:16.591436+00:00",
+  "generated_at": "2026-09-02T18:48:37.391397+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -84.0,
+  "news_pulse": -72.0,
   "label": "bajista",
   "drivers": [
     {
-      "category": "Petroleo al alza",
-      "score": -38.37,
-      "direction": "bajista",
-      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "n": 24
-    },
-    {
       "category": "Fed hawkish",
-      "score": -37.39,
+      "score": -34.16,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 25
+      "n": 22
     },
     {
-      "category": "Geopolitica/escalada",
-      "score": -20.29,
+      "category": "Petroleo al alza",
+      "score": -27.95,
       "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "n": 9
+      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
+      "n": 18
     },
     {
       "category": "Ormuz cerrado/amenazado",
-      "score": -17.85,
+      "score": -16.7,
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "n": 5
+      "n": 7
+    },
+    {
+      "category": "Geopolitica/escalada",
+      "score": -11.23,
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "n": 6
+    },
+    {
+      "category": "Petroleo a la baja",
+      "score": 6.05,
+      "direction": "alcista",
+      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
+      "n": 4
     },
     {
       "category": "Mercado risk-off",
-      "score": -9.39,
+      "score": -4.83,
       "direction": "bajista",
       "why": "Tono de mercado negativo (risk-off)",
-      "n": 8
-    },
-    {
-      "category": "Desescalada / acuerdo",
-      "score": 5.97,
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "n": 3
+      "n": 5
     }
   ],
   "headlines": [
@@ -53,123 +53,123 @@
       "title": "Oil News: Hormuz Mines Tighten Supply Outlook as SPR Nears 44-Year Low Before EIA Report - FXEmpire",
       "source": "FXEmpire",
       "when": "2026-09-02T11:46:00+00:00",
-      "hours_ago": 3.7,
+      "hours_ago": 7.0,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -5.63
-    },
-    {
-      "title": "US completes new strikes on Iran as tanker attacks escalate in Strait of Hormuz - NewsNation",
-      "source": "NewsNation",
-      "when": "2026-09-02T14:31:15+00:00",
-      "hours_ago": 0.9,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.45
-    },
-    {
-      "title": "S&P 500 Today LIVE: Index Falls 0.36% as Oil Surges, Treasury Yields Rise & Fed Rate-Hike Bets Weigh on Wall Street Amid US-Iran Hormuz Tensions — Check What Investors Should Watch - The Sunday Guardian",
-      "source": "The Sunday Guardian",
-      "when": "2026-09-01T16:25:02+00:00",
-      "hours_ago": 23.0,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.39
+      "score": -5.3
     },
     {
       "title": "Hormuz Shipping Slumps as U.S.-Iran Strikes Rattle Oil Markets - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "when": "2026-09-02T07:15:00+00:00",
-      "hours_ago": 8.2,
+      "hours_ago": 11.6,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.02
-    },
-    {
-      "title": "Iran attack Iraq's Kurdistan in push to create buffer zone in Iraq - The Jerusalem Post",
-      "source": "The Jerusalem Post",
-      "when": "2026-09-02T14:46:45+00:00",
-      "hours_ago": 0.6,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.97
-    },
-    {
-      "title": "Iran accuses US of ‘war crime’ after missile blast kills four people at wedding - The Guardian",
-      "source": "The Guardian",
-      "when": "2026-09-02T13:26:00+00:00",
-      "hours_ago": 2.0,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.9
+      "score": -2.83
     },
     {
       "title": "What is Iran’s Castle Breaker missile, used against US bases? - Al Jazeera",
       "source": "Al Jazeera",
-      "when": "2026-09-02T12:43:26+00:00",
-      "hours_ago": 2.7,
+      "when": "2026-09-02T12:43:05+00:00",
+      "hours_ago": 6.1,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.87
+      "score": -2.7
     },
     {
-      "title": "Trump says he ‘couldn’t care less’ about any Iran peace deal - AFR",
-      "source": "AFR",
-      "when": "2026-09-02T07:35:00+00:00",
-      "hours_ago": 7.8,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.61
-    },
-    {
-      "title": "U.S. Stocks Fall as Oil, Bond Yields Spike, U.S.-Iran War Heats Up - WSJ",
-      "source": "WSJ",
-      "when": "2026-09-01T21:54:23+00:00",
-      "hours_ago": 17.5,
-      "category": "Petroleo al alza",
+      "title": "Iran accuses US of ‘war crime’ after missile blast kills four people at wedding - The Guardian",
+      "source": "The Guardian",
+      "when": "2026-09-02T11:56:00+00:00",
+      "hours_ago": 6.9,
+      "category": "Geopolitica/escalada",
       "direction": "bajista",
-      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "score": -2.48
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.66
+    },
+    {
+      "title": "Wall Street is nervous about a Fed rate hike, which looks more likely after a top official’s remarks - MarketWatch",
+      "source": "MarketWatch",
+      "when": "2026-09-02T17:44:00+00:00",
+      "hours_ago": 1.1,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.46
+    },
+    {
+      "title": "Iran says two tankers have hit Hormuz naval mines, attacks regional targets in retaliation to U.S. strikes - cnbc.com",
+      "source": "cnbc.com",
+      "when": "2026-09-02T00:42:00+00:00",
+      "hours_ago": 18.1,
+      "category": "Ormuz cerrado/amenazado",
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -2.44
+    },
+    {
+      "title": "Dow Jones Today LIVE: Dow Rises 0.47% as AI Stocks Lift Wall Street Despite Oil, Bond Yield & Fed Rate Hike Concerns; Check What Investors Should Watch - The Sunday Guardian",
+      "source": "The Sunday Guardian",
+      "when": "2026-09-02T15:22:31+00:00",
+      "hours_ago": 3.4,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.36
+    },
+    {
+      "title": "Diamondback Bets on Wider WTI-Brent Gap Amid US Export Ban Concerns - energynow.com",
+      "source": "energynow.com",
+      "when": "2026-09-02T15:01:27+00:00",
+      "hours_ago": 3.8,
+      "category": "Aranceles / guerra comercial",
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "score": -2.34
     },
     {
       "title": "US August Nonfarm Payrolls Preview: How Much Will It Impact the Fed's September Rate Hike Decision? - TradingKey",
       "source": "TradingKey",
       "when": "2026-09-02T13:43:15+00:00",
-      "hours_ago": 1.7,
+      "hours_ago": 5.1,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.43
+      "score": -2.29
     },
     {
-      "title": "Stocks Slump As Oil Jumps; Apple, Canadian Natural Resources, Ero Copper In Focus | Stock Market Today - Video - Investor's Business Daily",
-      "source": "Investor's Business Daily",
-      "when": "2026-09-01T20:51:00+00:00",
-      "hours_ago": 18.6,
+      "title": "Should You Buy Gold Amid PM Modi’s Austerity Appeal And US Fed Rate Hike Bets - Outlook Money",
+      "source": "Outlook Money",
+      "when": "2026-09-02T13:26:46+00:00",
+      "hours_ago": 5.4,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.28
+    },
+    {
+      "title": "U.S. Stocks Fall as Oil, Bond Yields Spike, U.S.-Iran War Heats Up - WSJ",
+      "source": "WSJ",
+      "when": "2026-09-01T21:54:23+00:00",
+      "hours_ago": 20.9,
       "category": "Petroleo al alza",
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "score": -2.42
+      "score": -2.28
     },
     {
-      "title": "Fed May Need to Tighten Soon Without Progress on Inflation, Fed’s Collins Says - WSJ",
-      "source": "WSJ",
-      "when": "2026-09-02T12:12:41+00:00",
-      "hours_ago": 3.2,
+      "title": "Gold, Silver Prices Under Pressure: Fed Rate Hike Fears, Rising US Bond Yields Trigger Selling - Sangri Today",
+      "source": "Sangri Today",
+      "when": "2026-09-02T12:45:09+00:00",
+      "hours_ago": 6.1,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.37
+      "score": -2.25
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -84/100). Presion bajista por: Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100); Mercado risk-on (Tono de mercado positivo (risk-on)). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 483
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -72/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq); Ormuz cerrado/amenazado (Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Mercado risk-on (Tono de mercado positivo (risk-on)); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 469
 }
