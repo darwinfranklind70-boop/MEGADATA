@@ -1,51 +1,51 @@
 {
   "ok": true,
-  "generated_at": "2026-09-04T20:52:07.932039+00:00",
+  "generated_at": "2026-09-04T22:35:26.060093+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -13.8,
+  "news_pulse": -33.7,
   "label": "bajista",
   "drivers": [
     {
-      "category": "Fed dovish/pausa",
-      "score": 45.43,
-      "direction": "alcista",
-      "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
-      "n": 21
-    },
-    {
       "category": "Fed hawkish",
-      "score": -42.98,
+      "score": -38.59,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 18
+      "n": 16
+    },
+    {
+      "category": "Fed dovish/pausa",
+      "score": 27.74,
+      "direction": "alcista",
+      "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
+      "n": 13
     },
     {
       "category": "Aranceles / guerra comercial",
-      "score": -10.32,
+      "score": -9.9,
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
       "n": 6
     },
     {
-      "category": "Mercado risk-off",
-      "score": -7.89,
+      "category": "Geopolitica/escalada",
+      "score": -9.6,
       "direction": "bajista",
-      "why": "Tono de mercado negativo (risk-off)",
-      "n": 6
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "n": 4
     },
     {
-      "category": "Mercado risk-on",
-      "score": 7.14,
-      "direction": "alcista",
-      "why": "Tono de mercado positivo (risk-on)",
+      "category": "Mercado risk-off",
+      "score": -9.38,
+      "direction": "bajista",
+      "why": "Tono de mercado negativo (risk-off)",
       "n": 7
     },
     {
-      "category": "Ormuz cerrado/amenazado",
-      "score": -4.95,
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "n": 1
+      "category": "Mercado risk-on",
+      "score": 5.11,
+      "direction": "alcista",
+      "why": "Tono de mercado positivo (risk-on)",
+      "n": 5
     }
   ],
   "headlines": [
@@ -53,123 +53,123 @@
       "title": "Oil prices are expected to rise in the second week of September as global crude prices are pushed higher with tensions in the Middle East and disruptions around the Strait of Hormuz. I via ANC 24/7 Link to full story in the comments section. - facebook.com",
       "source": "facebook.com",
       "when": "2026-09-04T14:50:01+00:00",
-      "hours_ago": 6.0,
+      "hours_ago": 7.8,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -4.95
+      "score": -4.79
     },
     {
-      "title": "Stocks fall after a surprisingly strong jobs report raises prospects of an interest rate hike - The Morning Call",
-      "source": "The Morning Call",
-      "when": "2026-09-04T19:18:45+00:00",
-      "hours_ago": 1.6,
+      "title": "Stocks fall after a surprisingly strong jobs report raises prospects of an interest rate hike - thebusinessjournal.com",
+      "source": "thebusinessjournal.com",
+      "when": "2026-09-04T21:25:42+00:00",
+      "hours_ago": 1.2,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -3.9
+      "score": -3.92
     },
     {
       "title": "Wall Street retreats as strong jobs data raises rate hike bets, credit reporting stocks slump - Livemint",
       "source": "Livemint",
       "when": "2026-09-04T13:55:25+00:00",
-      "hours_ago": 6.9,
+      "hours_ago": 8.7,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -3.54
+      "score": -3.42
     },
     {
       "title": "U.S. stocks fall after a surprisingly strong jobs report raises prospects of an interest rate hike - BNN Bloomberg",
       "source": "BNN Bloomberg",
       "when": "2026-09-04T11:06:43+00:00",
-      "hours_ago": 9.8,
+      "hours_ago": 11.5,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -3.35
+      "score": -3.23
+    },
+    {
+      "title": "How The U.S. Fell Behind China On Nuclear Power - Crude Oil Prices Today | OilPrice.com",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "when": "2026-09-04T22:00:00+00:00",
+      "hours_ago": 0.6,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.97
+    },
+    {
+      "title": "What the Iran War Proved About America’s Nuclear Weapons Threat to North Korea - 19FortyFive",
+      "source": "19FortyFive",
+      "when": "2026-09-04T21:56:00+00:00",
+      "hours_ago": 0.7,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.97
     },
     {
       "title": "Iran Says It's Found Ways to Dodge U.S. Oil Blockade - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "when": "2026-09-04T13:30:00+00:00",
-      "hours_ago": 7.4,
+      "hours_ago": 9.1,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.63
+      "score": -2.55
     },
     {
       "title": "Trump Issues Ultimatum to Fed: Cut Rates or Face Trade War With the World - 24/7 Wall St.",
       "source": "24/7 Wall St.",
       "when": "2026-09-04T16:55:00+00:00",
-      "hours_ago": 4.0,
+      "hours_ago": 5.7,
       "category": "Diplomacia rota",
       "direction": "bajista",
       "why": "Ruptura de negociaciones aumenta la incertidumbre",
-      "score": -2.52
+      "score": -2.44
     },
     {
       "title": "Don’t raise rates, Trump tells Fed despite strong US jobs growth - The Times",
       "source": "The Times",
       "when": "2026-09-04T20:47:55+00:00",
-      "hours_ago": 0.1,
+      "hours_ago": 1.8,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.5
+      "score": -2.43
     },
     {
-      "title": "Wall Street dips after strong jobs data fuels hawkish Fed bets - Reuters",
+      "title": "Wall Street ends lower as solid jobs data fuels hawkish Fed bets - Reuters",
       "source": "Reuters",
-      "when": "2026-09-04T18:29:49+00:00",
-      "hours_ago": 2.4,
+      "when": "2026-09-04T20:24:45+00:00",
+      "hours_ago": 2.2,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.4
+      "score": -2.41
+    },
+    {
+      "title": "U.S. stocks close lower on increased Fed rate hike bets, end mixed for the week By Investing.com - Investing.com South Africa",
+      "source": "Investing.com South Africa",
+      "when": "2026-09-04T20:26:15+00:00",
+      "hours_ago": 2.2,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.41
     },
     {
       "title": "US adds 162,000 jobs in August, raising Fed rate hike expectations - Al Jazeera",
       "source": "Al Jazeera",
       "when": "2026-09-04T16:47:08+00:00",
-      "hours_ago": 4.1,
+      "hours_ago": 5.8,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.33
-    },
-    {
-      "title": "Wall St slides after strong jobs report bolsters hawkish Fed bets - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "when": "2026-09-04T16:25:10+00:00",
-      "hours_ago": 4.4,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.31
-    },
-    {
-      "title": "Following strong jobs report, Trump threatens to cut trade if Fed doesn't lower rates - KATU",
-      "source": "KATU",
-      "when": "2026-09-04T20:47:22+00:00",
-      "hours_ago": 0.1,
-      "category": "Fed dovish/pausa",
-      "direction": "alcista",
-      "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
-      "score": 2.3
-    },
-    {
-      "title": "Trump threatens trade war if rates aren’t cut after strong jobs report - thehill.com",
-      "source": "thehill.com",
-      "when": "2026-09-04T16:04:00+00:00",
-      "hours_ago": 4.8,
-      "category": "Aranceles / guerra comercial",
-      "direction": "bajista",
-      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.3
+      "score": -2.26
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -14/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Mercado risk-off (Tono de mercado negativo (risk-off)). Apoyo alcista por: Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100); Mercado risk-on (Tono de mercado positivo (risk-on)); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 510
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -34/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo). Apoyo alcista por: Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100); Mercado risk-on (Tono de mercado positivo (risk-on)); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 516
 }
