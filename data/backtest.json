@@ -1,10 +1,10 @@
 {
   "ok": true,
-  "generated_at": "2026-09-03T00:27:11.595159+00:00",
+  "generated_at": "2026-09-04T00:14:06.793168+00:00",
   "period": {
     "from": "2017-06-26",
-    "to": "2026-09-01",
-    "trading_days": 2288,
+    "to": "2026-09-02",
+    "trading_days": 2290,
     "years": 9.1
   },
   "note": "Backtest del nucleo tecnico (5 de 7 factores; sin breadth/sectores). Pesos renormalizados.",
@@ -33,17 +33,17 @@
       "avg_fwd_1d": 0.075,
       "avg_fwd_5d": 0.455,
       "avg_fwd_10d": 0.95,
-      "avg_fwd_20d": 1.941,
+      "avg_fwd_20d": 1.943,
       "hit_rate_5d": null
     },
     {
       "bucket": "Alcista (22..55)",
-      "n": 1202,
-      "avg_fwd_1d": 0.067,
-      "avg_fwd_5d": 0.392,
-      "avg_fwd_10d": 0.727,
-      "avg_fwd_20d": 1.25,
-      "hit_rate_5d": 62.1
+      "n": 1204,
+      "avg_fwd_1d": 0.066,
+      "avg_fwd_5d": 0.391,
+      "avg_fwd_10d": 0.725,
+      "avg_fwd_20d": 1.245,
+      "hit_rate_5d": 62.0
     },
     {
       "bucket": "Alcista fuerte (>=55)",
@@ -57,8 +57,8 @@
   ],
   "corr_bias_vs_fwd5d": -0.027,
   "strategy": {
-    "total_return_pct": 15.7,
-    "buyhold_return_pct": 398.1,
+    "total_return_pct": 15.8,
+    "buyhold_return_pct": 410.4,
     "annualized_pct": 1.6,
     "sharpe": 0.23,
     "max_drawdown_pct": -15.2,
