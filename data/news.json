@@ -1,158 +1,118 @@
 {
   "ok": true,
-  "generated_at": "2026-09-03T23:22:40.377518+00:00",
+  "generated_at": "2026-09-04T15:13:44.351188+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -20.9,
+  "news_pulse": -18.2,
   "label": "bajista",
   "drivers": [
     {
       "category": "Fed hawkish",
-      "score": -45.77,
+      "score": -48.8,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
       "n": 23
     },
     {
-      "category": "Mercado risk-on",
-      "score": 17.64,
-      "direction": "alcista",
-      "why": "Tono de mercado positivo (risk-on)",
-      "n": 15
-    },
-    {
       "category": "Fed dovish/pausa",
-      "score": 16.04,
+      "score": 33.16,
       "direction": "alcista",
       "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
-      "n": 8
+      "n": 16
+    },
+    {
+      "category": "Mercado risk-on",
+      "score": 12.15,
+      "direction": "alcista",
+      "why": "Tono de mercado positivo (risk-on)",
+      "n": 11
+    },
+    {
+      "category": "Mercado risk-off",
+      "score": -5.5,
+      "direction": "bajista",
+      "why": "Tono de mercado negativo (risk-off)",
+      "n": 4
+    },
+    {
+      "category": "Ormuz cerrado/amenazado",
+      "score": -5.46,
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "n": 1
     },
     {
       "category": "Geopolitica/escalada",
-      "score": -13.69,
+      "score": -4.9,
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "n": 5
-    },
-    {
-      "category": "Inflacion enfriando",
-      "score": 8.78,
-      "direction": "alcista",
-      "why": "Inflacion cediendo abre la puerta a recortes",
-      "n": 5
-    },
-    {
-      "category": "Aranceles / guerra comercial",
-      "score": -8.72,
-      "direction": "bajista",
-      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "n": 4
+      "n": 2
     }
   ],
   "headlines": [
     {
-      "title": "Oil Prices Fall as Oman-Iran Talks Raise Hopes for Hormuz Reopening - WSJ",
-      "source": "WSJ",
-      "when": "2026-09-03T19:10:25+00:00",
-      "hours_ago": 4.2,
+      "title": "Oil prices are expected to rise in the second week of September as global crude prices are pushed higher with tensions in the Middle East and disruptions around the Strait of Hormuz. I via ANC 24/7 Link to full story in the comments section. - facebook.com",
+      "source": "facebook.com",
+      "when": "2026-09-04T14:50:01+00:00",
+      "hours_ago": 0.4,
+      "category": "Ormuz cerrado/amenazado",
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -5.46
+    },
+    {
+      "title": "Iran Says It's Found Ways to Dodge U.S. Oil Blockade - Crude Oil Prices Today | OilPrice.com",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "when": "2026-09-04T13:30:00+00:00",
+      "hours_ago": 1.7,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.91
+    },
+    {
+      "title": "Stocks Fall as Jobs Fuel Bets Fed Will Raise Rates: Markets Wrap - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "when": "2026-09-03T22:14:26+00:00",
+      "hours_ago": 17.0,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.87
+    },
+    {
+      "title": "Hormuz is reopening, so why are oil prices still racing towards $100? - TradingView",
+      "source": "TradingView",
+      "when": "2026-09-04T06:13:00+00:00",
+      "hours_ago": 9.0,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 4.46
+      "score": 2.55
     },
     {
-      "title": "US Fed official joins growing group open to rate hike if inflation rises - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "when": "2026-09-03T14:06:09+00:00",
-      "hours_ago": 9.3,
+      "title": "US yields advance after jobs report gives Fed rate hike bets a lift - TradingView",
+      "source": "TradingView",
+      "when": "2026-09-04T14:49:05+00:00",
+      "hours_ago": 0.4,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -4.23
+      "score": -2.48
     },
     {
-      "title": "Fed’s Waller signals possible September rate hike if August inflation rises - Bitget",
-      "source": "Bitget",
-      "when": "2026-09-03T10:54:32+00:00",
-      "hours_ago": 12.5,
+      "title": "Fed Rate Hike Back in Focus After Strong Jobs Report - US News Money",
+      "source": "US News Money",
+      "when": "2026-09-04T14:49:42+00:00",
+      "hours_ago": 0.4,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -3.96
+      "score": -2.48
     },
     {
-      "title": "Oil News: Crude Oil Reverses Higher as Kuwait Attacks Deepen Hormuz Risk - FXEmpire",
-      "source": "FXEmpire",
-      "when": "2026-09-03T13:38:00+00:00",
-      "hours_ago": 9.7,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -2.93
-    },
-    {
-      "title": "Hormuz Disruptions Could Drag Into Next Year, Japanese Tanker Giant Warns - Crude Oil Prices Today | OilPrice.com",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "when": "2026-09-03T13:00:00+00:00",
-      "hours_ago": 10.4,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -2.89
-    },
-    {
-      "title": "JD Vance reacts to airstrike that killed four at Iran wedding: ‘Things happen’ - The Guardian",
-      "source": "The Guardian",
-      "when": "2026-09-03T21:04:00+00:00",
-      "hours_ago": 2.3,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.88
-    },
-    {
-      "title": "Israel warns Iran of consequences of an attack on the country - NewsNation",
-      "source": "NewsNation",
-      "when": "2026-09-03T20:28:17+00:00",
-      "hours_ago": 2.9,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.85
-    },
-    {
-      "title": "Iran buries victims of reported US wedding attack, fires on Kuwait - Reuters",
-      "source": "Reuters",
-      "when": "2026-09-03T20:12:07+00:00",
-      "hours_ago": 3.2,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.84
-    },
-    {
-      "title": "Crude oil moves higher. Stocks move lower as reports of an American attack on Iran - investingLive",
-      "source": "investingLive",
-      "when": "2026-09-03T15:09:31+00:00",
-      "hours_ago": 8.2,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.59
-    },
-    {
-      "title": "EU Vows Tougher Russia Measures After Leipzig Drone Attack - Crude Oil Prices Today | OilPrice.com",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "when": "2026-09-03T14:00:00+00:00",
-      "hours_ago": 9.4,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.53
-    },
-    {
-      "title": "Did Chris Waller just torpedo a Fed rate hike in September? - Scotsman Guide",
-      "source": "Scotsman Guide",
-      "when": "2026-09-03T22:46:19+00:00",
+      "title": "Blowout Jobs Report Revives Rate Hike Fears. Why Are Chip Stocks Rallying? - moomoo.com",
+      "source": "moomoo.com",
+      "when": "2026-09-04T14:37:44+00:00",
       "hours_ago": 0.6,
       "category": "Fed hawkish",
       "direction": "bajista",
@@ -160,16 +120,56 @@
       "score": -2.47
     },
     {
-      "title": "Brazil Loses Premium Beef Price Anchor After EU Export Ban - The AgriBiz",
-      "source": "The AgriBiz",
-      "when": "2026-09-03T21:11:06+00:00",
-      "hours_ago": 2.2,
-      "category": "Aranceles / guerra comercial",
+      "title": "Surprisingly strong jobs report could set stage for Fed rate hike - Politico",
+      "source": "Politico",
+      "when": "2026-09-04T14:29:00+00:00",
+      "hours_ago": 0.7,
+      "category": "Fed hawkish",
       "direction": "bajista",
-      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.41
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.47
+    },
+    {
+      "title": "August Jobs Report Blows Past Forecasts, Putting Fed Rate Hike Back on the Table - Northeast Times",
+      "source": "Northeast Times",
+      "when": "2026-09-04T14:33:14+00:00",
+      "hours_ago": 0.7,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.47
+    },
+    {
+      "title": "Stocks slip as robust US jobs data stokes rate hike chances - Yahoo Finance Singapore",
+      "source": "Yahoo Finance Singapore",
+      "when": "2026-09-04T13:52:34+00:00",
+      "hours_ago": 1.4,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.44
+    },
+    {
+      "title": "Stocks wobble after a surprisingly strong jobs report raises prospects of an interest rate hike - Boston Herald",
+      "source": "Boston Herald",
+      "when": "2026-09-04T13:44:38+00:00",
+      "hours_ago": 1.5,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.44
+    },
+    {
+      "title": "U.S. stocks wobble after a surprisingly strong jobs report raises prospects of an interest rate hike - CP24",
+      "source": "CP24",
+      "when": "2026-09-04T13:46:19+00:00",
+      "hours_ago": 1.5,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.44
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -21/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100). Apoyo alcista por: Mercado risk-on (Tono de mercado positivo (risk-on)); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100); Inflacion enfriando (Inflacion cediendo abre la puerta a recortes). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 508
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -18/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Mercado risk-off (Tono de mercado negativo (risk-off)); Ormuz cerrado/amenazado (Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off). Apoyo alcista por: Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100); Mercado risk-on (Tono de mercado positivo (risk-on)); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 509
 }
