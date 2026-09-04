@@ -1,51 +1,51 @@
 {
   "ok": true,
-  "generated_at": "2026-09-04T15:13:44.351188+00:00",
+  "generated_at": "2026-09-04T18:23:30.645575+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -18.2,
+  "news_pulse": -22.3,
   "label": "bajista",
   "drivers": [
     {
       "category": "Fed hawkish",
-      "score": -48.8,
+      "score": -49.3,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 23
+      "n": 21
     },
     {
       "category": "Fed dovish/pausa",
-      "score": 33.16,
+      "score": 38.37,
       "direction": "alcista",
       "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
-      "n": 16
+      "n": 18
+    },
+    {
+      "category": "Aranceles / guerra comercial",
+      "score": -10.94,
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "n": 6
     },
     {
       "category": "Mercado risk-on",
-      "score": 12.15,
+      "score": 10.45,
       "direction": "alcista",
       "why": "Tono de mercado positivo (risk-on)",
-      "n": 11
+      "n": 10
     },
     {
-      "category": "Mercado risk-off",
-      "score": -5.5,
+      "category": "Petroleo al alza",
+      "score": -8.78,
       "direction": "bajista",
-      "why": "Tono de mercado negativo (risk-off)",
-      "n": 4
-    },
-    {
-      "category": "Ormuz cerrado/amenazado",
-      "score": -5.46,
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "n": 1
+      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
+      "n": 6
     },
     {
       "category": "Geopolitica/escalada",
-      "score": -4.9,
+      "score": -7.42,
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "n": 2
+      "n": 3
     }
   ],
   "headlines": [
@@ -53,123 +53,123 @@
       "title": "Oil prices are expected to rise in the second week of September as global crude prices are pushed higher with tensions in the Middle East and disruptions around the Strait of Hormuz. I via ANC 24/7 Link to full story in the comments section. - facebook.com",
       "source": "facebook.com",
       "when": "2026-09-04T14:50:01+00:00",
-      "hours_ago": 0.4,
+      "hours_ago": 3.6,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -5.46
+      "score": -5.17
+    },
+    {
+      "title": "Stocks fall after a surprisingly strong jobs report raises prospects of an interest rate hike - Boston Herald",
+      "source": "Boston Herald",
+      "when": "2026-09-04T15:53:18+00:00",
+      "hours_ago": 2.5,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -3.83
+    },
+    {
+      "title": "Stocks fall as strong jobs report raises rate hike prospects - The Korea Times",
+      "source": "The Korea Times",
+      "when": "2026-09-04T15:42:03+00:00",
+      "hours_ago": 2.7,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -3.82
+    },
+    {
+      "title": "U.S. stocks fall after a surprisingly strong jobs report raises prospects of an interest rate hike - BNN Bloomberg",
+      "source": "BNN Bloomberg",
+      "when": "2026-09-04T11:06:43+00:00",
+      "hours_ago": 7.3,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -3.51
+    },
+    {
+      "title": "Oil climbs on reports of Iran ballistic missile launches - investinglive.com",
+      "source": "investinglive.com",
+      "when": "2026-09-04T15:01:10+00:00",
+      "hours_ago": 3.4,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.83
     },
     {
       "title": "Iran Says It's Found Ways to Dodge U.S. Oil Blockade - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "when": "2026-09-04T13:30:00+00:00",
-      "hours_ago": 1.7,
+      "hours_ago": 4.9,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.91
+      "score": -2.76
     },
     {
-      "title": "Stocks Fall as Jobs Fuel Bets Fed Will Raise Rates: Markets Wrap - Bloomberg.com",
-      "source": "Bloomberg.com",
-      "when": "2026-09-03T22:14:26+00:00",
-      "hours_ago": 17.0,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.87
-    },
-    {
-      "title": "Hormuz is reopening, so why are oil prices still racing towards $100? - TradingView",
-      "source": "TradingView",
-      "when": "2026-09-04T06:13:00+00:00",
-      "hours_ago": 9.0,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.55
-    },
-    {
-      "title": "US yields advance after jobs report gives Fed rate hike bets a lift - TradingView",
-      "source": "TradingView",
-      "when": "2026-09-04T14:49:05+00:00",
-      "hours_ago": 0.4,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.48
-    },
-    {
-      "title": "Fed Rate Hike Back in Focus After Strong Jobs Report - US News Money",
-      "source": "US News Money",
-      "when": "2026-09-04T14:49:42+00:00",
-      "hours_ago": 0.4,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.48
-    },
-    {
-      "title": "Blowout Jobs Report Revives Rate Hike Fears. Why Are Chip Stocks Rallying? - moomoo.com",
-      "source": "moomoo.com",
-      "when": "2026-09-04T14:37:44+00:00",
-      "hours_ago": 0.6,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.47
-    },
-    {
-      "title": "Surprisingly strong jobs report could set stage for Fed rate hike - Politico",
-      "source": "Politico",
-      "when": "2026-09-04T14:29:00+00:00",
-      "hours_ago": 0.7,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.47
-    },
-    {
-      "title": "August Jobs Report Blows Past Forecasts, Putting Fed Rate Hike Back on the Table - Northeast Times",
-      "source": "Northeast Times",
-      "when": "2026-09-04T14:33:14+00:00",
-      "hours_ago": 0.7,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.47
-    },
-    {
-      "title": "Stocks slip as robust US jobs data stokes rate hike chances - Yahoo Finance Singapore",
-      "source": "Yahoo Finance Singapore",
-      "when": "2026-09-04T13:52:34+00:00",
-      "hours_ago": 1.4,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.44
-    },
-    {
-      "title": "Stocks wobble after a surprisingly strong jobs report raises prospects of an interest rate hike - Boston Herald",
-      "source": "Boston Herald",
-      "when": "2026-09-04T13:44:38+00:00",
+      "title": "Trump Issues Ultimatum to Fed: Cut Rates or Face Trade War With the World - 24/7 Wall St.",
+      "source": "24/7 Wall St.",
+      "when": "2026-09-04T16:55:00+00:00",
       "hours_ago": 1.5,
-      "category": "Fed hawkish",
+      "category": "Diplomacia rota",
       "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.44
+      "why": "Ruptura de negociaciones aumenta la incertidumbre",
+      "score": -2.63
     },
     {
-      "title": "U.S. stocks wobble after a surprisingly strong jobs report raises prospects of an interest rate hike - CP24",
-      "source": "CP24",
-      "when": "2026-09-04T13:46:19+00:00",
-      "hours_ago": 1.5,
+      "title": "Don’t raise rates, Trump tells Fed despite strong US jobs growth - The Times",
+      "source": "The Times",
+      "when": "2026-09-04T16:47:40+00:00",
+      "hours_ago": 1.6,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.44
+      "score": -2.43
+    },
+    {
+      "title": "Wall St slides after strong jobs report bolsters hawkish Fed bets - Reuters",
+      "source": "Reuters",
+      "when": "2026-09-04T16:25:46+00:00",
+      "hours_ago": 2.0,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.42
+    },
+    {
+      "title": "Trump threatens trade war if rates aren’t cut after strong jobs report - thehill.com",
+      "source": "thehill.com",
+      "when": "2026-09-04T16:04:00+00:00",
+      "hours_ago": 2.3,
+      "category": "Aranceles / guerra comercial",
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "score": -2.4
+    },
+    {
+      "title": "After Strong Jobs Report, Trump Issues Ultimatum to Fed - Newser",
+      "source": "Newser",
+      "when": "2026-09-04T15:55:00+00:00",
+      "hours_ago": 2.5,
+      "category": "Diplomacia rota",
+      "direction": "bajista",
+      "why": "Ruptura de negociaciones aumenta la incertidumbre",
+      "score": -2.4
+    },
+    {
+      "title": "Tariff Tensions: Trump administration moves forward with controversial beef import decision - Wyoming Livestock Roundup",
+      "source": "Wyoming Livestock Roundup",
+      "when": "2026-09-04T15:49:41+00:00",
+      "hours_ago": 2.6,
+      "category": "Aranceles / guerra comercial",
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "score": -2.39
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -18/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Mercado risk-off (Tono de mercado negativo (risk-off)); Ormuz cerrado/amenazado (Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off). Apoyo alcista por: Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100); Mercado risk-on (Tono de mercado positivo (risk-on)); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 509
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -22/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq). Apoyo alcista por: Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100); Mercado risk-on (Tono de mercado positivo (risk-on)); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 517
 }
