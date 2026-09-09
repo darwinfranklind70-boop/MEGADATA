@@ -1,175 +1,175 @@
 {
   "ok": true,
-  "generated_at": "2026-09-09T21:11:43.996535+00:00",
+  "generated_at": "2026-09-09T23:12:13.549763+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -89.0,
+  "news_pulse": -90.1,
   "label": "bajista",
   "drivers": [
     {
       "category": "Aranceles / guerra comercial",
-      "score": -40.67,
+      "score": -43.08,
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "n": 23
+      "n": 25
     },
     {
       "category": "Fed hawkish",
-      "score": -39.92,
+      "score": -42.6,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 22
+      "n": 24
     },
     {
       "category": "Petroleo al alza",
-      "score": -34.34,
+      "score": -40.71,
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "n": 19
-    },
-    {
-      "category": "Ormuz cerrado/amenazado",
-      "score": -10.45,
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "n": 3
+      "n": 21
     },
     {
       "category": "Geopolitica/escalada",
-      "score": -10.39,
+      "score": -6.25,
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "n": 5
+      "n": 3
     },
     {
       "category": "Mercado risk-off",
-      "score": -6.45,
+      "score": -4.62,
       "direction": "bajista",
       "why": "Tono de mercado negativo (risk-off)",
-      "n": 6
+      "n": 5
+    },
+    {
+      "category": "Fed dovish/pausa",
+      "score": 2.59,
+      "direction": "alcista",
+      "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
+      "n": 2
     }
   ],
   "headlines": [
     {
-      "title": "Oil jumps above $100 a barrel as US-Iran fighting raises Strait of Hormuz disruption fears - Business Insider",
-      "source": "Business Insider",
-      "when": "2026-09-09T08:39:45+00:00",
-      "hours_ago": 12.5,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -4.35
-    },
-    {
-      "title": "Stocks fall on Wall Street as oil prices jump back above $100 a barrel after Iran war escalates - Boston Herald",
-      "source": "Boston Herald",
-      "when": "2026-09-09T19:55:49+00:00",
-      "hours_ago": 1.3,
+      "title": "Stocks fall on Wall Street as oil prices jump back above $100 a barrel - Toledo Blade",
+      "source": "Toledo Blade",
+      "when": "2026-09-09T21:14:14+00:00",
+      "hours_ago": 2.0,
       "category": "Petroleo al alza",
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "score": -3.43
+      "score": -3.39
     },
     {
-      "title": "Iran claims to have attacked 10 ships near strait of Hormuz after US strikes - The Guardian",
-      "source": "The Guardian",
-      "when": "2026-09-09T15:32:00+00:00",
-      "hours_ago": 5.7,
-      "category": "Ormuz cerrado/amenazado",
+      "title": "Stocks fall on Wall Street as oil prices jump back above $100 a barrel after Iran war escalates - WRAL",
+      "source": "WRAL",
+      "when": "2026-09-09T20:00:44+00:00",
+      "hours_ago": 3.2,
+      "category": "Petroleo al alza",
       "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.17
+      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
+      "score": -3.31
+    },
+    {
+      "title": "Stocks fall on Wall Street as oil prices jump above $100 a barrel after the US war on Iran escalates - Ahram Online",
+      "source": "Ahram Online",
+      "when": "2026-09-09T15:19:53+00:00",
+      "hours_ago": 7.9,
+      "category": "Petroleo al alza",
+      "direction": "bajista",
+      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
+      "score": -3.04
     },
     {
       "title": "Stocks fall on Wall Street as oil prices jump above $100 a barrel after US and Iran war escalates - WDEF",
       "source": "WDEF",
-      "when": "2026-09-09T14:24:05+00:00",
-      "hours_ago": 6.8,
+      "when": "2026-09-09T14:12:30+00:00",
+      "hours_ago": 9.0,
       "category": "Petroleo al alza",
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "score": -3.1
-    },
-    {
-      "title": "Why US-Iran war over Hormuz is threatening the Gulf’s waters - Al Jazeera",
-      "source": "Al Jazeera",
-      "when": "2026-09-09T11:29:10+00:00",
-      "hours_ago": 9.7,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -2.93
-    },
-    {
-      "title": "Tehran widens maritime fight to spread cost of US blockade - Iran International",
-      "source": "Iran International",
-      "when": "2026-09-09T19:30:14+00:00",
-      "hours_ago": 1.7,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.92
+      "score": -2.98
     },
     {
       "title": "U.S. stocks fall on Wall Street as oil prices jump above US$100 a barrel after U.S. and Iran war escalates - BNN Bloomberg",
       "source": "BNN Bloomberg",
       "when": "2026-09-09T11:05:50+00:00",
-      "hours_ago": 10.1,
+      "hours_ago": 12.1,
       "category": "Petroleo al alza",
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "score": -2.91
+      "score": -2.79
     },
     {
       "title": "oil-prices-iran-attack-saudi-brent-crude: Latest Updates - Audacy",
       "source": "Audacy",
       "when": "2026-09-09T18:27:12+00:00",
-      "hours_ago": 2.7,
+      "hours_ago": 4.8,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.86
+      "score": -2.76
+    },
+    {
+      "title": "‘It’s Time for the Fed to Raise Interest Rates’: Ex-Fed President Defies Trump’s Ultimatum - 24/7 Wall St.",
+      "source": "24/7 Wall St.",
+      "when": "2026-09-09T22:03:00+00:00",
+      "hours_ago": 1.2,
+      "category": "Diplomacia rota",
+      "direction": "bajista",
+      "why": "Ruptura de negociaciones aumenta la incertidumbre",
+      "score": -2.45
+    },
+    {
+      "title": "Ontario’s alcohol industry bracing for tariff impact after early trade war gains - Global News",
+      "source": "Global News",
+      "when": "2026-09-09T21:15:35+00:00",
+      "hours_ago": 1.9,
+      "category": "Aranceles / guerra comercial",
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "score": -2.42
+    },
+    {
+      "title": "US stocks today: US stocks end lower as solid jobs data fuels hawkish Fed bets - The Economic Times",
+      "source": "The Economic Times",
+      "when": "2026-09-09T20:42:59+00:00",
+      "hours_ago": 2.5,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.4
+    },
+    {
+      "title": "Trump bans Canadian dairy in latest trade war move - Farms.com",
+      "source": "Farms.com",
+      "when": "2026-09-09T20:25:01+00:00",
+      "hours_ago": 2.8,
+      "category": "Aranceles / guerra comercial",
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "score": -2.38
     },
     {
       "title": "LIVE | Dow Jones, Nasdaq, US Stock Market Today: Check Latest Move in Futures, Dow Jones Slips 400 Points as Oil Surges, Bond Hit and Fed Rate Hike Amid US-Iran Tensions | Why Are Stocks Down Today - The Sunday Guardian",
       "source": "The Sunday Guardian",
       "when": "2026-09-09T19:51:15+00:00",
-      "hours_ago": 1.3,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.44
-    },
-    {
-      "title": "Calls for companies that leave Canada to be punished as trade war intensifies. Live updates here. - cp24.com",
-      "source": "cp24.com",
-      "when": "2026-09-09T18:28:50+00:00",
-      "hours_ago": 2.7,
-      "category": "Aranceles / guerra comercial",
-      "direction": "bajista",
-      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.39
-    },
-    {
-      "title": "$100 billion inflation shock could keep interest rates higher for longer - thestreet.com",
-      "source": "thestreet.com",
-      "when": "2026-09-09T17:45:08+00:00",
-      "hours_ago": 3.4,
+      "hours_ago": 3.3,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
       "score": -2.36
     },
     {
-      "title": "$100 Oil Hits Your Mortgage: Warsh Must Choose Between Inflation and Recession - Tech Times",
-      "source": "Tech Times",
-      "when": "2026-09-09T17:32:39+00:00",
-      "hours_ago": 3.7,
-      "category": "Recesion / debilidad",
+      "title": "August CPI Seen Cooling, but Will It Prevent a Fed Rate Hike? - Morningstar",
+      "source": "Morningstar",
+      "when": "2026-09-09T19:18:42+00:00",
+      "hours_ago": 3.9,
+      "category": "Fed hawkish",
       "direction": "bajista",
-      "why": "Temor de recesion pesa sobre las acciones",
-      "score": -2.35
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.34
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -89/100). Presion bajista por: Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq). Apoyo alcista por: Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100); Mercado risk-on (Tono de mercado positivo (risk-on)); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 514
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -90/100). Presion bajista por: Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq). Apoyo alcista por: Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100); Mercado risk-on (Tono de mercado positivo (risk-on)); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 508
 }
