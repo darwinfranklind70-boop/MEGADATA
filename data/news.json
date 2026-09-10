@@ -1,51 +1,51 @@
 {
   "ok": true,
-  "generated_at": "2026-09-10T15:18:09.201841+00:00",
+  "generated_at": "2026-09-10T18:34:16.627227+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -86.2,
+  "news_pulse": -91.7,
   "label": "bajista",
   "drivers": [
     {
       "category": "Petroleo al alza",
-      "score": -48.1,
+      "score": -43.18,
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "n": 27
+      "n": 25
     },
     {
       "category": "Fed hawkish",
-      "score": -38.87,
+      "score": -42.39,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
       "n": 23
     },
     {
       "category": "Aranceles / guerra comercial",
-      "score": -34.89,
+      "score": -28.87,
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "n": 24
+      "n": 22
     },
     {
       "category": "Ormuz cerrado/amenazado",
-      "score": -11.23,
+      "score": -12.42,
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "n": 3
+      "n": 4
+    },
+    {
+      "category": "Geopolitica/escalada",
+      "score": -3.76,
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "n": 2
     },
     {
       "category": "Petroleo a la baja",
-      "score": 5.0,
+      "score": 3.3,
       "direction": "alcista",
       "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "n": 3
-    },
-    {
-      "category": "Mercado risk-off",
-      "score": -4.54,
-      "direction": "bajista",
-      "why": "Tono de mercado negativo (risk-off)",
-      "n": 5
+      "n": 2
     }
   ],
   "headlines": [
@@ -53,123 +53,123 @@
       "title": "Oil Prices Rise as Brent Stays Above $100 Following Strait of Hormuz Attacks - Yahoo Finance UK",
       "source": "Yahoo Finance UK",
       "when": "2026-09-10T09:34:46+00:00",
-      "hours_ago": 5.7,
+      "hours_ago": 9.0,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -4.98
+      "score": -4.68
     },
     {
-      "title": "Brent Oil Prices Hold Above $100 Amid Hormuz Tanker Attacks - Global Banking & Finance Review",
+      "title": "Brent Oil Holds Above $100 Amid Tanker Attacks and Hormuz Disruptions - Global Banking & Finance Review",
       "source": "Global Banking & Finance Review",
-      "when": "2026-09-10T10:08:06+00:00",
-      "hours_ago": 5.2,
+      "when": "2026-09-10T13:13:08+00:00",
+      "hours_ago": 5.4,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.2
+      "score": -3.19
+    },
+    {
+      "title": "Stocks drop as oil spike fans inflation and interest rate fears - Yahoo Finance Singapore",
+      "source": "Yahoo Finance Singapore",
+      "when": "2026-09-10T08:20:22+00:00",
+      "hours_ago": 10.2,
+      "category": "Petroleo al alza",
+      "direction": "bajista",
+      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
+      "score": -2.9
+    },
+    {
+      "title": "Trump says ‘no damage’ to US war planes from Iran attack - The Hill",
+      "source": "The Hill",
+      "when": "2026-09-10T15:50:00+00:00",
+      "hours_ago": 2.7,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.86
     },
     {
       "title": "Trump warns Tehran over Pickaxe Mountain activity; U.S.-Iran exchange attacks on ships near Hormuz - CNBC",
       "source": "CNBC",
       "when": "2026-09-10T07:32:08+00:00",
-      "hours_ago": 7.8,
+      "hours_ago": 11.0,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.05
+      "score": -2.86
     },
     {
-      "title": "US stocks fall as oil prices jump above $100 a barrel - Northwest Arkansas Democrat-Gazette",
-      "source": "Northwest Arkansas Democrat-Gazette",
-      "when": "2026-09-10T06:47:00+00:00",
-      "hours_ago": 8.5,
-      "category": "Petroleo al alza",
+      "title": "US Inflation Data Raise Traders’ Bets on a Federal Reserve Rate Hike - Межа. Новини України.",
+      "source": "Межа. Новини України.",
+      "when": "2026-09-10T18:24:20+00:00",
+      "hours_ago": 0.2,
+      "category": "Fed hawkish",
       "direction": "bajista",
-      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "score": -3.0
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.49
     },
     {
-      "title": "Bought at War, Sold Before Ceasefire... Trump's Account Surges by $5.9 Million - 아시아경제",
-      "source": "아시아경제",
-      "when": "2026-09-10T06:59:07+00:00",
-      "hours_ago": 8.3,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.58
-    },
-    {
-      "title": "oil-prices-iran-attack-saudi-brent-crude: Latest Updates - Audacy",
-      "source": "Audacy",
-      "when": "2026-09-10T05:51:57+00:00",
-      "hours_ago": 9.4,
-      "category": "Geopolitica/escalada",
+      "title": "Hotter producer prices strengthen bets on a Fed rate hike - The Economic Times",
+      "source": "The Economic Times",
+      "when": "2026-09-10T16:50:00+00:00",
+      "hours_ago": 1.7,
+      "category": "Fed hawkish",
       "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.53
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.43
+    },
+    {
+      "title": "S&P 500 Today LIVE: Index Falls 0.39% As Oil Prices Surges $100 Fed Rate Hike, Treasury Yields & Tech Stocks Amid Intel, Micron, Nvidia Leads Wall Street | Check What Investors Should Watch - The Sunday Guardian",
+      "source": "The Sunday Guardian",
+      "when": "2026-09-10T15:58:16+00:00",
+      "hours_ago": 2.6,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.39
+    },
+    {
+      "title": "Traders See 70% Likelihood Fed Will Raise Rates - newsmax.com",
+      "source": "newsmax.com",
+      "when": "2026-09-10T14:56:51+00:00",
+      "hours_ago": 3.6,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.35
+    },
+    {
+      "title": "US CPI Preview: The Fed’s 0.3% Rate Hike Trigger for Core CPI - FOREX.com",
+      "source": "FOREX.com",
+      "when": "2026-09-10T14:46:09+00:00",
+      "hours_ago": 3.8,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.34
+    },
+    {
+      "title": "US Stock Market Today: Dow Jones Slips 0.38%, Nasdaq Falls 0.53%, S&P 500 Turns Red as Oil Prices Top $100, Fed Rate Hike, Nvidia and Yields Hit Wall Street – Check What Investors Should Know - The Sunday Guardian",
+      "source": "The Sunday Guardian",
+      "when": "2026-09-10T14:47:58+00:00",
+      "hours_ago": 3.8,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.34
     },
     {
       "title": "The likelihood of a Fed interest rate hike next week just got a lot higher - CNBC",
       "source": "CNBC",
       "when": "2026-09-10T14:34:55+00:00",
-      "hours_ago": 0.7,
+      "hours_ago": 4.0,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.47
-    },
-    {
-      "title": "Stocks fall on Wall Street as oil prices jump back above $100 a barrel - Toledo Blade",
-      "source": "Toledo Blade",
-      "when": "2026-09-09T21:14:14+00:00",
-      "hours_ago": 18.1,
-      "category": "Petroleo al alza",
-      "direction": "bajista",
-      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "score": -2.45
-    },
-    {
-      "title": "Stocks fall on Wall Street as oil prices jump back above $100 a barrel after Iran war escalates - AP News",
-      "source": "AP News",
-      "when": "2026-09-09T20:59:00+00:00",
-      "hours_ago": 18.3,
-      "category": "Petroleo al alza",
-      "direction": "bajista",
-      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "score": -2.43
-    },
-    {
-      "title": "VIEW ECB hikes rates as Iran war adds to inflation angst - Reuters",
-      "source": "Reuters",
-      "when": "2026-09-10T12:53:54+00:00",
-      "hours_ago": 2.4,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.4
-    },
-    {
-      "title": "Wholesale inflation rises by most in 3 months ahead of Fed interest-rate decision - New York Post",
-      "source": "New York Post",
-      "when": "2026-09-10T12:45:00+00:00",
-      "hours_ago": 2.6,
-      "category": "Inflacion caliente",
-      "direction": "bajista",
-      "why": "Inflacion alta -> Fed mas dura -> presion al US100",
-      "score": -2.39
-    },
-    {
-      "title": "What a Fed Rate Hike Actually Means for the US Economy and Inflation - finance.yahoo.com",
-      "source": "finance.yahoo.com",
-      "when": "2026-09-10T11:00:00+00:00",
-      "hours_ago": 4.3,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.32
+      "score": -2.33
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -86/100). Presion bajista por: Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 519
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -92/100). Presion bajista por: Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 496
 }
