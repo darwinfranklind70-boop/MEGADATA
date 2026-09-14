@@ -1,175 +1,175 @@
 {
   "ok": true,
-  "generated_at": "2026-09-14T17:06:28.099493+00:00",
+  "generated_at": "2026-09-14T20:55:36.103803+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -89.0,
+  "news_pulse": -73.1,
   "label": "bajista",
   "drivers": [
     {
       "category": "Fed hawkish",
-      "score": -79.05,
+      "score": -79.58,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 37
-    },
-    {
-      "category": "Petroleo al alza",
-      "score": -54.72,
-      "direction": "bajista",
-      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "n": 26
-    },
-    {
-      "category": "Mercado risk-off",
-      "score": -44.39,
-      "direction": "bajista",
-      "why": "Tono de mercado negativo (risk-off)",
-      "n": 32
+      "n": 38
     },
     {
       "category": "Aranceles / guerra comercial",
-      "score": -43.92,
+      "score": -52.26,
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "n": 25
+      "n": 30
     },
     {
-      "category": "Geopolitica/escalada",
-      "score": -22.4,
+      "category": "Petroleo al alza",
+      "score": -41.08,
       "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "n": 8
+      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
+      "n": 22
     },
     {
-      "category": "Fed dovish/pausa",
-      "score": 8.88,
+      "category": "Mercado risk-off",
+      "score": -39.61,
+      "direction": "bajista",
+      "why": "Tono de mercado negativo (risk-off)",
+      "n": 30
+    },
+    {
+      "category": "Desescalada / acuerdo",
+      "score": 15.74,
       "direction": "alcista",
-      "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
-      "n": 6
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "n": 5
+    },
+    {
+      "category": "Petroleo a la baja",
+      "score": 7.99,
+      "direction": "alcista",
+      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
+      "n": 5
     }
   ],
   "headlines": [
     {
-      "title": "Crude Oil Forecast: Saudi Attack Fuels WTI, Brent Rally - FXEmpire",
-      "source": "FXEmpire",
-      "when": "2026-09-14T13:57:00+00:00",
-      "hours_ago": 3.2,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -4.74
-    },
-    {
-      "title": "Gold falls to over one-month low as oil rally, inflation data boost rate hike bets - Reuters",
-      "source": "Reuters",
-      "when": "2026-09-14T03:48:00+00:00",
-      "hours_ago": 13.3,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -3.5
+      "title": "Russian Stocks Jump After Trump Announces Energy Truce - Caspian Post",
+      "source": "Caspian Post",
+      "when": "2026-09-14T19:36:24+00:00",
+      "hours_ago": 1.3,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 4.4
     },
     {
       "title": "Tech stocks drop on warnings about AI as Brent oil's price jumps above $108 - Castanet",
       "source": "Castanet",
       "when": "2026-09-14T14:05:00+00:00",
-      "hours_ago": 3.0,
+      "hours_ago": 6.8,
       "category": "Petroleo al alza",
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "score": -3.32
+      "score": -3.1
     },
     {
-      "title": "Tech stocks drop on warnings about AI as Brent oil's price jumps above $108 - thecanadianpressnews.ca",
-      "source": "thecanadianpressnews.ca",
-      "when": "2026-09-14T13:37:50+00:00",
-      "hours_ago": 3.5,
-      "category": "Petroleo al alza",
-      "direction": "bajista",
-      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "score": -3.3
-    },
-    {
-      "title": "Tech stocks drop on warnings about AI as Brent oil's price jumps above $108 - tribdem.com",
-      "source": "tribdem.com",
+      "title": "Tech stocks drop on warnings about AI as Brent oil's price jumps above $108 - The Tribune-Democrat",
+      "source": "The Tribune-Democrat",
       "when": "2026-09-14T13:36:00+00:00",
-      "hours_ago": 3.5,
+      "hours_ago": 7.3,
       "category": "Petroleo al alza",
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "score": -3.3
+      "score": -3.07
     },
     {
-      "title": "Tech stocks drop on warnings about AI as Brent oil's price jumps above $108 - dailyindependent.com",
-      "source": "dailyindependent.com",
+      "title": "Tech stocks drop on warnings about AI as Brent oil's price jumps above $108 - Bluefield Daily Telegraph",
+      "source": "Bluefield Daily Telegraph",
       "when": "2026-09-14T13:36:56+00:00",
-      "hours_ago": 3.5,
+      "hours_ago": 7.3,
       "category": "Petroleo al alza",
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "score": -3.3
+      "score": -3.07
     },
     {
       "title": "Brent at $108 Gulf States Halt Hormuz Talks as Houthis Strike Saudi Airbase - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "when": "2026-09-14T12:43:00+00:00",
-      "hours_ago": 4.4,
+      "hours_ago": 8.2,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.24
+      "score": -3.02
     },
     {
-      "title": "Tech stocks drop on warnings about AI as Brent oil's price jumps above $108 - ottumwacourier.com",
-      "source": "ottumwacourier.com",
-      "when": "2026-09-14T09:52:18+00:00",
-      "hours_ago": 7.2,
-      "category": "Petroleo al alza",
-      "direction": "bajista",
-      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "score": -3.08
+      "title": "Trump announced an ‘energy ceasefire’ between Russia and Ukraine, but the Financial Times reports that Moscow has not agreed to any deal - meduza.io",
+      "source": "meduza.io",
+      "when": "2026-09-14T19:55:00+00:00",
+      "hours_ago": 1.0,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.95
+    },
+    {
+      "title": "Donald Trump claims Russia and Ukraine have agreed energy truce - Financial Times",
+      "source": "Financial Times",
+      "when": "2026-09-14T17:18:42+00:00",
+      "hours_ago": 3.6,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.82
     },
     {
       "title": "The US has made progress in reopening the Strait of Hormuz, but the Iran war is far from over - Religion News Service",
       "source": "Religion News Service",
       "when": "2026-09-14T16:46:38+00:00",
-      "hours_ago": 0.3,
+      "hours_ago": 4.1,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.98
+      "score": 2.79
     },
     {
-      "title": "Persian Gulf states call off meeting with Iran as Houthis launch new attack on Saudi Arabia - cbc.ca",
-      "source": "cbc.ca",
-      "when": "2026-09-14T16:00:57+00:00",
-      "hours_ago": 1.1,
+      "title": "Iran war latest: Iran protests as US prevents its nuclear chief attending IAEA meeting - thenationalnews.com",
+      "source": "thenationalnews.com",
+      "when": "2026-09-14T16:35:06+00:00",
+      "hours_ago": 4.3,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.95
+      "score": -2.78
     },
     {
-      "title": "Yemen's Houthis attack Saudis, seize crucial Red Sea islands - dw.com",
-      "source": "dw.com",
-      "when": "2026-09-14T15:30:34+00:00",
-      "hours_ago": 1.6,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.92
+      "title": "Trump Claims Ukraine-Russia Energy Truce as Diesel Hits $6.23 a Gallon - Lower Bucks Times",
+      "source": "Lower Bucks Times",
+      "when": "2026-09-14T16:27:33+00:00",
+      "hours_ago": 4.5,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.78
     },
     {
-      "title": "Saudi Arabia Under Attack: Oil Should Be Above $200? (NYSEARCA:SPY) - Seeking Alpha",
-      "source": "Seeking Alpha",
-      "when": "2026-09-14T11:27:14+00:00",
-      "hours_ago": 5.7,
-      "category": "Geopolitica/escalada",
+      "title": "US Oil Export Ban Unlikely to Lower Energy Prices, Interior Secretary Says - GV Wire",
+      "source": "GV Wire",
+      "when": "2026-09-14T20:53:58+00:00",
+      "hours_ago": 0.0,
+      "category": "Aranceles / guerra comercial",
       "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.72
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "score": -2.5
+    },
+    {
+      "title": "Trump says he's lifting a 10% tariff on Irish whiskey because 'everybody's been bugging me' about it - Charleston Gazette-Mail",
+      "source": "Charleston Gazette-Mail",
+      "when": "2026-09-14T20:45:00+00:00",
+      "hours_ago": 0.2,
+      "category": "Aranceles / guerra comercial",
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "score": -2.49
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -89/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq); Mercado risk-off (Tono de mercado negativo (risk-off)). Apoyo alcista por: Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Tech/IA fuerte (Demanda de IA/chips impulsa al Nasdaq). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 477
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -73/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 509
 }
