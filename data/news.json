@@ -1,48 +1,48 @@
 {
   "ok": true,
-  "generated_at": "2026-09-16T19:03:31.188375+00:00",
+  "generated_at": "2026-09-16T22:06:28.643604+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -31.1,
+  "news_pulse": -42.4,
   "label": "bajista",
   "drivers": [
     {
       "category": "Fed hawkish",
-      "score": -60.61,
+      "score": -64.46,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
       "n": 29
     },
     {
       "category": "Desescalada / acuerdo",
-      "score": 28.78,
+      "score": 22.3,
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "n": 14
+      "n": 11
     },
     {
       "category": "Petroleo a la baja",
-      "score": 28.58,
+      "score": 18.68,
       "direction": "alcista",
       "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "n": 16
+      "n": 11
     },
     {
       "category": "Petroleo al alza",
-      "score": -19.81,
+      "score": -16.37,
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "n": 13
+      "n": 11
     },
     {
       "category": "Aranceles / guerra comercial",
-      "score": -16.28,
+      "score": -13.82,
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "n": 10
+      "n": 8
     },
     {
       "category": "Mercado risk-off",
-      "score": -5.92,
+      "score": -5.58,
       "direction": "bajista",
       "why": "Tono de mercado negativo (risk-off)",
       "n": 5
@@ -50,126 +50,126 @@
   ],
   "headlines": [
     {
-      "title": "Stocks rally as oil price fall provides relief - The Independent",
-      "source": "The Independent",
-      "when": "2026-09-16T16:36:00+00:00",
-      "hours_ago": 2.5,
-      "category": "Petroleo a la baja",
-      "direction": "alcista",
-      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "score": 3.16
-    },
-    {
       "title": "Stocks rally as oil price fall provides relief - marketscreener.com",
       "source": "marketscreener.com",
       "when": "2026-09-16T16:12:24+00:00",
-      "hours_ago": 2.9,
+      "hours_ago": 5.9,
       "category": "Petroleo a la baja",
       "direction": "alcista",
       "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "score": 3.14
+      "score": 2.98
     },
     {
-      "title": "House passes War Powers Resolution for the third time amid Iran war. Here's what it means. - weareiowa.com",
-      "source": "weareiowa.com",
+      "title": "‘Sitting ducks’: Military families live in fear as U.S. troops face undisclosed missile attacks - MS NOW",
+      "source": "MS NOW",
+      "when": "2026-09-16T19:45:00+00:00",
+      "hours_ago": 2.4,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.88
+    },
+    {
+      "title": "House passes War Powers Resolution for the third time amid Iran war. Here's what it means. - WTHR",
+      "source": "WTHR",
       "when": "2026-09-16T18:18:00+00:00",
-      "hours_ago": 0.8,
+      "hours_ago": 3.8,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.96
+      "score": 2.81
     },
     {
       "title": "Iran war powers resolution passes House with seven Republican defections - Denver Gazette",
       "source": "Denver Gazette",
       "when": "2026-09-16T16:05:30+00:00",
-      "hours_ago": 3.0,
+      "hours_ago": 6.0,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.85
+      "score": 2.7
     },
     {
       "title": "2 Iowa GOP reps support Iran war powers resolution for first time - The Hill",
       "source": "The Hill",
       "when": "2026-09-16T15:52:00+00:00",
-      "hours_ago": 3.2,
+      "hours_ago": 6.2,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.84
+      "score": 2.69
     },
     {
-      "title": "Iran live updates: House adopts Iran war powers resolution in rebuke of Trump - Yahoo",
-      "source": "Yahoo",
-      "when": "2026-09-16T09:15:11+00:00",
-      "hours_ago": 9.8,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.51
-    },
-    {
-      "title": "Saudi Pipeline Attack Risks ‘Disastrous’ Loss of Oil as Fighting Escalates - The New York Times",
-      "source": "The New York Times",
-      "when": "2026-09-16T09:04:31+00:00",
-      "hours_ago": 10.0,
-      "category": "Geopolitica/escalada",
+      "title": "Here’s what a Fed rate hike means for your mortgage, car loan and credit cards - washingtonpost.com",
+      "source": "washingtonpost.com",
+      "when": "2026-09-16T21:50:03+00:00",
+      "hours_ago": 0.3,
+      "category": "Fed hawkish",
       "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.5
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.49
     },
     {
-      "title": "House passes resolution to curb Trump's ability to wage Iran war - upi.com",
-      "source": "upi.com",
-      "when": "2026-09-16T08:49:42+00:00",
-      "hours_ago": 10.2,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.49
+      "title": "US Fed Rate Hike: S&P 500 Falls 0.43% as Nasdaq Holds Near 25,978, AI Stocks Face New Pressure From Higher Rates as Investors Assess Next Fed Move After Fed Chair Warsh Decision - The Sunday Guardian",
+      "source": "The Sunday Guardian",
+      "when": "2026-09-16T21:16:10+00:00",
+      "hours_ago": 0.8,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.47
     },
     {
-      "title": "Fed hikes rates and signals more to come this year, defying Trump - Politico",
+      "title": "Fed policymakers forecast one more rate hike this year - Reuters",
+      "source": "Reuters",
+      "when": "2026-09-16T21:11:49+00:00",
+      "hours_ago": 0.9,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.46
+    },
+    {
+      "title": "Trump offers fiery response to Federal Reserve rate hike - The Hill",
+      "source": "The Hill",
+      "when": "2026-09-16T21:08:00+00:00",
+      "hours_ago": 1.0,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.46
+    },
+    {
+      "title": "'Interest Rates in the United States should be 1%': Trump reacts to Fed's rate hike - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "when": "2026-09-16T20:51:45+00:00",
+      "hours_ago": 1.2,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.45
+    },
+    {
+      "title": "Fed hikes rates in search of 'timelier' drop in inflation, sees more tightening ahead - Reuters",
+      "source": "Reuters",
+      "when": "2026-09-16T20:17:37+00:00",
+      "hours_ago": 1.8,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.42
+    },
+    {
+      "title": "Warsh defies Trump as Fed hikes rates and signals more to come - Politico",
       "source": "Politico",
-      "when": "2026-09-16T18:36:00+00:00",
-      "hours_ago": 0.5,
+      "when": "2026-09-16T20:05:00+00:00",
+      "hours_ago": 2.0,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.48
-    },
-    {
-      "title": "The Fed just delivered a unanimous rate hike, the first in three years, and no cuts through 2027 - Fortune",
-      "source": "Fortune",
-      "when": "2026-09-16T18:33:00+00:00",
-      "hours_ago": 0.5,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.48
-    },
-    {
-      "title": "Here’s what a Fed rate hike means for your mortgage, car loan and credit cards - The Washington Post",
-      "source": "The Washington Post",
-      "when": "2026-09-16T18:26:01+00:00",
-      "hours_ago": 0.6,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.47
-    },
-    {
-      "title": "What the Fed’s Rate Hike Means for Retirees - AARP",
-      "source": "AARP",
-      "when": "2026-09-16T18:20:58+00:00",
-      "hours_ago": 0.7,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.47
+      "score": -2.42
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -31/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 463
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -42/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Tech/IA fuerte (Demanda de IA/chips impulsa al Nasdaq). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 470
 }
