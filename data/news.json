@@ -1,175 +1,175 @@
 {
   "ok": true,
-  "generated_at": "2026-09-17T15:43:52.152274+00:00",
+  "generated_at": "2026-09-17T19:16:15.662429+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -42.2,
+  "news_pulse": -44.5,
   "label": "bajista",
   "drivers": [
     {
       "category": "Fed hawkish",
-      "score": -80.4,
+      "score": -83.43,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 45
+      "n": 47
     },
     {
       "category": "Petroleo a la baja",
-      "score": 24.95,
+      "score": 27.63,
       "direction": "alcista",
       "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
       "n": 16
     },
     {
       "category": "Aranceles / guerra comercial",
-      "score": -17.34,
+      "score": -19.95,
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "n": 11
-    },
-    {
-      "category": "Fed dovish/pausa",
-      "score": 10.4,
-      "direction": "alcista",
-      "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
-      "n": 5
+      "n": 12
     },
     {
       "category": "Geopolitica/escalada",
-      "score": -8.45,
+      "score": -10.96,
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "n": 3
+      "n": 4
     },
     {
-      "category": "Mercado risk-on",
-      "score": 5.7,
+      "category": "Desescalada / acuerdo",
+      "score": 10.48,
       "direction": "alcista",
-      "why": "Tono de mercado positivo (risk-on)",
-      "n": 4
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "n": 6
+    },
+    {
+      "category": "Fed dovish/pausa",
+      "score": 9.29,
+      "direction": "alcista",
+      "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
+      "n": 5
     }
   ],
   "headlines": [
     {
-      "title": "Gold Price Forecast: XAU/USD gains as oil rally eases, upside seems limited amid hawkish Fed bets - FXStreet",
-      "source": "FXStreet",
-      "when": "2026-09-17T10:30:21+00:00",
-      "hours_ago": 5.2,
-      "category": "Fed hawkish",
+      "title": "US military claims Strait of Hormuz remains open amid ongoing blockade - Al Jazeera",
+      "source": "Al Jazeera",
+      "when": "2026-09-16T23:18:48+00:00",
+      "hours_ago": 20.0,
+      "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -4.11
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -4.34
     },
     {
-      "title": "U.S. stocks rise after oil prices fall and pressure from the bond market eases - Pittsburgh Post-Gazette",
-      "source": "Pittsburgh Post-Gazette",
-      "when": "2026-09-17T15:34:39+00:00",
-      "hours_ago": 0.2,
+      "title": "Oil prices fall as Saudi Arabia reportedly offers more crude via Hormuz after pipeline attack - CNBC",
+      "source": "CNBC",
+      "when": "2026-09-17T01:59:00+00:00",
+      "hours_ago": 17.3,
+      "category": "Ormuz cerrado/amenazado",
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -3.35
+    },
+    {
+      "title": "US stocks rise after oil prices fall and pressure from the bond market eases - AP News",
+      "source": "AP News",
+      "when": "2026-09-17T18:18:00+00:00",
+      "hours_ago": 1.0,
       "category": "Petroleo a la baja",
       "direction": "alcista",
       "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "score": 3.29
+      "score": 3.25
+    },
+    {
+      "title": "US stocks jump after oil prices fall and pressure from the bond market eases - Yahoo! Finance Canada",
+      "source": "Yahoo! Finance Canada",
+      "when": "2026-09-17T13:44:10+00:00",
+      "hours_ago": 5.5,
+      "category": "Petroleo a la baja",
+      "direction": "alcista",
+      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
+      "score": 3.0
+    },
+    {
+      "title": "House Votes In Favor Of Resolution To Halt The War In Iran - NewsOne",
+      "source": "NewsOne",
+      "when": "2026-09-17T17:31:37+00:00",
+      "hours_ago": 1.7,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.91
+    },
+    {
+      "title": "U.N.-backed experts cite possible U.S. war crimes in Iran, including a school attack - Georgia Public Broadcasting",
+      "source": "Georgia Public Broadcasting",
+      "when": "2026-09-17T17:12:53+00:00",
+      "hours_ago": 2.1,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.9
     },
     {
       "title": "Ghalibaf’s maths missile at Trump decoded: Is Iran fixing US interest rates? - Al Jazeera",
       "source": "Al Jazeera",
-      "when": "2026-09-17T14:13:20+00:00",
-      "hours_ago": 1.5,
+      "when": "2026-09-17T16:59:02+00:00",
+      "hours_ago": 2.3,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.92
+      "score": -2.89
+    },
+    {
+      "title": "U.S. stocks jump after oil prices fall and pressure from the bond market eases - CTV News",
+      "source": "CTV News",
+      "when": "2026-09-17T11:15:25+00:00",
+      "hours_ago": 8.0,
+      "category": "Petroleo a la baja",
+      "direction": "alcista",
+      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
+      "score": 2.86
+    },
+    {
+      "title": "Rep. Mace explains her vote for Iran war powers resolution - NBC News",
+      "source": "NBC News",
+      "when": "2026-09-17T16:02:25+00:00",
+      "hours_ago": 3.2,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.84
     },
     {
       "title": "GM Begins Making Missile Parts as Iran War Depletes U.S. Supply - Barron's",
       "source": "Barron's",
       "when": "2026-09-17T14:06:00+00:00",
-      "hours_ago": 1.6,
+      "hours_ago": 5.2,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.92
+      "score": -2.74
     },
     {
-      "title": "US Stocks Jump After Oil Prices Fall and Pressure From the Bond Market Eases - U.S. News & World Report",
-      "source": "U.S. News & World Report",
-      "when": "2026-09-17T05:18:00+00:00",
-      "hours_ago": 10.4,
-      "category": "Petroleo a la baja",
-      "direction": "alcista",
-      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "score": 2.73
-    },
-    {
-      "title": "House speaker declares Iran nuclear issue \"taken care of\" - cbsnews.com",
-      "source": "cbsnews.com",
-      "when": "2026-09-17T07:52:00+00:00",
-      "hours_ago": 7.9,
-      "category": "Geopolitica/escalada",
+      "title": "US delays tariff announcement until after Xi-Trump summit - Bloomberg - Investing.com",
+      "source": "Investing.com",
+      "when": "2026-09-17T18:12:50+00:00",
+      "hours_ago": 1.1,
+      "category": "Aranceles / guerra comercial",
       "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.61
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "score": -2.46
     },
     {
-      "title": "How the Federal Reserve rate hike could impact Denver housing market - cbsnews.com",
-      "source": "cbsnews.com",
-      "when": "2026-09-17T14:44:33+00:00",
-      "hours_ago": 1.0,
+      "title": "What the Fed's interest rate hike reveals about Warsh, Trump and inflation - CBS News",
+      "source": "CBS News",
+      "when": "2026-09-17T18:12:31+00:00",
+      "hours_ago": 1.1,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
       "score": -2.46
-    },
-    {
-      "title": "What the Fed Rate Hike Means for Borrowers and Investors - Darden Report Online",
-      "source": "Darden Report Online",
-      "when": "2026-09-17T13:43:28+00:00",
-      "hours_ago": 2.0,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.42
-    },
-    {
-      "title": "Stocks Rise On Dovish Fed Hike Hopes—Strong Retail Sales Surprise - Benzinga",
-      "source": "Benzinga",
-      "when": "2026-09-16T17:48:03+00:00",
-      "hours_ago": 21.9,
-      "category": "Fed dovish/pausa",
-      "direction": "alcista",
-      "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
-      "score": 2.41
-    },
-    {
-      "title": "Oil Prices Slip After Fed’s First Rate Hike in Three Years - WSJ",
-      "source": "WSJ",
-      "when": "2026-09-17T13:06:00+00:00",
-      "hours_ago": 2.6,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.39
-    },
-    {
-      "title": "Forbes Daily: Federal Reserve Bucks Trump And Hikes Rates - Forbes",
-      "source": "Forbes",
-      "when": "2026-09-17T11:56:07+00:00",
-      "hours_ago": 3.8,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.34
-    },
-    {
-      "title": "Fed interest rate hike adds to midterm tremors for GOP - The Hill",
-      "source": "The Hill",
-      "when": "2026-09-17T11:07:00+00:00",
-      "hours_ago": 4.6,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.31
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -42/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100); Mercado risk-on (Tono de mercado positivo (risk-on)). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 476
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -44/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 490
 }
