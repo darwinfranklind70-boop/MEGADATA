@@ -1,51 +1,51 @@
 {
   "ok": true,
-  "generated_at": "2026-09-22T15:48:24.046725+00:00",
+  "generated_at": "2026-09-22T19:18:31.043485+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": 20.6,
+  "news_pulse": 8.4,
   "label": "alcista",
   "drivers": [
     {
       "category": "Petroleo a la baja",
-      "score": 61.52,
+      "score": 42.66,
       "direction": "alcista",
       "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "n": 37
+      "n": 29
     },
     {
       "category": "Fed hawkish",
-      "score": -41.02,
+      "score": -41.07,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 21
+      "n": 22
     },
     {
       "category": "Desescalada / acuerdo",
-      "score": 35.38,
+      "score": 30.65,
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "n": 11
+      "n": 12
     },
     {
       "category": "Mercado risk-on",
-      "score": 16.75,
+      "score": 16.12,
       "direction": "alcista",
       "why": "Tono de mercado positivo (risk-on)",
       "n": 15
     },
     {
       "category": "Aranceles / guerra comercial",
-      "score": -13.42,
+      "score": -14.84,
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "n": 7
+      "n": 8
     },
     {
       "category": "Petroleo al alza",
-      "score": -11.09,
+      "score": -8.28,
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "n": 7
+      "n": 5
     }
   ],
   "headlines": [
@@ -53,66 +53,46 @@
       "title": "Oil prices fall as Iran signals Strait of Hormuz reopening: What it means for crude prices | Hindustan Times - Hindustan Times",
       "source": "Hindustan Times",
       "when": "2026-09-22T14:37:42+00:00",
-      "hours_ago": 1.2,
+      "hours_ago": 4.7,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 4.71
-    },
-    {
-      "title": "Oil price falls as Saudi Arabia signals reopening of East-West pipeline - Financial Times",
-      "source": "Financial Times",
-      "when": "2026-09-22T11:19:01+00:00",
-      "hours_ago": 4.5,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 4.44
+      "score": 4.43
     },
     {
       "title": "Crude oil falls 3% to ₹8,572 as Iran signals possible Strait of Hormuz reopening - ET EnergyWorld",
       "source": "ET EnergyWorld",
       "when": "2026-09-22T11:20:16+00:00",
-      "hours_ago": 4.5,
+      "hours_ago": 8.0,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 4.44
-    },
-    {
-      "title": "AI Stock Rally Loses Steam, Oil Prices Fall Below $100 - WSJ",
-      "source": "WSJ",
-      "when": "2026-09-22T12:36:00+00:00",
-      "hours_ago": 3.2,
-      "category": "Petroleo a la baja",
-      "direction": "alcista",
-      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "score": 3.12
-    },
-    {
-      "title": "Stock Market Today (Sept. 22, 2027): S&P 500 futures climb as oil prices slide and AI stocks rise - Sacramento Bee",
-      "source": "Sacramento Bee",
-      "when": "2026-09-22T10:56:00+00:00",
-      "hours_ago": 4.9,
-      "category": "Petroleo a la baja",
-      "direction": "alcista",
-      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "score": 3.03
+      "score": 4.16
     },
     {
       "title": "Trump warns in UN speech he could 'annihilate' Iran without peace deal - Reuters",
       "source": "Reuters",
-      "when": "2026-09-22T15:15:54+00:00",
-      "hours_ago": 0.5,
+      "when": "2026-09-22T18:05:13+00:00",
+      "hours_ago": 1.2,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.97
+      "score": 2.94
     },
     {
-      "title": "Libya's Largest Oilfield Hit by New Armed Group Blockade - Crude Oil Prices Today | OilPrice.com",
+      "title": "Trump says Iran deal nearing, Tehran offers Hormuz reopening - Reuters",
+      "source": "Reuters",
+      "when": "2026-09-22T18:05:59+00:00",
+      "hours_ago": 1.2,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.94
+    },
+    {
+      "title": "Nuclear Safety Brings America Into Russia's Uzbek Energy Project - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
-      "when": "2026-09-22T14:30:00+00:00",
+      "when": "2026-09-22T18:00:00+00:00",
       "hours_ago": 1.3,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
@@ -120,56 +100,76 @@
       "score": -2.93
     },
     {
-      "title": "Iranian hardliners talk up nuclear weapons before Pezeshkian's UN trip - Iran International",
-      "source": "Iran International",
-      "when": "2026-09-22T12:56:34+00:00",
-      "hours_ago": 2.9,
+      "title": "Trump warns in UN speech he could 'annihilate' Iran without peace deal - Nikkei Asia",
+      "source": "Nikkei Asia",
+      "when": "2026-09-22T15:57:00+00:00",
+      "hours_ago": 3.4,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.83
+    },
+    {
+      "title": "Libya's Largest Oilfield Hit by New Armed Group Blockade - Crude Oil Prices Today | OilPrice.com",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "when": "2026-09-22T14:30:00+00:00",
+      "hours_ago": 4.8,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.86
-    },
-    {
-      "title": "US open to meeting Iran at UN as conflicting reports over peace deal swirl - Euronews.com",
-      "source": "Euronews.com",
-      "when": "2026-09-22T12:51:30+00:00",
-      "hours_ago": 2.9,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.85
-    },
-    {
-      "title": "Oil prices tumble to 2-week low on hopes for critical pipeline reopening and Iran diplomacy - nbcnews.com",
-      "source": "nbcnews.com",
-      "when": "2026-09-22T11:57:29+00:00",
-      "hours_ago": 3.8,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.81
+      "score": -2.76
     },
     {
       "title": "Oil Tumbles 3% as Iran Floats Hormuz Reopening Within a Week - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "when": "2026-09-22T11:57:00+00:00",
-      "hours_ago": 3.9,
+      "hours_ago": 7.4,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.81
+      "score": 2.63
+    },
+    {
+      "title": "Saudi Arabia signals reopening of East-West pipeline - Financial Times",
+      "source": "Financial Times",
+      "when": "2026-09-22T11:19:01+00:00",
+      "hours_ago": 8.0,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.6
     },
     {
       "title": "Saudi Oil Lifeline May Reopen as Aramco Eyes Yanbu Restart - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "when": "2026-09-22T10:30:00+00:00",
-      "hours_ago": 5.3,
+      "hours_ago": 8.8,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.73
+      "score": 2.56
+    },
+    {
+      "title": "Iran offers to reopen Hormuz within seven days if US eases pressure - Kyodo - Iran International",
+      "source": "Iran International",
+      "when": "2026-09-22T09:07:37+00:00",
+      "hours_ago": 10.2,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.49
+    },
+    {
+      "title": "A Diesel Export Ban Might Be Legal, but Is It Wise? - Cato Institute",
+      "source": "Cato Institute",
+      "when": "2026-09-22T18:16:39+00:00",
+      "hours_ago": 1.0,
+      "category": "Aranceles / guerra comercial",
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "score": -2.46
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido alcista (pulso +21/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Mercado risk-on (Tono de mercado positivo (risk-on)). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 554
+  "conclusion": "El contexto de noticias inclina al US100 en sentido alcista (pulso +8/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Mercado risk-on (Tono de mercado positivo (risk-on)). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 564
 }
