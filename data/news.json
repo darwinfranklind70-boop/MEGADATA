@@ -1,175 +1,175 @@
 {
   "ok": true,
-  "generated_at": "2026-09-23T15:38:15.820213+00:00",
+  "generated_at": "2026-09-23T19:13:00.580022+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -18.1,
+  "news_pulse": -41.3,
   "label": "bajista",
   "drivers": [
     {
+      "category": "Aranceles / guerra comercial",
+      "score": -38.04,
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "n": 19
+    },
+    {
       "category": "Fed hawkish",
-      "score": -32.85,
+      "score": -34.53,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 22
+      "n": 21
     },
     {
       "category": "Petroleo a la baja",
-      "score": 32.7,
+      "score": 20.19,
       "direction": "alcista",
       "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "n": 24
-    },
-    {
-      "category": "Aranceles / guerra comercial",
-      "score": -26.73,
-      "direction": "bajista",
-      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "n": 15
-    },
-    {
-      "category": "Desescalada / acuerdo",
-      "score": 11.7,
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "n": 5
+      "n": 16
     },
     {
       "category": "Petroleo al alza",
-      "score": -7.84,
+      "score": -13.1,
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "n": 5
+      "n": 8
     },
     {
-      "category": "Mercado risk-on",
-      "score": 4.46,
+      "category": "Desescalada / acuerdo",
+      "score": 12.61,
       "direction": "alcista",
-      "why": "Tono de mercado positivo (risk-on)",
-      "n": 4
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "n": 6
+    },
+    {
+      "category": "Mercado risk-off",
+      "score": -6.77,
+      "direction": "bajista",
+      "why": "Tono de mercado negativo (risk-off)",
+      "n": 5
     }
   ],
   "headlines": [
     {
-      "title": "Cathie Wood-led ARK Invest Says Oil Could Crash to $30-$35 Once Strait of Hormuz Reopens As Trump Touts Positive Iran Talks - TradingView",
-      "source": "TradingView",
-      "when": "2026-09-23T11:28:27+00:00",
+      "title": "Copper Erases Tariff Selloff as Shanghai Stockpiles Hit Three-Year Low - Crude Oil Prices Today | OilPrice.com",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "when": "2026-09-23T15:00:00+00:00",
       "hours_ago": 4.2,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.79
-    },
-    {
-      "title": "Iran offers to reopen Strait of Hormuz within days amid UN talks - NewsNation",
-      "source": "NewsNation",
-      "when": "2026-09-23T10:53:34+00:00",
-      "hours_ago": 4.7,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.76
-    },
-    {
-      "title": "Iran says Trump’s threats a sign of ‘strategic desperation,’ floats conditions for Hormuz reopening - CNBC",
-      "source": "CNBC",
-      "when": "2026-09-23T05:37:48+00:00",
-      "hours_ago": 10.0,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.5
-    },
-    {
-      "title": "Fed’s Rate Hike Reflects New World of Sticky Inflation, Faster Growth - rvbusiness.com",
-      "source": "rvbusiness.com",
-      "when": "2026-09-23T15:25:15+00:00",
-      "hours_ago": 0.2,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.49
-    },
-    {
-      "title": "How A Diesel Export Ban Could Backfire Spectacularly - The Autopian",
-      "source": "The Autopian",
-      "when": "2026-09-23T15:23:46+00:00",
-      "hours_ago": 0.2,
       "category": "Aranceles / guerra comercial",
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.49
+      "score": -3.72
     },
     {
-      "title": "Mortgage Rates Continue to Weigh on Applications Following Fed Rate Hike - Realtor.com",
-      "source": "Realtor.com",
-      "when": "2026-09-23T14:29:36+00:00",
-      "hours_ago": 1.1,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.45
-    },
-    {
-      "title": "Why a diesel export ban could help in the short term, but isn't a fix - Yahoo! Finance Canada",
-      "source": "Yahoo! Finance Canada",
-      "when": "2026-09-23T13:51:54+00:00",
-      "hours_ago": 1.8,
-      "category": "Aranceles / guerra comercial",
-      "direction": "bajista",
-      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.43
-    },
-    {
-      "title": "Trump is backing a diesel export ban as oil allies warn it would make prices worse - qz.com",
-      "source": "qz.com",
-      "when": "2026-09-23T12:10:11+00:00",
-      "hours_ago": 3.5,
-      "category": "Aranceles / guerra comercial",
-      "direction": "bajista",
-      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.36
-    },
-    {
-      "title": "Stock Investors Should Root for a Rate Hike. Yeah, Really. - WSJ",
+      "title": "The Nuclear Stock Boom Could Keep Decaying - WSJ",
       "source": "WSJ",
-      "when": "2026-09-23T11:15:51+00:00",
-      "hours_ago": 4.4,
-      "category": "Fed hawkish",
+      "when": "2026-09-23T17:05:06+00:00",
+      "hours_ago": 2.1,
+      "category": "Geopolitica/escalada",
       "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.32
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.89
     },
     {
-      "title": "Nasdaq hits record close as AI stocks rally and oil prices fall - Invezz",
-      "source": "Invezz",
-      "when": "2026-09-22T20:27:44+00:00",
-      "hours_ago": 19.2,
-      "category": "Petroleo a la baja",
+      "title": "Iran 'presents US with road map for regionwide ceasefire and Hormuz reopening' - thenationalnews.com",
+      "source": "thenationalnews.com",
+      "when": "2026-09-23T13:57:21+00:00",
+      "hours_ago": 5.3,
+      "category": "Desescalada / acuerdo",
       "direction": "alcista",
-      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "score": 2.25
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.74
     },
     {
-      "title": "Fed rate hike could raise costs for Fond du Lac borrowers, benefit savers - fdlreporter.com",
-      "source": "fdlreporter.com",
-      "when": "2026-09-23T09:31:00+00:00",
-      "hours_ago": 6.1,
+      "title": "Cathie Wood-led ARK Invest Says Oil Could Crash to $30-$35 Once Strait of Hormuz Reopens As Trump Touts Positive Iran Talks - tradingview.com",
+      "source": "tradingview.com",
+      "when": "2026-09-23T11:28:27+00:00",
+      "hours_ago": 7.7,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.61
+    },
+    {
+      "title": "As Trump mulls diesel export ban, what would it mean for Canada? - Global News",
+      "source": "Global News",
+      "when": "2026-09-23T18:48:31+00:00",
+      "hours_ago": 0.4,
+      "category": "Aranceles / guerra comercial",
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "score": -2.48
+    },
+    {
+      "title": "Britain on notice for fuel 'disaster' after Donald Trump threatens diesel export ban at UN - GB News",
+      "source": "GB News",
+      "when": "2026-09-23T18:43:22+00:00",
+      "hours_ago": 0.5,
+      "category": "Aranceles / guerra comercial",
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "score": -2.48
+    },
+    {
+      "title": "Trump says he backs US diesel export ban - New Age BD",
+      "source": "New Age BD",
+      "when": "2026-09-23T16:59:29+00:00",
+      "hours_ago": 2.2,
+      "category": "Aranceles / guerra comercial",
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "score": -2.41
+    },
+    {
+      "title": "Oil prices today: Why crude is falling while diesel prices surge on Trump export ban plan | Hindustan Times - Hindustan Times",
+      "source": "Hindustan Times",
+      "when": "2026-09-23T16:40:58+00:00",
+      "hours_ago": 2.5,
+      "category": "Aranceles / guerra comercial",
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "score": -2.39
+    },
+    {
+      "title": "Trump backs idea of US diesel export ban to curb rising energy costs - The American Bazaar",
+      "source": "The American Bazaar",
+      "when": "2026-09-23T16:38:53+00:00",
+      "hours_ago": 2.6,
+      "category": "Aranceles / guerra comercial",
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "score": -2.39
+    },
+    {
+      "title": "Fed rate hike: what retirees need to know now - sponsored by Alloy Wealth Management - WCNC",
+      "source": "WCNC",
+      "when": "2026-09-23T16:31:00+00:00",
+      "hours_ago": 2.7,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.24
+      "score": -2.39
     },
     {
-      "title": "Fed's Collins warns inflation could be 'notably' higher after backing rate hike - CNBC",
-      "source": "CNBC",
-      "when": "2026-09-23T07:27:27+00:00",
-      "hours_ago": 8.2,
+      "title": "Fed rate hike bets may be running too hot, a TD economist warns - mpamag.com",
+      "source": "mpamag.com",
+      "when": "2026-09-23T16:30:58+00:00",
+      "hours_ago": 2.7,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.16
+      "score": -2.39
+    },
+    {
+      "title": "(USD) Dollar Notches Seasonal End-of-September Gains on Hawkish Fed - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "when": "2026-09-23T15:35:31+00:00",
+      "hours_ago": 3.6,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.35
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -18/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Mercado risk-on (Tono de mercado positivo (risk-on)). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 566
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -41/100). Presion bajista por: Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Mercado risk-on (Tono de mercado positivo (risk-on)). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 547
 }
