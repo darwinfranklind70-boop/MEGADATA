@@ -1,68 +1,108 @@
 {
   "ok": true,
-  "generated_at": "2026-09-25T15:59:25.208097+00:00",
+  "generated_at": "2026-09-25T19:49:58.833907+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": 4.9,
-  "label": "neutral",
+  "news_pulse": 16.0,
+  "label": "alcista",
   "drivers": [
     {
       "category": "Desescalada / acuerdo",
-      "score": 65.76,
+      "score": 60.67,
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "n": 28
+      "n": 26
     },
     {
       "category": "Fed hawkish",
-      "score": -28.34,
+      "score": -26.88,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 19
+      "n": 16
     },
     {
       "category": "Aranceles / guerra comercial",
-      "score": -24.68,
+      "score": -21.35,
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "n": 19
+      "n": 16
     },
     {
-      "category": "Petroleo al alza",
-      "score": -8.75,
-      "direction": "bajista",
-      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
+      "category": "Petroleo a la baja",
+      "score": 12.27,
+      "direction": "alcista",
+      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
       "n": 7
     },
     {
       "category": "Fed dovish/pausa",
-      "score": 7.97,
+      "score": 7.68,
       "direction": "alcista",
       "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
       "n": 5
     },
     {
-      "category": "Geopolitica/escalada",
-      "score": -7.9,
+      "category": "Petroleo al alza",
+      "score": -6.54,
       "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "n": 4
+      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
+      "n": 5
     }
   ],
   "headlines": [
     {
-      "title": "Oil prices fall amid expectations of a ceasefire between the US and Iran - Українські Національні Новини (УНН)",
-      "source": "Українські Національні Новини (УНН)",
-      "when": "2026-09-25T06:36:45+00:00",
-      "hours_ago": 9.4,
+      "title": "Nvidia Stock Today: NVDA Falls 0.43% to $223.55 as AI Stocks Stay in Focus;Check Latest Nvidia Shares Update as AI Stocks Rally, Oil Prices Ease & Investors Track Jensen Huang, AI Demand & Wall Street - sundayguardianlive.com",
+      "source": "sundayguardianlive.com",
+      "when": "2026-09-25T18:44:03+00:00",
+      "hours_ago": 1.1,
+      "category": "Tech/IA fuerte",
+      "direction": "alcista",
+      "why": "Demanda de IA/chips impulsa al Nasdaq",
+      "score": 5.2
+    },
+    {
+      "title": "Oil prices ease as US-Iran truce hopes counter Saudi supply risk - oilandgas360.com",
+      "source": "oilandgas360.com",
+      "when": "2026-09-25T16:35:35+00:00",
+      "hours_ago": 3.2,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 4.05
+      "score": 4.54
+    },
+    {
+      "title": "US Equity Indexes Jump as Crude Oil Slides Following Iran's Conditional Plan to Reopen Hormuz Chokepoint - marketscreener.com",
+      "source": "marketscreener.com",
+      "when": "2026-09-25T18:18:19+00:00",
+      "hours_ago": 1.5,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 4.39
+    },
+    {
+      "title": "Will the Nasdaq Fall After the First Interest Rate Hike in 3 Years? History Offers a Strikingly Clear Answer. - The Motley Fool",
+      "source": "The Motley Fool",
+      "when": "2026-09-25T09:02:00+00:00",
+      "hours_ago": 10.8,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -3.28
+    },
+    {
+      "title": "U.S. stocks rise, head for weekly gains as oil falls, short-term bonds halt slide - Investing.com India",
+      "source": "Investing.com India",
+      "when": "2026-09-25T17:52:41+00:00",
+      "hours_ago": 2.0,
+      "category": "Petroleo a la baja",
+      "direction": "alcista",
+      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
+      "score": 3.19
     },
     {
       "title": "Pennsylvania Sen. John Fetterman casts deciding vote in Iran War Powers Resolution - local21news.com",
       "source": "local21news.com",
-      "when": "2026-09-25T15:29:05+00:00",
+      "when": "2026-09-25T19:18:45+00:00",
       "hours_ago": 0.5,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
@@ -70,59 +110,29 @@
       "score": 2.97
     },
     {
-      "title": "Democrats gain 4 in US Senate GOP on Iran war resolution, but vote falls short - Montrose Daily Press",
-      "source": "Montrose Daily Press",
-      "when": "2026-09-25T15:04:00+00:00",
-      "hours_ago": 0.9,
+      "title": "Democrats gain 4 in U.S. Senate GOP on Iran war resolution, but vote falls short - Tucson Sentinel",
+      "source": "Tucson Sentinel",
+      "when": "2026-09-25T19:02:00+00:00",
+      "hours_ago": 0.8,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.95
+      "score": 2.96
     },
     {
-      "title": "Fetterman Joins GOP to Block Iran War Powers Resolution — Again - Truthout",
-      "source": "Truthout",
-      "when": "2026-09-25T14:13:43+00:00",
-      "hours_ago": 1.8,
+      "title": "US Equity Indexes Rise as Crude Oil Slumps After Iran's Conditional Proposal to Reopen Strait of Hormuz - marketscreener.com",
+      "source": "marketscreener.com",
+      "when": "2026-09-25T16:58:23+00:00",
+      "hours_ago": 2.9,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.91
+      "score": 2.86
     },
     {
-      "title": "What’s in Iran’s seven-day plan to reopen the Strait of Hormuz? - aljazeera.com",
-      "source": "aljazeera.com",
-      "when": "2026-09-25T14:03:06+00:00",
-      "hours_ago": 1.9,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.9
-    },
-    {
-      "title": "Senate rejects Iran War Powers Resolution in 49-50 vote - qz.com",
-      "source": "qz.com",
-      "when": "2026-09-25T13:18:33+00:00",
-      "hours_ago": 2.7,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.87
-    },
-    {
-      "title": "Senate shoots down Democratic-led resolution curbing Trump's Iran war powers - The Jerusalem Post",
-      "source": "The Jerusalem Post",
-      "when": "2026-09-25T12:41:34+00:00",
-      "hours_ago": 3.3,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.84
-    },
-    {
-      "title": "Tuberville, Britt vote against Iran war powers resolution limiting scope - Alabama Daily News",
-      "source": "Alabama Daily News",
-      "when": "2026-09-25T12:23:41+00:00",
+      "title": "Trump faces tough choices as Iran dangles deal to reopen Hormuz before US midterms - The Guardian",
+      "source": "The Guardian",
+      "when": "2026-09-25T16:13:00+00:00",
       "hours_ago": 3.6,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
@@ -130,46 +140,36 @@
       "score": 2.82
     },
     {
-      "title": "Senate GOP defeats resolution directing Trump to end Iran war as more Republicans sour on conflict - DC News Now",
-      "source": "DC News Now",
-      "when": "2026-09-25T11:43:21+00:00",
-      "hours_ago": 4.3,
+      "title": "Democrats gain 4 in US Senate GOP on Iran war resolution, but vote falls short - Montrose Daily Press",
+      "source": "Montrose Daily Press",
+      "when": "2026-09-25T15:04:00+00:00",
+      "hours_ago": 4.8,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.79
+      "score": 2.76
     },
     {
-      "title": "Oil Retreats as U.S.-Iran Truce Hopes Offset Renewed Attacks on Saudi Arabia - EnergyNow.com",
-      "source": "EnergyNow.com",
-      "when": "2026-09-25T11:28:00+00:00",
-      "hours_ago": 4.5,
+      "title": "What’s in Iran’s seven-day plan to reopen the Strait of Hormuz? - Al Jazeera",
+      "source": "Al Jazeera",
+      "when": "2026-09-25T14:03:06+00:00",
+      "hours_ago": 5.8,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.77
+      "score": 2.71
     },
     {
-      "title": "Stock Market Today: Dow, S&P 500, Nasdaq Futures Rise Amid Optimism Following Iran’s Offer To Reopen Stra - benzinga.com",
-      "source": "benzinga.com",
-      "when": "2026-09-25T10:41:18+00:00",
-      "hours_ago": 5.3,
+      "title": "Iran war: Farmers struggling with fuel prices, Senate doesn't pass War Powers Resolution - weareiowa.com",
+      "source": "weareiowa.com",
+      "when": "2026-09-25T13:39:00+00:00",
+      "hours_ago": 6.2,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.73
-    },
-    {
-      "title": "Russian Diplomat Slams Trump’s Instructions on US Nuclear Tests as Threat to Moratorium - اسلام تايمز",
-      "source": "اسلام تايمز",
-      "when": "2026-09-25T07:50:51+00:00",
-      "hours_ago": 8.1,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.59
+      "score": 2.69
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido neutral (pulso +5/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 426
+  "conclusion": "El contexto de noticias inclina al US100 en sentido alcista (pulso +16/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 433
 }
