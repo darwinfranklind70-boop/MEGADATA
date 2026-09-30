@@ -1,19 +1,19 @@
 {
   "ok": true,
-  "generated_at": "2026-09-29T21:22:18.544387+00:00",
+  "generated_at": "2026-09-30T00:35:34.684069+00:00",
   "source": "CBOE delayed (~15min)",
   "underlying": "NDX",
   "spot": 30339.33,
   "dte_max": 45,
-  "nearest_expiry": "2026-09-29",
-  "total_gex_bn": 2.85,
+  "nearest_expiry": "2026-09-30",
+  "total_gex_bn": 2.59,
   "regime": "positiva",
-  "gamma_flip": 29792.8,
-  "call_wall": 30340.0,
+  "gamma_flip": 29777.9,
+  "call_wall": 30500.0,
   "put_wall": 29500.0,
-  "max_pain": 30275.0,
-  "expected_move_pct": 0.02,
-  "expected_move_pts": 4.9,
+  "max_pain": 30000.0,
+  "expected_move_pct": 0.66,
+  "expected_move_pts": 201.6,
   "profile": [
     {
       "strike": 28000.0,
@@ -52,10 +52,22 @@
       "put": -0.0219
     },
     {
+      "strike": 29200.0,
+      "gex": -0.0177,
+      "call": 0.0511,
+      "put": -0.0688
+    },
+    {
       "strike": 29250.0,
       "gex": -0.0455,
       "call": 0.0388,
       "put": -0.0842
+    },
+    {
+      "strike": 29350.0,
+      "gex": -0.0163,
+      "call": 0.0074,
+      "put": -0.0237
     },
     {
       "strike": 29400.0,
@@ -98,6 +110,12 @@
       "gex": -0.0203,
       "call": 0.0323,
       "put": -0.0527
+    },
+    {
+      "strike": 29850.0,
+      "gex": -0.0177,
+      "call": 0.0101,
+      "put": -0.0278
     },
     {
       "strike": 29900.0,
@@ -160,40 +178,16 @@
       "put": -0.051
     },
     {
+      "strike": 30275.0,
+      "gex": -0.0161,
+      "call": 0.0141,
+      "put": -0.0302
+    },
+    {
       "strike": 30300.0,
       "gex": -0.0625,
       "call": 0.1297,
       "put": -0.1922
-    },
-    {
-      "strike": 30325.0,
-      "gex": -0.0654,
-      "call": 0.0257,
-      "put": -0.0911
-    },
-    {
-      "strike": 30330.0,
-      "gex": -0.1056,
-      "call": 0.0857,
-      "put": -0.1913
-    },
-    {
-      "strike": 30340.0,
-      "gex": 0.3583,
-      "call": 0.3898,
-      "put": -0.0315
-    },
-    {
-      "strike": 30350.0,
-      "gex": 0.0952,
-      "call": 0.298,
-      "put": -0.2028
-    },
-    {
-      "strike": 30360.0,
-      "gex": -0.0235,
-      "call": 0.0064,
-      "put": -0.0299
     },
     {
       "strike": 30400.0,
@@ -284,6 +278,12 @@
       "gex": 0.03,
       "call": 0.0358,
       "put": -0.0058
+    },
+    {
+      "strike": 31150.0,
+      "gex": 0.0179,
+      "call": 0.0183,
+      "put": -0.0004
     },
     {
       "strike": 31200.0,
