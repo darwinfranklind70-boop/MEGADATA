@@ -1,175 +1,175 @@
 {
   "ok": true,
-  "generated_at": "2026-09-30T00:35:34.796368+00:00",
+  "generated_at": "2026-09-30T17:03:54.820897+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -51.4,
+  "news_pulse": -55.7,
   "label": "bajista",
   "drivers": [
     {
       "category": "Fed hawkish",
-      "score": -41.69,
+      "score": -35.1,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 22
+      "n": 19
     },
     {
       "category": "Aranceles / guerra comercial",
-      "score": -33.26,
+      "score": -29.37,
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "n": 22
-    },
-    {
-      "category": "Desescalada / acuerdo",
-      "score": 16.87,
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "n": 11
+      "n": 20
     },
     {
       "category": "Petroleo al alza",
-      "score": -11.33,
+      "score": -18.98,
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "n": 8
-    },
-    {
-      "category": "Petroleo a la baja",
-      "score": 10.19,
-      "direction": "alcista",
-      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "n": 7
+      "n": 12
     },
     {
       "category": "Ormuz cerrado/amenazado",
-      "score": -9.51,
+      "score": -14.25,
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
       "n": 3
+    },
+    {
+      "category": "Petroleo a la baja",
+      "score": 11.27,
+      "direction": "alcista",
+      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
+      "n": 8
+    },
+    {
+      "category": "Desescalada / acuerdo",
+      "score": 7.67,
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "n": 6
     }
   ],
   "headlines": [
     {
-      "title": "Brent at $105 as diesel export ban threat and stalled Hormuz talks hit markets from two directions – Rystad Energy market note - ajot.com",
-      "source": "ajot.com",
-      "when": "2026-09-29T15:18:00+00:00",
-      "hours_ago": 9.3,
+      "title": "Oil price forecasts rise due to disruptions in the Strait of Hormuz — OilPrice - UA.NEWS",
+      "source": "UA.NEWS",
+      "when": "2026-09-30T16:18:46+00:00",
+      "hours_ago": 0.8,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -5.07
+      "score": -5.43
     },
     {
-      "title": "India Looks to Boost Exploration as Hormuz Crisis Threatens Supply - Crude Oil Prices Today | OilPrice.com",
+      "title": "Oil Price Forecasts Jump as Hormuz Disruption Drags On - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
-      "when": "2026-09-29T11:30:00+00:00",
-      "hours_ago": 13.1,
+      "when": "2026-09-30T16:00:00+00:00",
+      "hours_ago": 1.1,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -2.74
+      "score": -5.4
     },
     {
-      "title": "Israeli Airstrike Kills Senior Hamas Commander in Gaza Conflict - Global Banking & Finance Review",
-      "source": "Global Banking & Finance Review",
-      "when": "2026-09-29T16:57:13+00:00",
-      "hours_ago": 7.6,
+      "title": "Brent at $105 as diesel export ban threat and stalled Hormuz talks hit markets from two directions – Rystad Energy market note - American Journal of Transportation",
+      "source": "American Journal of Transportation",
+      "when": "2026-09-29T15:18:00+00:00",
+      "hours_ago": 25.8,
+      "category": "Ormuz cerrado/amenazado",
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -3.42
+    },
+    {
+      "title": "Nasdaq climbs as chip stocks rally, Intel jumps on strong AI demand - TradingView",
+      "source": "TradingView",
+      "when": "2026-09-30T14:03:10+00:00",
+      "hours_ago": 3.0,
+      "category": "Tech/IA fuerte",
+      "direction": "alcista",
+      "why": "Demanda de IA/chips impulsa al Nasdaq",
+      "score": 3.32
+    },
+    {
+      "title": "Mounting pressure on Iran could lead to attack on Israel despite US peace talks - The Jerusalem Post",
+      "source": "The Jerusalem Post",
+      "when": "2026-09-30T14:52:18+00:00",
+      "hours_ago": 2.2,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.62
+      "score": -2.89
     },
     {
-      "title": "Can Trump and Xi turn a trade truce into lasting economic peace? - TRT World",
-      "source": "TRT World",
-      "when": "2026-09-29T15:59:39+00:00",
-      "hours_ago": 8.6,
+      "title": "Israeli attacks on Gaza kill seven as ‘ceasefire’ violations continue - Al Jazeera",
+      "source": "Al Jazeera",
+      "when": "2026-09-30T12:49:27+00:00",
+      "hours_ago": 4.2,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.57
+      "score": 2.79
     },
     {
-      "title": "Six months after supposed ceasefire, Lebanon’s displaced face an uncertain future - The New Humanitarian",
-      "source": "The New Humanitarian",
-      "when": "2026-09-29T14:51:59+00:00",
-      "hours_ago": 9.7,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.51
-    },
-    {
-      "title": "Israel’s Gaza air strike kills Hamas commander behind October 7, 2023 attack - scmp.com",
-      "source": "scmp.com",
-      "when": "2026-09-29T14:40:45+00:00",
-      "hours_ago": 9.9,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.5
-    },
-    {
-      "title": "Fed rate hike pushes mortgage rates to highest level since January 2025 - KVII",
-      "source": "KVII",
-      "when": "2026-09-29T23:54:07+00:00",
-      "hours_ago": 0.7,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.47
-    },
-    {
-      "title": "Fed's Williams sees no urgency for next Fed rate hike - Reuters",
-      "source": "Reuters",
-      "when": "2026-09-29T20:50:17+00:00",
-      "hours_ago": 3.8,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.34
-    },
-    {
-      "title": "Historic $15B Iowa steel plant signals Trump tariff strategy is taking shape, industry leader says - Fox Business",
-      "source": "Fox Business",
-      "when": "2026-09-29T20:28:00+00:00",
-      "hours_ago": 4.1,
+      "title": "US removes Syria from arms export ban list under revised defense trade policy - Anadolu Ajansı",
+      "source": "Anadolu Ajansı",
+      "when": "2026-09-30T16:14:35+00:00",
+      "hours_ago": 0.8,
       "category": "Aranceles / guerra comercial",
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.33
+      "score": -2.47
     },
     {
-      "title": "Traders expecting a back-to-back rate hike from the Fed in October may have gotten ahead of themselves - MarketWatch",
-      "source": "MarketWatch",
-      "when": "2026-09-29T20:13:00+00:00",
-      "hours_ago": 4.4,
+      "title": "Fed’s preferred inflation gauge cooler than expected, likely delaying rate hike to December - New York Post",
+      "source": "New York Post",
+      "when": "2026-09-30T15:49:00+00:00",
+      "hours_ago": 1.2,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.32
+      "score": -2.45
     },
     {
-      "title": "No 'urgency': Fed signals next US interest rate hike could wait until later this year - Gulf News",
-      "source": "Gulf News",
-      "when": "2026-09-29T20:08:26+00:00",
-      "hours_ago": 4.5,
+      "title": "Nasdaq Today LIVE: Index Up 1.05% as Oil Prices, Treasury Yields, AI Stocks, Nvidia, Netflix, Meta, Tesla Leads in Focus Ahead Fed Rate Hike Bets Wall Street | Check What Investors Should Watch - The Sunday Guardian",
+      "source": "The Sunday Guardian",
+      "when": "2026-09-30T15:31:01+00:00",
+      "hours_ago": 1.5,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.31
+      "score": -2.44
     },
     {
-      "title": "Dow Jones, Nasdaq, US Stock Market Today: Check Latest Move in Futures, Dow Jones Down 200 Points as Oil Prices Surge, Treasury Yield Hits Ahead Fed Rate Hike Bets | Why Are Stocks Down Today - sundayguardianlive.com",
-      "source": "sundayguardianlive.com",
-      "when": "2026-09-29T19:48:48+00:00",
-      "hours_ago": 4.8,
+      "title": "US inflation rises below expectations in August; consumer spending robust - Reuters",
+      "source": "Reuters",
+      "when": "2026-09-30T15:18:52+00:00",
+      "hours_ago": 1.8,
+      "category": "Inflacion caliente",
+      "direction": "bajista",
+      "why": "Inflacion alta -> Fed mas dura -> presion al US100",
+      "score": -2.43
+    },
+    {
+      "title": "Bill Ackman Just Said 4 Words Blasting the Fed's Latest Rate Hike: \"Just Made a Mistake.\" Here's Why He Thinks Higher Rates Could Backfire on AI-Driven Inflation. - The Motley Fool",
+      "source": "The Motley Fool",
+      "when": "2026-09-30T14:59:06+00:00",
+      "hours_ago": 2.1,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.3
+      "score": -2.41
+    },
+    {
+      "title": "Cooler inflation could buy the Fed, Trump time on another rate hike - Politico",
+      "source": "Politico",
+      "when": "2026-09-30T13:55:00+00:00",
+      "hours_ago": 3.1,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.37
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -51/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Mercado risk-on (Tono de mercado positivo (risk-on)). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 548
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -56/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Mercado risk-on (Tono de mercado positivo (risk-on)). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 533
 }
