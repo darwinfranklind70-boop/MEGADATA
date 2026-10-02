@@ -1,175 +1,175 @@
 {
   "ok": true,
-  "generated_at": "2026-10-02T16:53:20.691980+00:00",
+  "generated_at": "2026-10-02T21:04:07.739389+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -11.9,
+  "news_pulse": -8.8,
   "label": "bajista",
   "drivers": [
     {
-      "category": "Petroleo a la baja",
-      "score": 32.4,
-      "direction": "alcista",
-      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "n": 20
+      "category": "Fed hawkish",
+      "score": -40.74,
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "n": 21
     },
     {
       "category": "Aranceles / guerra comercial",
-      "score": -29.11,
+      "score": -36.76,
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "n": 18
+      "n": 21
     },
     {
-      "category": "Fed hawkish",
-      "score": -28.19,
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 15
-    },
-    {
-      "category": "Fed dovish/pausa",
-      "score": 12.09,
+      "category": "Desescalada / acuerdo",
+      "score": 30.89,
       "direction": "alcista",
-      "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
-      "n": 6
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "n": 11
+    },
+    {
+      "category": "Petroleo a la baja",
+      "score": 19.72,
+      "direction": "alcista",
+      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
+      "n": 12
     },
     {
       "category": "Mercado risk-on",
-      "score": 11.72,
+      "score": 17.42,
       "direction": "alcista",
       "why": "Tono de mercado positivo (risk-on)",
-      "n": 9
+      "n": 14
     },
     {
-      "category": "Geopolitica/escalada",
-      "score": -10.0,
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "category": "Fed dovish/pausa",
+      "score": 10.36,
+      "direction": "alcista",
+      "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
       "n": 5
     }
   ],
   "headlines": [
     {
-      "title": "Palestinian officials say one killed in Israeli drone attack west of Gaza City - Free Press Kashmir",
-      "source": "Free Press Kashmir",
-      "when": "2026-10-02T10:46:12+00:00",
-      "hours_ago": 6.1,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.69
-    },
-    {
-      "title": "Soft September Jobs Report Has Market Dialing Back Calls for Fed Rate Hike - Morningstar",
-      "source": "Morningstar",
-      "when": "2026-10-02T15:10:06+00:00",
-      "hours_ago": 1.7,
+      "title": "Why is US Stock Market Up Today? Dow Jones Gains 400 Points, S&P 500 Rises 0.99%, Nasdaq Climbs 1.56% as Oil Surges, Bond Selloff & Fed Rate Hike Bets Wall Street — Check What Investors Should Know - sundayguardianlive.com",
+      "source": "sundayguardianlive.com",
+      "when": "2026-10-02T15:11:13+00:00",
+      "hours_ago": 5.9,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.43
+      "score": -3.61
     },
     {
-      "title": "Europe to release diesel stocks after Trump threatens export ban - USA Today",
-      "source": "USA Today",
-      "when": "2026-10-02T14:54:00+00:00",
-      "hours_ago": 2.0,
-      "category": "Aranceles / guerra comercial",
-      "direction": "bajista",
-      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.42
+      "title": "US stocks rise on weak jobs data, oil price retreat - Macau Business",
+      "source": "Macau Business",
+      "when": "2026-10-02T16:32:35+00:00",
+      "hours_ago": 4.5,
+      "category": "Petroleo a la baja",
+      "direction": "alcista",
+      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
+      "score": 3.05
     },
     {
-      "title": "Foiled flydubai attack clouds regional airline revival - Reuters",
+      "title": "DOJ says it won't reopen probe into Fed's Powell - Axios",
+      "source": "Axios",
+      "when": "2026-10-02T20:40:34+00:00",
+      "hours_ago": 0.4,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.98
+    },
+    {
+      "title": "DOJ will not reopen criminal probe into Fed’s Powell, spokesperson says - The Spokesman-Review",
+      "source": "The Spokesman-Review",
+      "when": "2026-10-02T20:29:11+00:00",
+      "hours_ago": 0.6,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.97
+    },
+    {
+      "title": "DOJ will not reopen criminal probe of Powell, Blanche says - Politico",
+      "source": "Politico",
+      "when": "2026-10-02T20:23:00+00:00",
+      "hours_ago": 0.7,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.97
+    },
+    {
+      "title": "DOJ Will Not Reopen Criminal Probe Into Fed's Powell, Spokesperson Says - GV Wire",
+      "source": "GV Wire",
+      "when": "2026-10-02T20:12:11+00:00",
+      "hours_ago": 0.9,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.96
+    },
+    {
+      "title": "DOJ will not reopen criminal probe into Fed's Powell, spokesperson says - Reuters",
       "source": "Reuters",
-      "when": "2026-10-02T05:01:00+00:00",
-      "hours_ago": 11.9,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.41
+      "when": "2026-10-02T20:05:20+00:00",
+      "hours_ago": 1.0,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.95
     },
     {
-      "title": "Fed seen skipping October rate hike as job market cools - Reuters",
-      "source": "Reuters",
-      "when": "2026-10-02T14:21:19+00:00",
-      "hours_ago": 2.5,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.39
+      "title": "Blanche says DOJ is not reopening criminal probe into Fed's Powell, Bloomberg News reports - Fresno Bee",
+      "source": "Fresno Bee",
+      "when": "2026-10-02T19:52:02+00:00",
+      "hours_ago": 1.2,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.94
     },
     {
-      "title": "Goodbye, rate hike: Why stocks are soaring after a dismal jobs report - Business Insider",
-      "source": "Business Insider",
-      "when": "2026-10-02T14:20:21+00:00",
-      "hours_ago": 2.5,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.39
-    },
-    {
-      "title": "Prediction markets see low odds for US diesel export ban - scanx.trade",
-      "source": "scanx.trade",
-      "when": "2026-10-02T14:14:36+00:00",
-      "hours_ago": 2.6,
-      "category": "Aranceles / guerra comercial",
-      "direction": "bajista",
-      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.39
-    },
-    {
-      "title": "Weak US jobs data fuels bets the Fed will hold off on another rate hike - Proactive financial news",
-      "source": "Proactive financial news",
-      "when": "2026-10-02T14:06:00+00:00",
-      "hours_ago": 2.8,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.38
-    },
-    {
-      "title": "US Stock Market Today: Dow Jones Rises 400 Points, S&P 500 Gains 0.94% & Nasdaq Edges Higher as Nvidia, Intel & Nike in Focus; Oil & Bond Hit Ahead Fed Rate Hike — Check What Investors Should Know - The Sunday Guardian",
-      "source": "The Sunday Guardian",
-      "when": "2026-10-02T14:01:36+00:00",
-      "hours_ago": 2.9,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.38
-    },
-    {
-      "title": "Traders now see little chance of a Fed rate hike in October after weak jobs report - CNBC",
+      "title": "DOJ says it will not reopen criminal probe into former Fed Chair Powell - CNBC",
       "source": "CNBC",
-      "when": "2026-10-02T13:29:27+00:00",
-      "hours_ago": 3.4,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.36
+      "when": "2026-10-02T19:46:07+00:00",
+      "hours_ago": 1.3,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.93
     },
     {
-      "title": "Fed Rate Hike In October Looks Less Likely After Weak Jobs Report - Realtor.com",
-      "source": "Realtor.com",
-      "when": "2026-10-02T13:13:11+00:00",
-      "hours_ago": 3.7,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.35
+      "title": "DOJ Won't Reopen Probe Into Powell Over Federal Reserve Renovation Costs - Forth.News",
+      "source": "Forth.News",
+      "when": "2026-10-02T19:33:59+00:00",
+      "hours_ago": 1.5,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.92
     },
     {
-      "title": "Burnham says rejoining the EU is ‘an option’, Vaping Products Duty regime in force and US threatens diesel export ban - The Chartered Institute of Export & International Trade",
-      "source": "The Chartered Institute of Export & International Trade",
-      "when": "2026-10-02T10:47:30+00:00",
-      "hours_ago": 6.1,
-      "category": "Aranceles / guerra comercial",
-      "direction": "bajista",
-      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.25
+      "title": "DOJ isn't reopening criminal probe into former Fed chair Powell - report (TLT:NASDAQ) - Seeking Alpha",
+      "source": "Seeking Alpha",
+      "when": "2026-10-02T19:32:04+00:00",
+      "hours_ago": 1.5,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.92
+    },
+    {
+      "title": "DOJ Not Reopening Criminal Probe Into Fed’s Powell, Blanche Says - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "when": "2026-10-02T18:57:04+00:00",
+      "hours_ago": 2.1,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.89
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -12/100). Presion bajista por: Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100); Mercado risk-on (Tono de mercado positivo (risk-on)). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 573
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -9/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Mercado risk-on (Tono de mercado positivo (risk-on)). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 570
 }
