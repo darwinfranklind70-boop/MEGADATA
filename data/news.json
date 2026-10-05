@@ -1,108 +1,88 @@
 {
   "ok": true,
-  "generated_at": "2026-10-03T00:26:14.712232+00:00",
+  "generated_at": "2026-10-05T19:48:29.569049+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -1.1,
-  "label": "neutral",
+  "news_pulse": -31.6,
+  "label": "bajista",
   "drivers": [
     {
-      "category": "Desescalada / acuerdo",
-      "score": 44.96,
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "n": 16
-    },
-    {
       "category": "Fed hawkish",
-      "score": -34.01,
+      "score": -39.3,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 18
-    },
-    {
-      "category": "Aranceles / guerra comercial",
-      "score": -33.08,
-      "direction": "bajista",
-      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
       "n": 20
     },
     {
-      "category": "Mercado risk-on",
-      "score": 16.36,
-      "direction": "alcista",
-      "why": "Tono de mercado positivo (risk-on)",
-      "n": 13
-    },
-    {
       "category": "Petroleo a la baja",
-      "score": 12.91,
+      "score": 22.49,
       "direction": "alcista",
       "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "n": 9
+      "n": 15
     },
     {
-      "category": "Petroleo al alza",
-      "score": -8.15,
+      "category": "Aranceles / guerra comercial",
+      "score": -12.1,
       "direction": "bajista",
-      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "n": 8
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "n": 6
+    },
+    {
+      "category": "Ormuz cerrado/amenazado",
+      "score": -11.26,
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "n": 5
+    },
+    {
+      "category": "Desescalada / acuerdo",
+      "score": 10.7,
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "n": 5
+    },
+    {
+      "category": "Geopolitica/escalada",
+      "score": -10.28,
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "n": 4
     }
   ],
   "headlines": [
     {
-      "title": "Why is US Stock Market Up Today? Dow Jones Gains 400 Points, S&P 500 Rises 0.99%, Nasdaq Climbs 1.56% as Oil Surges, Bond Selloff & Fed Rate Hike Bets Wall Street — Check What Investors Should Know - The Sunday Guardian",
-      "source": "The Sunday Guardian",
-      "when": "2026-10-02T15:11:13+00:00",
-      "hours_ago": 9.3,
-      "category": "Fed hawkish",
+      "title": "Iran's Oil Minister Resigns as U.S. Blockade Chokes Crude Exports - Crude Oil Prices Today | OilPrice.com",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "when": "2026-10-05T17:30:00+00:00",
+      "hours_ago": 2.3,
+      "category": "Geopolitica/escalada",
       "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -3.38
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.88
     },
     {
-      "title": "US attorney general says Justice Department not reopening criminal probe into Fed's Powell - Anadolu Ajansı",
-      "source": "Anadolu Ajansı",
-      "when": "2026-10-02T23:11:40+00:00",
-      "hours_ago": 1.2,
+      "title": "Houthis Hit Aramco, Iran Keeps Hormuz Shut: What Markets Are Pricing In for Oil, the Dollar and Europe's Bonds This Week - Modern Diplomacy",
+      "source": "Modern Diplomacy",
+      "when": "2026-10-05T09:14:10+00:00",
+      "hours_ago": 10.6,
+      "category": "Ormuz cerrado/amenazado",
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -2.88
+    },
+    {
+      "title": "DOJ Says It Won’t Reopen Criminal Investigation Into Former Fed Chair Powell - CU Today",
+      "source": "CU Today",
+      "when": "2026-10-05T16:58:34+00:00",
+      "hours_ago": 2.8,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.94
+      "score": 2.86
     },
     {
-      "title": "DOJ declines to reopen Powell probe, likely putting Fed renovation uproar to rest - Scotsman Guide",
-      "source": "Scotsman Guide",
-      "when": "2026-10-02T22:52:18+00:00",
-      "hours_ago": 1.6,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.92
-    },
-    {
-      "title": "DoJ declines to reopen investigation into former Fed chair Jay Powell - The Guardian",
-      "source": "The Guardian",
-      "when": "2026-10-02T22:32:00+00:00",
-      "hours_ago": 1.9,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.9
-    },
-    {
-      "title": "Attorney general says he won't reopen investigation of former Fed Chair Jerome Powell - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "when": "2026-10-02T21:07:05+00:00",
-      "hours_ago": 3.3,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.83
-    },
-    {
-      "title": "US justice department will not reopen criminal probe of Fed’s Jay Powell - Financial Times",
-      "source": "Financial Times",
-      "when": "2026-10-02T21:03:19+00:00",
+      "title": "DOJ won’t reopen Powell probe - Banking Dive",
+      "source": "Banking Dive",
+      "when": "2026-10-05T16:21:59+00:00",
       "hours_ago": 3.4,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
@@ -110,66 +90,86 @@
       "score": 2.83
     },
     {
-      "title": "DOJ will not reopen criminal probe into Fed's Powell, spokesperson says - Reuters",
-      "source": "Reuters",
-      "when": "2026-10-02T20:48:42+00:00",
-      "hours_ago": 3.6,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.82
+      "title": "Possible Fire Reported at Saudi Refinery as Attack Claims Circulate - Crude Oil Prices Today | OilPrice.com",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "when": "2026-10-05T15:31:00+00:00",
+      "hours_ago": 4.3,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.79
     },
     {
-      "title": "DOJ says it won't reopen probe into Fed's Powell - Axios",
-      "source": "Axios",
-      "when": "2026-10-02T20:40:34+00:00",
-      "hours_ago": 3.8,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.81
+      "title": "Middle East oil exports exceed pre-war levels despite Hormuz attacks - Business Upturn",
+      "source": "Business Upturn",
+      "when": "2026-10-05T06:39:45+00:00",
+      "hours_ago": 13.1,
+      "category": "Ormuz cerrado/amenazado",
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -2.73
     },
     {
-      "title": "DOJ will not reopen criminal probe of Powell, Blanche says - Politico",
-      "source": "Politico",
-      "when": "2026-10-02T20:23:00+00:00",
-      "hours_ago": 4.1,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.8
+      "title": "Isaac Herzog discusses FlyDubai attack, Iran conflict and October 7 memorial - foxnews.com",
+      "source": "foxnews.com",
+      "when": "2026-10-05T14:11:59+00:00",
+      "hours_ago": 5.6,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.72
     },
     {
-      "title": "DOJ Will Not Reopen Criminal Probe Into Fed's Powell, Spokesperson Says - GV Wire",
-      "source": "GV Wire",
-      "when": "2026-10-02T20:12:11+00:00",
-      "hours_ago": 4.2,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.79
+      "title": "Middle East oil exports recover to pre-Iran war levels despite Hormuz attacks - dw.com",
+      "source": "dw.com",
+      "when": "2026-10-05T06:08:06+00:00",
+      "hours_ago": 13.7,
+      "category": "Ormuz cerrado/amenazado",
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -2.7
     },
     {
-      "title": "DOJ will not reopen criminal probe into Fed's Powell, spokesperson says - Devdiscourse",
-      "source": "Devdiscourse",
-      "when": "2026-10-02T19:57:18+00:00",
-      "hours_ago": 4.5,
+      "title": "Stock Market Today: Dow Futures Gain, S&P 500, Nasdaq 100 Slip as Iran Keeps Conditions To Reopen Hormuz - Benzinga",
+      "source": "Benzinga",
+      "when": "2026-10-05T12:43:00+00:00",
+      "hours_ago": 7.1,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.78
+      "score": 2.65
     },
     {
-      "title": "Blanche says DOJ is not reopening criminal probe into Fed's Powell, Bloomberg News reports - Fresno Bee",
-      "source": "Fresno Bee",
-      "when": "2026-10-02T19:52:02+00:00",
-      "hours_ago": 4.6,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.77
+      "title": "EU and China Schedule Talks in Beijing to Avoid Trade War - suaragarut.id",
+      "source": "suaragarut.id",
+      "when": "2026-10-05T18:12:00+00:00",
+      "hours_ago": 1.6,
+      "category": "Aranceles / guerra comercial",
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "score": -2.43
+    },
+    {
+      "title": "Fed rate hike odds plummet after September jobs miss - Kalshi News",
+      "source": "Kalshi News",
+      "when": "2026-10-05T16:22:30+00:00",
+      "hours_ago": 3.4,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.36
+    },
+    {
+      "title": "US Diesel Export Ban Update: G7 Stock Release Eases Risk - resourcewise.com",
+      "source": "resourcewise.com",
+      "when": "2026-10-05T15:57:04+00:00",
+      "hours_ago": 3.9,
+      "category": "Aranceles / guerra comercial",
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "score": -2.34
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido neutral (pulso -1/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Mercado risk-on (Tono de mercado positivo (risk-on)); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 557
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -32/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100); Ormuz cerrado/amenazado (Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Mercado risk-on (Tono de mercado positivo (risk-on)). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 520
 }
