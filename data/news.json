@@ -1,48 +1,48 @@
 {
   "ok": true,
-  "generated_at": "2026-10-06T17:28:24.124351+00:00",
+  "generated_at": "2026-10-06T21:46:34.899740+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": 11.1,
-  "label": "alcista",
+  "news_pulse": -2.2,
+  "label": "neutral",
   "drivers": [
     {
       "category": "Petroleo a la baja",
-      "score": 37.15,
+      "score": 37.82,
       "direction": "alcista",
       "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "n": 25
+      "n": 22
     },
     {
       "category": "Geopolitica/escalada",
-      "score": -19.8,
+      "score": -25.7,
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "n": 8
+      "n": 10
     },
     {
       "category": "Fed hawkish",
-      "score": -16.64,
+      "score": -17.88,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 13
+      "n": 15
     },
     {
       "category": "Desescalada / acuerdo",
-      "score": 11.84,
+      "score": 10.38,
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
       "n": 5
     },
     {
       "category": "Aranceles / guerra comercial",
-      "score": -8.83,
+      "score": -8.78,
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
       "n": 6
     },
     {
       "category": "Mercado risk-on",
-      "score": 7.63,
+      "score": 7.09,
       "direction": "alcista",
       "why": "Tono de mercado positivo (risk-on)",
       "n": 8
@@ -50,126 +50,126 @@
   ],
   "headlines": [
     {
-      "title": "Hormuz ship attacks surge: Are increased oil exports sustainable? - Al Jazeera",
-      "source": "Al Jazeera",
-      "when": "2026-10-06T14:18:18+00:00",
-      "hours_ago": 3.2,
+      "title": "Crude oil rebounds as Hormuz tensions rise. Can buyers take back full control? - investingLive",
+      "source": "investingLive",
+      "when": "2026-10-06T18:03:17+00:00",
+      "hours_ago": 3.7,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.32
+      "score": -3.28
+    },
+    {
+      "title": "Hormuz ship attacks surge: Are increased oil exports sustainable? - Al Jazeera",
+      "source": "Al Jazeera",
+      "when": "2026-10-06T14:18:18+00:00",
+      "hours_ago": 7.5,
+      "category": "Ormuz cerrado/amenazado",
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -3.06
+    },
+    {
+      "title": "Tumultuous times: Stocks climb as oil prices retreat under $100 per barrel - RTL Today",
+      "source": "RTL Today",
+      "when": "2026-10-06T17:00:04+00:00",
+      "hours_ago": 4.8,
+      "category": "Petroleo a la baja",
+      "direction": "alcista",
+      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
+      "score": 3.04
+    },
+    {
+      "title": "US stocks rise toward an all-time high after oil prices ease - The Korea Times",
+      "source": "The Korea Times",
+      "when": "2026-10-06T15:28:02+00:00",
+      "hours_ago": 6.3,
+      "category": "Petroleo a la baja",
+      "direction": "alcista",
+      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
+      "score": 2.95
+    },
+    {
+      "title": "U.S. stocks rise toward an all-time high after oil prices ease - CP24",
+      "source": "CP24",
+      "when": "2026-10-06T15:22:24+00:00",
+      "hours_ago": 6.4,
+      "category": "Petroleo a la baja",
+      "direction": "alcista",
+      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
+      "score": 2.95
+    },
+    {
+      "title": "Most families of US troops killed in the Iran war's deadliest attack won't be at White House event - ABC News - Breaking News, Latest News and Videos",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "when": "2026-10-06T19:36:07+00:00",
+      "hours_ago": 2.2,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.89
     },
     {
       "title": "Stocks climb as oil prices retreat - Yahoo Finance",
       "source": "Yahoo Finance",
       "when": "2026-10-06T14:14:26+00:00",
-      "hours_ago": 3.2,
+      "hours_ago": 7.5,
       "category": "Petroleo a la baja",
       "direction": "alcista",
       "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "score": 3.12
+      "score": 2.89
+    },
+    {
+      "title": "Most families of US troops killed in the Iran war’s deadliest attack won’t be at White House event - Orange County Register",
+      "source": "Orange County Register",
+      "when": "2026-10-06T19:02:18+00:00",
+      "hours_ago": 2.7,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.86
+    },
+    {
+      "title": "Trump Condemned for Invoking Nuclear Attacks on US Cities to Defend Iran War - Truthout",
+      "source": "Truthout",
+      "when": "2026-10-06T19:00:15+00:00",
+      "hours_ago": 2.8,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.86
+    },
+    {
+      "title": "Most families of US troops killed in the Iran war's deadliest attack weren't at White House event - KSAT",
+      "source": "KSAT",
+      "when": "2026-10-06T18:56:03+00:00",
+      "hours_ago": 2.8,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.86
     },
     {
       "title": "Stock Market Midday, Oct. 6: S&P 500 Sets New High, Nuclear Stocks Surge - The Motley Fool",
       "source": "The Motley Fool",
-      "when": "2026-10-06T16:31:05+00:00",
-      "hours_ago": 1.0,
+      "when": "2026-10-06T17:18:00+00:00",
+      "hours_ago": 4.5,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.95
+      "score": -2.78
     },
     {
-      "title": "‘Raging desire for revenge’: How does the Arab world remember Hamas’s October 7 invasion? - The Jerusalem Post",
-      "source": "The Jerusalem Post",
-      "when": "2026-10-06T15:46:35+00:00",
-      "hours_ago": 1.7,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.92
-    },
-    {
-      "title": "Rising interest rates reopen negotiations on commercial deals - The Real Deal",
-      "source": "The Real Deal",
-      "when": "2026-10-06T15:25:00+00:00",
-      "hours_ago": 2.1,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.9
-    },
-    {
-      "title": "Trump suggests Iran could 'take out' Los Angeles and San Diego if it develops nuclear weapons - ABC News - Breaking News, Latest News and Videos",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "when": "2026-10-06T14:13:34+00:00",
-      "hours_ago": 3.2,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.84
-    },
-    {
-      "title": "Ex-Iranian nuclear negotiator: ‘US attacks mean Iran won’t stop nuclear activity’ - Al Arabiya English",
-      "source": "Al Arabiya English",
-      "when": "2026-10-06T13:32:00+00:00",
-      "hours_ago": 3.9,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.8
-    },
-    {
-      "title": "3 years on, Israel's Gaza genocide continues despite cease-fire - Daily Sabah",
-      "source": "Daily Sabah",
-      "when": "2026-10-06T13:30:17+00:00",
-      "hours_ago": 4.0,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.8
-    },
-    {
-      "title": "US Stocks Rise Toward an All-Time High After Oil Prices Ease - U.S. News & World Report",
-      "source": "U.S. News & World Report",
-      "when": "2026-10-06T05:53:00+00:00",
-      "hours_ago": 11.6,
+      "title": "US stocks rise toward an all-time high after oil prices ease - LancasterOnline",
+      "source": "LancasterOnline",
+      "when": "2026-10-06T11:52:28+00:00",
+      "hours_ago": 9.9,
       "category": "Petroleo a la baja",
       "direction": "alcista",
       "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "score": 2.66
-    },
-    {
-      "title": "At Least 50 Iranian Tankers Are Stuck in the Gulf as U.S. Blockade Holds - Crude Oil Prices Today | OilPrice.com",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "when": "2026-10-06T09:00:00+00:00",
-      "hours_ago": 8.5,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.58
-    },
-    {
-      "title": "US-Iran Conflict: Iran still open to talks with the US, but talks must focus on Strait of Hormuz, not the nuclear issue - CGTN",
-      "source": "CGTN",
-      "when": "2026-10-06T04:24:43+00:00",
-      "hours_ago": 13.1,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.35
-    },
-    {
-      "title": "TSX futures point higher amid easing bond selloff, oil price drop - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "when": "2026-10-06T11:02:11+00:00",
-      "hours_ago": 6.4,
-      "category": "Fed dovish/pausa",
-      "direction": "alcista",
-      "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
-      "score": 2.32
+      "score": 2.76
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido alcista (pulso +11/100). Presion bajista por: Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Mercado risk-on (Tono de mercado positivo (risk-on)). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 565
+  "conclusion": "El contexto de noticias inclina al US100 en sentido neutral (pulso -2/100). Presion bajista por: Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Mercado risk-on (Tono de mercado positivo (risk-on)). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 561
 }
