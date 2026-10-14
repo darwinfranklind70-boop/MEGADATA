@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generated_at": "2026-10-13T03:05:57.284246+00:00",
+  "generated_at": "2026-10-14T01:18:15.379230+00:00",
   "period": {
-    "from": "2017-08-02",
+    "from": "2017-08-03",
     "to": "2026-10-12",
     "years": 9.2
   },
@@ -111,12 +111,12 @@
     "short": [
       {
         "n": 72,
-        "win_rate": 33.3,
-        "avg_trade_pct": -0.365,
-        "avg_win_pct": 1.982,
-        "avg_loss_pct": -1.538,
-        "total_pct": -26.3,
-        "profit_factor": 0.64,
+        "win_rate": 34.7,
+        "avg_trade_pct": -0.339,
+        "avg_win_pct": 1.973,
+        "avg_loss_pct": -1.569,
+        "total_pct": -24.4,
+        "profit_factor": 0.67,
         "threshold": 50,
         "hold_days": 5
       },
@@ -138,12 +138,12 @@
       },
       {
         "n": 48,
-        "win_rate": 35.4,
-        "avg_trade_pct": -0.851,
-        "avg_win_pct": 2.127,
-        "avg_loss_pct": -2.485,
-        "total_pct": -40.9,
-        "profit_factor": 0.47,
+        "win_rate": 37.5,
+        "avg_trade_pct": -0.817,
+        "avg_win_pct": 2.099,
+        "avg_loss_pct": -2.566,
+        "total_pct": -39.2,
+        "profit_factor": 0.49,
         "threshold": 50,
         "hold_days": 10
       },
@@ -166,11 +166,11 @@
       {
         "n": 36,
         "win_rate": 27.8,
-        "avg_trade_pct": -1.46,
+        "avg_trade_pct": -1.497,
         "avg_win_pct": 4.825,
-        "avg_loss_pct": -3.877,
-        "total_pct": -52.6,
-        "profit_factor": 0.48,
+        "avg_loss_pct": -3.929,
+        "total_pct": -53.9,
+        "profit_factor": 0.47,
         "threshold": 50,
         "hold_days": 20
       },
