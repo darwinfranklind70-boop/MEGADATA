@@ -1,51 +1,51 @@
 {
   "ok": true,
-  "generated_at": "2026-10-15T19:30:10.443268+00:00",
+  "generated_at": "2026-10-15T22:39:25.156617+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -38.8,
+  "news_pulse": -45.0,
   "label": "bajista",
   "drivers": [
     {
       "category": "Fed hawkish",
-      "score": -33.11,
+      "score": -33.47,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
       "n": 21
     },
     {
       "category": "Mercado risk-off",
-      "score": -20.12,
+      "score": -16.44,
       "direction": "bajista",
       "why": "Tono de mercado negativo (risk-off)",
-      "n": 19
+      "n": 16
     },
     {
-      "category": "Desescalada / acuerdo",
-      "score": 16.31,
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "n": 7
+      "category": "Ormuz cerrado/amenazado",
+      "score": -14.7,
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "n": 5
     },
     {
       "category": "Fed dovish/pausa",
-      "score": 15.43,
+      "score": 14.51,
       "direction": "alcista",
       "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
       "n": 7
     },
     {
-      "category": "Petroleo a la baja",
-      "score": 14.31,
+      "category": "Desescalada / acuerdo",
+      "score": 13.89,
       "direction": "alcista",
-      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "n": 10
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "n": 6
     },
     {
-      "category": "Petroleo al alza",
-      "score": -14.18,
+      "category": "Geopolitica/escalada",
+      "score": -13.05,
       "direction": "bajista",
-      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "n": 10
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "n": 5
     }
   ],
   "headlines": [
@@ -53,123 +53,123 @@
       "title": "Oil Prices Rise as Traders Weigh Saudi Aramco Attack Report, Hormuz Shipping Risks - WSJ",
       "source": "WSJ",
       "when": "2026-10-14T20:12:00+00:00",
-      "hours_ago": 23.3,
+      "hours_ago": 26.5,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -5.2
+      "score": -4.75
     },
     {
       "title": "Oil Prices Slide as US Weighs Easing Sanctions on Shadow Fleet: Implications for Tanker Rates, Delivered Crude Costs, and Diesel Crack Spreads - Energy News Beat",
       "source": "Energy News Beat",
       "when": "2026-10-15T12:26:55+00:00",
-      "hours_ago": 7.1,
+      "hours_ago": 10.2,
       "category": "Fed dovish/pausa",
       "direction": "alcista",
       "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
-      "score": 3.62
+      "score": 3.4
     },
     {
       "title": "Europe's Gas Prices Close to 2022 High as Hormuz LNG Flows Remain Limited - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "when": "2026-10-15T14:30:00+00:00",
-      "hours_ago": 5.0,
+      "hours_ago": 8.2,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.21
+      "score": -3.02
+    },
+    {
+      "title": "Ukraine runs out of US Patriot missile interceptors as Russia pummels cities: report - New York Post",
+      "source": "New York Post",
+      "when": "2026-10-15T21:34:06+00:00",
+      "hours_ago": 1.1,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.95
     },
     {
       "title": "Oil Prices Fall as Trump Considers Easing Sanctions on Shadow Fleet Tankers - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "when": "2026-10-15T05:19:07+00:00",
-      "hours_ago": 14.2,
+      "hours_ago": 17.3,
       "category": "Fed dovish/pausa",
       "direction": "alcista",
       "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
-      "score": 3.13
+      "score": 2.92
+    },
+    {
+      "title": "Yemen's Houthis attack presidential palace in Aden, key Saudi infrastructure - CBC",
+      "source": "CBC",
+      "when": "2026-10-15T20:57:20+00:00",
+      "hours_ago": 1.7,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.91
+    },
+    {
+      "title": "Ousted general warned of years-long missile defense shortage before Iran war - CBS News",
+      "source": "CBS News",
+      "when": "2026-10-15T20:28:00+00:00",
+      "hours_ago": 2.2,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.89
     },
     {
       "title": "Iran insists Hormuz is 'closed' as Trump predicts war will end 'very soon' - Türkiye Today",
       "source": "Türkiye Today",
       "when": "2026-10-15T10:50:00+00:00",
-      "hours_ago": 8.7,
+      "hours_ago": 11.8,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -2.99
-    },
-    {
-      "title": "Ukraine runs out of US Patriot missile interceptors as Russia pummels cities: report - New York Post",
-      "source": "New York Post",
-      "when": "2026-10-15T18:50:00+00:00",
-      "hours_ago": 0.7,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.97
+      "score": -2.81
     },
     {
       "title": "US inflation rises before midterm elections, fuelling rate hike fears - Al Jazeera",
       "source": "Al Jazeera",
       "when": "2026-10-14T18:50:39+00:00",
-      "hours_ago": 24.7,
+      "hours_ago": 27.8,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.95
+      "score": -2.68
     },
     {
       "title": "Trump announces Ukraine energy ceasefire with Russia, surprising Zelenskiy - The Daily Star",
       "source": "The Daily Star",
       "when": "2026-10-15T15:46:13+00:00",
-      "hours_ago": 3.7,
+      "hours_ago": 6.9,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.81
+      "score": 2.66
     },
     {
       "title": "Ukraine Latest: Trump’s Russian Diesel Deal Draws Bipartisan Backlash as Ukraine Energy Truce Falters - Georgia Today",
       "source": "Georgia Today",
       "when": "2026-10-15T14:58:59+00:00",
-      "hours_ago": 4.5,
+      "hours_ago": 7.7,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.77
+      "score": 2.62
     },
     {
       "title": "UK prime minister blames Russia for failure of proposed Ukraine energy ceasefire - Hromadske",
       "source": "Hromadske",
       "when": "2026-10-15T14:41:00+00:00",
-      "hours_ago": 4.8,
+      "hours_ago": 8.0,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.76
-    },
-    {
-      "title": "3 Oil And Gas Stocks For Higher Crude Prices After The Saudi Aramco Attack - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "when": "2026-10-15T11:12:53+00:00",
-      "hours_ago": 8.3,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.59
-    },
-    {
-      "title": "Ukraine to Resume Russian Oil Refinery Strikes After Failed Energy Ceasefire - Crude Oil Prices Today | OilPrice.com",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "when": "2026-10-15T09:30:00+00:00",
-      "hours_ago": 10.0,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.5
+      "score": 2.6
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -39/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Mercado risk-off (Tono de mercado negativo (risk-off)); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 605
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -45/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Mercado risk-off (Tono de mercado negativo (risk-off)); Ormuz cerrado/amenazado (Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off). Apoyo alcista por: Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 612
 }
