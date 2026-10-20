@@ -1,175 +1,175 @@
 {
   "ok": true,
-  "generated_at": "2026-10-20T15:53:30.620254+00:00",
+  "generated_at": "2026-10-20T19:40:21.663410+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -46.4,
+  "news_pulse": -10.6,
   "label": "bajista",
   "drivers": [
     {
-      "category": "Petroleo al alza",
-      "score": -29.97,
-      "direction": "bajista",
-      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "n": 16
-    },
-    {
-      "category": "Geopolitica/escalada",
-      "score": -24.44,
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "n": 10
+      "category": "Petroleo a la baja",
+      "score": 46.11,
+      "direction": "alcista",
+      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
+      "n": 20
     },
     {
       "category": "Fed hawkish",
-      "score": -21.17,
+      "score": -24.78,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 12
+      "n": 14
     },
     {
-      "category": "Petroleo a la baja",
-      "score": 15.07,
-      "direction": "alcista",
-      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "n": 6
-    },
-    {
-      "category": "Ormuz cerrado/amenazado",
-      "score": -8.61,
+      "category": "Petroleo al alza",
+      "score": -17.41,
       "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "n": 3
+      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
+      "n": 10
+    },
+    {
+      "category": "Geopolitica/escalada",
+      "score": -12.37,
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "n": 5
     },
     {
       "category": "Mercado risk-on",
-      "score": 8.37,
+      "score": 9.7,
       "direction": "alcista",
       "why": "Tono de mercado positivo (risk-on)",
-      "n": 6
+      "n": 7
+    },
+    {
+      "category": "Mercado risk-off",
+      "score": -7.83,
+      "direction": "bajista",
+      "why": "Tono de mercado negativo (risk-off)",
+      "n": 7
     }
   ],
   "headlines": [
     {
-      "title": "Iran Strikes More Ship Engine Rooms in Ramp-Up of Hormuz Attacks - Bloomberg.com",
-      "source": "Bloomberg.com",
-      "when": "2026-10-20T12:31:30+00:00",
-      "hours_ago": 3.4,
+      "title": "Iran Strikes More Ship Engine Rooms in Ramp-Up of Hormuz Attacks - gCaptain",
+      "source": "gCaptain",
+      "when": "2026-10-20T16:20:13+00:00",
+      "hours_ago": 3.3,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.3
+      "score": -3.31
+    },
+    {
+      "title": "US stocks rise after companies deliver strong profits and oil prices retreat - WRAL",
+      "source": "WRAL",
+      "when": "2026-10-20T18:30:15+00:00",
+      "hours_ago": 1.2,
+      "category": "Petroleo a la baja",
+      "direction": "alcista",
+      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
+      "score": 3.24
+    },
+    {
+      "title": "Wall Street gains ground on healthcare stocks rally, oil retreat By Reuters - Investing.com",
+      "source": "Investing.com",
+      "when": "2026-10-20T17:55:51+00:00",
+      "hours_ago": 1.7,
+      "category": "Petroleo a la baja",
+      "direction": "alcista",
+      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
+      "score": 3.2
+    },
+    {
+      "title": "US STOCKS-Wall Street gains ground on healthcare stocks rally, oil retreat - Devdiscourse",
+      "source": "Devdiscourse",
+      "when": "2026-10-20T16:38:57+00:00",
+      "hours_ago": 3.0,
+      "category": "Petroleo a la baja",
+      "direction": "alcista",
+      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
+      "score": 3.13
+    },
+    {
+      "title": "Bitcoin price spikes to $83.3K as US stocks rise on Q3 earnings, oil falls - TradingView",
+      "source": "TradingView",
+      "when": "2026-10-20T16:14:09+00:00",
+      "hours_ago": 3.4,
+      "category": "Petroleo a la baja",
+      "direction": "alcista",
+      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
+      "score": 3.11
+    },
+    {
+      "title": "US stocks rise after companies deliver strong profits and oil prices retreat - Boston Herald",
+      "source": "Boston Herald",
+      "when": "2026-10-20T16:11:30+00:00",
+      "hours_ago": 3.5,
+      "category": "Petroleo a la baja",
+      "direction": "alcista",
+      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
+      "score": 3.11
+    },
+    {
+      "title": "US stocks rise after companies deliver strong profits and oil prices retreat - The Korea Times",
+      "source": "The Korea Times",
+      "when": "2026-10-20T16:02:03+00:00",
+      "hours_ago": 3.6,
+      "category": "Petroleo a la baja",
+      "direction": "alcista",
+      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
+      "score": 3.1
+    },
+    {
+      "title": "Iran Strikes More Ship Engine Rooms in Ramp-Up of Hormuz Attacks - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "when": "2026-10-20T12:31:30+00:00",
+      "hours_ago": 7.1,
+      "category": "Ormuz cerrado/amenazado",
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -3.08
+    },
+    {
+      "title": "Wall Street gains as healthcare stocks rally, oil prices fall - The Detroit News",
+      "source": "The Detroit News",
+      "when": "2026-10-20T15:34:00+00:00",
+      "hours_ago": 4.1,
+      "category": "Petroleo a la baja",
+      "direction": "alcista",
+      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
+      "score": 3.07
     },
     {
       "title": "US Stocks Rise After Brent Crude Tumbles 3%: What Caused Oil Prices to Fall? - TradingKey",
       "source": "TradingKey",
       "when": "2026-10-20T15:09:28+00:00",
-      "hours_ago": 0.7,
+      "hours_ago": 4.5,
       "category": "Petroleo a la baja",
       "direction": "alcista",
       "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "score": 3.26
+      "score": 3.05
     },
     {
-      "title": "US stocks rise after oil prices retreat and companies deliver strong profits - Boston Herald",
-      "source": "Boston Herald",
-      "when": "2026-10-20T14:53:02+00:00",
-      "hours_ago": 1.0,
+      "title": "U.S. stocks rise after oil prices retreat and companies deliver strong profits - BNN Bloomberg",
+      "source": "BNN Bloomberg",
+      "when": "2026-10-20T15:09:44+00:00",
+      "hours_ago": 4.5,
       "category": "Petroleo a la baja",
       "direction": "alcista",
       "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "score": 3.24
+      "score": 3.05
     },
     {
-      "title": "Wall Street gains as healthcare stocks rally, oil prices fall By Reuters - Investing.com",
-      "source": "Investing.com",
-      "when": "2026-10-20T14:51:46+00:00",
-      "hours_ago": 1.0,
+      "title": "US STOCKS-Wall Street gains as healthcare stocks rally, oil prices fall - Devdiscourse",
+      "source": "Devdiscourse",
+      "when": "2026-10-20T14:57:38+00:00",
+      "hours_ago": 4.7,
       "category": "Petroleo a la baja",
       "direction": "alcista",
       "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "score": 3.24
-    },
-    {
-      "title": "Iran threatens to cut 7 internet cables under Strait of Hormuz if attacked - Türkiye Today",
-      "source": "Türkiye Today",
-      "when": "2026-10-20T09:05:25+00:00",
-      "hours_ago": 6.8,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.1
-    },
-    {
-      "title": "Israel’s war on olive trees an attack on Palestinian survival - Arab News",
-      "source": "Arab News",
-      "when": "2026-10-20T13:29:42+00:00",
-      "hours_ago": 2.4,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.88
-    },
-    {
-      "title": "Houthi Forces Attack Saudi Energy Facilities; Brent Crude Tops $110 to Hit Five-Month High - BigGo Finance",
-      "source": "BigGo Finance",
-      "when": "2026-10-20T12:05:00+00:00",
-      "hours_ago": 3.8,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.81
-    },
-    {
-      "title": "Japan Reopens Market to Ukrainian Poultry and Eggs After Five Years - Oj - Odessa Journal",
-      "source": "Odessa Journal",
-      "when": "2026-10-20T11:15:41+00:00",
-      "hours_ago": 4.6,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.77
-    },
-    {
-      "title": "Canada's Inflation Rises to 3.1% as Fuel Oil Prices Jump 58% - Crude Oil Prices Today | OilPrice.com",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "when": "2026-10-19T16:30:00+00:00",
-      "hours_ago": 23.4,
-      "category": "Inflacion caliente",
-      "direction": "bajista",
-      "why": "Inflacion alta -> Fed mas dura -> presion al US100",
-      "score": -2.75
-    },
-    {
-      "title": "Iran vows retaliation to any US attack, rejects no-response deal claims | Daily Sabah - Daily Sabah",
-      "source": "Daily Sabah",
-      "when": "2026-10-20T10:03:00+00:00",
-      "hours_ago": 5.8,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.71
-    },
-    {
-      "title": "Brent Crude Hits Five-Month High as Houthi Attack Claims Raise Oil Supply Concerns - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "when": "2026-10-20T09:49:54+00:00",
-      "hours_ago": 6.1,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.7
-    },
-    {
-      "title": "Iran warns any US attack will be met with retaliation, dismisses claims of no-response deal - Anadolu Ajansı",
-      "source": "Anadolu Ajansı",
-      "when": "2026-10-20T09:02:10+00:00",
-      "hours_ago": 6.9,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.66
+      "score": 3.04
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -46/100). Presion bajista por: Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Mercado risk-on (Tono de mercado positivo (risk-on)); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 546
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -11/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Mercado risk-on (Tono de mercado positivo (risk-on)); Tech/IA fuerte (Demanda de IA/chips impulsa al Nasdaq). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 569
 }
