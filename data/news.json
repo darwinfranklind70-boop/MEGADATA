@@ -1,175 +1,175 @@
 {
   "ok": true,
-  "generated_at": "2026-10-22T20:01:40.808243+00:00",
+  "generated_at": "2026-10-22T23:18:30.027321+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -68.7,
+  "news_pulse": -81.3,
   "label": "bajista",
   "drivers": [
     {
       "category": "Petroleo al alza",
-      "score": -39.4,
+      "score": -34.55,
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "n": 25
+      "n": 23
     },
     {
       "category": "Geopolitica/escalada",
-      "score": -14.76,
+      "score": -20.34,
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "n": 8
+    },
+    {
+      "category": "Tech debil",
+      "score": -18.1,
+      "direction": "bajista",
+      "why": "Debilidad tech pesa directamente sobre el US100",
       "n": 6
     },
     {
       "category": "Fed hawkish",
-      "score": -11.84,
+      "score": -11.1,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
       "n": 7
     },
     {
       "category": "Mercado risk-off",
-      "score": -11.7,
+      "score": -7.59,
       "direction": "bajista",
       "why": "Tono de mercado negativo (risk-off)",
-      "n": 9
+      "n": 6
     },
     {
-      "category": "Tech debil",
-      "score": -10.01,
+      "category": "Aranceles / guerra comercial",
+      "score": -3.88,
       "direction": "bajista",
-      "why": "Debilidad tech pesa directamente sobre el US100",
-      "n": 3
-    },
-    {
-      "category": "Tech/IA fuerte",
-      "score": 6.35,
-      "direction": "alcista",
-      "why": "Demanda de IA/chips impulsa al Nasdaq",
-      "n": 5
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "n": 2
     }
   ],
   "headlines": [
     {
+      "title": "Brent Jumps $4 a Barrel to Five-Month High on Houthi Attack Supply Fears - bloomingbit",
+      "source": "bloomingbit",
+      "when": "2026-10-22T18:56:27+00:00",
+      "hours_ago": 4.4,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -4.64
+    },
+    {
+      "title": "S&P 500, Nasdaq end sharply lower as revived AI doubts ignite tech selloff - Reuters",
+      "source": "Reuters",
+      "when": "2026-10-22T20:48:22+00:00",
+      "hours_ago": 2.5,
+      "category": "Tech debil",
+      "direction": "bajista",
+      "why": "Debilidad tech pesa directamente sobre el US100",
+      "score": -3.35
+    },
+    {
+      "title": "S&P 500, Nasdaq end sharply lower as revived AI doubts ignite tech selloff - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "when": "2026-10-22T20:47:53+00:00",
+      "hours_ago": 2.5,
+      "category": "Tech debil",
+      "direction": "bajista",
+      "why": "Debilidad tech pesa directamente sobre el US100",
+      "score": -3.35
+    },
+    {
       "title": "Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war - AP News",
       "source": "AP News",
       "when": "2026-10-22T18:55:00+00:00",
-      "hours_ago": 1.1,
+      "hours_ago": 4.4,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.44
+      "score": -3.24
     },
     {
       "title": "U.S. Stocks Fall as Tech Selloff Deepens - WSJ",
       "source": "WSJ",
       "when": "2026-10-22T18:42:00+00:00",
-      "hours_ago": 1.3,
+      "hours_ago": 4.6,
       "category": "Tech debil",
       "direction": "bajista",
       "why": "Debilidad tech pesa directamente sobre el US100",
-      "score": -3.42
+      "score": -3.23
     },
     {
       "title": "Optics Stocks Tumble as Tech Selloff Deepens Ahead of Earnings: Coherent Tumbles 12%, Applied Optoelectronics Drops 10%, Lumentum Falls 9% - 24/7 Wall St.",
       "source": "24/7 Wall St.",
       "when": "2026-10-22T17:10:00+00:00",
-      "hours_ago": 2.9,
+      "hours_ago": 6.1,
       "category": "Tech debil",
       "direction": "bajista",
       "why": "Debilidad tech pesa directamente sobre el US100",
-      "score": -3.33
+      "score": -3.14
     },
     {
       "title": "SpaceX and AST SpaceMobile Sink 6%, Rocket Lab Falls 5% as Tech Selloff Hits High-Flying Space Stocks - 24/7 Wall St.",
       "source": "24/7 Wall St.",
       "when": "2026-10-22T15:56:00+00:00",
-      "hours_ago": 4.1,
+      "hours_ago": 7.4,
       "category": "Tech debil",
       "direction": "bajista",
       "why": "Debilidad tech pesa directamente sobre el US100",
-      "score": -3.26
+      "score": -3.07
     },
     {
       "title": "Ahead of US and Israeli elections, 3-day joint attack on Iran 'would not radically change conflict' - France 24",
       "source": "France 24",
       "when": "2026-10-22T15:29:33+00:00",
-      "hours_ago": 4.5,
+      "hours_ago": 7.8,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.77
+      "score": -2.61
     },
     {
       "title": "Iran's Hardliners Push for Nuclear Weapons as U.S. War Drags On - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "when": "2026-10-22T15:00:00+00:00",
-      "hours_ago": 5.0,
+      "hours_ago": 8.3,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.75
+      "score": -2.58
     },
     {
       "title": "Attack on Saudi Arabia’s King Fahd airport kills two people - Al Jazeera",
       "source": "Al Jazeera",
       "when": "2026-10-22T14:01:53+00:00",
-      "hours_ago": 6.0,
+      "hours_ago": 9.3,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.7
+      "score": -2.54
     },
     {
-      "title": "U.S. and Israel are planning for a possible post-midterms attack on Iran - NPR",
-      "source": "NPR",
-      "when": "2026-10-22T08:56:58+00:00",
-      "hours_ago": 11.1,
-      "category": "Geopolitica/escalada",
+      "title": "China export ban hits tungsten, crucial metal for industry - Borneo Bulletin",
+      "source": "Borneo Bulletin",
+      "when": "2026-10-22T21:09:09+00:00",
+      "hours_ago": 2.2,
+      "category": "Aranceles / guerra comercial",
       "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.45
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "score": -2.41
     },
     {
       "title": "Bond traders are backing off Fed rate hike bets — here's what it means for mortgage rates - Yahoo Finance",
       "source": "Yahoo Finance",
       "when": "2026-10-22T18:05:07+00:00",
-      "hours_ago": 1.9,
+      "hours_ago": 5.2,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.42
-    },
-    {
-      "title": "Iran's Oil Reserves Run Dry as U.S. Naval Blockade Tightens - Crude Oil Prices Today | OilPrice.com",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "when": "2026-10-22T07:00:00+00:00",
-      "hours_ago": 13.0,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.35
-    },
-    {
-      "title": "The Fed’s Dilemma: Can Markets Damp Inflation or Is Another Rate Hike Necessary? - Barron's",
-      "source": "Barron's",
-      "when": "2026-10-22T12:56:00+00:00",
-      "hours_ago": 7.1,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.2
-    },
-    {
-      "title": "What Happens to AI Stocks if the Fed Hikes Rates Again? - The Motley Fool",
-      "source": "The Motley Fool",
-      "when": "2026-10-22T12:17:00+00:00",
-      "hours_ago": 7.7,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.18
+      "score": -2.28
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -69/100). Presion bajista por: Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100). Apoyo alcista por: Tech/IA fuerte (Demanda de IA/chips impulsa al Nasdaq); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100); Mercado risk-on (Tono de mercado positivo (risk-on)). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 531
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -81/100). Presion bajista por: Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo); Tech debil (Debilidad tech pesa directamente sobre el US100). Apoyo alcista por: Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Tech/IA fuerte (Demanda de IA/chips impulsa al Nasdaq). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 477
 }
