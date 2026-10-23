@@ -1,51 +1,51 @@
 {
   "ok": true,
-  "generated_at": "2026-10-23T19:45:14.048723+00:00",
+  "generated_at": "2026-10-23T22:41:17.346651+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -57.9,
+  "news_pulse": -37.4,
   "label": "bajista",
   "drivers": [
     {
-      "category": "Petroleo al alza",
-      "score": -51.75,
-      "direction": "bajista",
-      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "n": 30
-    },
-    {
-      "category": "Tech debil",
-      "score": -31.08,
-      "direction": "bajista",
-      "why": "Debilidad tech pesa directamente sobre el US100",
-      "n": 14
-    },
-    {
       "category": "Desescalada / acuerdo",
-      "score": 30.52,
+      "score": 49.58,
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "n": 11
+      "n": 19
+    },
+    {
+      "category": "Petroleo al alza",
+      "score": -48.99,
+      "direction": "bajista",
+      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
+      "n": 31
     },
     {
       "category": "Fed hawkish",
-      "score": -11.88,
+      "score": -17.64,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "n": 11
+    },
+    {
+      "category": "Geopolitica/escalada",
+      "score": -15.73,
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
       "n": 7
     },
     {
       "category": "Mercado risk-off",
-      "score": -11.3,
+      "score": -10.99,
       "direction": "bajista",
       "why": "Tono de mercado negativo (risk-off)",
-      "n": 10
+      "n": 9
     },
     {
-      "category": "Ormuz cerrado/amenazado",
-      "score": -8.64,
+      "category": "Tech debil",
+      "score": -9.76,
       "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "n": 3
+      "why": "Debilidad tech pesa directamente sobre el US100",
+      "n": 5
     }
   ],
   "headlines": [
@@ -53,123 +53,123 @@
       "title": "Strait of Hormuz Ship Attacks Reach New High in October - Marine Link",
       "source": "Marine Link",
       "when": "2026-10-23T16:58:09+00:00",
-      "hours_ago": 2.8,
+      "hours_ago": 5.7,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.34
+      "score": -3.17
     },
     {
-      "title": "Stocks mixed, day after AI-related selloff; oil prices rise again - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "when": "2026-10-23T16:38:14+00:00",
-      "hours_ago": 3.1,
+      "title": "US stocks fall as oil rally keeps a lid on Treasuries - The Edge Singapore",
+      "source": "The Edge Singapore",
+      "when": "2026-10-23T16:23:00+00:00",
+      "hours_ago": 6.3,
       "category": "Petroleo al alza",
       "direction": "bajista",
       "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "score": -3.32
+      "score": -3.13
     },
     {
       "title": "Ship attacks in Strait of Hormuz hit record high in October - Bradenton Herald",
       "source": "Bradenton Herald",
       "when": "2026-10-23T15:23:07+00:00",
-      "hours_ago": 4.4,
+      "hours_ago": 7.3,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.25
+      "score": -3.07
     },
     {
-      "title": "The correlation between oil and the markets has turned negative amid the tech selloff – analyst - TradingView",
-      "source": "TradingView",
-      "when": "2026-10-23T15:21:27+00:00",
-      "hours_ago": 4.4,
-      "category": "Tech debil",
-      "direction": "bajista",
-      "why": "Debilidad tech pesa directamente sobre el US100",
-      "score": -3.24
+      "title": "Melania Trump says she brokered truce in war-torn Ukrainian city - Yahoo News Singapore",
+      "source": "Yahoo News Singapore",
+      "when": "2026-10-23T20:51:15+00:00",
+      "hours_ago": 1.8,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.91
     },
     {
-      "title": "US stock market today: Dow, S&P 500, Nasdaq fall amid tech sell-off, Iran tensions - India IPO",
-      "source": "India IPO",
-      "when": "2026-10-23T14:32:06+00:00",
-      "hours_ago": 5.2,
-      "category": "Tech debil",
+      "title": "Trump says US may launch ‘another little Epic Fury’ attack on Iran - France 24",
+      "source": "France 24",
+      "when": "2026-10-23T20:50:51+00:00",
+      "hours_ago": 1.8,
+      "category": "Geopolitica/escalada",
       "direction": "bajista",
-      "why": "Debilidad tech pesa directamente sobre el US100",
-      "score": -3.2
-    },
-    {
-      "title": "The Morning Catch-Up: ASX set to retreat as Wall Street tech sell-off and oil spike weigh on sentiment - Proactive financial news",
-      "source": "Proactive financial news",
-      "when": "2026-10-23T07:01:46+00:00",
-      "hours_ago": 12.7,
-      "category": "Petroleo al alza",
-      "direction": "bajista",
-      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "score": -3.15
-    },
-    {
-      "title": "Tech selloff relents, oil at five-month high - Kitco",
-      "source": "Kitco",
-      "when": "2026-10-23T13:02:13+00:00",
-      "hours_ago": 6.7,
-      "category": "Tech debil",
-      "direction": "bajista",
-      "why": "Debilidad tech pesa directamente sobre el US100",
-      "score": -3.11
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.91
     },
     {
       "title": "Stocks Down Pre-Bell Amid Tech Selloff - Yahoo Finance",
       "source": "Yahoo Finance",
       "when": "2026-10-23T12:10:35+00:00",
-      "hours_ago": 7.6,
+      "hours_ago": 10.5,
       "category": "Tech debil",
       "direction": "bajista",
       "why": "Debilidad tech pesa directamente sobre el US100",
-      "score": -3.06
+      "score": -2.89
     },
     {
       "title": "Melania Lines Up Pro-Trump Media Outlet to Police Peace Deal - The Daily Beast",
       "source": "The Daily Beast",
       "when": "2026-10-23T17:35:59+00:00",
-      "hours_ago": 2.2,
+      "hours_ago": 5.1,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.89
+      "score": 2.75
     },
     {
       "title": "Russia Announces Oleshky Ceasefire To Begin On Oct. 27 - Kurdistan24",
       "source": "Kurdistan24",
       "when": "2026-10-23T16:39:52+00:00",
-      "hours_ago": 3.1,
+      "hours_ago": 6.0,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.85
+      "score": 2.7
+    },
+    {
+      "title": "US first lady announces ceasefire agreement between Russia and Ukraine in city of Oleshky - A News",
+      "source": "A News",
+      "when": "2026-10-23T16:37:00+00:00",
+      "hours_ago": 6.1,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.7
+    },
+    {
+      "title": "White House Says Melania Trump Brokers Localized Cease-Fire For Occupied Ukrainian City - Radio Free Europe/Radio Liberty",
+      "source": "Radio Free Europe/Radio Liberty",
+      "when": "2026-10-23T16:32:19+00:00",
+      "hours_ago": 6.1,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.69
+    },
+    {
+      "title": "Turkey says renewed attack on Iran would expand conflict, diplomacy only way - Columbus Ledger-Enquirer",
+      "source": "Columbus Ledger-Enquirer",
+      "when": "2026-10-23T16:35:10+00:00",
+      "hours_ago": 6.1,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.69
     },
     {
       "title": "Turkey says renewed attack on Iran would expand conflict, diplomacy only way - Belleville News-Democrat",
       "source": "Belleville News-Democrat",
       "when": "2026-10-23T16:35:10+00:00",
-      "hours_ago": 3.2,
+      "hours_ago": 6.1,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.84
-    },
-    {
-      "title": "Turkey says renewed attack on Iran would expand conflict, diplomacy only way - Reuters",
-      "source": "Reuters",
-      "when": "2026-10-23T16:09:37+00:00",
-      "hours_ago": 3.6,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.82
+      "score": -2.69
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -58/100). Presion bajista por: Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq); Tech debil (Debilidad tech pesa directamente sobre el US100); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Tech/IA fuerte (Demanda de IA/chips impulsa al Nasdaq); Mercado risk-on (Tono de mercado positivo (risk-on)). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 440
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -37/100). Presion bajista por: Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Tech/IA fuerte (Demanda de IA/chips impulsa al Nasdaq); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 526
 }
