@@ -1,175 +1,175 @@
 {
   "ok": true,
-  "generated_at": "2026-10-23T22:41:17.346651+00:00",
+  "generated_at": "2026-10-26T17:43:13.724604+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -37.4,
-  "label": "bajista",
+  "news_pulse": -2.4,
+  "label": "neutral",
   "drivers": [
     {
-      "category": "Desescalada / acuerdo",
-      "score": 49.58,
+      "category": "Petroleo a la baja",
+      "score": 37.14,
       "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "n": 19
-    },
-    {
-      "category": "Petroleo al alza",
-      "score": -48.99,
-      "direction": "bajista",
-      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "n": 31
+      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
+      "n": 23
     },
     {
       "category": "Fed hawkish",
-      "score": -17.64,
+      "score": -34.25,
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 11
+      "n": 15
     },
     {
-      "category": "Geopolitica/escalada",
-      "score": -15.73,
+      "category": "Petroleo al alza",
+      "score": -10.13,
       "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "n": 7
+      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
+      "n": 6
     },
     {
-      "category": "Mercado risk-off",
-      "score": -10.99,
-      "direction": "bajista",
-      "why": "Tono de mercado negativo (risk-off)",
-      "n": 9
+      "category": "Mercado risk-on",
+      "score": 8.16,
+      "direction": "alcista",
+      "why": "Tono de mercado positivo (risk-on)",
+      "n": 6
     },
     {
-      "category": "Tech debil",
-      "score": -9.76,
-      "direction": "bajista",
-      "why": "Debilidad tech pesa directamente sobre el US100",
-      "n": 5
+      "category": "Desescalada / acuerdo",
+      "score": 2.72,
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "n": 1
+    },
+    {
+      "category": "Tech/IA fuerte",
+      "score": 2.61,
+      "direction": "alcista",
+      "why": "Demanda de IA/chips impulsa al Nasdaq",
+      "n": 2
     }
   ],
   "headlines": [
     {
-      "title": "Strait of Hormuz Ship Attacks Reach New High in October - Marine Link",
-      "source": "Marine Link",
-      "when": "2026-10-23T16:58:09+00:00",
-      "hours_ago": 5.7,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.17
+      "title": "Stocks Rally Ahead of Busy Week as Crude Oil Prices Ease - Barchart.com",
+      "source": "Barchart.com",
+      "when": "2026-10-26T15:46:39+00:00",
+      "hours_ago": 1.9,
+      "category": "Petroleo a la baja",
+      "direction": "alcista",
+      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
+      "score": 3.19
     },
     {
-      "title": "US stocks fall as oil rally keeps a lid on Treasuries - The Edge Singapore",
-      "source": "The Edge Singapore",
-      "when": "2026-10-23T16:23:00+00:00",
-      "hours_ago": 6.3,
-      "category": "Petroleo al alza",
-      "direction": "bajista",
-      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "score": -3.13
-    },
-    {
-      "title": "Ship attacks in Strait of Hormuz hit record high in October - Bradenton Herald",
-      "source": "Bradenton Herald",
-      "when": "2026-10-23T15:23:07+00:00",
-      "hours_ago": 7.3,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.07
-    },
-    {
-      "title": "Melania Trump says she brokered truce in war-torn Ukrainian city - Yahoo News Singapore",
-      "source": "Yahoo News Singapore",
-      "when": "2026-10-23T20:51:15+00:00",
-      "hours_ago": 1.8,
+      "title": "Morgan Stanley Lowers Oil Price Forecasts After US-Iran Peace Deal - EnergyNow.com",
+      "source": "EnergyNow.com",
+      "when": "2026-10-26T12:08:57+00:00",
+      "hours_ago": 5.6,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.91
+      "score": 2.72
     },
     {
-      "title": "Trump says US may launch ‘another little Epic Fury’ attack on Iran - France 24",
-      "source": "France 24",
-      "when": "2026-10-23T20:50:51+00:00",
-      "hours_ago": 1.8,
+      "title": "US ready to strike Iran 'within 96 hours' of Trump's order, Israel pushes for joint attack - report - The Jerusalem Post",
+      "source": "The Jerusalem Post",
+      "when": "2026-10-26T08:10:29+00:00",
+      "hours_ago": 9.5,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.91
+      "score": -2.52
     },
     {
-      "title": "Stocks Down Pre-Bell Amid Tech Selloff - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "when": "2026-10-23T12:10:35+00:00",
-      "hours_ago": 10.5,
-      "category": "Tech debil",
+      "title": "Many consumers face higher borrowing costs after the Fed's first interest rate hike in more than three years took place on Sept. 16, 2026. Experts warn that more rate hikes could be ahead too, given the spike in inflation. Check the link in our bio for more. 📹 by J - Instagram",
+      "source": "Instagram",
+      "when": "2026-10-26T17:15:43+00:00",
+      "hours_ago": 0.5,
+      "category": "Fed hawkish",
       "direction": "bajista",
-      "why": "Debilidad tech pesa directamente sobre el US100",
-      "score": -2.89
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.48
     },
     {
-      "title": "Melania Lines Up Pro-Trump Media Outlet to Police Peace Deal - The Daily Beast",
-      "source": "The Daily Beast",
-      "when": "2026-10-23T17:35:59+00:00",
+      "title": "New Zealand inflation report puts spotlight on hawkish RBNZ pricing - StoneX",
+      "source": "StoneX",
+      "when": "2026-10-26T15:51:27+00:00",
+      "hours_ago": 1.9,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.42
+    },
+    {
+      "title": "Is the Fed delaying the interest rate hike? Goldman Sachs reveals the most likely scenario - المتداول العربي",
+      "source": "المتداول العربي",
+      "when": "2026-10-26T13:28:19+00:00",
+      "hours_ago": 4.2,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.32
+    },
+    {
+      "title": "Mark Zandi Warns Fed Rate Hike Would Be a Policy 'Misstep' as 'Growing' Economic Risks Mount Ahead of This Week’s Meeting - TradingView",
+      "source": "TradingView",
+      "when": "2026-10-26T13:24:14+00:00",
+      "hours_ago": 4.3,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.32
+    },
+    {
+      "title": "Investors take for granted a pause from the Fed now, but keep an interest rate hike in December on the radar. - Demócrata",
+      "source": "Demócrata",
+      "when": "2026-10-26T13:07:52+00:00",
+      "hours_ago": 4.6,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.31
+    },
+    {
+      "title": "Why the Fed may hold off on another rate hike despite high inflation - USA Today",
+      "source": "USA Today",
+      "when": "2026-10-26T13:00:00+00:00",
+      "hours_ago": 4.7,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.3
+    },
+    {
+      "title": "US Fed Rate Hike December Expected - Funds Society",
+      "source": "Funds Society",
+      "when": "2026-10-26T12:48:05+00:00",
+      "hours_ago": 4.9,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.3
+    },
+    {
+      "title": "Why the Federal Reserve is likely to raise rates again - Omaha World-Herald",
+      "source": "Omaha World-Herald",
+      "when": "2026-10-26T12:40:06+00:00",
       "hours_ago": 5.1,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.75
-    },
-    {
-      "title": "Russia Announces Oleshky Ceasefire To Begin On Oct. 27 - Kurdistan24",
-      "source": "Kurdistan24",
-      "when": "2026-10-23T16:39:52+00:00",
-      "hours_ago": 6.0,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.7
-    },
-    {
-      "title": "US first lady announces ceasefire agreement between Russia and Ukraine in city of Oleshky - A News",
-      "source": "A News",
-      "when": "2026-10-23T16:37:00+00:00",
-      "hours_ago": 6.1,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.7
-    },
-    {
-      "title": "White House Says Melania Trump Brokers Localized Cease-Fire For Occupied Ukrainian City - Radio Free Europe/Radio Liberty",
-      "source": "Radio Free Europe/Radio Liberty",
-      "when": "2026-10-23T16:32:19+00:00",
-      "hours_ago": 6.1,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.69
-    },
-    {
-      "title": "Turkey says renewed attack on Iran would expand conflict, diplomacy only way - Columbus Ledger-Enquirer",
-      "source": "Columbus Ledger-Enquirer",
-      "when": "2026-10-23T16:35:10+00:00",
-      "hours_ago": 6.1,
-      "category": "Geopolitica/escalada",
+      "category": "Fed hawkish",
       "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.69
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.29
     },
     {
-      "title": "Turkey says renewed attack on Iran would expand conflict, diplomacy only way - Belleville News-Democrat",
-      "source": "Belleville News-Democrat",
-      "when": "2026-10-23T16:35:10+00:00",
-      "hours_ago": 6.1,
-      "category": "Geopolitica/escalada",
+      "title": "Why the Federal Reserve is likely to raise rates again - Waco Tribune-Herald",
+      "source": "Waco Tribune-Herald",
+      "when": "2026-10-26T12:40:06+00:00",
+      "hours_ago": 5.1,
+      "category": "Fed hawkish",
       "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.69
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.29
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -37/100). Presion bajista por: Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo). Apoyo alcista por: Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Tech/IA fuerte (Demanda de IA/chips impulsa al Nasdaq); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 526
+  "conclusion": "El contexto de noticias inclina al US100 en sentido neutral (pulso -2/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Mercado risk-on (Tono de mercado positivo (risk-on)); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 492
 }
