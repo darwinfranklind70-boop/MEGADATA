@@ -1,175 +1,175 @@
 {
   "ok": true,
-  "generated_at": "2026-10-27T16:54:49.683181+00:00",
+  "generated_at": "2026-10-27T21:01:21.974538+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": 4.6,
+  "news_pulse": 7.7,
   "label": "neutral",
   "drivers": [
     {
       "category": "Petroleo a la baja",
-      "score": 30.12,
+      "score": 28.24,
       "direction": "alcista",
       "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "n": 20
-    },
-    {
-      "category": "Fed hawkish",
-      "score": -19.14,
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 11
+      "n": 18
     },
     {
       "category": "Geopolitica/escalada",
-      "score": -15.73,
+      "score": -17.52,
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "n": 6
+      "n": 7
     },
     {
-      "category": "Mercado risk-on",
-      "score": 14.2,
-      "direction": "alcista",
-      "why": "Tono de mercado positivo (risk-on)",
-      "n": 13
+      "category": "Fed hawkish",
+      "score": -14.9,
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "n": 8
     },
     {
       "category": "Desescalada / acuerdo",
-      "score": 8.7,
+      "score": 10.64,
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "n": 4
+      "n": 5
     },
     {
-      "category": "Petroleo al alza",
-      "score": -8.14,
-      "direction": "bajista",
-      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
+      "category": "Mercado risk-on",
+      "score": 5.11,
+      "direction": "alcista",
+      "why": "Tono de mercado positivo (risk-on)",
       "n": 5
+    },
+    {
+      "category": "Fed dovish/pausa",
+      "score": 4.42,
+      "direction": "alcista",
+      "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
+      "n": 2
     }
   ],
   "headlines": [
     {
-      "title": "Middle East latest: Saudi Arabia reports missile interception damage in Riyadh as Houthis claim more attacks - The National",
-      "source": "The National",
-      "when": "2026-10-27T16:52:53+00:00",
-      "hours_ago": 0.0,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -3.0
+      "title": "Stocks Rally as Crude Oil Prices Ease and FOMC Results Awaited - Barchart.com",
+      "source": "Barchart.com",
+      "when": "2026-10-27T20:39:37+00:00",
+      "hours_ago": 0.4,
+      "category": "Petroleo a la baja",
+      "direction": "alcista",
+      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
+      "score": 3.28
     },
     {
-      "title": "U.S. Military Eyes Nuclear Reactors to Survive 90 Days Without the Grid - Crude Oil Prices Today | OilPrice.com",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "when": "2026-10-27T16:00:00+00:00",
-      "hours_ago": 0.9,
+      "title": "Middle East latest: Saudi Arabia reports missile interception damage in Riyadh as Houthis claim more attacks - The National",
+      "source": "The National",
+      "when": "2026-10-27T19:55:30+00:00",
+      "hours_ago": 1.1,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
       "score": -2.95
     },
     {
-      "title": "Israel keeps committing genocide in Gaza after truce, UN inquiry says - South China Morning Post",
-      "source": "South China Morning Post",
-      "when": "2026-10-27T14:48:59+00:00",
-      "hours_ago": 2.1,
+      "title": "Iran, Russia eye joint oil and gas projects amid US blockade - Iran International",
+      "source": "Iran International",
+      "when": "2026-10-27T18:18:24+00:00",
+      "hours_ago": 2.7,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.86
+    },
+    {
+      "title": "Traders Place $430 Million Bet on Lower Oil Price Before Trump Ceasefire Extension - EnergyNow.com",
+      "source": "EnergyNow.com",
+      "when": "2026-10-27T17:51:30+00:00",
+      "hours_ago": 3.2,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.9
+      "score": 2.84
+    },
+    {
+      "title": "U.S. Military Eyes Nuclear Reactors to Survive 90 Days Without the Grid - Crude Oil Prices Today | OilPrice.com",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "when": "2026-10-27T16:00:00+00:00",
+      "hours_ago": 5.0,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.75
+    },
+    {
+      "title": "Israel keeps committing genocide in Gaza after truce, UN inquiry says - South China Morning Post",
+      "source": "South China Morning Post",
+      "when": "2026-10-27T14:48:59+00:00",
+      "hours_ago": 6.2,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.69
     },
     {
       "title": "Iran Turns to Russia for Nuclear Power as IAEA Oversight Falters - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "when": "2026-10-27T14:00:00+00:00",
-      "hours_ago": 2.9,
+      "hours_ago": 7.0,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.85
+      "score": -2.65
     },
     {
-      "title": "What to know about the ceasefire for a besieged Ukrainian city announced by Melania Trump - Inquirer.com",
-      "source": "Inquirer.com",
-      "when": "2026-10-27T10:55:42+00:00",
-      "hours_ago": 6.0,
+      "title": "Bullish Treasury Bets Face Reversal Risk From Hawkish Fed - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "when": "2026-10-27T20:30:06+00:00",
+      "hours_ago": 0.5,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.48
+    },
+    {
+      "title": "Cease-Fire Brokered by Melania Trump Begins in Ukrainian City of Oleshky - The New York Times",
+      "source": "The New York Times",
+      "when": "2026-10-27T09:25:00+00:00",
+      "hours_ago": 11.6,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.7
+      "score": 2.42
     },
     {
-      "title": "Aramco Contains Fire Near Ras Tanura Oil Hub After Attack - Bloomberg.com",
+      "title": "Saudi Arabia Contains Fire Near Ras Tanura Oil Hub After Attack - Bloomberg.com",
       "source": "Bloomberg.com",
       "when": "2026-10-27T09:14:45+00:00",
-      "hours_ago": 7.7,
+      "hours_ago": 11.8,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.62
+      "score": -2.41
     },
     {
-      "title": "Trump: Iran Was Two Weeks Away From A Nuclear Missile - Kurdistan24",
-      "source": "Kurdistan24",
-      "when": "2026-10-27T04:56:56+00:00",
-      "hours_ago": 12.0,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.4
-    },
-    {
-      "title": "The Federal Reserve's decision is approaching... does it pave the way for a rate hike in December - المتداول العربي",
-      "source": "المتداول العربي",
-      "when": "2026-10-27T14:07:01+00:00",
-      "hours_ago": 2.8,
+      "title": "Fed likely to wait on another rate hike as inflation pressures mount - WBFF",
+      "source": "WBFF",
+      "when": "2026-10-27T17:22:14+00:00",
+      "hours_ago": 3.7,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.38
+      "score": -2.35
     },
     {
-      "title": "Energy prices drove entire eurozone inflation rise amid war on Iran - Greenpeace",
-      "source": "Greenpeace",
-      "when": "2026-10-27T14:00:07+00:00",
-      "hours_ago": 2.9,
-      "category": "Inflacion caliente",
-      "direction": "bajista",
-      "why": "Inflacion alta -> Fed mas dura -> presion al US100",
-      "score": -2.38
-    },
-    {
-      "title": "Diamondback Bets on Wider WTI-Brent Gap Amid US Export Ban Concerns - EnergyNow.com",
-      "source": "EnergyNow.com",
-      "when": "2026-10-27T13:52:46+00:00",
-      "hours_ago": 3.0,
-      "category": "Aranceles / guerra comercial",
-      "direction": "bajista",
-      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.37
-    },
-    {
-      "title": "FOMC Preview: A hawkish hold as markets watch for signals about timing and extent of further tightening - investingLive",
-      "source": "investingLive",
-      "when": "2026-10-27T12:04:02+00:00",
-      "hours_ago": 4.8,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.3
-    },
-    {
-      "title": "New Zealand inflation report puts spotlight on hawkish RBNZ pricing - StoneX",
-      "source": "StoneX",
-      "when": "2026-10-27T10:18:32+00:00",
-      "hours_ago": 6.6,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.22
+      "title": "Oregon, Bend gas prices still easing, AAA says - but high crude oil prices may put the brakes on declines - KTVZ",
+      "source": "KTVZ",
+      "when": "2026-10-27T19:03:02+00:00",
+      "hours_ago": 2.0,
+      "category": "Fed dovish/pausa",
+      "direction": "alcista",
+      "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
+      "score": 2.22
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido neutral (pulso +5/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Mercado risk-on (Tono de mercado positivo (risk-on)); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 488
+  "conclusion": "El contexto de noticias inclina al US100 en sentido neutral (pulso +8/100). Presion bajista por: Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Inflacion caliente (Inflacion alta -> Fed mas dura -> presion al US100). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Mercado risk-on (Tono de mercado positivo (risk-on)). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 423
 }
