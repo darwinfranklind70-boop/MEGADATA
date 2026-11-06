@@ -1,48 +1,48 @@
 {
   "ok": true,
-  "generated_at": "2026-11-05T19:07:25.833421+00:00",
+  "generated_at": "2026-11-06T00:09:07.426811+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -28.5,
+  "news_pulse": -31.7,
   "label": "bajista",
   "drivers": [
     {
       "category": "Petroleo a la baja",
-      "score": 31.35,
+      "score": 24.18,
       "direction": "alcista",
       "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "n": 24
+      "n": 21
     },
     {
       "category": "Mercado risk-off",
-      "score": -23.16,
+      "score": -21.41,
       "direction": "bajista",
       "why": "Tono de mercado negativo (risk-off)",
-      "n": 17
+      "n": 16
     },
     {
       "category": "Ormuz cerrado/amenazado",
-      "score": -15.78,
+      "score": -11.6,
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "n": 3
-    },
-    {
-      "category": "Petroleo al alza",
-      "score": -9.39,
-      "direction": "bajista",
-      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "n": 6
+      "n": 2
     },
     {
       "category": "Aranceles / guerra comercial",
-      "score": -7.63,
+      "score": -8.95,
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "n": 6
+    },
+    {
+      "category": "Petroleo al alza",
+      "score": -7.01,
+      "direction": "bajista",
+      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
       "n": 5
     },
     {
       "category": "Geopolitica/escalada",
-      "score": -5.67,
+      "score": -5.17,
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
       "n": 2
@@ -52,124 +52,124 @@
     {
       "title": "Iran says tankers struck in Hormuz amid fears of new US attack - Al Jazeera",
       "source": "Al Jazeera",
-      "when": "2026-11-05T18:47:41+00:00",
-      "hours_ago": 0.3,
+      "when": "2026-11-05T19:21:56+00:00",
+      "hours_ago": 4.8,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -6.46
+      "score": -5.98
     },
     {
       "title": "Iran Opens Strait of Hormuz to China and India as U.S. Blockade Continues - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "when": "2026-11-05T16:00:00+00:00",
-      "hours_ago": 3.1,
+      "hours_ago": 8.2,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -6.16
+      "score": -5.62
     },
     {
-      "title": "Tech selloff, defence weakness weigh on European shares - Reuters",
-      "source": "Reuters",
-      "when": "2026-11-05T17:52:33+00:00",
-      "hours_ago": 1.2,
-      "category": "Tech debil",
-      "direction": "bajista",
-      "why": "Debilidad tech pesa directamente sobre el US100",
-      "score": -3.43
-    },
-    {
-      "title": "Iran War Day 251: Ship Attacks Continue in Hormuz - The American Conservative",
-      "source": "The American Conservative",
-      "when": "2026-11-05T13:13:00+00:00",
-      "hours_ago": 5.9,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.16
+      "title": "Russian energy strikes continue weeks after Trump announces ceasefire - TCU 360",
+      "source": "TCU 360",
+      "when": "2026-11-05T20:42:20+00:00",
+      "hours_ago": 3.4,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.83
     },
     {
       "title": "Turkey Unveils $500 Billion Energy Plan Built on Gas, Solar, Nuclear - Crude Oil Prices Today | OilPrice.com",
       "source": "Crude Oil Prices Today | OilPrice.com",
       "when": "2026-11-05T16:30:00+00:00",
-      "hours_ago": 2.6,
+      "hours_ago": 7.7,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.87
+      "score": -2.62
     },
     {
       "title": "Russia agreed to supply Iran with 90 helicopter missile launchers - The Guardian",
       "source": "The Guardian",
       "when": "2026-11-05T15:09:00+00:00",
-      "hours_ago": 4.0,
+      "hours_ago": 9.0,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.8
+      "score": -2.55
+    },
+    {
+      "title": "October Jobs Report Preview: 65K Jobs Expected, Fed Rate Hike Odds at 67% - News and Statistics - IndexBox",
+      "source": "IndexBox",
+      "when": "2026-11-05T21:40:45+00:00",
+      "hours_ago": 2.5,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.4
+    },
+    {
+      "title": "China’s Fertilizer Export Restrictions Are Still in Place and Harming American Agriculture - Coalition For A Prosperous America",
+      "source": "Coalition For A Prosperous America",
+      "when": "2026-11-05T21:02:36+00:00",
+      "hours_ago": 3.1,
+      "category": "Aranceles / guerra comercial",
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "score": -2.37
     },
     {
       "title": "AI chip stocks drag Wall Street toward worst day since Trump's tariff announcements in 2025 - The Korea Times",
       "source": "The Korea Times",
       "when": "2026-11-05T16:12:00+00:00",
-      "hours_ago": 2.9,
+      "hours_ago": 8.0,
       "category": "Aranceles / guerra comercial",
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "score": -2.38
+      "score": -2.17
     },
     {
-      "title": "BoE joins the rate hike club, Australia may be done already - WTVB",
-      "source": "WTVB",
-      "when": "2026-11-05T14:31:05+00:00",
-      "hours_ago": 4.6,
+      "title": "BoE joins the rate hike club, Australia may be done already - WTAQ",
+      "source": "WTAQ",
+      "when": "2026-11-05T14:46:03+00:00",
+      "hours_ago": 9.4,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.31
+      "score": -2.11
     },
     {
-      "title": "BoE hikes rates to 4%, signals more to come amid Iran war pressure | Daily Sabah - Daily Sabah",
-      "source": "Daily Sabah",
-      "when": "2026-11-05T12:24:00+00:00",
-      "hours_ago": 6.7,
-      "category": "Fed hawkish",
+      "title": "Tech stocks tank as investors see Democrats slowing the AI boom - The Boston Globe",
+      "source": "The Boston Globe",
+      "when": "2026-11-05T22:56:28+00:00",
+      "hours_ago": 1.2,
+      "category": "Tech/IA fuerte",
+      "direction": "alcista",
+      "why": "Demanda de IA/chips impulsa al Nasdaq",
+      "score": 1.96
+    },
+    {
+      "title": "Nasdaq Plunges 1,421 Points, Dow Slides 1,833 Points in Tech Rout: Stock Market Today - Kiplinger",
+      "source": "Kiplinger",
+      "when": "2026-11-05T21:15:03+00:00",
+      "hours_ago": 2.9,
+      "category": "Tech debil",
       "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -2.22
+      "why": "Debilidad tech pesa directamente sobre el US100",
+      "score": -1.9
     },
     {
       "title": "Fed Holds Rates Steady Amid Ongoing Rally in Manufacturing Technology Orders - Quality Magazine",
       "source": "Quality Magazine",
       "when": "2026-11-05T13:00:00+00:00",
-      "hours_ago": 6.1,
+      "hours_ago": 11.2,
       "category": "Fed dovish/pausa",
       "direction": "alcista",
       "why": "Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100",
-      "score": 2.07
-    },
-    {
-      "title": "Oil Price Predictions: Why Goldman Sachs Is Betting on Brent to Climb to $140 - Barchart.com",
-      "source": "Barchart.com",
-      "when": "2026-11-05T16:22:19+00:00",
-      "hours_ago": 2.8,
-      "category": "Petroleo al alza",
-      "direction": "bajista",
-      "why": "Petroleo al alza alimenta inflacion y frena al Nasdaq",
-      "score": -1.91
-    },
-    {
-      "title": "Wall Street's midterm sugar high fades as tech rout wipes out $2T (SP500:) - Seeking Alpha",
-      "source": "Seeking Alpha",
-      "when": "2026-11-05T15:34:16+00:00",
-      "hours_ago": 3.6,
-      "category": "Tech debil",
-      "direction": "bajista",
-      "why": "Debilidad tech pesa directamente sobre el US100",
-      "score": -1.88
+      "score": 1.87
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -28/100). Presion bajista por: Mercado risk-off (Tono de mercado negativo (risk-off)); Ormuz cerrado/amenazado (Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off); Petroleo al alza (Petroleo al alza alimenta inflacion y frena al Nasdaq). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Mercado risk-on (Tono de mercado positivo (risk-on)); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 426
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -32/100). Presion bajista por: Mercado risk-off (Tono de mercado negativo (risk-off)); Ormuz cerrado/amenazado (Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Tech/IA fuerte (Demanda de IA/chips impulsa al Nasdaq). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 399
 }
