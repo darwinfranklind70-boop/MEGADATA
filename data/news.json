@@ -1,108 +1,128 @@
 {
   "ok": true,
-  "generated_at": "2026-11-10T03:47:45.691295+00:00",
+  "generated_at": "2026-11-10T18:57:01.617954+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": 34.0,
-  "label": "alcista",
+  "news_pulse": -15.8,
+  "label": "bajista",
   "drivers": [
     {
+      "category": "Fed hawkish",
+      "score": -58.56,
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "n": 24
+    },
+    {
       "category": "Petroleo a la baja",
-      "score": 51.85,
+      "score": 40.38,
       "direction": "alcista",
       "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "n": 32
+      "n": 28
+    },
+    {
+      "category": "Mercado risk-off",
+      "score": -13.97,
+      "direction": "bajista",
+      "why": "Tono de mercado negativo (risk-off)",
+      "n": 11
     },
     {
       "category": "Desescalada / acuerdo",
-      "score": 20.93,
+      "score": 13.02,
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "n": 10
-    },
-    {
-      "category": "Fed hawkish",
-      "score": -15.96,
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 8
+      "n": 5
     },
     {
       "category": "Mercado risk-on",
-      "score": 15.23,
+      "score": 12.46,
       "direction": "alcista",
       "why": "Tono de mercado positivo (risk-on)",
-      "n": 12
+      "n": 10
     },
     {
       "category": "Geopolitica/escalada",
-      "score": -11.03,
+      "score": -9.55,
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "n": 4
-    },
-    {
-      "category": "Aranceles / guerra comercial",
-      "score": -6.83,
-      "direction": "bajista",
-      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
       "n": 4
     }
   ],
   "headlines": [
     {
-      "title": "Will a Federal Reserve Interest Rate Hike Trigger a Recession? Here's What History Says. - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "when": "2026-11-09T18:20:00+00:00",
-      "hours_ago": 9.5,
+      "title": "US inflation rises more than expected, raising likelihood of Fed rate hike - Scripps News",
+      "source": "Scripps News",
+      "when": "2026-11-10T15:01:57+00:00",
+      "hours_ago": 3.9,
       "category": "Fed hawkish",
       "direction": "bajista",
       "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -4.21
+      "score": -4.67
     },
     {
-      "title": "Today’s Market Recap: Oil Plunge Boosts US Stocks as Dow Surges 1,100 Points, Nasdaq Rises 2.74%; AMD Jumps Over 13%, Nvidia Falls Over 4% - TradingKey",
-      "source": "TradingKey",
-      "when": "2026-11-10T00:59:51+00:00",
-      "hours_ago": 2.8,
-      "category": "Petroleo a la baja",
-      "direction": "alcista",
-      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "score": 3.15
-    },
-    {
-      "title": "Middle East latest: Attack on Saudi oil pipeline causes fire - thenationalnews.com",
-      "source": "thenationalnews.com",
-      "when": "2026-11-10T02:42:41+00:00",
-      "hours_ago": 1.1,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.95
-    },
-    {
-      "title": "Hegseth faces impeachment resolution from a GOP member with little to lose - Axios",
-      "source": "Axios",
-      "when": "2026-11-10T00:23:08+00:00",
-      "hours_ago": 3.4,
+      "title": "Oil prices continue to fall on hopes of US-Iran peace deal talks - Yahoo Finance UK",
+      "source": "Yahoo Finance UK",
+      "when": "2026-11-10T07:54:01+00:00",
+      "hours_ago": 11.1,
       "category": "Desescalada / acuerdo",
       "direction": "alcista",
       "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.83
+      "score": 3.92
     },
     {
-      "title": "Oil Price Slides to $86 as Trump Says Gulf Allies Back Iran Blockade - BeInCrypto",
-      "source": "BeInCrypto",
-      "when": "2026-11-09T22:29:00+00:00",
-      "hours_ago": 5.3,
+      "title": "U.S. Stocks Fall as October CPI Report Sparks Rate Hike Fears - TipRanks",
+      "source": "TipRanks",
+      "when": "2026-11-10T14:59:25+00:00",
+      "hours_ago": 4.0,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -3.74
+    },
+    {
+      "title": "Asian Stocks Rise, Oil Eases on Hopes for Iran Conflict Resolution - WSJ",
+      "source": "WSJ",
+      "when": "2026-11-10T07:12:00+00:00",
+      "hours_ago": 11.8,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 3.62
+    },
+    {
+      "title": "Continued U.S. Blockade Of Iran, Not Further Military Strikes, Causes Oil To Dip Below $90 Per Barrel - Ship & Bunker",
+      "source": "Ship & Bunker",
+      "when": "2026-11-10T18:36:56+00:00",
+      "hours_ago": 0.3,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.73
+      "score": -2.98
     },
     {
-      "title": "Saudi Arabia reports new attack on key East-West pipeline - Al Jazeera",
-      "source": "Al Jazeera",
-      "when": "2026-11-09T22:18:07+00:00",
+      "title": "Will a Federal Reserve Interest Rate Hike Trigger a Recession? Here's What History Says. - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "when": "2026-11-09T18:20:00+00:00",
+      "hours_ago": 24.6,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.95
+    },
+    {
+      "title": "China, US Extend Trade Truce to 2027 as Xi-Trump APEC Talks Loom in Shenzhen - BigGo Finance",
+      "source": "BigGo Finance",
+      "when": "2026-11-10T13:55:00+00:00",
+      "hours_ago": 5.0,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.75
+    },
+    {
+      "title": "UAE offers to sell Saudi crude from oil-spill tanker damaged in Iranian attack - TradeWinds News",
+      "source": "TradeWinds News",
+      "when": "2026-11-10T13:28:32+00:00",
       "hours_ago": 5.5,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
@@ -110,66 +130,46 @@
       "score": -2.73
     },
     {
-      "title": "Stock Indexes Sharply Higher as Tech Stocks Rally and Crude Oil Falls - Barchart.com",
-      "source": "Barchart.com",
-      "when": "2026-11-09T16:18:08+00:00",
-      "hours_ago": 11.5,
-      "category": "Petroleo a la baja",
-      "direction": "alcista",
-      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "score": 2.67
-    },
-    {
-      "title": "Morgan Stanley Lowers Oil Price Forecasts After US-Iran Peace Deal - EnergyNow.com",
-      "source": "EnergyNow.com",
-      "when": "2026-11-09T20:13:41+00:00",
-      "hours_ago": 7.6,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.62
-    },
-    {
-      "title": "Brent Crashes 7% on Iran Peace Hopes Despite Fresh Saudi Pipeline Attack - Crude Oil Prices Today | OilPrice.com",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "when": "2026-11-09T20:10:55+00:00",
-      "hours_ago": 7.6,
-      "category": "Geopolitica/escalada",
+      "title": "US inflation slows less than expected, lifting rate hike odds - AFP.com",
+      "source": "AFP.com",
+      "when": "2026-11-10T18:06:05+00:00",
+      "hours_ago": 0.8,
+      "category": "Fed hawkish",
       "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.62
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.46
     },
     {
-      "title": "Tech stocks rally as Nvidia stock and oil prices fall: AlphaCheck - Yahoo Finance",
-      "source": "Yahoo Finance",
-      "when": "2026-11-09T15:22:08+00:00",
-      "hours_ago": 12.4,
-      "category": "Petroleo a la baja",
-      "direction": "alcista",
-      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "score": 2.62
+      "title": "Fed rate hike in December? What the CPI report signals - Rolling Out",
+      "source": "Rolling Out",
+      "when": "2026-11-10T17:58:15+00:00",
+      "hours_ago": 1.0,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.46
     },
     {
-      "title": "Iran war: US, Iran announce tentative peace deal - DW.com",
-      "source": "DW.com",
-      "when": "2026-11-09T19:25:23+00:00",
-      "hours_ago": 8.4,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.58
+      "title": "Stock Market Falls as Inflation Fuels December Rate Hike Bets - TipRanks",
+      "source": "TipRanks",
+      "when": "2026-11-10T17:38:44+00:00",
+      "hours_ago": 1.3,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.45
     },
     {
-      "title": "Hegseth announces rare press conference to discuss expected impeachment resolution in Congress - WIS News 10",
-      "source": "WIS News 10",
-      "when": "2026-11-09T18:35:00+00:00",
-      "hours_ago": 9.2,
-      "category": "Desescalada / acuerdo",
-      "direction": "alcista",
-      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
-      "score": 2.54
+      "title": "Trump-appointed Fed member signals big interest rate hike as inflation runs hot - The Washington Post",
+      "source": "The Washington Post",
+      "when": "2026-11-10T17:32:18+00:00",
+      "hours_ago": 1.4,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.44
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido alcista (pulso +34/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Mercado risk-on (Tono de mercado positivo (risk-on)). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 422
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -16/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Mercado risk-off (Tono de mercado negativo (risk-off)); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Mercado risk-on (Tono de mercado positivo (risk-on)). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 481
 }
