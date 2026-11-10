@@ -1,10 +1,10 @@
 {
   "ok": true,
-  "generated_at": "2026-11-07T02:07:19.340735+00:00",
+  "generated_at": "2026-11-10T04:13:40.334050+00:00",
   "period": {
-    "from": "2017-08-25",
-    "to": "2026-11-06",
-    "trading_days": 2293,
+    "from": "2017-08-30",
+    "to": "2026-11-09",
+    "trading_days": 2291,
     "years": 9.1
   },
   "note": "Backtest del nucleo tecnico (5 de 7 factores; sin breadth/sectores). Pesos renormalizados.",
@@ -38,12 +38,12 @@
     },
     {
       "bucket": "Alcista (22..55)",
-      "n": 1209,
-      "avg_fwd_1d": 0.071,
-      "avg_fwd_5d": 0.377,
-      "avg_fwd_10d": 0.701,
-      "avg_fwd_20d": 1.147,
-      "hit_rate_5d": 61.9
+      "n": 1207,
+      "avg_fwd_1d": 0.069,
+      "avg_fwd_5d": 0.37,
+      "avg_fwd_10d": 0.692,
+      "avg_fwd_20d": 1.139,
+      "hit_rate_5d": 61.7
     },
     {
       "bucket": "Alcista fuerte (>=55)",
@@ -55,15 +55,15 @@
       "hit_rate_5d": 55.1
     }
   ],
-  "corr_bias_vs_fwd5d": -0.029,
+  "corr_bias_vs_fwd5d": -0.03,
   "strategy": {
-    "total_return_pct": 17.1,
-    "buyhold_return_pct": 430.4,
-    "annualized_pct": 1.8,
-    "sharpe": 0.24,
+    "total_return_pct": 16.0,
+    "buyhold_return_pct": 416.9,
+    "annualized_pct": 1.7,
+    "sharpe": 0.23,
     "max_drawdown_pct": -15.2,
     "buyhold_max_drawdown_pct": -35.6,
-    "win_rate_pct": 53.2
+    "win_rate_pct": 53.1
   },
   "verdict": "El medidor NO muestra ventaja clara en este periodo: tratalo como herramienta de contexto, no como senal automatica."
 }
