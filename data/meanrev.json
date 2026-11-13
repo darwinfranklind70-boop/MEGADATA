@@ -1,21 +1,21 @@
 {
   "ok": true,
-  "generated_at": "2026-11-12T03:12:08.506879+00:00",
+  "generated_at": "2026-11-13T02:44:39.286638+00:00",
   "period": {
     "from": "2017-08-31",
-    "to": "2026-11-11",
+    "to": "2026-11-12",
     "years": 9.2
   },
   "grid": {
     "long": [
       {
-        "n": 36,
-        "win_rate": 52.8,
-        "avg_trade_pct": 0.29,
-        "avg_win_pct": 4.2,
+        "n": 37,
+        "win_rate": 54.1,
+        "avg_trade_pct": 0.45,
+        "avg_win_pct": 4.301,
         "avg_loss_pct": -4.08,
-        "total_pct": 10.4,
-        "profit_factor": 1.15,
+        "total_pct": 16.7,
+        "profit_factor": 1.24,
         "threshold": -40,
         "hold_days": 5
       },
@@ -214,8 +214,8 @@
     "threshold": 60,
     "hold_days": 5
   },
-  "base_rate_5d": 0.377,
-  "base_rate_20d": 1.551,
+  "base_rate_5d": 0.38,
+  "base_rate_20d": 1.548,
   "rating": "long_only",
   "verdict": "CONFIRMADO en el lado LARGO: comprar la caida en sesgo extremo bajista tiene ventaja clara. El lado CORTO NO bate al indice (tiende a subir): operar SOLO largos de reversion. LONG-the-dip: sesgo<= -50, 20d -> +4.91%/trade, 63.6% aciertos, PF 2.84, 11 trades (base del indice +1.55%) ADVERTENCIA: muestra pequeña (pocos eventos extremos en el periodo); efecto grande pero usar con gestion de riesgo, no como sistema de alta frecuencia.",
   "gamma_note": "La confluencia con gamma (entrar largo cerca del PUT WALL, corto cerca del CALL WALL) no se puede backtestear sin historico de opciones, pero se aplica EN VIVO como filtro de mayor conviccion en el detector de setups del dashboard."
