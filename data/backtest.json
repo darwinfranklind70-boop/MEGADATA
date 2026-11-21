@@ -1,10 +1,10 @@
 {
   "ok": true,
-  "generated_at": "2026-11-20T03:37:17.653410+00:00",
+  "generated_at": "2026-11-21T03:19:33.896115+00:00",
   "period": {
     "from": "2017-09-08",
-    "to": "2026-11-19",
-    "trading_days": 2293,
+    "to": "2026-11-20",
+    "trading_days": 2294,
     "years": 9.1
   },
   "note": "Backtest del nucleo tecnico (5 de 7 factores; sin breadth/sectores). Pesos renormalizados.",
@@ -29,11 +29,11 @@
     },
     {
       "bucket": "Neutral (-22..22)",
-      "n": 713,
-      "avg_fwd_1d": 0.069,
-      "avg_fwd_5d": 0.453,
-      "avg_fwd_10d": 0.874,
-      "avg_fwd_20d": 1.879,
+      "n": 714,
+      "avg_fwd_1d": 0.071,
+      "avg_fwd_5d": 0.45,
+      "avg_fwd_10d": 0.863,
+      "avg_fwd_20d": 1.858,
       "hit_rate_5d": null
     },
     {
