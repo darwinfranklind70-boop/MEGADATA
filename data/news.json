@@ -1,48 +1,48 @@
 {
   "ok": true,
-  "generated_at": "2026-11-23T22:57:36.488040+00:00",
+  "generated_at": "2026-11-24T21:36:41.547156+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -48.5,
+  "news_pulse": -50.6,
   "label": "bajista",
   "drivers": [
     {
-      "category": "Fed hawkish",
-      "score": -37.73,
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 14
-    },
-    {
       "category": "Ormuz cerrado/amenazado",
-      "score": -21.79,
+      "score": -26.52,
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "n": 8
+      "n": 9
     },
     {
       "category": "Geopolitica/escalada",
-      "score": -20.67,
+      "score": -21.0,
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
       "n": 9
     },
     {
-      "category": "Petroleo a la baja",
-      "score": 18.16,
-      "direction": "alcista",
-      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "n": 13
+      "category": "Fed hawkish",
+      "score": -14.33,
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "n": 7
     },
     {
-      "category": "Mercado risk-on",
-      "score": 11.0,
+      "category": "Petroleo a la baja",
+      "score": 13.51,
       "direction": "alcista",
-      "why": "Tono de mercado positivo (risk-on)",
-      "n": 8
+      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
+      "n": 11
+    },
+    {
+      "category": "Aranceles / guerra comercial",
+      "score": -11.28,
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "n": 6
     },
     {
       "category": "Recesion / debilidad",
-      "score": -10.75,
+      "score": -7.98,
       "direction": "bajista",
       "why": "Temor de recesion pesa sobre las acciones",
       "n": 6
@@ -50,89 +50,69 @@
   ],
   "headlines": [
     {
-      "title": "Video | US-Iran War | Iranian Foreign Ministry Warns US Of 'Appropriate Response' To Any Attack | Hormuz - NDTV",
-      "source": "NDTV",
-      "when": "2026-11-23T13:17:04+00:00",
-      "hours_ago": 9.7,
+      "title": "Oil Prices Rise On Hormuz Vessel Attacks - Marine News Magazine",
+      "source": "Marine News Magazine",
+      "when": "2026-11-24T18:56:16+00:00",
+      "hours_ago": 2.7,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -5.45
+      "score": -5.25
     },
     {
-      "title": "Bill Ackman Predicts “The Fed Will Put the U.S. and World in Recession” if It Hikes Rates after Thanksgiving - TIKR.com",
-      "source": "TIKR.com",
-      "when": "2026-11-23T19:41:15+00:00",
-      "hours_ago": 3.3,
-      "category": "Fed hawkish",
+      "title": "Oil rises $1 on Hormuz ship attacks, surplus supply outlook curbs gains - Reuters",
+      "source": "Reuters",
+      "when": "2026-11-24T02:56:00+00:00",
+      "hours_ago": 18.7,
+      "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -4.73
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -3.79
     },
     {
-      "title": "Ackman says a December Fed rate hike could tip the US into recession and calls for a 3% inflation target - MLQ.ai",
-      "source": "MLQ.ai",
-      "when": "2026-11-23T16:41:15+00:00",
-      "hours_ago": 6.3,
-      "category": "Fed hawkish",
+      "title": "Oil News: Crude Oil Rebounds as Traders Weigh Rising Supply and Hormuz Attacks - FXEmpire",
+      "source": "FXEmpire",
+      "when": "2026-11-24T14:51:47+00:00",
+      "hours_ago": 6.7,
+      "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -4.48
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -3.11
     },
     {
-      "title": "Will the Fed Raise Rates on 9 December? Why Bill Ackman Warns of Recession - BBN Times",
-      "source": "BBN Times",
-      "when": "2026-11-23T12:55:50+00:00",
-      "hours_ago": 10.0,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -4.16
-    },
-    {
-      "title": "Bill Ackman warned a December Fed rate hike could push the U.S. into recession - Quartz",
-      "source": "Quartz",
-      "when": "2026-11-23T12:15:30+00:00",
-      "hours_ago": 10.7,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -4.11
-    },
-    {
-      "title": "Strait of Hormuz shipping attacks reach highest level since Iran war began - Beinsure",
-      "source": "Beinsure",
-      "when": "2026-11-23T21:53:20+00:00",
+      "title": "UNRWA says staff member was killed while maintaining a water well in Jabalia during an Israeli airstrike - Latin Times",
+      "source": "Latin Times",
+      "when": "2026-11-24T20:32:53+00:00",
       "hours_ago": 1.1,
-      "category": "Ormuz cerrado/amenazado",
+      "category": "Geopolitica/escalada",
       "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.44
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.95
     },
     {
-      "title": "Gold Prices Face Another Major Test as Fed Rate Hike Fears Trigger a 2022-Style Selloff - Speaks Media",
-      "source": "Speaks Media",
-      "when": "2026-11-23T11:26:25+00:00",
-      "hours_ago": 11.5,
-      "category": "Fed hawkish",
+      "title": "Middle East latest: Eleven injured in Houthi attack on Riyadh financial centre tower - The National",
+      "source": "The National",
+      "when": "2026-11-24T20:31:01+00:00",
+      "hours_ago": 1.1,
+      "category": "Geopolitica/escalada",
       "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "score": -3.23
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.95
     },
     {
-      "title": "U.K. man braves oil fires and mines to swim the Strait of Hormuz - CP24",
-      "source": "CP24",
-      "when": "2026-11-23T14:32:10+00:00",
-      "hours_ago": 8.4,
-      "category": "Ormuz cerrado/amenazado",
+      "title": "Natural Gas, WTI Oil, Brent Oil Forecasts – Oil Rebounds As Houthis Attack Saudi’s Riyadh - FXEmpire",
+      "source": "FXEmpire",
+      "when": "2026-11-24T19:07:26+00:00",
+      "hours_ago": 2.5,
+      "category": "Geopolitica/escalada",
       "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.01
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.88
     },
     {
-      "title": "The Iran war drained U.S. missile stocks needed to deter China. The Pentagon has no plan to restock - Fortune",
-      "source": "Fortune",
-      "when": "2026-11-23T20:10:00+00:00",
+      "title": "11 injured in Houthi attack on Riyadh tower, Saudi civil defence says - Al Jazeera",
+      "source": "Al Jazeera",
+      "when": "2026-11-24T18:49:20+00:00",
       "hours_ago": 2.8,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
@@ -140,36 +120,56 @@
       "score": -2.86
     },
     {
-      "title": "Ukrainian Naval Drones Sink Russian Warship in Libya - Crude Oil Prices Today | OilPrice.com",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "when": "2026-11-23T19:41:15+00:00",
+      "title": "Israeli air strike kills senior Hamas security official in Gaza - Al Jazeera",
+      "source": "Al Jazeera",
+      "when": "2026-11-24T18:18:40+00:00",
       "hours_ago": 3.3,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.84
+      "score": -2.83
     },
     {
-      "title": "Natural Gas, WTI Oil, Brent Oil Forecasts – Oil Dives As Trump Signals He Would Not Attack Iran Until 2027 - FXEmpire",
-      "source": "FXEmpire",
-      "when": "2026-11-23T19:07:34+00:00",
-      "hours_ago": 3.8,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.81
-    },
-    {
-      "title": "Iranian attacks on ships near Strait of Hormuz hit highest level since war began, data shows - The Jerusalem Post",
-      "source": "The Jerusalem Post",
-      "when": "2026-11-23T10:49:41+00:00",
-      "hours_ago": 12.1,
+      "title": "Oil Prices Hold Near Three-Month Lows Despite Hormuz Mine Claims - Crude Oil Prices Today | OilPrice.com",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "when": "2026-11-24T07:05:00+00:00",
+      "hours_ago": 14.5,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -2.79
+      "score": -2.65
+    },
+    {
+      "title": "Oil prices near three-month lows as rising supply offsets Hormuz threat - Arab News",
+      "source": "Arab News",
+      "when": "2026-11-24T06:45:42+00:00",
+      "hours_ago": 14.8,
+      "category": "Ormuz cerrado/amenazado",
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -2.63
+    },
+    {
+      "title": "Ackman says a December Fed rate hike could tip the US into recession and calls for a 3% inflation target - MLQ.ai",
+      "source": "MLQ.ai",
+      "when": "2026-11-23T16:45:28+00:00",
+      "hours_ago": 28.9,
+      "category": "Fed hawkish",
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "score": -2.6
+    },
+    {
+      "title": "Iranian attacks in the Strait of Hormuz are at the highest levels since the conflict began - Houston Style Magazine",
+      "source": "Houston Style Magazine",
+      "when": "2026-11-24T05:31:10+00:00",
+      "hours_ago": 16.1,
+      "category": "Ormuz cerrado/amenazado",
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -2.56
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -49/100). Presion bajista por: Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100); Ormuz cerrado/amenazado (Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Mercado risk-on (Tono de mercado positivo (risk-on)); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 484
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -51/100). Presion bajista por: Ormuz cerrado/amenazado (Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 399
 }
