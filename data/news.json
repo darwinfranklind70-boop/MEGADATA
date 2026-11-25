@@ -1,51 +1,51 @@
 {
   "ok": true,
-  "generated_at": "2026-11-24T21:36:41.547156+00:00",
+  "generated_at": "2026-11-25T04:33:33.877412+00:00",
   "source": "Google News RSS (gratis)",
-  "news_pulse": -50.6,
+  "news_pulse": -62.0,
   "label": "bajista",
   "drivers": [
     {
       "category": "Ormuz cerrado/amenazado",
-      "score": -26.52,
+      "score": -23.9,
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
       "n": 9
     },
     {
       "category": "Geopolitica/escalada",
-      "score": -21.0,
+      "score": -21.07,
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
       "n": 9
     },
     {
-      "category": "Fed hawkish",
-      "score": -14.33,
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
-      "n": 7
-    },
-    {
-      "category": "Petroleo a la baja",
-      "score": 13.51,
-      "direction": "alcista",
-      "why": "Petroleo a la baja alivia presion inflacionaria -> apoyo al US100",
-      "n": 11
-    },
-    {
       "category": "Aranceles / guerra comercial",
-      "score": -11.28,
+      "score": -17.01,
       "direction": "bajista",
       "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
-      "n": 6
+      "n": 8
+    },
+    {
+      "category": "Fed hawkish",
+      "score": -16.11,
+      "direction": "bajista",
+      "why": "Sesgo hawkish presiona valoraciones tech del US100",
+      "n": 9
     },
     {
       "category": "Recesion / debilidad",
-      "score": -7.98,
+      "score": -11.0,
       "direction": "bajista",
       "why": "Temor de recesion pesa sobre las acciones",
-      "n": 6
+      "n": 8
+    },
+    {
+      "category": "Mercado risk-off",
+      "score": -9.96,
+      "direction": "bajista",
+      "why": "Tono de mercado negativo (risk-off)",
+      "n": 8
     }
   ],
   "headlines": [
@@ -53,123 +53,123 @@
       "title": "Oil Prices Rise On Hormuz Vessel Attacks - Marine News Magazine",
       "source": "Marine News Magazine",
       "when": "2026-11-24T18:56:16+00:00",
-      "hours_ago": 2.7,
+      "hours_ago": 9.6,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -5.25
+      "score": -4.62
     },
     {
-      "title": "Oil rises $1 on Hormuz ship attacks, surplus supply outlook curbs gains - Reuters",
-      "source": "Reuters",
-      "when": "2026-11-24T02:56:00+00:00",
-      "hours_ago": 18.7,
+      "title": "Dow Brushes Off Tech Rout, Tariff Worries to Add 423 Points: Stock Market Today - Yahoo Finance",
+      "source": "Yahoo Finance",
+      "when": "2026-11-24T21:13:00+00:00",
+      "hours_ago": 7.3,
+      "category": "Aranceles / guerra comercial",
+      "direction": "bajista",
+      "why": "Aranceles/limites a chips danan a las tecnologicas del US100",
+      "score": -3.95
+    },
+    {
+      "title": "Tesla stock edges lower to $384.68 as tech selloff weighs on Wall Street - JournalArta",
+      "source": "JournalArta",
+      "when": "2026-11-25T02:09:21+00:00",
+      "hours_ago": 2.4,
+      "category": "Tech debil",
+      "direction": "bajista",
+      "why": "Debilidad tech pesa directamente sobre el US100",
+      "score": -3.36
+    },
+    {
+      "title": "Oil Edges Lower as Expanding Supply Vies With Hormuz Attacks - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "when": "2026-11-25T02:01:00+00:00",
+      "hours_ago": 2.5,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.79
+      "score": -3.35
+    },
+    {
+      "title": "Oil mixed as Hormuz attacks mount, supply surplus and weak fuel margins weigh By Investing.com - Investing.com India",
+      "source": "Investing.com India",
+      "when": "2026-11-25T01:30:35+00:00",
+      "hours_ago": 3.0,
+      "category": "Ormuz cerrado/amenazado",
+      "direction": "bajista",
+      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
+      "score": -3.32
+    },
+    {
+      "title": "Middle East latest: Eleven injured in Houthi attack on Riyadh financial centre tower - The National",
+      "source": "The National",
+      "when": "2026-11-25T02:56:42+00:00",
+      "hours_ago": 1.6,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.92
+    },
+    {
+      "title": "Natural Gas, WTI Oil, Brent Oil Forecasts – Oil Rebounds As Houthis Attack Saudi’s Riyadh - FXEmpire",
+      "source": "FXEmpire",
+      "when": "2026-11-25T02:20:00+00:00",
+      "hours_ago": 2.2,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.89
+    },
+    {
+      "title": "Iran war live: Eleven injured in Houthi attack on Riyadh financial district tower - Arabian Business",
+      "source": "Arabian Business",
+      "when": "2026-11-25T00:35:06+00:00",
+      "hours_ago": 4.0,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.8
+    },
+    {
+      "title": "China Halts Critical Minerals Ban to Maintain Truce With US - Bloomberg.com",
+      "source": "Bloomberg.com",
+      "when": "2026-11-24T22:33:57+00:00",
+      "hours_ago": 6.0,
+      "category": "Desescalada / acuerdo",
+      "direction": "alcista",
+      "why": "Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo",
+      "score": 2.7
     },
     {
       "title": "Oil News: Crude Oil Rebounds as Traders Weigh Rising Supply and Hormuz Attacks - FXEmpire",
       "source": "FXEmpire",
       "when": "2026-11-24T14:51:47+00:00",
-      "hours_ago": 6.7,
+      "hours_ago": 13.7,
       "category": "Ormuz cerrado/amenazado",
       "direction": "bajista",
       "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -3.11
+      "score": -2.7
+    },
+    {
+      "title": "11 injured in Houthi drone attack on Riyadh tower, Saudi civil defence says - Al Jazeera",
+      "source": "Al Jazeera",
+      "when": "2026-11-24T21:33:15+00:00",
+      "hours_ago": 7.0,
+      "category": "Geopolitica/escalada",
+      "direction": "bajista",
+      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
+      "score": -2.65
     },
     {
       "title": "UNRWA says staff member was killed while maintaining a water well in Jabalia during an Israeli airstrike - Latin Times",
       "source": "Latin Times",
       "when": "2026-11-24T20:32:53+00:00",
-      "hours_ago": 1.1,
+      "hours_ago": 8.0,
       "category": "Geopolitica/escalada",
       "direction": "bajista",
       "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.95
-    },
-    {
-      "title": "Middle East latest: Eleven injured in Houthi attack on Riyadh financial centre tower - The National",
-      "source": "The National",
-      "when": "2026-11-24T20:31:01+00:00",
-      "hours_ago": 1.1,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.95
-    },
-    {
-      "title": "Natural Gas, WTI Oil, Brent Oil Forecasts – Oil Rebounds As Houthis Attack Saudi’s Riyadh - FXEmpire",
-      "source": "FXEmpire",
-      "when": "2026-11-24T19:07:26+00:00",
-      "hours_ago": 2.5,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.88
-    },
-    {
-      "title": "11 injured in Houthi attack on Riyadh tower, Saudi civil defence says - Al Jazeera",
-      "source": "Al Jazeera",
-      "when": "2026-11-24T18:49:20+00:00",
-      "hours_ago": 2.8,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.86
-    },
-    {
-      "title": "Israeli air strike kills senior Hamas security official in Gaza - Al Jazeera",
-      "source": "Al Jazeera",
-      "when": "2026-11-24T18:18:40+00:00",
-      "hours_ago": 3.3,
-      "category": "Geopolitica/escalada",
-      "direction": "bajista",
-      "why": "Escalada geopolitica = risk-off, salida de activos de riesgo",
-      "score": -2.83
-    },
-    {
-      "title": "Oil Prices Hold Near Three-Month Lows Despite Hormuz Mine Claims - Crude Oil Prices Today | OilPrice.com",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "when": "2026-11-24T07:05:00+00:00",
-      "hours_ago": 14.5,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -2.65
-    },
-    {
-      "title": "Oil prices near three-month lows as rising supply offsets Hormuz threat - Arab News",
-      "source": "Arab News",
-      "when": "2026-11-24T06:45:42+00:00",
-      "hours_ago": 14.8,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -2.63
-    },
-    {
-      "title": "Ackman says a December Fed rate hike could tip the US into recession and calls for a 3% inflation target - MLQ.ai",
-      "source": "MLQ.ai",
-      "when": "2026-11-23T16:45:28+00:00",
-      "hours_ago": 28.9,
-      "category": "Fed hawkish",
-      "direction": "bajista",
-      "why": "Sesgo hawkish presiona valoraciones tech del US100",
       "score": -2.6
-    },
-    {
-      "title": "Iranian attacks in the Strait of Hormuz are at the highest levels since the conflict began - Houston Style Magazine",
-      "source": "Houston Style Magazine",
-      "when": "2026-11-24T05:31:10+00:00",
-      "hours_ago": 16.1,
-      "category": "Ormuz cerrado/amenazado",
-      "direction": "bajista",
-      "why": "Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off",
-      "score": -2.56
     }
   ],
-  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -51/100). Presion bajista por: Ormuz cerrado/amenazado (Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo); Fed hawkish (Sesgo hawkish presiona valoraciones tech del US100). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Fed dovish/pausa (Sesgo dovish/pausa de la Fed favorece a las tecnologicas/US100). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
-  "raw_count": 399
+  "conclusion": "El contexto de noticias inclina al US100 en sentido bajista (pulso -62/100). Presion bajista por: Ormuz cerrado/amenazado (Disrupcion en Ormuz dispara el petroleo -> inflacion y risk-off); Geopolitica/escalada (Escalada geopolitica = risk-off, salida de activos de riesgo); Aranceles / guerra comercial (Aranceles/limites a chips danan a las tecnologicas del US100). Apoyo alcista por: Petroleo a la baja (Petroleo a la baja alivia presion inflacionaria -> apoyo al US100); Desescalada / acuerdo (Desescalada reduce la prima de riesgo -> apoyo a activos de riesgo); Tech/IA fuerte (Demanda de IA/chips impulsa al Nasdaq). Recuerda: los titulares geopoliticos pueden revertir el sesgo tecnico en minutos; ajusta riesgo ante eventos vivos.",
+  "raw_count": 470
 }
